@@ -1,0 +1,226 @@
+{
+  "versione": 1,
+  "lezioni": [
+    {
+      "id": "indo",
+      "titolo": "La civiltà dell’Indo",
+      "materia": "Storia",
+      "classe": "4 primaria",
+      "icona": "📘",
+      "descrizione": "Agricoltura, città, commercio, società e scrittura.",
+      "attiva": true,
+      "blocchi": [
+        {
+          "title": "Nella valle dell’Indo",
+          "subject": "La civiltà dell’Indo",
+          "image": "images/indo-valle.png",
+          "text": "Gli abitanti della Mesopotamia commerciavano con i popoli dell’India. Alcuni mercanti, dopo viaggi lunghi e pericolosi, arrivarono nella valle del fiume Indo. Qui vivevano popolazioni che avevano un modo di vivere molto simile a quello dei popoli della Mesopotamia.",
+          "keywords": ["India", "fiume Indo", "Mesopotamia", "mercanti"],
+          "remember": [
+            "La civiltà dell’Indo si sviluppò nella valle del fiume Indo.",
+            "I popoli dell’Indo avevano rapporti commerciali con la Mesopotamia.",
+            "I viaggi erano lunghi e pericolosi."
+          ],
+          "question": "Dove si sviluppò la civiltà dell’Indo?",
+          "answers": [
+            "Nella valle del fiume Indo",
+            "Sulle montagne della Cina",
+            "Nel deserto del Sahara",
+            "Vicino al fiume Nilo"
+          ],
+          "correct": 0,
+          "exercise": "Nella valle dell’Indo si svilupparono grandi città. I popoli dell’Indo commerciavano anche con la Mesopotamia."
+        },
+        {
+          "title": "Agricoltura e allevamento",
+          "subject": "Attività economiche",
+          "image": "images/indo-agricoltura.png",
+          "text": "I contadini coltivavano cereali, legumi e cotone, molto richiesto dai popoli vicini. Allevavano anche animali domestici. I campi erano fertili grazie all’acqua del fiume. Per il lavoro nei campi venivano usati buoi e bufali.",
+          "keywords": ["cereali", "legumi", "cotone", "bufali", "buoi"],
+          "remember": [
+            "Coltivavano cereali, legumi e cotone.",
+            "Il cotone era importante perché serviva per fare tessuti.",
+            "Allevavano animali utili al lavoro nei campi."
+          ],
+          "question": "Quali prodotti coltivavano i popoli dell’Indo?",
+          "answers": [
+            "Cereali, legumi e cotone",
+            "Cacao, mais e pomodori",
+            "Solo fiori",
+            "Solo riso"
+          ],
+          "correct": 0,
+          "exercise": "L’agricoltura era basata su cereali, legumi e cotone. Nell’allevamento usavano buoi, bufali e altri animali domestici."
+        },
+        {
+          "title": "Artigianato",
+          "subject": "Attività economiche",
+          "image": "images/indo-artigianato.png",
+          "text": "Gli artigiani dell’Indo erano molto abili. Sapevano cuocere i mattoni per costruire case e magazzini. Lavoravano la ceramica, le pietre dure e l’avorio. Producevano vasi, collane, sigilli e statuette. Alcuni oggetti erano usati anche per il commercio.",
+          "keywords": ["artigiani", "mattoni", "ceramica", "sigilli", "avorio"],
+          "remember": [
+            "Gli artigiani realizzavano molti oggetti utili e decorativi.",
+            "I mattoni servivano per costruire case e città.",
+            "I sigilli erano importanti perché mostrano una forma di scrittura."
+          ],
+          "question": "Che cosa producevano gli artigiani dell’Indo?",
+          "answers": [
+            "Vasi, collane, sigilli e statuette",
+            "Automobili e telefoni",
+            "Libri stampati",
+            "Monete romane"
+          ],
+          "correct": 0,
+          "exercise": "L’artigianato era sviluppato: gli artigiani producevano vasi, collane, sigilli, statuette e oggetti in ceramica, avorio e pietre dure."
+        },
+        {
+          "title": "Il commercio",
+          "subject": "Attività economiche",
+          "image": "images/indo-commercio.png",
+          "text": "I mercanti trasportavano i prodotti anche lungo il fiume su piccole imbarcazioni. Scambiavano cereali, legumi, cotone, avorio e oggetti artigianali. Il commercio avveniva non solo via fiume, ma anche via mare e via terra.",
+          "keywords": ["mercanti", "fiume", "cotone", "avorio", "scambi"],
+          "remember": [
+            "I mercanti commerciavano prodotti agricoli e artigianali.",
+            "Le merci viaggiavano via fiume, via mare e via terra.",
+            "Il commercio collegava l’Indo ad altri popoli."
+          ],
+          "question": "Come venivano trasportate alcune merci?",
+          "answers": [
+            "Con piccole imbarcazioni lungo il fiume",
+            "Con gli aeroplani",
+            "Solo a piedi nel deserto",
+            "Con treni veloci"
+          ],
+          "correct": 0,
+          "exercise": "Il commercio era importante: i mercanti trasportavano merci via fiume, via mare e via terra, scambiando cotone, cereali, avorio e oggetti artigianali."
+        },
+        {
+          "title": "Le città dell’Indo",
+          "subject": "Città e società",
+          "image": "images/indo-citta.png",
+          "text": "Le città dell’Indo, come Mohenjo-Daro e Harappa, erano molto organizzate. Le strade erano dritte e si incrociavano ad angolo retto. Al centro della città c’erano edifici pubblici e magazzini. Le case avevano spesso un cortile e un sistema di tubature per portare l’acqua.",
+          "keywords": ["Mohenjo-Daro", "Harappa", "strade dritte", "magazzini", "tubature"],
+          "remember": [
+            "Le città erano ordinate e ben progettate.",
+            "Le strade erano dritte e organizzate.",
+            "Avevano magazzini, edifici pubblici e sistemi per l’acqua."
+          ],
+          "question": "Com’erano le città dell’Indo?",
+          "answers": [
+            "Molto organizzate, con strade dritte",
+            "Piccole e senza strade",
+            "Costruite solo con tende",
+            "Senza case"
+          ],
+          "correct": 0,
+          "exercise": "Le città dell’Indo erano molto organizzate: avevano strade dritte, case di mattoni, edifici pubblici, magazzini e sistemi di tubature."
+        },
+        {
+          "title": "La società",
+          "subject": "Città e società",
+          "image": "images/indo-societa.png",
+          "text": "Nelle città dell’Indo non sono stati trovati grandi palazzi reali. Per questo si pensa che non ci fosse un re potente come in altre civiltà. Probabilmente il governo era affidato a sacerdoti o persone importanti. La popolazione era formata da contadini, artigiani e mercanti.",
+          "keywords": ["società", "sacerdoti", "contadini", "artigiani", "mercanti"],
+          "remember": [
+            "Non sono stati trovati grandi palazzi reali.",
+            "Forse governavano sacerdoti o persone importanti.",
+            "La società comprendeva contadini, artigiani e mercanti."
+          ],
+          "question": "Chi probabilmente governava le città dell’Indo?",
+          "answers": [
+            "Sacerdoti o persone importanti",
+            "Solo bambini",
+            "Solo soldati",
+            "Un imperatore romano"
+          ],
+          "correct": 0,
+          "exercise": "La società dell’Indo era formata da contadini, artigiani e mercanti. Non c’erano grandi palazzi reali; forse governavano sacerdoti o persone importanti."
+        },
+        {
+          "title": "Scrittura e sigilli",
+          "subject": "Conoscenze",
+          "image": "images/indo-sigilli.png",
+          "text": "I popoli dell’Indo avevano elaborato una forma di scrittura. Sono stati trovati numerosi sigilli con simboli, ma ancora oggi questa scrittura rimane un mistero perché non è stata compresa del tutto.",
+          "keywords": ["scrittura", "sigilli", "simboli", "mistero"],
+          "remember": [
+            "Avevano una forma di scrittura.",
+            "I simboli sono stati trovati soprattutto sui sigilli.",
+            "La scrittura dell’Indo non è ancora stata decifrata completamente."
+          ],
+          "question": "Perché la scrittura dell’Indo è ancora un mistero?",
+          "answers": [
+            "Perché non è stata compresa del tutto",
+            "Perché era scritta in italiano",
+            "Perché non esisteva nessun simbolo",
+            "Perché era fatta solo con numeri"
+          ],
+          "correct": 0,
+          "exercise": "I popoli dell’Indo avevano una forma di scrittura con simboli sui sigilli, ma ancora oggi non è stata compresa del tutto."
+        },
+        {
+          "title": "La fine della civiltà dell’Indo",
+          "subject": "La storia",
+          "image": "images/indo-fine.png",
+          "text": "Tra il 1800 a.C. e il 1500 a.C. la civiltà dell’Indo cominciò a decadere. Forse ci furono cambiamenti del clima, inondazioni o l’arrivo di popoli da nord, chiamati Arii. Le città furono abbandonate lentamente.",
+          "keywords": ["1800 a.C.", "1500 a.C.", "decadenza", "Arii", "abbandono"],
+          "remember": [
+            "La civiltà dell’Indo decadde tra il 1800 a.C. e il 1500 a.C.",
+            "Le cause non sono sicure.",
+            "Tra le possibili cause ci furono clima, inondazioni o arrivo degli Arii."
+          ],
+          "question": "Quando cominciò a decadere la civiltà dell’Indo?",
+          "answers": [
+            "Tra il 1800 a.C. e il 1500 a.C.",
+            "Nel 2024",
+            "Nel Medioevo",
+            "Nel 500 d.C."
+          ],
+          "correct": 0,
+          "exercise": "Tra il 1800 a.C. e il 1500 a.C. la civiltà dell’Indo cominciò a decadere. Le cause possono essere cambiamenti climatici, inondazioni o arrivo degli Arii."
+        }
+      ],
+      "domandePlus": [
+        {
+          "q": "Dove si sviluppò la civiltà dell’Indo?",
+          "help": "La civiltà dell’Indo si sviluppò nella valle del fiume Indo."
+        },
+        {
+          "q": "Con chi commerciavano i popoli dell’Indo?",
+          "help": "Commerciavano anche con i popoli della Mesopotamia."
+        },
+        {
+          "q": "Che cosa coltivavano?",
+          "help": "Coltivavano cereali, legumi e cotone."
+        },
+        {
+          "q": "Che cosa producevano gli artigiani?",
+          "help": "Producevano vasi, collane, sigilli, statuette e oggetti in ceramica, avorio e pietre dure."
+        },
+        {
+          "q": "Come viaggiavano le merci?",
+          "help": "Le merci viaggiavano via fiume, via mare e via terra."
+        },
+        {
+          "q": "Com’erano le città dell’Indo?",
+          "help": "Erano ordinate, con strade dritte, case in mattoni, magazzini e tubature."
+        },
+        {
+          "q": "Chi probabilmente governava?",
+          "help": "Probabilmente governavano sacerdoti o persone importanti."
+        },
+        {
+          "q": "Perché la scrittura è un mistero?",
+          "help": "Perché non è stata ancora compresa del tutto."
+        },
+        {
+          "q": "Quando decadde la civiltà dell’Indo?",
+          "help": "Decadde tra il 1800 a.C. e il 1500 a.C."
+        },
+        {
+          "q": "Quali possono essere state le cause della fine?",
+          "help": "Forse cambiamenti climatici, inondazioni o arrivo degli Arii."
+        }
+      ]
+    }
+  ]
+}
