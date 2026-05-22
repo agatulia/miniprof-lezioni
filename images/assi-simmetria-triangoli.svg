@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#F1F8E9"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#C62828">Assi di simmetria nei triangoli</text>
+
+  <!-- scaleno -->
+  <g transform="translate(75 145)">
+    <polygon points="20,220 250,220 70,45" fill="#FFFFFF" stroke="#2E7D32" stroke-width="7"/>
+    <text x="135" y="280" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0D47A1">SCALENO</text>
+    <text x="135" y="313" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#C62828">0 assi</text>
+  </g>
+
+  <!-- isoscele -->
+  <g transform="translate(340 145)">
+    <polygon points="20,220 250,220 135,45" fill="#FFFFFF" stroke="#2E7D32" stroke-width="7"/>
+    <line x1="135" y1="45" x2="135" y2="220" stroke="#E53935" stroke-width="6" stroke-dasharray="12 10"/>
+    <text x="135" y="280" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0D47A1">ISOSCELE</text>
+    <text x="135" y="313" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#C62828">1 asse</text>
+  </g>
+
+  <!-- equilatero -->
+  <g transform="translate(620 145)">
+    <polygon points="20,220 250,220 135,25" fill="#FFFFFF" stroke="#2E7D32" stroke-width="7"/>
+    <line x1="135" y1="25" x2="135" y2="220" stroke="#E53935" stroke-width="5" stroke-dasharray="11 9"/>
+    <line x1="20" y1="220" x2="135" y2="122" stroke="#E53935" stroke-width="5" stroke-dasharray="11 9"/>
+    <line x1="250" y1="220" x2="135" y2="122" stroke="#E53935" stroke-width="5" stroke-dasharray="11 9"/>
+    <text x="135" y="280" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0D47A1">EQUILATERO</text>
+    <text x="135" y="313" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#C62828">3 assi</text>
+  </g>
+</svg>
