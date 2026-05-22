@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#E3F2FD"/>
+
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="35" font-weight="800" fill="#C62828">
+    Classificazione dei poligoni
+  </text>
+
+  <text x="450" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0D47A1">
+    Il nome dipende dal numero dei lati e degli angoli
+  </text>
+
+  <!-- card 1 -->
+  <g transform="translate(35 110)">
+    <rect width="250" height="155" rx="22" fill="#FFFFFF" stroke="#90CAF9" stroke-width="4"/>
+    <polygon points="125,35 55,115 195,115" fill="#FFFDE7" stroke="#2E7D32" stroke-width="6"/>
+    <text x="125" y="140" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#0D47A1">3 lati</text>
+    <text x="125" y="172" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#C62828">TRIANGOLO</text>
+  </g>
+
+  <g transform="translate(325 110)">
+    <rect width="250" height="155" rx="22" fill="#FFFFFF" stroke="#90CAF9" stroke-width="4"/>
+    <polygon points="70,45 180,45 190,120 60,120" fill="#FFFDE7" stroke="#2E7D32" stroke-width="6"/>
+    <text x="125" y="140" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#0D47A1">4 lati</text>
+    <text x="125" y="172" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#C62828">QUADRILATERO</text>
+  </g>
+
+  <g transform="translate(615 110)">
+    <rect width="250" height="155" rx="22" fill="#FFFFFF" stroke="#90CAF9" stroke-width="4"/>
+    <polygon points="125,35 190,80 165,125 85,125 60,80" fill="#FFFDE7" stroke="#2E7D32" stroke-width="6"/>
+    <text x="125" y="140" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#0D47A1">5 lati</text>
+    <text x="125" y="172" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#C62828">PENTAGONO</text>
+  </g>
+
+  <g transform="translate(35 300)">
+    <rect width="250" height="155" rx="22" fill="#FFFFFF" stroke="#A5D6A7" stroke-width="4"/>
+    <polygon points="85,55 165,55 210,100 165,135 85,135 40,100" fill="#F1F8E9" stroke="#2E7D32" stroke-width="6"/>
+    <text x="125" y="140" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#0D47A1">6 lati</text>
+    <text x="125" y="172" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#C62828">ESAGONO</text>
+  </g>
+
+  <g transform="translate(325 300)">
+    <rect width="250" height="155" rx="22" fill="#FFFFFF" stroke="#A5D6A7" stroke-width="4"/>
+    <polygon points="125,45 180,70 205,120 155,145 95,145 45,115 70,70" fill="#F1F8E9" stroke="#2E7D32" stroke-width="6"/>
+    <text x="125" y="140" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#0D47A1">7 lati</text>
+    <text x="125" y="172" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#C62828">ETTAGONO</text>
+  </g>
+
+  <g transform="translate(615 300)">
+    <rect width="250" height="155" rx="22" fill="#FFFFFF" stroke="#A5D6A7" stroke-width="4"/>
+    <polygon points="95,50 155,50 200,95 200,125 155,150 95,150 50,125 50,95" fill="#F1F8E9" stroke="#2E7D32" stroke-width="6"/>
+    <text x="125" y="140" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#0D47A1">8 lati</text>
+    <text x="125" y="172" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#C62828">OTTAGONO</text>
+  </g>
+</svg>
