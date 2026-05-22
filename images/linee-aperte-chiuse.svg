@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#E3F2FD"/>
+
+  <text x="450" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="800" fill="#C62828">
+    Linee aperte e linee chiuse
+  </text>
+
+  <!-- linea aperta -->
+  <g transform="translate(70 95)">
+    <rect x="0" y="0" width="350" height="330" rx="28" fill="#FFFFFF" stroke="#90CAF9" stroke-width="5"/>
+
+    <text x="175" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="#0D47A1">
+      LINEA APERTA
+    </text>
+
+    <polyline points="55,210 115,115 205,170 290,95" fill="none" stroke="#2E7D32" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="55" cy="210" r="12" fill="#E53935"/>
+    <circle cx="290" cy="95" r="12" fill="#E53935"/>
+
+    <text x="55" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#E53935">
+      inizio
+    </text>
+    <text x="290" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#E53935">
+      fine
+    </text>
+
+    <rect x="35" y="255" width="280" height="48" rx="17" fill="#FFF8E1" stroke="#FFB300" stroke-width="4"/>
+    <text x="175" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#5D4037">
+      non forma un poligono
+    </text>
+  </g>
+
+  <!-- linea chiusa -->
+  <g transform="translate(480 95)">
+    <rect x="0" y="0" width="350" height="330" rx="28" fill="#FFFFFF" stroke="#A5D6A7" stroke-width="5"/>
+
+    <text x="175" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="#1B5E20">
+      LINEA CHIUSA
+    </text>
+
+    <polygon points="80,215 125,105 245,95 295,205 205,270" fill="#C8E6C9" stroke="#2E7D32" stroke-width="11" stroke-linejoin="round"/>
+
+    <circle cx="80" cy="215" r="10" fill="#E53935"/>
+    <circle cx="125" cy="105" r="10" fill="#E53935"/>
+    <circle cx="245" cy="95" r="10" fill="#E53935"/>
+    <circle cx="295" cy="205" r="10" fill="#E53935"/>
+    <circle cx="205" cy="270" r="10" fill="#E53935"/>
+
+    <rect x="35" y="285" width="280" height="38" rx="15" fill="#E8F5E9" stroke="#66BB6A" stroke-width="4"/>
+    <text x="175" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#1B5E20">
+      può formare un poligono
+    </text>
+  </g>
+</svg>
