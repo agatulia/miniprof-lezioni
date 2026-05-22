@@ -61,6 +61,44 @@
       "exercise": "Il pistillo è la parte femminile del fiore. Lo stame, invece, è la parte maschile."
     },
     {
+      "tipo": "clicca_fiore",
+      "title": "Clicca sulle parti del fiore",
+      "subject": "Il fiore",
+      "text": "Osserva il fiore e tocca la parte corretta quando leggi la domanda.",
+      "domande": [
+        {
+          "q": "Clicca sui petali.",
+          "risposta": "petalo",
+          "ok": "Brava! I petali sono colorati e attirano gli insetti."
+        },
+        {
+          "q": "Clicca sullo stame.",
+          "risposta": "stame",
+          "ok": "Giusto! Lo stame è la parte maschile del fiore."
+        },
+        {
+          "q": "Clicca sulle antere.",
+          "risposta": "antera",
+          "ok": "Perfetto! Le antere producono il polline."
+        },
+        {
+          "q": "Clicca sul pistillo.",
+          "risposta": "pistillo",
+          "ok": "Esatto! Il pistillo è la parte femminile del fiore."
+        },
+        {
+          "q": "Clicca sull’ovario.",
+          "risposta": "ovario",
+          "ok": "Benissimo! L’ovario contiene gli ovuli."
+        },
+        {
+          "q": "Clicca sui sepali.",
+          "risposta": "sepalo",
+          "ok": "Ottimo! I sepali proteggono il fiore quando è chiuso."
+        }
+      ]
+    },
+    {
       "title": "Lo stame e il polline",
       "subject": "Parte maschile",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/stame-polline.png",
@@ -435,41 +473,4 @@
       "help": "La germinazione è il momento in cui dal seme nasce una nuova piantina."
     }
   ]
-  {
-  "tipo": "clicca_fiore",
-  "title": "Clicca sulle parti del fiore",
-  "subject": "Il fiore",
-  "text": "Osserva il fiore e tocca la parte corretta quando leggi la domanda.",
-  "domande": [
-    {
-      "q": "Clicca sui petali.",
-      "risposta": "petalo",
-      "ok": "Brava! I petali sono colorati e attirano gli insetti."
-    },
-    {
-      "q": "Clicca sullo stame.",
-      "risposta": "stame",
-      "ok": "Giusto! Lo stame è la parte maschile del fiore."
-    },
-    {
-      "q": "Clicca sulle antere.",
-      "risposta": "antera",
-      "ok": "Perfetto! Le antere producono il polline."
-    },
-    {
-      "q": "Clicca sul pistillo.",
-      "risposta": "pistillo",
-      "ok": "Esatto! Il pistillo è la parte femminile del fiore."
-    },
-    {
-      "q": "Clicca sull’ovario.",
-      "risposta": "ovario",
-      "ok": "Benissimo! L’ovario contiene gli ovuli."
-    },
-    {
-      "q": "Clicca sui sepali.",
-      "risposta": "sepalo",
-      "ok": "Ottimo! I sepali proteggono il fiore quando è chiuso."
-    }
-  ]
-}}
+}
