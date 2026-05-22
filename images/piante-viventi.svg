@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#EAF8FF"/>
+
+  <circle cx="760" cy="80" r="45" fill="#FFD54F"/>
+  <g stroke="#FFD54F" stroke-width="8" stroke-linecap="round">
+    <line x1="760" y1="15" x2="760" y2="0"/>
+    <line x1="760" y1="145" x2="760" y2="165"/>
+    <line x1="695" y1="80" x2="675" y2="80"/>
+    <line x1="825" y1="80" x2="845" y2="80"/>
+    <line x1="715" y1="35" x2="700" y2="20"/>
+    <line x1="805" y1="125" x2="820" y2="140"/>
+    <line x1="805" y1="35" x2="820" y2="20"/>
+    <line x1="715" y1="125" x2="700" y2="140"/>
+  </g>
+
+  <rect x="0" y="390" width="900" height="110" fill="#8D6E63"/>
+  <path d="M0 390 C120 350 260 430 420 385 C600 340 730 420 900 380 L900 500 L0 500 Z" fill="#66BB6A"/>
+
+  <text x="450" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1B5E20">
+    Le piante sono esseri viventi
+  </text>
+
+  <!-- seme -->
+  <ellipse cx="145" cy="365" rx="35" ry="48" fill="#8D6E63" stroke="#5D4037" stroke-width="5"/>
+  <text x="145" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1B5E20">
+    nascono
+  </text>
+
+  <!-- germoglio -->
+  <path d="M310 380 C305 325 315 295 335 270" stroke="#2E7D32" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <ellipse cx="350" cy="270" rx="45" ry="25" fill="#66BB6A" stroke="#2E7D32" stroke-width="4" transform="rotate(-20 350 270)"/>
+  <ellipse cx="305" cy="300" rx="38" ry="22" fill="#81C784" stroke="#2E7D32" stroke-width="4" transform="rotate(35 305 300)"/>
+  <text x="320" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1B5E20">
+    crescono
+  </text>
+
+  <!-- pianta adulta -->
+  <rect x="535" y="230" width="35" height="165" rx="15" fill="#2E7D32"/>
+  <ellipse cx="510" cy="250" rx="65" ry="35" fill="#66BB6A" stroke="#2E7D32" stroke-width="5" transform="rotate(-30 510 250)"/>
+  <ellipse cx="600" cy="245" rx="70" ry="38" fill="#66BB6A" stroke="#2E7D32" stroke-width="5" transform="rotate(30 600 245)"/>
+  <ellipse cx="535" cy="185" rx="60" ry="35" fill="#81C784" stroke="#2E7D32" stroke-width="5" transform="rotate(-10 535 185)"/>
+  <ellipse cx="590" cy="185" rx="60" ry="35" fill="#81C784" stroke="#2E7D32" stroke-width="5" transform="rotate(20 590 185)"/>
+  <text x="555" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1B5E20">
+    si nutrono
+  </text>
+
+  <!-- fiore -->
+  <rect x="735" y="295" width="25" height="100" rx="10" fill="#2E7D32"/>
+  <circle cx="748" cy="270" r="25" fill="#FFD54F" stroke="#F9A825" stroke-width="4"/>
+  <ellipse cx="748" cy="225" rx="22" ry="45" fill="#EC407A" stroke="#AD1457" stroke-width="4"/>
+  <ellipse cx="748" cy="315" rx="22" ry="45" fill="#EC407A" stroke="#AD1457" stroke-width="4"/>
+  <ellipse cx="705" cy="270" rx="45" ry="22" fill="#F06292" stroke="#AD1457" stroke-width="4"/>
+  <ellipse cx="790" cy="270" rx="45" ry="22" fill="#F06292" stroke="#AD1457" stroke-width="4"/>
+  <text x="748" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1B5E20">
+    si riproducono
+  </text>
+
+  <!-- frecce -->
+  <path d="M195 330 C230 285 250 270 285 275" fill="none" stroke="#1976D2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M285 275 L262 262 L270 292 Z" fill="#1976D2"/>
+  <path d="M390 270 C430 220 470 210 505 215" fill="none" stroke="#1976D2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M505 215 L482 202 L490 232 Z" fill="#1976D2"/>
+  <path d="M635 220 C675 195 705 205 725 230" fill="none" stroke="#1976D2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M725 230 L700 222 L712 250 Z" fill="#1976D2"/>
+</svg>
