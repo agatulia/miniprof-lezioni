@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#FFF8E1"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="40" font-weight="700" fill="#C62828">Il perimetro</text>
+
+  <polygon points="210,160 390,110 620,170 690,350 420,405 180,335" fill="#FFFFFF" stroke="#2E7D32" stroke-width="9"/>
+  <polygon points="210,160 390,110 620,170 690,350 420,405 180,335" fill="none" stroke="#E53935" stroke-width="14" stroke-linejoin="round" opacity="0.45"/>
+
+  <rect x="150" y="420" width="600" height="55" rx="18" fill="#FFFFFF" stroke="#FFB300" stroke-width="5"/>
+  <text x="450" y="455" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#5D4037">
+    Perimetro = somma di tutti i lati
+  </text>
+
+  <text x="450" y="245" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#0D47A1">
+    È la lunghezza del contorno
+  </text>
+</svg>
