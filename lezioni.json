@@ -13,9 +13,14 @@
         {
           "title": "Nella valle dell’Indo",
           "subject": "La civiltà dell’Indo",
-          "image": "images/indo-valle.png",
+          "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/indo-valle.png",
           "text": "Gli abitanti della Mesopotamia commerciavano con i popoli dell’India. Alcuni mercanti, dopo viaggi lunghi e pericolosi, arrivarono nella valle del fiume Indo. Qui vivevano popolazioni che avevano un modo di vivere molto simile a quello dei popoli della Mesopotamia.",
-          "keywords": ["India", "fiume Indo", "Mesopotamia", "mercanti"],
+          "keywords": [
+            "India",
+            "fiume Indo",
+            "Mesopotamia",
+            "mercanti"
+          ],
           "remember": [
             "La civiltà dell’Indo si sviluppò nella valle del fiume Indo.",
             "I popoli dell’Indo avevano rapporti commerciali con la Mesopotamia.",
@@ -34,9 +39,15 @@
         {
           "title": "Agricoltura e allevamento",
           "subject": "Attività economiche",
-          "image": "images/indo-agricoltura.png",
+          "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/indo-agricoltura.png",
           "text": "I contadini coltivavano cereali, legumi e cotone, molto richiesto dai popoli vicini. Allevavano anche animali domestici. I campi erano fertili grazie all’acqua del fiume. Per il lavoro nei campi venivano usati buoi e bufali.",
-          "keywords": ["cereali", "legumi", "cotone", "bufali", "buoi"],
+          "keywords": [
+            "cereali",
+            "legumi",
+            "cotone",
+            "bufali",
+            "buoi"
+          ],
           "remember": [
             "Coltivavano cereali, legumi e cotone.",
             "Il cotone era importante perché serviva per fare tessuti.",
@@ -55,9 +66,15 @@
         {
           "title": "Artigianato",
           "subject": "Attività economiche",
-          "image": "images/indo-artigianato.png",
+          "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/indo-artigianato.png",
           "text": "Gli artigiani dell’Indo erano molto abili. Sapevano cuocere i mattoni per costruire case e magazzini. Lavoravano la ceramica, le pietre dure e l’avorio. Producevano vasi, collane, sigilli e statuette. Alcuni oggetti erano usati anche per il commercio.",
-          "keywords": ["artigiani", "mattoni", "ceramica", "sigilli", "avorio"],
+          "keywords": [
+            "artigiani",
+            "mattoni",
+            "ceramica",
+            "sigilli",
+            "avorio"
+          ],
           "remember": [
             "Gli artigiani realizzavano molti oggetti utili e decorativi.",
             "I mattoni servivano per costruire case e città.",
@@ -76,9 +93,15 @@
         {
           "title": "Il commercio",
           "subject": "Attività economiche",
-          "image": "images/indo-commercio.png",
+          "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/indo-commercio.png",
           "text": "I mercanti trasportavano i prodotti anche lungo il fiume su piccole imbarcazioni. Scambiavano cereali, legumi, cotone, avorio e oggetti artigianali. Il commercio avveniva non solo via fiume, ma anche via mare e via terra.",
-          "keywords": ["mercanti", "fiume", "cotone", "avorio", "scambi"],
+          "keywords": [
+            "mercanti",
+            "fiume",
+            "cotone",
+            "avorio",
+            "scambi"
+          ],
           "remember": [
             "I mercanti commerciavano prodotti agricoli e artigianali.",
             "Le merci viaggiavano via fiume, via mare e via terra.",
@@ -97,9 +120,15 @@
         {
           "title": "Le città dell’Indo",
           "subject": "Città e società",
-          "image": "images/indo-citta.png",
+          "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/indo-citta.png",
           "text": "Le città dell’Indo, come Mohenjo-Daro e Harappa, erano molto organizzate. Le strade erano dritte e si incrociavano ad angolo retto. Al centro della città c’erano edifici pubblici e magazzini. Le case avevano spesso un cortile e un sistema di tubature per portare l’acqua.",
-          "keywords": ["Mohenjo-Daro", "Harappa", "strade dritte", "magazzini", "tubature"],
+          "keywords": [
+            "Mohenjo-Daro",
+            "Harappa",
+            "strade dritte",
+            "magazzini",
+            "tubature"
+          ],
           "remember": [
             "Le città erano ordinate e ben progettate.",
             "Le strade erano dritte e organizzate.",
@@ -118,9 +147,15 @@
         {
           "title": "La società",
           "subject": "Città e società",
-          "image": "images/indo-societa.png",
+          "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/indo-societa.png",
           "text": "Nelle città dell’Indo non sono stati trovati grandi palazzi reali. Per questo si pensa che non ci fosse un re potente come in altre civiltà. Probabilmente il governo era affidato a sacerdoti o persone importanti. La popolazione era formata da contadini, artigiani e mercanti.",
-          "keywords": ["società", "sacerdoti", "contadini", "artigiani", "mercanti"],
+          "keywords": [
+            "società",
+            "sacerdoti",
+            "contadini",
+            "artigiani",
+            "mercanti"
+          ],
           "remember": [
             "Non sono stati trovati grandi palazzi reali.",
             "Forse governavano sacerdoti o persone importanti.",
@@ -139,9 +174,14 @@
         {
           "title": "Scrittura e sigilli",
           "subject": "Conoscenze",
-          "image": "images/indo-sigilli.png",
+          "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/indo-sigilli.png",
           "text": "I popoli dell’Indo avevano elaborato una forma di scrittura. Sono stati trovati numerosi sigilli con simboli, ma ancora oggi questa scrittura rimane un mistero perché non è stata compresa del tutto.",
-          "keywords": ["scrittura", "sigilli", "simboli", "mistero"],
+          "keywords": [
+            "scrittura",
+            "sigilli",
+            "simboli",
+            "mistero"
+          ],
           "remember": [
             "Avevano una forma di scrittura.",
             "I simboli sono stati trovati soprattutto sui sigilli.",
@@ -160,9 +200,15 @@
         {
           "title": "La fine della civiltà dell’Indo",
           "subject": "La storia",
-          "image": "images/indo-fine.png",
+          "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/indo-fine.png",
           "text": "Tra il 1800 a.C. e il 1500 a.C. la civiltà dell’Indo cominciò a decadere. Forse ci furono cambiamenti del clima, inondazioni o l’arrivo di popoli da nord, chiamati Arii. Le città furono abbandonate lentamente.",
-          "keywords": ["1800 a.C.", "1500 a.C.", "decadenza", "Arii", "abbandono"],
+          "keywords": [
+            "1800 a.C.",
+            "1500 a.C.",
+            "decadenza",
+            "Arii",
+            "abbandono"
+          ],
           "remember": [
             "La civiltà dell’Indo decadde tra il 1800 a.C. e il 1500 a.C.",
             "Le cause non sono sicure.",
