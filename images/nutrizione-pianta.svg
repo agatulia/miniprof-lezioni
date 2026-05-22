@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#EAF8FF"/>
+  <rect x="0" y="340" width="900" height="160" fill="#8D6E63"/>
+  <path d="M0 340 C160 310 260 370 420 340 C580 310 720 370 900 335 L900 500 L0 500 Z" fill="#A1887F"/>
+
+  <text x="450" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1B5E20">
+    Come si nutre una pianta
+  </text>
+
+  <!-- pianta -->
+  <rect x="425" y="190" width="45" height="170" rx="20" fill="#2E7D32"/>
+  <ellipse cx="385" cy="210" rx="85" ry="42" fill="#66BB6A" stroke="#2E7D32" stroke-width="5" transform="rotate(-28 385 210)"/>
+  <ellipse cx="515" cy="210" rx="85" ry="42" fill="#66BB6A" stroke="#2E7D32" stroke-width="5" transform="rotate(28 515 210)"/>
+  <ellipse cx="420" cy="135" rx="70" ry="38" fill="#81C784" stroke="#2E7D32" stroke-width="5" transform="rotate(-18 420 135)"/>
+  <ellipse cx="490" cy="140" rx="70" ry="38" fill="#81C784" stroke="#2E7D32" stroke-width="5" transform="rotate(20 490 140)"/>
+
+  <!-- radici -->
+  <g stroke="#F5F5DC" stroke-width="9" stroke-linecap="round" fill="none">
+    <path d="M445 350 C440 390 410 420 370 450"/>
+    <path d="M445 350 C455 395 490 420 540 450"/>
+    <path d="M445 350 C440 400 450 430 450 470"/>
+    <path d="M420 385 C390 395 360 405 335 425"/>
+    <path d="M475 385 C505 395 540 405 575 430"/>
+  </g>
+
+  <!-- acqua -->
+  <g fill="#42A5F5">
+    <path d="M190 410 C170 375 200 355 190 330 C225 360 240 385 220 415 C212 428 198 428 190 410 Z"/>
+    <path d="M245 430 C230 405 252 390 246 370 C275 395 285 415 270 438 C262 448 250 446 245 430 Z"/>
+    <path d="M300 395 C288 372 306 360 302 342 C328 365 338 385 323 405 C316 415 306 412 300 395 Z"/>
+  </g>
+
+  <text x="235" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0D47A1">
+    acqua
+  </text>
+
+  <!-- sali minerali -->
+  <g fill="#FFCA28" stroke="#F9A825" stroke-width="3">
+    <circle cx="635" cy="385" r="16"/>
+    <circle cx="685" cy="420" r="13"/>
+    <circle cx="725" cy="370" r="15"/>
+    <circle cx="665" cy="455" r="12"/>
+  </g>
+
+  <text x="680" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#6D4C41">
+    sali minerali
+  </text>
+
+  <!-- frecce verso radici -->
+  <g stroke="#1976D2" stroke-width="9" fill="none" stroke-linecap="round">
+    <path d="M300 395 C350 385 380 370 420 355"/>
+    <path d="M635 385 C570 380 520 365 470 355"/>
+  </g>
+  <path d="M420 355 L390 345 L400 375 Z" fill="#1976D2"/>
+  <path d="M470 355 L500 345 L490 375 Z" fill="#1976D2"/>
+
+  <!-- freccia su linfa grezza -->
+  <path d="M448 345 C448 300 448 250 448 205" stroke="#03A9F4" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M448 205 L428 240 L468 240 Z" fill="#03A9F4"/>
+
+  <rect x="515" y="285" width="250" height="55" rx="18" fill="#FFFFFF" stroke="#90CAF9" stroke-width="4"/>
+  <text x="640" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0D47A1">
+    linfa grezza
+  </text>
+
+  <rect x="80" y="85" width="250" height="80" rx="22" fill="#FFFFFF" stroke="#AED581" stroke-width="5"/>
+  <text x="205" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1B5E20">
+    Le radici assorbono
+  </text>
+  <text x="205" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1B5E20">
+    dal terreno
+  </text>
+</svg>
