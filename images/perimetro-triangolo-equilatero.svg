@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#F1F8E9"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#C62828">Perimetro del triangolo equilatero</text>
+
+  <polygon points="250,370 650,370 450,90" fill="#FFFFFF" stroke="#2E7D32" stroke-width="8"/>
+  <line x1="440" y1="370" x2="460" y2="370" stroke="#E53935" stroke-width="6"/>
+  <line x1="340" y1="230" x2="360" y2="244" stroke="#E53935" stroke-width="6"/>
+  <line x1="560" y1="230" x2="540" y2="244" stroke="#E53935" stroke-width="6"/>
+
+  <text x="450" y="410" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0D47A1">lato</text>
+  <text x="330" y="245" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0D47A1" transform="rotate(-52 330 245)">lato</text>
+  <text x="570" y="245" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0D47A1" transform="rotate(52 570 245)">lato</text>
+
+  <rect x="245" y="430" width="410" height="50" rx="18" fill="#FFFFFF" stroke="#66BB6A" stroke-width="5"/>
+  <text x="450" y="463" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0D47A1">
+    P = lato × 3
+  </text>
+</svg>
