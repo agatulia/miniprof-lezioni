@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#FFF8E1"/>
+
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#C62828">
+    Triangoli in base agli angoli
+  </text>
+
+  <!-- ACUTANGOLO -->
+  <g transform="translate(42 88)">
+    <rect x="0" y="0" width="260" height="375" rx="26" fill="#FFFFFF" stroke="#FFE0B2" stroke-width="5"/>
+
+    <text x="130" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#0D47A1">
+      ACUTANGOLO
+    </text>
+
+    <!-- triangolo -->
+    <polygon points="45,245 215,245 130,82" fill="#F9FFF9" stroke="#2E7D32" stroke-width="7" stroke-linejoin="round"/>
+
+    <!-- angoli acuti corretti -->
+    <!-- sinistro basso -->
+    <path d="M72 245 A31 31 0 0 1 85 219" fill="none" stroke="#FFB300" stroke-width="8" stroke-linecap="round"/>
+    <!-- destro basso -->
+    <path d="M175 219 A31 31 0 0 1 188 245" fill="none" stroke="#FFB300" stroke-width="8" stroke-linecap="round"/>
+    <!-- alto -->
+    <path d="M116 108 A31 31 0 0 1 144 108" fill="none" stroke="#FFB300" stroke-width="8" stroke-linecap="round"/>
+
+    <circle cx="45" cy="245" r="6" fill="#2E7D32"/>
+    <circle cx="215" cy="245" r="6" fill="#2E7D32"/>
+    <circle cx="130" cy="82" r="6" fill="#2E7D32"/>
+
+    <rect x="35" y="285" width="190" height="55" rx="18" fill="#E3F2FD"/>
+    <text x="130" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#0D47A1">
+      tutti gli angoli
+    </text>
+    <text x="130" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#0D47A1">
+      sono acuti
+    </text>
+  </g>
+
+  <!-- OTTUSANGOLO -->
+  <g transform="translate(320 88)">
+    <rect x="0" y="0" width="260" height="375" rx="26" fill="#FFFFFF" stroke="#FFE0B2" stroke-width="5"/>
+
+    <text x="130" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#0D47A1">
+      OTTUSANGOLO
+    </text>
+
+    <!-- triangolo con angolo ottuso a sinistra -->
+    <polygon points="38,245 225,245 92,118" fill="#F9FFF9" stroke="#2E7D32" stroke-width="7" stroke-linejoin="round"/>
+
+    <!-- angolo ottuso nel vertice 92,118: arco largo tra il lato verso sinistra-basso e lato verso destra-basso -->
+    <path d="M68 149 A48 48 0 0 1 130 153" fill="none" stroke="#42A5F5" stroke-width="11" stroke-linecap="round"/>
+
+    <!-- angoli acuti bassi -->
+    <path d="M67 245 A29 29 0 0 1 79 224" fill="none" stroke="#FFB300" stroke-width="7" stroke-linecap="round"/>
+    <path d="M196 223 A29 29 0 0 1 193 245" fill="none" stroke="#FFB300" stroke-width="7" stroke-linecap="round"/>
+
+    <circle cx="38" cy="245" r="6" fill="#2E7D32"/>
+    <circle cx="225" cy="245" r="6" fill="#2E7D32"/>
+    <circle cx="92" cy="118" r="6" fill="#2E7D32"/>
+
+    <rect x="35" y="285" width="190" height="55" rx="18" fill="#E3F2FD"/>
+    <text x="130" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#0D47A1">
+      ha un angolo
+    </text>
+    <text x="130" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#0D47A1">
+      ottuso
+    </text>
+  </g>
+
+  <!-- RETTANGOLO -->
+  <g transform="translate(598 88)">
+    <rect x="0" y="0" width="260" height="375" rx="26" fill="#FFFFFF" stroke="#FFE0B2" stroke-width="5"/>
+
+    <text x="130" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#0D47A1">
+      RETTANGOLO
+    </text>
+
+    <!-- triangolo rettangolo con angolo retto in basso a sinistra -->
+    <polygon points="52,245 220,245 52,92" fill="#F9FFF9" stroke="#2E7D32" stroke-width="7" stroke-linejoin="round"/>
+
+    <!-- simbolo angolo retto preciso -->
+    <path d="M52 205 L92 205 L92 245" fill="none" stroke="#8BC34A" stroke-width="9" stroke-linejoin="round"/>
+
+    <!-- due angoli acuti -->
+    <path d="M191 224 A30 30 0 0 1 187 245" fill="none" stroke="#FFB300" stroke-width="7" stroke-linecap="round"/>
+    <path d="M60 121 A30 30 0 0 1 87 116" fill="none" stroke="#FFB300" stroke-width="7" stroke-linecap="round"/>
+
+    <circle cx="52" cy="245" r="6" fill="#2E7D32"/>
+    <circle cx="220" cy="245" r="6" fill="#2E7D32"/>
+    <circle cx="52" cy="92" r="6" fill="#2E7D32"/>
+
+    <rect x="35" y="285" width="190" height="55" rx="18" fill="#E3F2FD"/>
+    <text x="130" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#0D47A1">
+      ha un angolo
+    </text>
+    <text x="130" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#0D47A1">
+      retto
+    </text>
+  </g>
+</svg>
