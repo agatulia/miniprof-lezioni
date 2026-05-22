@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#E3F2FD"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="36" font-weight="700" fill="#C62828">Il triangolo</text>
+
+  <polygon points="450,105 180,380 720,380" fill="#FFFDE7" stroke="#2E7D32" stroke-width="8"/>
+  
+  <circle cx="450" cy="105" r="13" fill="#E53935"/>
+  <circle cx="180" cy="380" r="13" fill="#E53935"/>
+  <circle cx="720" cy="380" r="13" fill="#E53935"/>
+
+  <text x="450" y="90" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#E53935">A</text>
+  <text x="155" y="405" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#E53935">B</text>
+  <text x="745" y="405" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#E53935">C</text>
+
+  <text x="450" y="415" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#2E7D32">lato</text>
+  <text x="280" y="230" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#2E7D32" transform="rotate(-45 280 230)">lato</text>
+  <text x="620" y="230" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#2E7D32" transform="rotate(45 620 230)">lato</text>
+
+  <path d="M215 365 A45 45 0 0 1 245 335" fill="none" stroke="#FFB300" stroke-width="8"/>
+  <path d="M680 350 A45 45 0 0 1 705 380" fill="none" stroke="#FFB300" stroke-width="8"/>
+  <path d="M425 130 A45 45 0 0 1 475 130" fill="none" stroke="#FFB300" stroke-width="8"/>
+
+  <rect x="275" y="445" width="350" height="38" rx="16" fill="#FFFFFF" stroke="#42A5F5" stroke-width="4"/>
+  <text x="450" y="471" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#0D47A1">
+    3 lati • 3 vertici • 3 angoli
+  </text>
+</svg>
