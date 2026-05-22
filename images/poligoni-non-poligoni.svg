@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#FFF8E1"/>
+
+  <text x="450" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="800" fill="#C62828">
+    Poligoni e non poligoni
+  </text>
+
+  <!-- POLIGONI -->
+  <g transform="translate(55 90)">
+    <rect x="0" y="0" width="370" height="360" rx="28" fill="#FFFFFF" stroke="#66BB6A" stroke-width="5"/>
+    <text x="185" y="45" text-anchor="middle" font-family="Arial" font-size="30" font-weight="800" fill="#1B5E20">POLIGONI</text>
+
+    <polygon points="60,135 125,80 210,120 180,210 80,220" fill="#E8F5E9" stroke="#2E7D32" stroke-width="7"/>
+    <rect x="230" y="85" width="90" height="90" fill="#E8F5E9" stroke="#2E7D32" stroke-width="7"/>
+    <polygon points="105,280 185,235 260,280 225,330 140,330" fill="#E8F5E9" stroke="#2E7D32" stroke-width="7"/>
+
+    <rect x="35" y="315" width="300" height="35" rx="14" fill="#E8F5E9"/>
+    <text x="185" y="339" text-anchor="middle" font-family="Arial" font-size="19" font-weight="800" fill="#1B5E20">
+      chiusi e formati da segmenti
+    </text>
+  </g>
+
+  <!-- NON POLIGONI -->
+  <g transform="translate(475 90)">
+    <rect x="0" y="0" width="370" height="360" rx="28" fill="#FFFFFF" stroke="#EF5350" stroke-width="5"/>
+    <text x="185" y="45" text-anchor="middle" font-family="Arial" font-size="30" font-weight="800" fill="#C62828">NON POLIGONI</text>
+
+    <!-- linea aperta -->
+    <polyline points="45,150 105,80 180,130 245,85" fill="none" stroke="#C62828" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="45" cy="150" r="8" fill="#C62828"/>
+    <circle cx="245" cy="85" r="8" fill="#C62828"/>
+
+    <!-- curva -->
+    <path d="M80 245 C130 175 245 180 290 250 C220 305 130 300 80 245Z" fill="#FFEBEE" stroke="#C62828" stroke-width="7"/>
+
+    <rect x="35" y="315" width="300" height="35" rx="14" fill="#FFEBEE"/>
+    <text x="185" y="339" text-anchor="middle" font-family="Arial" font-size="19" font-weight="800" fill="#C62828">
+      aperti oppure con linee curve
+    </text>
+  </g>
+</svg>
