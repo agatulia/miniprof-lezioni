@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#E3F2FD"/>
+
+  <text x="450" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1B5E20">
+    Fotosintesi clorofilliana
+  </text>
+
+  <!-- sole -->
+  <circle cx="115" cy="105" r="48" fill="#FFD54F"/>
+  <g stroke="#FFD54F" stroke-width="8" stroke-linecap="round">
+    <line x1="115" y1="35" x2="115" y2="10"/>
+    <line x1="115" y1="175" x2="115" y2="200"/>
+    <line x1="45" y1="105" x2="20" y2="105"/>
+    <line x1="185" y1="105" x2="210" y2="105"/>
+    <line x1="65" y1="55" x2="45" y2="35"/>
+    <line x1="165" y1="155" x2="185" y2="175"/>
+    <line x1="165" y1="55" x2="185" y2="35"/>
+    <line x1="65" y1="155" x2="45" y2="175"/>
+  </g>
+
+  <!-- terra -->
+  <rect x="0" y="360" width="900" height="140" fill="#8D6E63"/>
+
+  <!-- pianta -->
+  <rect x="435" y="205" width="45" height="165" rx="20" fill="#2E7D32"/>
+  <ellipse cx="390" cy="210" rx="95" ry="45" fill="#66BB6A" stroke="#2E7D32" stroke-width="5" transform="rotate(-25 390 210)"/>
+  <ellipse cx="530" cy="210" rx="95" ry="45" fill="#66BB6A" stroke="#2E7D32" stroke-width="5" transform="rotate(25 530 210)"/>
+  <ellipse cx="450" cy="135" rx="90" ry="45" fill="#81C784" stroke="#2E7D32" stroke-width="5"/>
+
+  <!-- radici -->
+  <g stroke="#F5F5DC" stroke-width="9" stroke-linecap="round" fill="none">
+    <path d="M455 365 C435 405 395 430 350 465"/>
+    <path d="M455 365 C475 405 515 430 560 465"/>
+    <path d="M455 365 C455 410 455 445 455 480"/>
+  </g>
+
+  <!-- luce sole -->
+  <path d="M170 140 C245 160 300 170 370 180" stroke="#FBC02D" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M370 180 L330 158 L337 200 Z" fill="#FBC02D"/>
+  <rect x="220" y="85" width="210" height="55" rx="18" fill="#FFFDE7" stroke="#FBC02D" stroke-width="4"/>
+  <text x="325" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#F57F17">
+    luce solare
+  </text>
+
+  <!-- acqua -->
+  <path d="M260 420 C315 405 365 385 430 355" stroke="#2196F3" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M430 355 L390 345 L405 380 Z" fill="#2196F3"/>
+  <g fill="#42A5F5">
+    <path d="M195 435 C175 398 207 380 195 350 C235 385 245 415 225 445 C215 460 202 455 195 435 Z"/>
+    <path d="M245 455 C230 425 252 410 247 388 C278 415 288 440 272 463 C263 476 253 470 245 455 Z"/>
+  </g>
+  <text x="220" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0D47A1">
+    acqua
+  </text>
+
+  <!-- anidride carbonica -->
+  <path d="M780 190 C690 185 620 190 535 205" stroke="#E53935" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M535 205 L575 185 L570 225 Z" fill="#E53935"/>
+  <rect x="635" y="115" width="225" height="60" rx="20" fill="#FFEBEE" stroke="#E53935" stroke-width="4"/>
+  <text x="748" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#B71C1C">
+    anidride carbonica
+  </text>
+
+  <!-- ossigeno -->
+  <path d="M530 135 C615 105 690 95 780 80" stroke="#43A047" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M780 80 L740 65 L750 105 Z" fill="#43A047"/>
+  <rect x="620" y="30" width="160" height="55" rx="18" fill="#E8F5E9" stroke="#43A047" stroke-width="4"/>
+  <text x="700" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1B5E20">
+    ossigeno
+  </text>
+
+  <!-- nutrimento -->
+  <rect x="325" y="285" width="250" height="58" rx="18" fill="#FFF3E0" stroke="#FB8C00" stroke-width="4"/>
+  <text x="450" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#E65100">
+    produce nutrimento
+  </text>
+
+  <text x="450" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#1B5E20">
+    acqua + anidride carbonica + luce + clorofilla → nutrimento + ossigeno
+  </text>
+</svg>
