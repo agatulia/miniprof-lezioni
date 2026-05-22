@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#F1F8E9"/>
+
+  <text x="450" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1B5E20">
+    Clorofilla e stomi
+  </text>
+
+  <!-- foglia grande -->
+  <path d="M450 95 C650 115 760 250 680 360 C590 480 360 430 250 345 C130 250 230 100 450 95 Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="8"/>
+  <path d="M250 345 C370 280 500 220 680 170" stroke="#1B5E20" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- venature -->
+  <g stroke="#2E7D32" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M360 288 C340 235 330 195 320 145"/>
+    <path d="M420 260 C425 205 430 160 445 105"/>
+    <path d="M500 230 C535 185 565 145 610 115"/>
+    <path d="M315 310 C275 300 230 285 185 260"/>
+    <path d="M520 255 C585 270 630 300 680 345"/>
+    <path d="M430 310 C455 355 480 385 525 420"/>
+  </g>
+
+  <!-- zona clorofilla -->
+  <ellipse cx="410" cy="205" rx="135" ry="75" fill="#A5D6A7" stroke="#43A047" stroke-width="5" opacity="0.8"/>
+  <text x="410" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1B5E20">
+    clorofilla
+  </text>
+  <text x="410" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1B5E20">
+    assorbe la luce
+  </text>
+
+  <!-- sole piccolo -->
+  <circle cx="135" cy="110" r="42" fill="#FFD54F"/>
+  <g stroke="#FFD54F" stroke-width="7" stroke-linecap="round">
+    <line x1="135" y1="50" x2="135" y2="30"/>
+    <line x1="135" y1="170" x2="135" y2="190"/>
+    <line x1="75" y1="110" x2="55" y2="110"/>
+    <line x1="195" y1="110" x2="215" y2="110"/>
+    <line x1="92" y1="67" x2="78" y2="53"/>
+    <line x1="178" y1="153" x2="192" y2="167"/>
+    <line x1="178" y1="67" x2="192" y2="53"/>
+    <line x1="92" y1="153" x2="78" y2="167"/>
+  </g>
+
+  <path d="M180 125 C235 145 280 160 330 185" stroke="#FBC02D" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M330 185 L290 166 L300 205 Z" fill="#FBC02D"/>
+
+  <!-- stomi ingranditi -->
+  <rect x="585" y="250" width="245" height="160" rx="30" fill="#FFFFFF" stroke="#43A047" stroke-width="5"/>
+  <text x="708" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1B5E20">
+    stomi
+  </text>
+
+  <ellipse cx="675" cy="345" rx="34" ry="58" fill="#81C784" stroke="#2E7D32" stroke-width="5"/>
+  <ellipse cx="740" cy="345" rx="34" ry="58" fill="#81C784" stroke="#2E7D32" stroke-width="5"/>
+  <ellipse cx="708" cy="345" rx="18" ry="52" fill="#E3F2FD" stroke="#0D47A1" stroke-width="4"/>
+
+  <text x="708" y="432" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0D47A1">
+    piccole aperture
+  </text>
+
+  <!-- frecce gas -->
+  <path d="M825 330 C855 315 870 300 882 280" stroke="#E53935" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M882 280 L850 290 L873 310 Z" fill="#E53935"/>
+  <text x="805" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#B71C1C">
+    gas
+  </text>
+
+  <path d="M575 365 C530 380 495 385 455 380" stroke="#2196F3" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M455 380 L490 360 L488 400 Z" fill="#2196F3"/>
+  <text x="500" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#0D47A1">
+    vapore acqueo
+  </text>
+
+  <rect x="60" y="375" width="335" height="72" rx="24" fill="#FFFFFF" stroke="#AED581" stroke-width="5"/>
+  <text x="228" y="407" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1B5E20">
+    La clorofilla rende verdi le foglie
+  </text>
+  <text x="228" y="433" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1B5E20">
+    e aiuta la fotosintesi
+  </text>
+</svg>
