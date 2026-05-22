@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#F1F8E9"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#C62828">Triangoli in base ai lati</text>
+
+  <!-- scaleno -->
+  <g transform="translate(170 140)">
+    <polygon points="0,210 230,210 150,40" fill="#FFFFFF" stroke="#2E7D32" stroke-width="7"/>
+    <text x="115" y="260" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#0D47A1">SCALENO</text>
+    <text x="115" y="295" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#2E7D32">tutti i lati diversi</text>
+  </g>
+
+  <!-- isoscele -->
+  <g transform="translate(335 140)">
+    <polygon points="70,210 300,210 185,40" fill="#FFFFFF" stroke="#FB8C00" stroke-width="7"/>
+    <line x1="105" y1="150" x2="120" y2="160" stroke="#C62828" stroke-width="5"/>
+    <line x1="250" y1="150" x2="235" y2="160" stroke="#C62828" stroke-width="5"/>
+    <text x="185" y="260" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#0D47A1">ISOSCELE</text>
+    <text x="185" y="295" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#FB8C00">due lati uguali</text>
+  </g>
+
+  <!-- equilatero -->
+  <g transform="translate(610 140)">
+    <polygon points="0,210 210,210 105,28" fill="#FFFFFF" stroke="#66BB6A" stroke-width="7"/>
+    <line x1="98" y1="210" x2="112" y2="210" stroke="#C62828" stroke-width="5"/>
+    <line x1="50" y1="120" x2="62" y2="128" stroke="#C62828" stroke-width="5"/>
+    <line x1="160" y1="120" x2="148" y2="128" stroke="#C62828" stroke-width="5"/>
+    <text x="105" y="260" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#0D47A1">EQUILATERO</text>
+    <text x="105" y="295" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#66BB6A">tutti i lati uguali</text>
+  </g>
+</svg>
