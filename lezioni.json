@@ -1,25 +1,22 @@
-{
-  "versione": 2,
-  "lezioni": [
-    {
-      "id": "indo",
-      "file": "indo.json",
-      "titolo": "La civiltà dell’Indo",
-      "materia": "Storia",
-      "classe": "4 primaria",
-      "icona": "📘",
-      "descrizione": "Agricoltura, città, commercio, società e scrittura.",
-      "attiva": true
-    },
-    {
-      "id": "piante-riproduzione",
-      "file": "piante-riproduzione.json",
-      "titolo": "Le piante si riproducono",
-      "materia": "Scienze",
-      "classe": "4 primaria",
-      "icona": "🌸",
-      "descrizione": "Fiore, impollinazione, fecondazione, frutto, seme e germinazione.",
-      "attiva": true
-    }
-  ]
-}
+[
+  {
+    "id": "piante-riproduzione",
+    "titolo": "Le piante si riproducono",
+    "materia": "Scienze",
+    "classe": "4 primaria",
+    "icona": "🌸",
+    "descrizione": "Fiore, impollinazione, fecondazione, frutto, seme e germinazione.",
+    "attiva": true,
+    "file": "piante.json"
+  },
+  {
+    "id": "indo",
+    "titolo": "La civiltà dell’Indo",
+    "materia": "Storia",
+    "classe": "4 primaria",
+    "icona": "🏺",
+    "descrizione": "Agricoltura, città, commercio e società.",
+    "attiva": true,
+    "file": "indo.json"
+  }
+]
