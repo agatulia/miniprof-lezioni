@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#FFF8E1"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#1B5E20">Le piante si riproducono</text>
+
+  <!-- fiore -->
+  <g transform="translate(135 130)">
+    <rect x="90" y="130" width="25" height="100" rx="10" fill="#2E7D32"/>
+    <circle cx="102" cy="110" r="22" fill="#FFD54F"/>
+    <ellipse cx="102" cy="65" rx="24" ry="48" fill="#EC407A" stroke="#AD1457" stroke-width="4"/>
+    <ellipse cx="102" cy="155" rx="24" ry="48" fill="#EC407A" stroke="#AD1457" stroke-width="4"/>
+    <ellipse cx="58" cy="110" rx="48" ry="24" fill="#F06292" stroke="#AD1457" stroke-width="4"/>
+    <ellipse cx="146" cy="110" rx="48" ry="24" fill="#F06292" stroke="#AD1457" stroke-width="4"/>
+    <text x="102" y="270" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#AD1457">fiore</text>
+  </g>
+
+  <!-- ape -->
+  <g transform="translate(355 180)">
+    <ellipse cx="0" cy="0" rx="35" ry="24" fill="#FFCA28" stroke="#6D4C41" stroke-width="4"/>
+    <line x1="-10" y1="-22" x2="-10" y2="22" stroke="#6D4C41" stroke-width="5"/>
+    <line x1="10" y1="-22" x2="10" y2="22" stroke="#6D4C41" stroke-width="5"/>
+    <circle cx="35" cy="-3" r="18" fill="#6D4C41"/>
+    <ellipse cx="-15" cy="-35" rx="28" ry="14" fill="#B3E5FC" opacity="0.8"/>
+    <ellipse cx="15" cy="-35" rx="28" ry="14" fill="#B3E5FC" opacity="0.8"/>
+    <text x="0" y="105" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#6D4C41">impollinazione</text>
+  </g>
+
+  <!-- frutto -->
+  <g transform="translate(520 145)">
+    <path d="M70 35 C130 35 155 100 125 155 C100 205 35 205 10 155 C-20 100 10 35 70 35Z" fill="#E53935" stroke="#B71C1C" stroke-width="5"/>
+    <path d="M70 35 C75 10 95 0 120 10" stroke="#2E7D32" stroke-width="7" fill="none"/>
+    <path d="M118 10 C90 2 80 20 78 36" fill="#66BB6A" stroke="#2E7D32" stroke-width="4"/>
+    <circle cx="55" cy="120" r="8" fill="#FFFDE7"/>
+    <circle cx="85" cy="120" r="8" fill="#FFFDE7"/>
+    <text x="70" y="270" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#B71C1C">frutto e semi</text>
+  </g>
+
+  <!-- germinazione -->
+  <g transform="translate(730 160)">
+    <ellipse cx="50" cy="170" rx="45" ry="22" fill="#8D6E63" stroke="#5D4037" stroke-width="4"/>
+    <path d="M50 170 C45 130 55 95 75 70" stroke="#2E7D32" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <ellipse cx="92" cy="70" rx="45" ry="22" fill="#66BB6A" stroke="#2E7D32" stroke-width="4" transform="rotate(-25 92 70)"/>
+    <ellipse cx="55" cy="100" rx="40" ry="20" fill="#81C784" stroke="#2E7D32" stroke-width="4" transform="rotate(35 55 100)"/>
+    <text x="60" y="270" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#1B5E20">nuova pianta</text>
+  </g>
+
+  <!-- frecce -->
+  <g stroke="#FB8C00" stroke-width="9" fill="none" stroke-linecap="round">
+    <path d="M265 240 C300 220 320 210 350 195"/>
+    <path d="M405 195 C450 175 485 170 535 175"/>
+    <path d="M650 235 C695 250 720 270 760 300"/>
+  </g>
+  <path d="M350 195 L312 190 L330 220Z" fill="#FB8C00"/>
+  <path d="M535 175 L495 158 L502 198Z" fill="#FB8C00"/>
+  <path d="M760 300 L720 285 L735 325Z" fill="#FB8C00"/>
+</svg>
