@@ -1,52 +1,255 @@
 {
   "id": "piante-riproduzione",
-  "titolo": "Le piante si riproducono",
+  "titolo": "Le piante: nutrizione e riproduzione",
   "materia": "Scienze",
   "classe": "4 primaria",
-  "icona": "🌸",
-  "descrizione": "Fiore, impollinazione, fecondazione, frutto, seme e germinazione.",
+  "icona": "🌱",
+  "descrizione": "Fotosintesi, respirazione, traspirazione, fiore, frutto, seme e germinazione.",
   "attiva": true,
   "blocchi": [
     {
-      "title": "Perché le piante si riproducono",
-      "subject": "Le piante",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/piante-riproduzione.png",
-      "text": "Le piante sono esseri viventi. Come tutti gli esseri viventi, nascono, crescono, si nutrono, respirano e si riproducono. Riprodursi significa dare origine a nuove piante. Nelle piante con fiore, la riproduzione avviene proprio grazie al fiore.",
-      "keywords": [
-        "esseri viventi",
-        "riproduzione",
-        "nuove piante",
-        "fiore"
-      ],
+      "title": "Le piante sono esseri viventi",
+      "subject": "Introduzione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/piante-viventi.svg",
+      "text": "Le piante sono esseri viventi. Come tutti gli esseri viventi nascono, crescono, si nutrono, respirano e si riproducono.",
+      "keywords": ["esseri viventi", "nascere", "crescere", "nutrirsi", "respirare", "riprodursi"],
       "remember": [
         "Le piante sono esseri viventi.",
-        "Riprodursi significa dare origine a nuove piante.",
-        "Nelle piante con fiore, la riproduzione avviene grazie al fiore."
+        "Le piante nascono, crescono, si nutrono, respirano e si riproducono."
       ],
-      "question": "Che cosa significa riprodursi?",
+      "question": "Perché le piante sono esseri viventi?",
       "answers": [
-        "Dare origine a nuove piante",
-        "Perdere le foglie",
-        "Assorbire solo acqua",
-        "Cambiare colore"
+        "Perché nascono, crescono, si nutrono, respirano e si riproducono",
+        "Perché stanno sempre ferme",
+        "Perché vivono solo nel bosco",
+        "Perché hanno i fiori"
       ],
       "correct": 0,
-      "exercise": "Riprodursi significa dare origine a nuove piante. Nelle piante con fiore, la riproduzione avviene grazie al fiore."
+      "exercise": "Le piante sono esseri viventi perché nascono, crescono, si nutrono, respirano e si riproducono."
+    },
+    {
+      "title": "Come si nutre una pianta",
+      "subject": "Nutrizione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/nutrizione-pianta.svg",
+      "text": "Le radici assorbono dal terreno acqua e sali minerali. Queste sostanze formano la linfa grezza, che sale nel fusto e arriva fino alle foglie.",
+      "keywords": ["radici", "acqua", "sali minerali", "linfa grezza", "fusto", "foglie"],
+      "remember": [
+        "Le radici assorbono acqua e sali minerali.",
+        "Acqua e sali minerali formano la linfa grezza.",
+        "La linfa grezza sale dal terreno alle foglie."
+      ],
+      "question": "Che cosa assorbono le radici?",
+      "answers": [
+        "Acqua e sali minerali",
+        "Ossigeno e polline",
+        "Solo acqua",
+        "Luce e calore"
+      ],
+      "correct": 0,
+      "exercise": "Le radici assorbono acqua e sali minerali dal terreno."
+    },
+    {
+      "title": "Linfa grezza e linfa elaborata",
+      "subject": "Nutrizione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/linfa-pianta.svg",
+      "text": "La linfa grezza arriva alle foglie. Nelle foglie la pianta produce il proprio nutrimento, chiamato linfa elaborata. La linfa elaborata viene poi distribuita a tutta la pianta.",
+      "keywords": ["linfa grezza", "linfa elaborata", "foglie", "nutrimento"],
+      "remember": [
+        "La linfa grezza arriva alle foglie.",
+        "La linfa elaborata è il nutrimento prodotto dalla pianta.",
+        "La linfa elaborata viene distribuita a tutta la pianta."
+      ],
+      "question": "Come si chiama il nutrimento prodotto dalla pianta?",
+      "answers": [
+        "Linfa elaborata",
+        "Linfa grezza",
+        "Polline",
+        "Nettare"
+      ],
+      "correct": 0,
+      "exercise": "Il nutrimento prodotto dalla pianta si chiama linfa elaborata."
+    },
+    {
+      "tipo": "collega",
+      "title": "Collega le funzioni della foglia",
+      "subject": "Ripasso",
+      "text": "Collega ogni funzione alla spiegazione corretta.",
+      "items": [
+        {
+          "parola": "Fotosintesi",
+          "opzioni": ["Produrre nutrimento", "Eliminare acqua in eccesso", "Respirare"],
+          "corretta": "Produrre nutrimento"
+        },
+        {
+          "parola": "Respirazione",
+          "opzioni": ["Produrre nutrimento", "Scambio di gas", "Fare i semi"],
+          "corretta": "Scambio di gas"
+        },
+        {
+          "parola": "Traspirazione",
+          "opzioni": ["Eliminare acqua in eccesso", "Assorbire il terreno", "Produrre polline"],
+          "corretta": "Eliminare acqua in eccesso"
+        }
+      ]
+    },
+    {
+      "title": "La fotosintesi clorofilliana",
+      "subject": "Fotosintesi",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/fotosintesi.svg",
+      "text": "Nelle foglie, grazie alla clorofilla e alla luce del Sole, la pianta trasforma acqua e anidride carbonica in nutrimento. Durante questo processo libera anche ossigeno. Questo processo si chiama fotosintesi clorofilliana.",
+      "keywords": ["fotosintesi clorofilliana", "clorofilla", "luce solare", "anidride carbonica", "ossigeno"],
+      "remember": [
+        "La fotosintesi avviene nelle foglie.",
+        "Per la fotosintesi servono luce, acqua e anidride carbonica.",
+        "La pianta produce nutrimento e libera ossigeno."
+      ],
+      "question": "Che cosa produce la pianta con la fotosintesi?",
+      "answers": [
+        "Nutrimento e ossigeno",
+        "Solo acqua",
+        "Solo anidride carbonica",
+        "Polline e semi"
+      ],
+      "correct": 0,
+      "exercise": "Con la fotosintesi la pianta produce nutrimento e libera ossigeno."
+    },
+    {
+      "title": "La clorofilla e gli stomi",
+      "subject": "Foglia",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/clorofilla-stomi.svg",
+      "text": "La clorofilla è una sostanza verde contenuta nelle foglie e serve ad assorbire la luce del Sole. Gli stomi sono piccole aperture presenti nelle foglie e permettono lo scambio di gas con l'ambiente.",
+      "keywords": ["clorofilla", "stomi", "foglie", "luce solare", "gas"],
+      "remember": [
+        "La clorofilla assorbe la luce del Sole.",
+        "Gli stomi sono piccole aperture delle foglie.",
+        "Attraverso gli stomi la pianta scambia i gas."
+      ],
+      "question": "Che cosa sono gli stomi?",
+      "answers": [
+        "Piccole aperture delle foglie",
+        "Le radici della pianta",
+        "I semi del fiore",
+        "Le venature del frutto"
+      ],
+      "correct": 0,
+      "exercise": "Gli stomi sono piccole aperture delle foglie che servono per lo scambio di gas."
+    },
+    {
+      "title": "La respirazione delle piante",
+      "subject": "Respirazione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/respirazione-giorno-notte.svg",
+      "text": "Le piante respirano come gli animali. Quando respirano assorbono ossigeno ed espellono anidride carbonica. La respirazione avviene sia di giorno sia di notte.",
+      "keywords": ["respirazione", "ossigeno", "anidride carbonica", "giorno", "notte"],
+      "remember": [
+        "Le piante respirano sempre.",
+        "Con la respirazione assorbono ossigeno.",
+        "Con la respirazione espellono anidride carbonica."
+      ],
+      "question": "Quale gas assorbe una pianta quando respira?",
+      "answers": [
+        "Ossigeno",
+        "Anidride carbonica",
+        "Vapore acqueo",
+        "Polline"
+      ],
+      "correct": 0,
+      "exercise": "Quando respira, la pianta assorbe ossigeno ed espelle anidride carbonica."
+    },
+    {
+      "tipo": "collega",
+      "title": "Di giorno o di notte?",
+      "subject": "Respirazione e fotosintesi",
+      "text": "Scegli il momento giusto.",
+      "items": [
+        {
+          "parola": "La pianta fa fotosintesi",
+          "opzioni": ["Di giorno", "Di notte"],
+          "corretta": "Di giorno"
+        },
+        {
+          "parola": "La pianta respira",
+          "opzioni": ["Solo di giorno", "Solo di notte", "Di giorno e di notte"],
+          "corretta": "Di giorno e di notte"
+        },
+        {
+          "parola": "La pianta libera ossigeno grazie alla fotosintesi",
+          "opzioni": ["Di giorno", "Di notte"],
+          "corretta": "Di giorno"
+        }
+      ]
+    },
+    {
+      "title": "La traspirazione",
+      "subject": "Traspirazione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/traspirazione.svg",
+      "text": "Le piante eliminano anche l'acqua assorbita in eccesso dalle radici. Questa acqua esce dalle foglie sotto forma di vapore acqueo attraverso gli stomi. Questo fenomeno si chiama traspirazione.",
+      "keywords": ["traspirazione", "acqua in eccesso", "vapore acqueo", "stomi"],
+      "remember": [
+        "La traspirazione elimina l'acqua in eccesso.",
+        "L'acqua esce sotto forma di vapore acqueo.",
+        "La traspirazione avviene attraverso gli stomi."
+      ],
+      "question": "Che cosa eliminano le piante con la traspirazione?",
+      "answers": [
+        "Acqua in eccesso sotto forma di vapore acqueo",
+        "Solo ossigeno",
+        "Solo semi",
+        "Solo polline"
+      ],
+      "correct": 0,
+      "exercise": "Con la traspirazione le piante eliminano acqua in eccesso sotto forma di vapore acqueo."
+    },
+    {
+      "title": "Esperimento del sacchetto",
+      "subject": "Scienza in azione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/esperimento-sacchetto.svg",
+      "text": "Se si avvolgono le foglie di una pianta con un sacchetto di plastica, dopo qualche ora il sacchetto diventa umido all'interno. Questo dimostra che le foglie liberano vapore acqueo.",
+      "keywords": ["esperimento", "sacchetto", "umidità", "vapore acqueo"],
+      "remember": [
+        "Il sacchetto diventa umido all'interno.",
+        "L'umidità viene dalle foglie.",
+        "L'esperimento dimostra la traspirazione."
+      ],
+      "question": "Perché il sacchetto diventa umido?",
+      "answers": [
+        "Perché le foglie liberano vapore acqueo",
+        "Perché entra pioggia",
+        "Perché le radici si bagnano",
+        "Perché il fiore si apre"
+      ],
+      "correct": 0,
+      "exercise": "Il sacchetto diventa umido perché le foglie liberano vapore acqueo."
+    },
+    {
+      "title": "Le piante si riproducono",
+      "subject": "Riproduzione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/piante-riproduzione.svg",
+      "text": "Perché nasca una nuova pianta devono incontrarsi una cellula maschile e una cellula femminile. Nelle angiosperme, cioè le piante con il fiore, la riproduzione avviene proprio nel fiore.",
+      "keywords": ["riproduzione", "cellula maschile", "cellula femminile", "fiore", "angiosperme"],
+      "remember": [
+        "La riproduzione fa nascere nuove piante.",
+        "Servono una cellula maschile e una cellula femminile.",
+        "Nelle piante con fiore la riproduzione avviene nel fiore."
+      ],
+      "question": "Dove avviene la riproduzione nelle piante con fiore?",
+      "answers": [
+        "Nel fiore",
+        "Nelle foglie",
+        "Nel terreno",
+        "Nel fusto"
+      ],
+      "correct": 0,
+      "exercise": "Nelle piante con fiore la riproduzione avviene nel fiore."
     },
     {
       "title": "Il fiore e le sue parti",
-      "subject": "Il fiore",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/fiore-parti.png",
-      "text": "Il fiore ha diverse parti. I petali sono spesso colorati e attirano gli insetti. I sepali proteggono il fiore quando è ancora chiuso. Lo stame è la parte maschile del fiore. Il pistillo è la parte femminile del fiore.",
-      "keywords": [
-        "petalo",
-        "sepalo",
-        "stame",
-        "pistillo"
-      ],
+      "subject": "Fiore",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/fiore-parti.svg",
+      "text": "Il fiore ha diverse parti importanti: petali, sepali, stami, antere, pistillo, ovario e ovuli. I petali attirano gli insetti. I sepali proteggono il fiore chiuso. Lo stame è la parte maschile. Il pistillo è la parte femminile.",
+      "keywords": ["petalo", "sepalo", "stame", "antera", "pistillo", "ovario", "ovulo"],
       "remember": [
         "I petali attirano gli insetti.",
-        "I sepali proteggono il fiore quando è chiuso.",
+        "I sepali proteggono il fiore.",
         "Lo stame è la parte maschile.",
         "Il pistillo è la parte femminile."
       ],
@@ -58,23 +261,28 @@
         "Il sepalo"
       ],
       "correct": 0,
-      "exercise": "Il pistillo è la parte femminile del fiore. Lo stame, invece, è la parte maschile."
+      "exercise": "Il pistillo è la parte femminile del fiore, mentre lo stame è la parte maschile."
     },
     {
       "tipo": "clicca_fiore",
-      "title": "Clicca sulle parti del fiore",
-      "subject": "Il fiore",
-      "text": "Osserva il fiore e tocca la parte corretta quando leggi la domanda.",
+      "title": "Tocca la parte giusta del fiore",
+      "subject": "Interattivo",
+      "text": "Leggi la domanda e clicca la parte corretta del fiore.",
       "domande": [
         {
           "q": "Clicca sui petali.",
           "risposta": "petalo",
-          "ok": "Brava! I petali sono colorati e attirano gli insetti."
+          "ok": "Brava! I petali attirano gli insetti."
+        },
+        {
+          "q": "Clicca sui sepali.",
+          "risposta": "sepalo",
+          "ok": "Esatto! I sepali proteggono il fiore."
         },
         {
           "q": "Clicca sullo stame.",
           "risposta": "stame",
-          "ok": "Giusto! Lo stame è la parte maschile del fiore."
+          "ok": "Giusto! Lo stame è la parte maschile."
         },
         {
           "q": "Clicca sulle antere.",
@@ -84,33 +292,352 @@
         {
           "q": "Clicca sul pistillo.",
           "risposta": "pistillo",
-          "ok": "Esatto! Il pistillo è la parte femminile del fiore."
+          "ok": "Benissimo! Il pistillo è la parte femminile."
         },
         {
-          "q": "Clicca sull’ovario.",
+          "q": "Clicca sull'ovario.",
           "risposta": "ovario",
-          "ok": "Benissimo! L’ovario contiene gli ovuli."
+          "ok": "Ottimo! L'ovario contiene gli ovuli."
+        }
+      ]
+    },
+    {
+      "title": "Parte maschile e parte femminile",
+      "subject": "Fiore",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/stame-pistillo.svg",
+      "text": "Lo stame è la parte maschile del fiore e comprende il filamento e l'antera. Il pistillo è la parte femminile del fiore. Alla sua base si trova l'ovario, che contiene gli ovuli.",
+      "keywords": ["stame", "filamento", "antera", "pistillo", "ovario", "ovuli"],
+      "remember": [
+        "Lo stame è la parte maschile.",
+        "Nel pistillo si trova l'ovario.",
+        "Nell'ovario ci sono gli ovuli."
+      ],
+      "question": "Che cosa contiene l'ovario?",
+      "answers": [
+        "Gli ovuli",
+        "I petali",
+        "Il nettare",
+        "Le foglie"
+      ],
+      "correct": 0,
+      "exercise": "L'ovario contiene gli ovuli, che hanno le cellule femminili."
+    },
+    {
+      "tipo": "collega",
+      "title": "Maschile o femminile?",
+      "subject": "Interattivo",
+      "text": "Collega ogni parte alla descrizione corretta.",
+      "items": [
+        {
+          "parola": "Stame",
+          "opzioni": ["Parte maschile", "Parte femminile", "Parte del seme"],
+          "corretta": "Parte maschile"
         },
         {
-          "q": "Clicca sui sepali.",
-          "risposta": "sepalo",
-          "ok": "Ottimo! I sepali proteggono il fiore quando è chiuso."
+          "parola": "Pistillo",
+          "opzioni": ["Parte femminile", "Parte maschile", "Parte del frutto"],
+          "corretta": "Parte femminile"
+        },
+        {
+          "parola": "Antera",
+          "opzioni": ["Produce il polline", "Protegge il fiore chiuso", "Contiene gli ovuli"],
+          "corretta": "Produce il polline"
+        },
+        {
+          "parola": "Ovario",
+          "opzioni": ["Contiene gli ovuli", "Produce il nettare", "Fa la fotosintesi"],
+          "corretta": "Contiene gli ovuli"
         }
+      ]
+    },
+    {
+      "title": "L'impollinazione",
+      "subject": "Riproduzione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/impollinazione.svg",
+      "text": "Il vento, gli insetti o l'acqua trasportano il polline, liberato dalle antere di un fiore, sul pistillo di un altro fiore. Questo passaggio si chiama impollinazione.",
+      "keywords": ["impollinazione", "polline", "antere", "pistillo", "vento", "insetti", "acqua"],
+      "remember": [
+        "L'impollinazione è il trasporto del polline.",
+        "Il polline passa dalle antere al pistillo.",
+        "Il trasporto può avvenire con vento, insetti o acqua."
+      ],
+      "question": "Che cos'è l'impollinazione?",
+      "answers": [
+        "Il trasporto del polline dalle antere al pistillo",
+        "La nascita del seme",
+        "La crescita delle radici",
+        "L'apertura del fiore"
+      ],
+      "correct": 0,
+      "exercise": "L'impollinazione è il trasporto del polline dalle antere al pistillo."
+    },
+    {
+      "tipo": "collega",
+      "title": "Insetti o vento?",
+      "subject": "Interattivo",
+      "text": "Collega il fiore al tipo di impollinazione.",
+      "items": [
+        {
+          "parola": "Fiore colorato e profumato",
+          "opzioni": ["Insetti", "Vento"],
+          "corretta": "Insetti"
+        },
+        {
+          "parola": "Fiore piccolo e non profumato",
+          "opzioni": ["Insetti", "Vento"],
+          "corretta": "Vento"
+        },
+        {
+          "parola": "Salvia",
+          "opzioni": ["Insetti", "Vento"],
+          "corretta": "Insetti"
+        },
+        {
+          "parola": "Avena",
+          "opzioni": ["Insetti", "Vento"],
+          "corretta": "Vento"
+        }
+      ]
+    },
+    {
+      "title": "La fecondazione",
+      "subject": "Riproduzione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/fecondazione.svg",
+      "text": "Dopo l'impollinazione, la cellula maschile scende fino all'ovulo e si unisce alla cellula femminile. Questo incontro si chiama fecondazione.",
+      "keywords": ["fecondazione", "cellula maschile", "cellula femminile", "ovulo"],
+      "remember": [
+        "La fecondazione viene dopo l'impollinazione.",
+        "Nella fecondazione si incontrano cellula maschile e femminile.",
+        "La cellula maschile raggiunge l'ovulo."
+      ],
+      "question": "Che cos'è la fecondazione?",
+      "answers": [
+        "L'unione della cellula maschile con la cellula femminile",
+        "Il trasporto del polline",
+        "La nascita della foglia",
+        "L'assorbimento dell'acqua"
+      ],
+      "correct": 0,
+      "exercise": "La fecondazione è l'unione della cellula maschile con la cellula femminile."
+    },
+    {
+      "title": "Dal fiore al frutto",
+      "subject": "Riproduzione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/dal-fiore-al-frutto.svg",
+      "text": "Dopo la fecondazione, l'ovulo fecondato si trasforma nel seme. L'ovario si ingrossa e si trasforma nel frutto. Il frutto protegge il seme.",
+      "keywords": ["ovulo fecondato", "seme", "ovario", "frutto"],
+      "remember": [
+        "L'ovulo fecondato diventa seme.",
+        "L'ovario diventa frutto.",
+        "Il frutto protegge il seme."
+      ],
+      "question": "Che cosa diventa l'ovario?",
+      "answers": [
+        "Frutto",
+        "Seme",
+        "Petalo",
+        "Radice"
+      ],
+      "correct": 0,
+      "exercise": "Dopo la fecondazione l'ovario diventa frutto."
+    },
+    {
+      "title": "Il frutto e il seme",
+      "subject": "Frutto e seme",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/frutto-seme.svg",
+      "text": "Il frutto può avere picciolo, buccia, polpa e seme. Il seme è formato da tegumento, cotiledone ed embrione. Il tegumento protegge il seme, il cotiledone contiene nutrimento e l'embrione è la futura piantina.",
+      "keywords": ["picciolo", "buccia", "polpa", "seme", "tegumento", "cotiledone", "embrione"],
+      "remember": [
+        "La buccia protegge il frutto.",
+        "La polpa è la parte carnosa.",
+        "Il tegumento protegge il seme.",
+        "L'embrione è la futura piantina."
+      ],
+      "question": "Che cos'è l'embrione?",
+      "answers": [
+        "La futura piantina",
+        "La buccia del frutto",
+        "La parte colorata del fiore",
+        "Il vapore acqueo"
+      ],
+      "correct": 0,
+      "exercise": "L'embrione è la futura piantina contenuta nel seme."
+    },
+    {
+      "tipo": "collega",
+      "title": "Parti del frutto e del seme",
+      "subject": "Interattivo",
+      "text": "Collega il nome alla funzione corretta.",
+      "items": [
+        {
+          "parola": "Buccia",
+          "opzioni": ["Parte esterna del frutto", "Futura piantina", "Parte verde della foglia"],
+          "corretta": "Parte esterna del frutto"
+        },
+        {
+          "parola": "Polpa",
+          "opzioni": ["Parte carnosa del frutto", "Rivestimento del seme", "Parte del fiore"],
+          "corretta": "Parte carnosa del frutto"
+        },
+        {
+          "parola": "Tegumento",
+          "opzioni": ["Protegge il seme", "Attira gli insetti", "Produce polline"],
+          "corretta": "Protegge il seme"
+        },
+        {
+          "parola": "Cotiledone",
+          "opzioni": ["Contiene sostanze nutritive", "Fa germinare il terreno", "Produce anidride carbonica"],
+          "corretta": "Contiene sostanze nutritive"
+        },
+        {
+          "parola": "Embrione",
+          "opzioni": ["Futura piantina", "Parte esterna del frutto", "Sostanza verde della foglia"],
+          "corretta": "Futura piantina"
+        }
+      ]
+    },
+    {
+      "title": "La disseminazione",
+      "subject": "Semi",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/disseminazione.svg",
+      "text": "Quando il frutto è maturo, i suoi semi si disperdono. La diffusione dei semi si chiama disseminazione o dispersione. I semi si allontanano dalla pianta madre per trovare un luogo adatto a germinare.",
+      "keywords": ["disseminazione", "dispersione", "semi", "pianta madre"],
+      "remember": [
+        "La disseminazione è la diffusione dei semi.",
+        "I semi si allontanano dalla pianta madre.",
+        "I semi cercano un luogo adatto a germinare."
+      ],
+      "question": "Come si chiama la diffusione dei semi?",
+      "answers": [
+        "Disseminazione",
+        "Respirazione",
+        "Fotosintesi",
+        "Fecondazione"
+      ],
+      "correct": 0,
+      "exercise": "La diffusione dei semi si chiama disseminazione o dispersione."
+    },
+    {
+      "tipo": "collega",
+      "title": "Come viaggiano i semi?",
+      "subject": "Interattivo",
+      "text": "Collega ogni pianta al modo in cui disperde i semi.",
+      "items": [
+        {
+          "parola": "Tarassaco",
+          "opzioni": ["Con il vento", "Attaccandosi agli animali", "Lanciando i semi"],
+          "corretta": "Con il vento"
+        },
+        {
+          "parola": "Bardana",
+          "opzioni": ["Con il vento", "Attaccandosi agli animali", "Lanciando i semi"],
+          "corretta": "Attaccandosi agli animali"
+        },
+        {
+          "parola": "Cocomero asinino",
+          "opzioni": ["Con il vento", "Attaccandosi agli animali", "Lanciando i semi"],
+          "corretta": "Lanciando i semi"
+        }
+      ]
+    },
+    {
+      "title": "La germinazione",
+      "subject": "Seme",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/germinazione.svg",
+      "text": "Se il seme trova un terreno adatto, acqua, aria e temperatura giusta, inizia la germinazione. La germinazione è il momento in cui dal seme nasce una nuova piantina. Prima esce la radichetta, poi il germoglio.",
+      "keywords": ["germinazione", "seme", "terreno", "radichetta", "germoglio"],
+      "remember": [
+        "La germinazione fa nascere una nuova piantina.",
+        "Il seme ha bisogno di condizioni adatte.",
+        "Prima nasce la radichetta, poi il germoglio."
+      ],
+      "question": "Che cos'è la germinazione?",
+      "answers": [
+        "La nascita di una nuova piantina dal seme",
+        "Il trasporto del polline",
+        "La produzione della foglia",
+        "L'uscita del vapore acqueo"
+      ],
+      "correct": 0,
+      "exercise": "La germinazione è il momento in cui dal seme nasce una nuova piantina."
+    },
+    {
+      "tipo": "sequenza",
+      "title": "Metti in ordine il ciclo della riproduzione",
+      "subject": "Interattivo",
+      "text": "Ripassa l'ordine corretto del ciclo.",
+      "items": [
+        "Fiore",
+        "Impollinazione",
+        "Fecondazione",
+        "Frutto",
+        "Seme",
+        "Disseminazione",
+        "Germinazione",
+        "Nuova pianta"
       ]
     }
   ],
   "domandePlus": [
     {
-      "q": "Che cosa significa riprodursi?",
-      "help": "Riprodursi significa dare origine a nuove piante."
+      "q": "Che cosa assorbono le radici dal terreno?",
+      "help": "Le radici assorbono acqua e sali minerali."
     },
     {
-      "q": "Quale parte della pianta serve alla riproduzione nelle piante con fiore?",
-      "help": "Nelle piante con fiore, la riproduzione avviene grazie al fiore."
+      "q": "Che cos'è la linfa grezza?",
+      "help": "La linfa grezza è formata da acqua e sali minerali assorbiti dalle radici."
     },
     {
-      "q": "A che cosa servono i petali?",
-      "help": "I petali sono spesso colorati e servono ad attirare gli insetti."
+      "q": "Che cos'è la linfa elaborata?",
+      "help": "La linfa elaborata è il nutrimento prodotto dalla pianta nelle foglie."
+    },
+    {
+      "q": "Che cos'è la fotosintesi clorofilliana?",
+      "help": "È il processo con cui la pianta produce nutrimento grazie alla luce, alla clorofilla, all'acqua e all'anidride carbonica."
+    },
+    {
+      "q": "Che cosa fa la pianta durante la respirazione?",
+      "help": "Assorbe ossigeno ed espelle anidride carbonica."
+    },
+    {
+      "q": "Che cos'è la traspirazione?",
+      "help": "È l'eliminazione dell'acqua in eccesso sotto forma di vapore acqueo."
+    },
+    {
+      "q": "Qual è la parte maschile del fiore?",
+      "help": "La parte maschile del fiore è lo stame."
+    },
+    {
+      "q": "Qual è la parte femminile del fiore?",
+      "help": "La parte femminile del fiore è il pistillo."
+    },
+    {
+      "q": "Che cos'è l'impollinazione?",
+      "help": "È il trasporto del polline dalle antere al pistillo."
+    },
+    {
+      "q": "Che cos'è la fecondazione?",
+      "help": "È l'unione della cellula maschile con la cellula femminile."
+    },
+    {
+      "q": "Che cosa diventa l'ovulo fecondato?",
+      "help": "L'ovulo fecondato diventa seme."
+    },
+    {
+      "q": "Che cosa diventa l'ovario?",
+      "help": "L'ovario si trasforma nel frutto."
+    },
+    {
+      "q": "Che cos'è la disseminazione?",
+      "help": "È la diffusione dei semi lontano dalla pianta madre."
+    },
+    {
+      "q": "Come si disperdono i semi del tarassaco?",
+      "help": "Si disperdono con il vento."
+    },
+    {
+      "q": "Che cos'è la germinazione?",
+      "help": "È il momento in cui dal seme nasce una nuova piantina."
     }
   ]
 }
