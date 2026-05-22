@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#E3F2FD"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="36" font-weight="700" fill="#C62828">La simmetria</text>
+
+  <rect x="100" y="90" width="700" height="70" rx="22" fill="#FFFFFF" stroke="#42A5F5" stroke-width="5"/>
+  <text x="450" y="120" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#0D47A1">
+    Una figura è simmetrica se piegandola
+  </text>
+  <text x="450" y="146" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#0D47A1">
+    le due parti si sovrappongono perfettamente
+  </text>
+
+  <polygon points="450,190 230,410 670,410" fill="#FFFFFF" stroke="#2E7D32" stroke-width="7"/>
+  <line x1="450" y1="190" x2="450" y2="410" stroke="#E53935" stroke-width="7" stroke-dasharray="12 10"/>
+  
+  <path d="M450 260 C400 280 360 320 330 370" stroke="#FFB300" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M450 260 C500 280 540 320 570 370" stroke="#FFB300" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <text x="450" y="455" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#C62828">
+    asse di simmetria
+  </text>
+</svg>
