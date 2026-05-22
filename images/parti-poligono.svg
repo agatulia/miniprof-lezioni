@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#FFF8E1"/>
+
+  <text x="450" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="800" fill="#C62828">
+    Le parti del poligono
+  </text>
+
+  <!-- poligono -->
+  <polygon points="260,135 520,100 700,230 610,390 320,370 190,245" fill="#FFFFFF" stroke="#2E7D32" stroke-width="9" stroke-linejoin="round"/>
+
+  <!-- vertici -->
+  <g fill="#E53935">
+    <circle cx="260" cy="135" r="12"/>
+    <circle cx="520" cy="100" r="12"/>
+    <circle cx="700" cy="230" r="12"/>
+    <circle cx="610" cy="390" r="12"/>
+    <circle cx="320" cy="370" r="12"/>
+    <circle cx="190" cy="245" r="12"/>
+  </g>
+
+  <!-- angoli colorati -->
+  <path d="M280 150 A40 40 0 0 1 305 132" fill="none" stroke="#FFB300" stroke-width="10" stroke-linecap="round"/>
+  <path d="M500 112 A40 40 0 0 1 545 118" fill="none" stroke="#FFB300" stroke-width="10" stroke-linecap="round"/>
+  <path d="M672 245 A40 40 0 0 1 682 200" fill="none" stroke="#FFB300" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- lato evidenziato -->
+  <line x1="320" y1="370" x2="610" y2="390" stroke="#1976D2" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- etichette -->
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="800">
+    <rect x="75" y="105" width="145" height="48" rx="16" fill="#FFFFFF" stroke="#E53935" stroke-width="4"/>
+    <text x="147" y="136" text-anchor="middle" fill="#E53935">vertice</text>
+    <line x1="220" y1="130" x2="260" y2="135" stroke="#E53935" stroke-width="5"/>
+
+    <rect x="635" y="410" width="115" height="48" rx="16" fill="#FFFFFF" stroke="#1976D2" stroke-width="4"/>
+    <text x="692" y="441" text-anchor="middle" fill="#0D47A1">lato</text>
+    <line x1="625" y1="412" x2="530" y2="385" stroke="#1976D2" stroke-width="5"/>
+
+    <rect x="705" y="115" width="130" height="48" rx="16" fill="#FFFFFF" stroke="#FFB300" stroke-width="4"/>
+    <text x="770" y="146" text-anchor="middle" fill="#F57F17">angolo</text>
+    <line x1="705" y1="150" x2="680" y2="210" stroke="#FFB300" stroke-width="5"/>
+
+    <rect x="330" y="430" width="240" height="45" rx="16" fill="#E3F2FD" stroke="#42A5F5" stroke-width="4"/>
+    <text x="450" y="459" text-anchor="middle" fill="#0D47A1">contorno</text>
+  </g>
+</svg>
