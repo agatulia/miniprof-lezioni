@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#FFF8E1"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#C62828">Perimetro del triangolo isoscele</text>
+
+  <polygon points="230,360 670,360 450,110" fill="#FFFFFF" stroke="#2E7D32" stroke-width="8"/>
+  <line x1="340" y1="225" x2="360" y2="240" stroke="#E53935" stroke-width="6"/>
+  <line x1="560" y1="225" x2="540" y2="240" stroke="#E53935" stroke-width="6"/>
+
+  <text x="330" y="245" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0D47A1" transform="rotate(-48 330 245)">lato uguale</text>
+  <text x="570" y="245" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0D47A1" transform="rotate(48 570 245)">lato uguale</text>
+  <text x="450" y="400" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#0D47A1">lato diverso</text>
+
+  <rect x="110" y="425" width="680" height="55" rx="18" fill="#FFFFFF" stroke="#FFB300" stroke-width="5"/>
+  <text x="450" y="461" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#0D47A1">
+    P = lato uguale × 2 + lato diverso
+  </text>
+</svg>
