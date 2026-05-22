@@ -49,7 +49,7 @@
     {
       "title": "Classificazione in base ai lati",
       "subject": "Tipi di triangoli",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/triangoli-lati.svg",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/triangoli-lati.png",
       "text": "In base alla lunghezza dei lati, un triangolo può essere scaleno, isoscele o equilatero. Il triangolo scaleno ha tutti i lati diversi. Il triangolo isoscele ha due lati uguali. Il triangolo equilatero ha tutti i lati uguali.",
       "keywords": ["scaleno", "isoscele", "equilatero", "lati"],
       "remember": [
@@ -88,7 +88,7 @@
     {
       "title": "Classificazione in base agli angoli",
       "subject": "Tipi di triangoli",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/triangoli-angoli.svg",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/triangoli-angoli.png",
       "text": "In base all'ampiezza degli angoli, un triangolo può essere acutangolo, ottusangolo o rettangolo. Il triangolo acutangolo ha tutti gli angoli acuti. Il triangolo ottusangolo ha un angolo ottuso. Il triangolo rettangolo ha un angolo retto.",
       "keywords": ["acutangolo", "ottusangolo", "rettangolo", "angolo acuto", "angolo ottuso", "angolo retto"],
       "remember": [
