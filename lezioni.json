@@ -28,4 +28,15 @@
   "descrizione": "Triangoli, lati, angoli, altezza, simmetria e perimetro.",
   "attiva": true,
   "file": "triangoli.json"
-}]
+},
+{
+  "id": "poligoni",
+  "titolo": "I poligoni",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "⬠",
+  "descrizione": "Poligoni, lati, vertici, angoli, classificazione e perimetro.",
+  "attiva": true,
+  "file": "poligoni.json"
+}
+  }]
