@@ -1,0 +1,495 @@
+{
+  "id": "poligoni",
+  "titolo": "I poligoni",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "⬠",
+  "descrizione": "Poligoni, lati, vertici, angoli, classificazione e perimetro.",
+  "attiva": true,
+  "blocchi": [
+    {
+      "title": "Che cos'è un poligono?",
+      "subject": "Geometria",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/poligoni-intro.svg",
+      "text": "Un poligono è una figura piana chiusa delimitata da una linea spezzata. La linea spezzata forma il contorno della figura.",
+      "keywords": ["poligono", "figura piana", "linea spezzata", "figura chiusa", "contorno"],
+      "remember": [
+        "Un poligono è una figura piana.",
+        "Il poligono è chiuso.",
+        "Il contorno è formato da una linea spezzata.",
+        "La linea spezzata è formata da segmenti."
+      ],
+      "question": "Che cos'è un poligono?",
+      "answers": [
+        "Una figura piana chiusa delimitata da una linea spezzata",
+        "Una linea curva aperta",
+        "Una figura sempre rotonda",
+        "Una figura senza lati"
+      ],
+      "correct": 0,
+      "exercise": "Un poligono è una figura piana chiusa delimitata da una linea spezzata."
+    },
+    {
+      "title": "Linee aperte e linee chiuse",
+      "subject": "Linee",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/linee-aperte-chiuse.svg",
+      "text": "Una linea aperta non racchiude una parte di piano. Una linea chiusa invece racchiude una parte di piano. Per formare un poligono serve una linea spezzata chiusa.",
+      "keywords": ["linea aperta", "linea chiusa", "linea spezzata", "poligono"],
+      "remember": [
+        "Una linea aperta non forma un poligono.",
+        "Una linea chiusa può racchiudere una parte di piano.",
+        "Per avere un poligono serve una linea spezzata chiusa."
+      ],
+      "question": "Quale linea può formare un poligono?",
+      "answers": [
+        "Una linea spezzata chiusa",
+        "Una linea curva aperta",
+        "Una linea spezzata aperta",
+        "Una linea che non si chiude"
+      ],
+      "correct": 0,
+      "exercise": "Per formare un poligono serve una linea spezzata chiusa."
+    },
+    {
+      "title": "Le parti del poligono",
+      "subject": "Lati, vertici e angoli",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/parti-poligono.svg",
+      "text": "I segmenti della linea spezzata si chiamano lati. I punti in cui si incontrano due lati consecutivi si chiamano vertici. A ogni vertice corrisponde un angolo.",
+      "keywords": ["lati", "vertici", "angoli", "segmenti"],
+      "remember": [
+        "I lati sono i segmenti del contorno.",
+        "I vertici sono i punti in cui si incontrano due lati.",
+        "A ogni vertice corrisponde un angolo.",
+        "In un poligono il numero dei lati, dei vertici e degli angoli è lo stesso."
+      ],
+      "question": "Che cosa sono i vertici?",
+      "answers": [
+        "I punti in cui si incontrano due lati",
+        "I lati più lunghi",
+        "Le parti curve",
+        "Solo gli angoli retti"
+      ],
+      "correct": 0,
+      "exercise": "I vertici sono i punti in cui si incontrano due lati consecutivi."
+    },
+    {
+      "tipo": "collega",
+      "title": "Parole del poligono",
+      "subject": "Interattivo",
+      "text": "Collega ogni parola alla spiegazione corretta.",
+      "items": [
+        {
+          "parola": "Lato",
+          "opzioni": ["Segmento del contorno", "Punto dove si incontrano due lati", "Spazio tra due lati"],
+          "corretta": "Segmento del contorno"
+        },
+        {
+          "parola": "Vertice",
+          "opzioni": ["Punto dove si incontrano due lati", "Linea curva", "Figura con tre lati"],
+          "corretta": "Punto dove si incontrano due lati"
+        },
+        {
+          "parola": "Angolo",
+          "opzioni": ["Spazio compreso tra due lati consecutivi", "Solo il lato più lungo", "Il nome di un triangolo"],
+          "corretta": "Spazio compreso tra due lati consecutivi"
+        },
+        {
+          "parola": "Contorno",
+          "opzioni": ["La linea che delimita la figura", "Il centro della figura", "Un punto esterno"],
+          "corretta": "La linea che delimita la figura"
+        }
+      ]
+    },
+    {
+      "title": "I poligoni si classificano",
+      "subject": "Classificazione",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/classificazione-poligoni.svg",
+      "text": "I poligoni si classificano in base al numero dei lati e degli angoli. Il triangolo ha 3 lati, il quadrilatero ha 4 lati, il pentagono ha 5 lati, l'esagono ha 6 lati, l'ettagono ha 7 lati e l'ottagono ha 8 lati.",
+      "keywords": ["triangolo", "quadrilatero", "pentagono", "esagono", "ettagono", "ottagono"],
+      "remember": [
+        "Il triangolo ha 3 lati.",
+        "Il quadrilatero ha 4 lati.",
+        "Il pentagono ha 5 lati.",
+        "L'esagono ha 6 lati.",
+        "L'ettagono ha 7 lati.",
+        "L'ottagono ha 8 lati."
+      ],
+      "question": "Come si chiama un poligono con 5 lati?",
+      "answers": ["Pentagono", "Triangolo", "Quadrilatero", "Esagono"],
+      "correct": 0,
+      "exercise": "Un poligono con 5 lati si chiama pentagono."
+    },
+    {
+      "tipo": "collega",
+      "title": "Conta i lati",
+      "subject": "Interattivo",
+      "text": "Collega il numero dei lati al nome del poligono.",
+      "items": [
+        {
+          "parola": "3 lati",
+          "opzioni": ["Triangolo", "Quadrilatero", "Pentagono"],
+          "corretta": "Triangolo"
+        },
+        {
+          "parola": "4 lati",
+          "opzioni": ["Quadrilatero", "Esagono", "Ottagono"],
+          "corretta": "Quadrilatero"
+        },
+        {
+          "parola": "5 lati",
+          "opzioni": ["Pentagono", "Triangolo", "Ettagono"],
+          "corretta": "Pentagono"
+        },
+        {
+          "parola": "6 lati",
+          "opzioni": ["Esagono", "Quadrilatero", "Pentagono"],
+          "corretta": "Esagono"
+        },
+        {
+          "parola": "7 lati",
+          "opzioni": ["Ettagono", "Ottagono", "Triangolo"],
+          "corretta": "Ettagono"
+        },
+        {
+          "parola": "8 lati",
+          "opzioni": ["Ottagono", "Esagono", "Quadrilatero"],
+          "corretta": "Ottagono"
+        }
+      ]
+    },
+    {
+      "title": "Poligoni e non poligoni",
+      "subject": "Riconoscere le figure",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/poligoni-non-poligoni.svg",
+      "text": "Non tutte le figure sono poligoni. Una figura con una linea curva non è un poligono. Una figura aperta non è un poligono. Per essere un poligono, la figura deve essere chiusa e formata solo da segmenti.",
+      "keywords": ["poligono", "non poligono", "linea curva", "figura aperta", "segmenti"],
+      "remember": [
+        "Il poligono è chiuso.",
+        "Il poligono è formato solo da segmenti.",
+        "Le figure curve non sono poligoni.",
+        "Le figure aperte non sono poligoni."
+      ],
+      "question": "Quale figura NON è un poligono?",
+      "answers": [
+        "Una figura con un lato curvo",
+        "Un triangolo",
+        "Un quadrato",
+        "Un pentagono"
+      ],
+      "correct": 0,
+      "exercise": "Una figura con una linea curva non è un poligono."
+    },
+    {
+      "tipo": "collega",
+      "title": "È poligono oppure no?",
+      "subject": "Interattivo",
+      "text": "Scegli se la descrizione indica un poligono o un non poligono.",
+      "items": [
+        {
+          "parola": "Figura chiusa formata solo da segmenti",
+          "opzioni": ["Poligono", "Non poligono"],
+          "corretta": "Poligono"
+        },
+        {
+          "parola": "Figura aperta",
+          "opzioni": ["Poligono", "Non poligono"],
+          "corretta": "Non poligono"
+        },
+        {
+          "parola": "Figura con una linea curva",
+          "opzioni": ["Poligono", "Non poligono"],
+          "corretta": "Non poligono"
+        },
+        {
+          "parola": "Figura chiusa con 5 lati dritti",
+          "opzioni": ["Poligono", "Non poligono"],
+          "corretta": "Poligono"
+        }
+      ]
+    },
+    {
+      "title": "Poligoni concavi e convessi",
+      "subject": "Tipi di poligoni",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/poligoni-concavi-convessi.svg",
+      "text": "Un poligono convesso non ha rientranze. Un poligono concavo invece ha una rientranza, cioè una parte che entra verso l'interno della figura.",
+      "keywords": ["convesso", "concavo", "rientranza"],
+      "remember": [
+        "Il poligono convesso non ha rientranze.",
+        "Il poligono concavo ha una rientranza.",
+        "Una rientranza è una parte che entra verso l'interno della figura."
+      ],
+      "question": "Come si chiama un poligono con una rientranza?",
+      "answers": ["Concavo", "Convesso", "Equilatero", "Rettangolo"],
+      "correct": 0,
+      "exercise": "Un poligono con una rientranza si chiama concavo."
+    },
+    {
+      "tipo": "collega",
+      "title": "Concavo o convesso?",
+      "subject": "Interattivo",
+      "text": "Scegli la parola corretta.",
+      "items": [
+        {
+          "parola": "Non ha rientranze",
+          "opzioni": ["Convesso", "Concavo"],
+          "corretta": "Convesso"
+        },
+        {
+          "parola": "Ha una rientranza",
+          "opzioni": ["Concavo", "Convesso"],
+          "corretta": "Concavo"
+        },
+        {
+          "parola": "Sembra entrare verso l'interno",
+          "opzioni": ["Concavo", "Convesso"],
+          "corretta": "Concavo"
+        },
+        {
+          "parola": "Tutti i lati formano un contorno senza rientranze",
+          "opzioni": ["Convesso", "Concavo"],
+          "corretta": "Convesso"
+        }
+      ]
+    },
+    {
+      "title": "Poligoni regolari e irregolari",
+      "subject": "Tipi di poligoni",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/poligoni-regolari-irregolari.svg",
+      "text": "Un poligono regolare ha tutti i lati uguali e tutti gli angoli uguali. Un poligono irregolare non ha tutti i lati e tutti gli angoli uguali.",
+      "keywords": ["regolare", "irregolare", "lati uguali", "angoli uguali"],
+      "remember": [
+        "Un poligono regolare ha tutti i lati uguali.",
+        "Un poligono regolare ha tutti gli angoli uguali.",
+        "Un poligono irregolare non ha tutti i lati e tutti gli angoli uguali."
+      ],
+      "question": "Quando un poligono è regolare?",
+      "answers": [
+        "Quando ha tutti i lati e tutti gli angoli uguali",
+        "Quando ha solo lati curvi",
+        "Quando è aperto",
+        "Quando ha sempre 3 lati"
+      ],
+      "correct": 0,
+      "exercise": "Un poligono regolare ha tutti i lati uguali e tutti gli angoli uguali."
+    },
+    {
+      "tipo": "collega",
+      "title": "Regolare o irregolare?",
+      "subject": "Interattivo",
+      "text": "Scegli il tipo corretto.",
+      "items": [
+        {
+          "parola": "Tutti i lati uguali e tutti gli angoli uguali",
+          "opzioni": ["Regolare", "Irregolare"],
+          "corretta": "Regolare"
+        },
+        {
+          "parola": "Lati di lunghezze diverse",
+          "opzioni": ["Regolare", "Irregolare"],
+          "corretta": "Irregolare"
+        },
+        {
+          "parola": "Angoli non tutti uguali",
+          "opzioni": ["Regolare", "Irregolare"],
+          "corretta": "Irregolare"
+        },
+        {
+          "parola": "Esagono con tutti i lati uguali e tutti gli angoli uguali",
+          "opzioni": ["Regolare", "Irregolare"],
+          "corretta": "Regolare"
+        }
+      ]
+    },
+    {
+      "title": "Le diagonali",
+      "subject": "Diagonali",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/diagonali-poligono.svg",
+      "text": "La diagonale è un segmento che unisce due vertici non consecutivi di un poligono. I vertici consecutivi sono vicini e sono già uniti da un lato. I vertici non consecutivi non sono vicini.",
+      "keywords": ["diagonale", "vertici", "non consecutivi", "segmento"],
+      "remember": [
+        "La diagonale è un segmento.",
+        "La diagonale unisce due vertici non consecutivi.",
+        "Due vertici consecutivi sono già uniti da un lato.",
+        "Nei poligoni con più lati si possono tracciare più diagonali."
+      ],
+      "question": "Che cosa unisce una diagonale?",
+      "answers": [
+        "Due vertici non consecutivi",
+        "Due lati curvi",
+        "Due punti fuori dalla figura",
+        "Solo due lati vicini"
+      ],
+      "correct": 0,
+      "exercise": "Una diagonale unisce due vertici non consecutivi di un poligono."
+    },
+    {
+      "title": "Il perimetro",
+      "subject": "Perimetro",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/perimetro-poligono.svg",
+      "text": "Il perimetro è la lunghezza del contorno di un poligono. Per calcolarlo bisogna sommare la lunghezza di tutti i lati.",
+      "keywords": ["perimetro", "contorno", "somma dei lati", "lunghezza"],
+      "remember": [
+        "Il perimetro è la lunghezza del contorno.",
+        "Per calcolare il perimetro si sommano tutti i lati.",
+        "Il perimetro si può misurare in centimetri, metri o altre unità di misura."
+      ],
+      "question": "Come si calcola il perimetro?",
+      "answers": [
+        "Sommando tutti i lati",
+        "Contando solo i vertici",
+        "Misurando solo un angolo",
+        "Disegnando una diagonale"
+      ],
+      "correct": 0,
+      "exercise": "Il perimetro si calcola sommando la lunghezza di tutti i lati."
+    },
+    {
+      "tipo": "collega",
+      "title": "Vero o falso sui poligoni",
+      "subject": "Interattivo",
+      "text": "Scegli se ogni frase è vera o falsa.",
+      "items": [
+        {
+          "parola": "Un poligono è una figura chiusa",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Vero"
+        },
+        {
+          "parola": "Un poligono può avere lati curvi",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Falso"
+        },
+        {
+          "parola": "Il triangolo ha 3 lati",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Vero"
+        },
+        {
+          "parola": "Il pentagono ha 6 lati",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Falso"
+        },
+        {
+          "parola": "La diagonale unisce due vertici non consecutivi",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Vero"
+        },
+        {
+          "parola": "Il perimetro è la somma dei lati",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Vero"
+        }
+      ]
+    },
+    {
+      "tipo": "sequenza",
+      "title": "Ripasso finale",
+      "subject": "Schema",
+      "text": "Ripassa le idee principali sui poligoni.",
+      "items": [
+        "Un poligono è una figura piana chiusa.",
+        "Il contorno è formato da una linea spezzata.",
+        "I segmenti del contorno si chiamano lati.",
+        "I punti in cui si incontrano due lati si chiamano vertici.",
+        "A ogni vertice corrisponde un angolo.",
+        "I poligoni si classificano in base al numero dei lati.",
+        "Un poligono può essere concavo o convesso.",
+        "Un poligono può essere regolare o irregolare.",
+        "La diagonale unisce due vertici non consecutivi.",
+        "Il perimetro è la somma della lunghezza di tutti i lati."
+      ]
+    },
+    {
+      "title": "Riassunto finale",
+      "subject": "Ripasso",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/mappa-poligoni.svg",
+      "text": "I poligoni sono figure piane chiuse delimitate da linee spezzate. Hanno lati, vertici e angoli. Si classificano in base al numero dei lati: triangoli, quadrilateri, pentagoni, esagoni e altri. Possono essere concavi o convessi, regolari o irregolari. Il perimetro è la somma di tutti i lati.",
+      "keywords": ["poligoni", "lati", "vertici", "angoli", "diagonali", "perimetro"],
+      "remember": [
+        "I poligoni sono figure chiuse formate da segmenti.",
+        "Hanno lati, vertici e angoli.",
+        "Si classificano in base al numero dei lati.",
+        "Il perimetro è la somma di tutti i lati."
+      ],
+      "question": "Quale frase è corretta?",
+      "answers": [
+        "Il poligono è una figura chiusa formata da segmenti",
+        "Il poligono è sempre una linea curva",
+        "Il poligono non ha vertici",
+        "Il poligono è sempre aperto"
+      ],
+      "correct": 0,
+      "exercise": "Il poligono è una figura chiusa formata da segmenti."
+    }
+  ],
+  "domandePlus": [
+    {
+      "q": "Che cos'è un poligono?",
+      "help": "È una figura piana chiusa delimitata da una linea spezzata."
+    },
+    {
+      "q": "Che cos'è una linea spezzata?",
+      "help": "È una linea formata da più segmenti."
+    },
+    {
+      "q": "Che cosa sono i lati di un poligono?",
+      "help": "Sono i segmenti che formano il contorno."
+    },
+    {
+      "q": "Che cosa sono i vertici?",
+      "help": "Sono i punti in cui si incontrano due lati consecutivi."
+    },
+    {
+      "q": "Che cosa corrisponde a ogni vertice?",
+      "help": "A ogni vertice corrisponde un angolo."
+    },
+    {
+      "q": "Come si classificano i poligoni?",
+      "help": "Si classificano in base al numero dei lati e degli angoli."
+    },
+    {
+      "q": "Come si chiama un poligono con 3 lati?",
+      "help": "Si chiama triangolo."
+    },
+    {
+      "q": "Come si chiama un poligono con 4 lati?",
+      "help": "Si chiama quadrilatero."
+    },
+    {
+      "q": "Come si chiama un poligono con 5 lati?",
+      "help": "Si chiama pentagono."
+    },
+    {
+      "q": "Come si chiama un poligono con 6 lati?",
+      "help": "Si chiama esagono."
+    },
+    {
+      "q": "Quando una figura non è un poligono?",
+      "help": "Quando è aperta oppure quando ha linee curve."
+    },
+    {
+      "q": "Che cos'è un poligono convesso?",
+      "help": "È un poligono senza rientranze."
+    },
+    {
+      "q": "Che cos'è un poligono concavo?",
+      "help": "È un poligono con una rientranza."
+    },
+    {
+      "q": "Quando un poligono è regolare?",
+      "help": "Quando ha tutti i lati uguali e tutti gli angoli uguali."
+    },
+    {
+      "q": "Che cos'è una diagonale?",
+      "help": "È un segmento che unisce due vertici non consecutivi."
+    },
+    {
+      "q": "Che cos'è il perimetro?",
+      "help": "È la lunghezza del contorno di una figura."
+    },
+    {
+      "q": "Come si calcola il perimetro?",
+      "help": "Si somma la lunghezza di tutti i lati."
+    }
+  ]
+}
