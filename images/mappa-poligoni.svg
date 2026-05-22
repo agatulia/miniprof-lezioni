@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#E3F2FD"/>
+
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="800" fill="#C62828">
+    Mappa dei poligoni
+  </text>
+
+  <!-- centro -->
+  <rect x="310" y="75" width="280" height="60" rx="22" fill="#FFFFFF" stroke="#2E7D32" stroke-width="5"/>
+  <text x="450" y="113" text-anchor="middle" font-family="Arial" font-size="27" font-weight="800" fill="#1B5E20">
+    POLIGONI
+  </text>
+
+  <!-- linee -->
+  <g stroke="#90A4AE" stroke-width="5">
+    <line x1="450" y1="135" x2="185" y2="200"/>
+    <line x1="450" y1="135" x2="450" y2="200"/>
+    <line x1="450" y1="135" x2="715" y2="200"/>
+    <line x1="450" y1="135" x2="275" y2="355"/>
+    <line x1="450" y1="135" x2="625" y2="355"/>
+  </g>
+
+  <!-- box -->
+  <g font-family="Arial" font-weight="800">
+    <rect x="55" y="185" width="260" height="85" rx="22" fill="#FFFFFF" stroke="#42A5F5" stroke-width="5"/>
+    <text x="185" y="218" text-anchor="middle" font-size="21" fill="#0D47A1">hanno</text>
+    <text x="185" y="246" text-anchor="middle" font-size="22" fill="#0D47A1">lati, vertici, angoli</text>
+
+    <rect x="320" y="185" width="260" height="85" rx="22" fill="#FFFFFF" stroke="#FFB300" stroke-width="5"/>
+    <text x="450" y="218" text-anchor="middle" font-size="21" fill="#E65100">sono figure</text>
+    <text x="450" y="246" text-anchor="middle" font-size="22" fill="#E65100">chiuse</text>
+
+    <rect x="585" y="185" width="260" height="85" rx="22" fill="#FFFFFF" stroke="#66BB6A" stroke-width="5"/>
+    <text x="715" y="218" text-anchor="middle" font-size="21" fill="#1B5E20">sono formati</text>
+    <text x="715" y="246" text-anchor="middle" font-size="22" fill="#1B5E20">da segmenti</text>
+
+    <rect x="130" y="345" width="290" height="105" rx="22" fill="#FFFFFF" stroke="#AB47BC" stroke-width="5"/>
+    <text x="275" y="378" text-anchor="middle" font-size="21" fill="#6A1B9A">si classificano</text>
+    <text x="275" y="405" text-anchor="middle" font-size="20" fill="#6A1B9A">per numero di lati</text>
+    <text x="275" y="432" text-anchor="middle" font-size="18" fill="#6A1B9A">3, 4, 5, 6, 7, 8...</text>
+
+    <rect x="480" y="345" width="290" height="105" rx="22" fill="#FFFFFF" stroke="#EF5350" stroke-width="5"/>
+    <text x="625" y="378" text-anchor="middle" font-size="21" fill="#C62828">possono essere</text>
+    <text x="625" y="405" text-anchor="middle" font-size="19" fill="#C62828">concavi o convessi</text>
+    <text x="625" y="432" text-anchor="middle" font-size="19" fill="#C62828">regolari o irregolari</text>
+  </g>
+</svg>
