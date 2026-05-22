@@ -18,5 +18,14 @@
     "descrizione": "Agricoltura, città, commercio e società.",
     "attiva": true,
     "file": "indo.json"
-  }
-]
+  },
+  {
+  "id": "triangoli",
+  "titolo": "I triangoli",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "🔺",
+  "descrizione": "Triangoli, lati, angoli, altezza, simmetria e perimetro.",
+  "attiva": true,
+  "file": "triangoli.json"
+}]
