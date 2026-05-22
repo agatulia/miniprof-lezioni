@@ -10,6 +10,16 @@
       "icona": "📘",
       "descrizione": "Agricoltura, città, commercio, società e scrittura.",
       "attiva": true
+    },
+    {
+      "id": "piante-riproduzione",
+      "file": "piante-riproduzione.json",
+      "titolo": "Le piante si riproducono",
+      "materia": "Scienze",
+      "classe": "4 primaria",
+      "icona": "🌸",
+      "descrizione": "Fiore, impollinazione, fecondazione, frutto, seme e germinazione.",
+      "attiva": true
     }
   ]
 }
