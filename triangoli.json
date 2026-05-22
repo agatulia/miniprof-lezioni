@@ -1,0 +1,489 @@
+{
+  "id": "triangoli",
+  "titolo": "I triangoli",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "🔺",
+  "descrizione": "Triangoli, lati, angoli, altezza, simmetria e perimetro.",
+  "attiva": true,
+  "blocchi": [
+    {
+      "title": "Che cos'è un poligono?",
+      "subject": "Geometria",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/poligoni-intro.svg",
+      "text": "Un poligono è una parte di piano delimitata da una linea spezzata chiusa. I segmenti della linea spezzata sono i lati del poligono. I punti in cui si incontrano due lati consecutivi sono i vertici. A ogni vertice corrisponde un angolo.",
+      "keywords": ["poligono", "linea spezzata chiusa", "lati", "vertici", "angoli"],
+      "remember": [
+        "Un poligono è delimitato da una linea spezzata chiusa.",
+        "I segmenti del contorno sono i lati.",
+        "I punti in cui si incontrano i lati sono i vertici.",
+        "A ogni vertice corrisponde un angolo."
+      ],
+      "question": "Che cos'è un poligono?",
+      "answers": [
+        "Una figura delimitata da una linea spezzata chiusa",
+        "Una figura sempre rotonda",
+        "Una linea aperta",
+        "Una figura senza lati"
+      ],
+      "correct": 0,
+      "exercise": "Un poligono è una figura piana delimitata da una linea spezzata chiusa."
+    },
+    {
+      "title": "Il triangolo",
+      "subject": "Geometria",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/triangolo-parti.svg",
+      "text": "Il triangolo è un poligono con tre lati, tre vertici e tre angoli. I triangoli possono essere classificati osservando la lunghezza dei lati oppure l'ampiezza degli angoli.",
+      "keywords": ["triangolo", "3 lati", "3 vertici", "3 angoli"],
+      "remember": [
+        "Il triangolo ha 3 lati.",
+        "Il triangolo ha 3 vertici.",
+        "Il triangolo ha 3 angoli.",
+        "I triangoli si classificano in base ai lati e in base agli angoli."
+      ],
+      "question": "Quanti lati ha un triangolo?",
+      "answers": ["3 lati", "4 lati", "5 lati", "2 lati"],
+      "correct": 0,
+      "exercise": "Il triangolo è un poligono con tre lati, tre vertici e tre angoli."
+    },
+    {
+      "title": "Classificazione in base ai lati",
+      "subject": "Tipi di triangoli",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/triangoli-lati.svg",
+      "text": "In base alla lunghezza dei lati, un triangolo può essere scaleno, isoscele o equilatero. Il triangolo scaleno ha tutti i lati diversi. Il triangolo isoscele ha due lati uguali. Il triangolo equilatero ha tutti i lati uguali.",
+      "keywords": ["scaleno", "isoscele", "equilatero", "lati"],
+      "remember": [
+        "Il triangolo scaleno ha tutti i lati diversi.",
+        "Il triangolo isoscele ha due lati uguali.",
+        "Il triangolo equilatero ha tutti i lati uguali."
+      ],
+      "question": "Quale triangolo ha tutti i lati uguali?",
+      "answers": ["Equilatero", "Scaleno", "Rettangolo", "Ottusangolo"],
+      "correct": 0,
+      "exercise": "Il triangolo equilatero ha tutti i lati uguali."
+    },
+    {
+      "tipo": "collega",
+      "title": "Collega il triangolo ai suoi lati",
+      "subject": "Interattivo",
+      "text": "Leggi il nome del triangolo e scegli la caratteristica corretta.",
+      "items": [
+        {
+          "parola": "Triangolo scaleno",
+          "opzioni": ["Ha tutti i lati diversi", "Ha due lati uguali", "Ha tutti i lati uguali"],
+          "corretta": "Ha tutti i lati diversi"
+        },
+        {
+          "parola": "Triangolo isoscele",
+          "opzioni": ["Ha tutti i lati diversi", "Ha due lati uguali", "Ha tutti i lati uguali"],
+          "corretta": "Ha due lati uguali"
+        },
+        {
+          "parola": "Triangolo equilatero",
+          "opzioni": ["Ha tutti i lati diversi", "Ha due lati uguali", "Ha tutti i lati uguali"],
+          "corretta": "Ha tutti i lati uguali"
+        }
+      ]
+    },
+    {
+      "title": "Classificazione in base agli angoli",
+      "subject": "Tipi di triangoli",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/triangoli-angoli.svg",
+      "text": "In base all'ampiezza degli angoli, un triangolo può essere acutangolo, ottusangolo o rettangolo. Il triangolo acutangolo ha tutti gli angoli acuti. Il triangolo ottusangolo ha un angolo ottuso. Il triangolo rettangolo ha un angolo retto.",
+      "keywords": ["acutangolo", "ottusangolo", "rettangolo", "angolo acuto", "angolo ottuso", "angolo retto"],
+      "remember": [
+        "Il triangolo acutangolo ha tutti gli angoli acuti.",
+        "Il triangolo ottusangolo ha un angolo ottuso.",
+        "Il triangolo rettangolo ha un angolo retto.",
+        "Un angolo retto misura 90 gradi."
+      ],
+      "question": "Quale triangolo ha un angolo retto?",
+      "answers": ["Triangolo rettangolo", "Triangolo equilatero", "Triangolo scaleno", "Triangolo acutangolo"],
+      "correct": 0,
+      "exercise": "Il triangolo rettangolo ha un angolo retto, cioè di 90 gradi."
+    },
+    {
+      "tipo": "collega",
+      "title": "Collega il triangolo ai suoi angoli",
+      "subject": "Interattivo",
+      "text": "Scegli la caratteristica corretta.",
+      "items": [
+        {
+          "parola": "Triangolo acutangolo",
+          "opzioni": ["Ha tutti gli angoli acuti", "Ha un angolo ottuso", "Ha un angolo retto"],
+          "corretta": "Ha tutti gli angoli acuti"
+        },
+        {
+          "parola": "Triangolo ottusangolo",
+          "opzioni": ["Ha tutti gli angoli acuti", "Ha un angolo ottuso", "Ha un angolo retto"],
+          "corretta": "Ha un angolo ottuso"
+        },
+        {
+          "parola": "Triangolo rettangolo",
+          "opzioni": ["Ha tutti gli angoli acuti", "Ha un angolo ottuso", "Ha un angolo retto"],
+          "corretta": "Ha un angolo retto"
+        }
+      ]
+    },
+    {
+      "title": "La somma degli angoli interni",
+      "subject": "Angoli",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/somma-angoli-triangolo.svg",
+      "text": "La somma degli angoli interni di ogni triangolo è sempre 180 gradi. Questo vale per tutti i triangoli: scaleni, isosceli, equilateri, acutangoli, ottusangoli e rettangoli.",
+      "keywords": ["angoli interni", "somma", "180 gradi"],
+      "remember": [
+        "Ogni triangolo ha tre angoli interni.",
+        "La somma degli angoli interni di un triangolo è sempre 180 gradi.",
+        "Questa regola vale per tutti i triangoli."
+      ],
+      "question": "Quanto misura la somma degli angoli interni di un triangolo?",
+      "answers": ["180 gradi", "360 gradi", "90 gradi", "100 gradi"],
+      "correct": 0,
+      "exercise": "La somma degli angoli interni di ogni triangolo è sempre 180 gradi."
+    },
+    {
+      "title": "Base del triangolo",
+      "subject": "Base e altezza",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/base-triangolo.svg",
+      "text": "La base è il lato su cui il triangolo si appoggia. Nel triangolo ogni lato può fare da base: basta ruotare il triangolo e scegliere un lato diverso.",
+      "keywords": ["base", "lato", "triangolo"],
+      "remember": [
+        "La base è il lato su cui il triangolo si appoggia.",
+        "In un triangolo ogni lato può essere scelto come base.",
+        "Per cambiare base, puoi immaginare di ruotare il triangolo."
+      ],
+      "question": "Che cos'è la base di un triangolo?",
+      "answers": [
+        "Il lato su cui il triangolo si appoggia",
+        "Sempre il lato più lungo",
+        "Sempre il lato più corto",
+        "Il punto più alto"
+      ],
+      "correct": 0,
+      "exercise": "La base è il lato su cui il triangolo si appoggia."
+    },
+    {
+      "title": "Altezza del triangolo",
+      "subject": "Base e altezza",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/altezza-triangolo.svg",
+      "text": "L'altezza è il segmento che parte da un vertice e cade in modo perpendicolare sulla base o sul suo prolungamento, formando un angolo retto. Nel triangolo ottusangolo l'altezza può cadere fuori dal triangolo.",
+      "keywords": ["altezza", "vertice", "base", "perpendicolare", "angolo retto"],
+      "remember": [
+        "L'altezza parte da un vertice.",
+        "L'altezza cade sulla base o sul suo prolungamento.",
+        "L'altezza forma un angolo retto con la base.",
+        "Nel triangolo ottusangolo l'altezza può cadere fuori dalla figura."
+      ],
+      "question": "Che angolo forma l'altezza con la base?",
+      "answers": ["Un angolo retto", "Un angolo curvo", "Un angolo piatto sempre", "Nessun angolo"],
+      "correct": 0,
+      "exercise": "L'altezza è perpendicolare alla base e forma un angolo retto."
+    },
+    {
+      "tipo": "sequenza",
+      "title": "Come si disegna l'altezza",
+      "subject": "Procedura",
+      "text": "Ripassa i passaggi per disegnare l'altezza con righello e squadra.",
+      "items": [
+        "Scegli la base del triangolo.",
+        "Appoggia il righello sulla base.",
+        "Fai scorrere la squadra fino al vertice opposto alla base.",
+        "Traccia il segmento dal vertice alla base.",
+        "Controlla che il segmento formi un angolo retto."
+      ]
+    },
+    {
+      "title": "La simmetria",
+      "subject": "Simmetria",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/simmetria-triangoli.svg",
+      "text": "Una figura è simmetrica se puoi immaginare di piegarla lungo una linea e le due parti si sovrappongono perfettamente. Questa linea si chiama asse di simmetria. Non tutte le figure hanno assi di simmetria.",
+      "keywords": ["simmetria", "asse di simmetria", "piegare", "sovrapporre"],
+      "remember": [
+        "Una figura è simmetrica se le due parti si sovrappongono perfettamente.",
+        "La linea di piegatura si chiama asse di simmetria.",
+        "Non tutte le figure hanno assi di simmetria."
+      ],
+      "question": "Che cos'è un asse di simmetria?",
+      "answers": [
+        "Una linea che divide la figura in due parti sovrapponibili",
+        "Un lato sempre lungo",
+        "Una diagonale sempre curva",
+        "Il contorno della figura"
+      ],
+      "correct": 0,
+      "exercise": "L'asse di simmetria divide una figura in due parti che si sovrappongono perfettamente."
+    },
+    {
+      "title": "Simmetria nei triangoli",
+      "subject": "Simmetria",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/assi-simmetria-triangoli.svg",
+      "text": "Il triangolo isoscele possiede un asse di simmetria. Il triangolo equilatero possiede tre assi di simmetria. Il triangolo scaleno non possiede assi di simmetria.",
+      "keywords": ["triangolo isoscele", "triangolo equilatero", "triangolo scaleno", "assi di simmetria"],
+      "remember": [
+        "Il triangolo isoscele ha 1 asse di simmetria.",
+        "Il triangolo equilatero ha 3 assi di simmetria.",
+        "Il triangolo scaleno non ha assi di simmetria."
+      ],
+      "question": "Quanti assi di simmetria ha il triangolo equilatero?",
+      "answers": ["3", "1", "0", "4"],
+      "correct": 0,
+      "exercise": "Il triangolo equilatero ha tre assi di simmetria."
+    },
+    {
+      "tipo": "collega",
+      "title": "Simmetria detective",
+      "subject": "Interattivo",
+      "text": "Collega ogni triangolo al numero corretto di assi di simmetria.",
+      "items": [
+        {
+          "parola": "Triangolo scaleno",
+          "opzioni": ["0 assi", "1 asse", "3 assi"],
+          "corretta": "0 assi"
+        },
+        {
+          "parola": "Triangolo isoscele",
+          "opzioni": ["0 assi", "1 asse", "3 assi"],
+          "corretta": "1 asse"
+        },
+        {
+          "parola": "Triangolo equilatero",
+          "opzioni": ["0 assi", "1 asse", "3 assi"],
+          "corretta": "3 assi"
+        }
+      ]
+    },
+    {
+      "title": "Il perimetro",
+      "subject": "Perimetro",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/perimetro-poligono.svg",
+      "text": "Il perimetro di un poligono è la lunghezza della linea spezzata che forma il suo contorno. Per trovare il perimetro di una figura bisogna sommare la lunghezza di tutti i suoi lati.",
+      "keywords": ["perimetro", "contorno", "somma dei lati"],
+      "remember": [
+        "Il perimetro è la lunghezza del contorno.",
+        "Per calcolare il perimetro si sommano tutti i lati.",
+        "Il perimetro si misura, per esempio, in centimetri."
+      ],
+      "question": "Come si calcola il perimetro di un poligono?",
+      "answers": [
+        "Sommando la lunghezza di tutti i lati",
+        "Contando solo gli angoli",
+        "Misurando solo un lato",
+        "Colorando il contorno"
+      ],
+      "correct": 0,
+      "exercise": "Il perimetro si calcola sommando la lunghezza di tutti i lati."
+    },
+    {
+      "title": "Perimetro del triangolo scaleno",
+      "subject": "Perimetro",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/perimetro-triangolo-scaleno.svg",
+      "text": "Il triangolo scaleno ha tutti i lati diversi. Per calcolare il suo perimetro bisogna sommare la misura dei tre lati: P = lato 1 + lato 2 + lato 3.",
+      "keywords": ["triangolo scaleno", "perimetro", "somma dei lati"],
+      "remember": [
+        "Il triangolo scaleno ha tre lati diversi.",
+        "Il perimetro si calcola sommando i tre lati.",
+        "Formula: P = l1 + l2 + l3."
+      ],
+      "question": "Qual è la formula del perimetro del triangolo scaleno?",
+      "answers": [
+        "P = l1 + l2 + l3",
+        "P = lato x 3",
+        "P = lato x 4",
+        "P = base x altezza"
+      ],
+      "correct": 0,
+      "exercise": "Per il triangolo scaleno: P = l1 + l2 + l3."
+    },
+    {
+      "title": "Perimetro del triangolo isoscele",
+      "subject": "Perimetro",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/perimetro-triangolo-isoscele.svg",
+      "text": "Il triangolo isoscele ha due lati uguali e un lato diverso. Per calcolare il perimetro puoi fare: P = lato uguale x 2 + lato diverso.",
+      "keywords": ["triangolo isoscele", "due lati uguali", "perimetro"],
+      "remember": [
+        "Il triangolo isoscele ha due lati uguali.",
+        "Il terzo lato è diverso.",
+        "Formula: P = lato uguale x 2 + lato diverso."
+      ],
+      "question": "Come si calcola il perimetro del triangolo isoscele?",
+      "answers": [
+        "P = lato uguale x 2 + lato diverso",
+        "P = lato x 3",
+        "P = lato x 4",
+        "P = base x altezza"
+      ],
+      "correct": 0,
+      "exercise": "Per il triangolo isoscele: P = (lato uguale x 2) + lato diverso."
+    },
+    {
+      "title": "Perimetro del triangolo equilatero",
+      "subject": "Perimetro",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/perimetro-triangolo-equilatero.svg",
+      "text": "Il triangolo equilatero ha tutti i lati uguali. Per calcolare il perimetro puoi moltiplicare la misura di un lato per 3: P = lato x 3.",
+      "keywords": ["triangolo equilatero", "tutti i lati uguali", "perimetro"],
+      "remember": [
+        "Il triangolo equilatero ha tutti i lati uguali.",
+        "Il perimetro si calcola moltiplicando un lato per 3.",
+        "Formula: P = lato x 3."
+      ],
+      "question": "Qual è la formula del perimetro del triangolo equilatero?",
+      "answers": [
+        "P = lato x 3",
+        "P = lato x 4",
+        "P = l1 + l2",
+        "P = base x altezza"
+      ],
+      "correct": 0,
+      "exercise": "Per il triangolo equilatero: P = lato x 3."
+    },
+    {
+      "tipo": "collega",
+      "title": "Formula giusta",
+      "subject": "Interattivo",
+      "text": "Collega ogni triangolo alla formula del perimetro.",
+      "items": [
+        {
+          "parola": "Triangolo scaleno",
+          "opzioni": ["P = l1 + l2 + l3", "P = lato x 3", "P = lato x 4"],
+          "corretta": "P = l1 + l2 + l3"
+        },
+        {
+          "parola": "Triangolo isoscele",
+          "opzioni": ["P = lato uguale x 2 + lato diverso", "P = lato x 3", "P = lato x 4"],
+          "corretta": "P = lato uguale x 2 + lato diverso"
+        },
+        {
+          "parola": "Triangolo equilatero",
+          "opzioni": ["P = lato x 3", "P = lato x 4", "P = lato lungo + lato corto"],
+          "corretta": "P = lato x 3"
+        }
+      ]
+    },
+    {
+      "tipo": "collega",
+      "title": "Vero o falso sui triangoli",
+      "subject": "Interattivo",
+      "text": "Scegli se la frase è vera o falsa.",
+      "items": [
+        {
+          "parola": "Il triangolo ha tre lati",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Vero"
+        },
+        {
+          "parola": "Il triangolo scaleno ha tutti i lati uguali",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Falso"
+        },
+        {
+          "parola": "Il triangolo isoscele ha due lati uguali",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Vero"
+        },
+        {
+          "parola": "Il triangolo equilatero ha tre assi di simmetria",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Vero"
+        },
+        {
+          "parola": "La somma degli angoli interni di un triangolo è 360 gradi",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Falso"
+        },
+        {
+          "parola": "Il perimetro si calcola sommando i lati",
+          "opzioni": ["Vero", "Falso"],
+          "corretta": "Vero"
+        }
+      ]
+    },
+    {
+      "tipo": "sequenza",
+      "title": "Ripasso finale",
+      "subject": "Schema",
+      "text": "Ripassa l'ordine delle cose importanti da ricordare.",
+      "items": [
+        "Il triangolo è un poligono con 3 lati, 3 vertici e 3 angoli.",
+        "In base ai lati può essere scaleno, isoscele o equilatero.",
+        "In base agli angoli può essere acutangolo, ottusangolo o rettangolo.",
+        "La somma degli angoli interni è sempre 180 gradi.",
+        "La base è il lato su cui il triangolo si appoggia.",
+        "L'altezza parte da un vertice e cade perpendicolare alla base.",
+        "Il triangolo isoscele ha 1 asse di simmetria.",
+        "Il triangolo equilatero ha 3 assi di simmetria.",
+        "Il triangolo scaleno non ha assi di simmetria.",
+        "Il perimetro si calcola sommando i lati."
+      ]
+    }
+  ],
+  "domandePlus": [
+    {
+      "q": "Che cos'è un triangolo?",
+      "help": "È un poligono con tre lati, tre vertici e tre angoli."
+    },
+    {
+      "q": "Come si classificano i triangoli in base ai lati?",
+      "help": "Si classificano in scaleni, isosceli ed equilateri."
+    },
+    {
+      "q": "Che caratteristiche ha il triangolo scaleno?",
+      "help": "Ha tutti i lati diversi."
+    },
+    {
+      "q": "Che caratteristiche ha il triangolo isoscele?",
+      "help": "Ha due lati uguali."
+    },
+    {
+      "q": "Che caratteristiche ha il triangolo equilatero?",
+      "help": "Ha tutti i lati uguali."
+    },
+    {
+      "q": "Come si classificano i triangoli in base agli angoli?",
+      "help": "Si classificano in acutangoli, ottusangoli e rettangoli."
+    },
+    {
+      "q": "Che cos'è un triangolo rettangolo?",
+      "help": "È un triangolo che ha un angolo retto."
+    },
+    {
+      "q": "Quanto misura la somma degli angoli interni di un triangolo?",
+      "help": "Misura sempre 180 gradi."
+    },
+    {
+      "q": "Che cos'è la base di un triangolo?",
+      "help": "È il lato su cui il triangolo si appoggia."
+    },
+    {
+      "q": "Che cos'è l'altezza di un triangolo?",
+      "help": "È il segmento che parte da un vertice e cade perpendicolare alla base."
+    },
+    {
+      "q": "Quanti assi di simmetria ha il triangolo isoscele?",
+      "help": "Il triangolo isoscele ha un asse di simmetria."
+    },
+    {
+      "q": "Quanti assi di simmetria ha il triangolo equilatero?",
+      "help": "Il triangolo equilatero ha tre assi di simmetria."
+    },
+    {
+      "q": "Quanti assi di simmetria ha il triangolo scaleno?",
+      "help": "Il triangolo scaleno non ha assi di simmetria."
+    },
+    {
+      "q": "Che cos'è il perimetro?",
+      "help": "È la lunghezza del contorno di una figura."
+    },
+    {
+      "q": "Come si calcola il perimetro del triangolo scaleno?",
+      "help": "Si sommano i tre lati: P = l1 + l2 + l3."
+    },
+    {
+      "q": "Come si calcola il perimetro del triangolo isoscele?",
+      "help": "Si fa: P = lato uguale x 2 + lato diverso."
+    },
+    {
+      "q": "Come si calcola il perimetro del triangolo equilatero?",
+      "help": "Si fa: P = lato x 3."
+    }
+  ]
+}
