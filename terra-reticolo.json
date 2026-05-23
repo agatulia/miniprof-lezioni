@@ -12,12 +12,7 @@
       "subject": "Geografia",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/terra-forma.png",
       "text": "La Terra è un pianeta di forma quasi sferica.\nNon è una sfera perfetta: è leggermente schiacciata ai Poli.\nIl Polo Nord e il Polo Sud sono uniti da una linea immaginaria chiamata asse terrestre.\nLa Terra gira attorno al proprio asse.",
-      "keywords": [
-        "Terra",
-        "sfera",
-        "Poli",
-        "asse terrestre"
-      ],
+      "keywords": ["Terra", "sfera", "Poli", "asse terrestre"],
       "remember": [
         "La Terra è quasi sferica.",
         "È leggermente schiacciata ai Poli.",
@@ -38,12 +33,7 @@
       "subject": "Struttura della Terra",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/struttura-terra.png",
       "text": "La Terra è formata da diversi strati.\nLa parte più esterna si chiama crosta terrestre.\nSotto la crosta si trova il mantello.\nAl centro della Terra si trova il nucleo.\nIl nucleo è formato da nucleo esterno e nucleo interno.",
-      "keywords": [
-        "crosta",
-        "mantello",
-        "nucleo",
-        "strati"
-      ],
+      "keywords": ["crosta", "mantello", "nucleo", "strati"],
       "remember": [
         "Gli strati principali della Terra sono crosta, mantello e nucleo.",
         "La crosta è la parte esterna.",
@@ -64,13 +54,7 @@
       "subject": "Strati della Terra",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/strati-terra.png",
       "text": "La crosta terrestre è la parte su cui viviamo.\nSulla crosta si trovano continenti, oceani, montagne, pianure e tutte le forme di vita.\nIl mantello è sotto la crosta ed è formato da rocce molto calde.\nQuando il materiale caldo del mantello esce, può formare la lava dei vulcani.\nIl nucleo è la parte più interna della Terra.",
-      "keywords": [
-        "crosta terrestre",
-        "mantello",
-        "nucleo",
-        "vulcani",
-        "lava"
-      ],
+      "keywords": ["crosta terrestre", "mantello", "nucleo", "vulcani", "lava"],
       "remember": [
         "Noi viviamo sulla crosta terrestre.",
         "Il mantello contiene rocce molto calde.",
@@ -91,12 +75,7 @@
       "subject": "Superficie terrestre",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/oceani-continenti.png",
       "text": "La superficie della Terra è coperta soprattutto dall'acqua.\nCirca tre quarti della superficie terrestre sono occupati dalle acque.\nCirca un quarto è formato dalle terre emerse.\nLe acque formano grandi oceani e mari.\nLe terre emerse formano i continenti.",
-      "keywords": [
-        "acqua",
-        "terre emerse",
-        "oceani",
-        "continenti"
-      ],
+      "keywords": ["acqua", "terre emerse", "oceani", "continenti"],
       "remember": [
         "Sulla Terra c'è molta più acqua che terra.",
         "Le terre emerse formano i continenti.",
@@ -117,13 +96,7 @@
       "subject": "Equatore",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/equatore-emisferi.png",
       "text": "L'Equatore è una linea immaginaria che divide la Terra in due parti uguali.\nLa parte a nord dell'Equatore si chiama Emisfero Boreale o Settentrionale.\nLa parte a sud dell'Equatore si chiama Emisfero Australe o Meridionale.\nL'Europa si trova nell'Emisfero Boreale.",
-      "keywords": [
-        "Equatore",
-        "Emisfero Boreale",
-        "Emisfero Australe",
-        "Nord",
-        "Sud"
-      ],
+      "keywords": ["Equatore", "Emisfero Boreale", "Emisfero Australe", "Nord", "Sud"],
       "remember": [
         "L'Equatore divide la Terra in due emisferi.",
         "A nord c'è l'Emisfero Boreale.",
@@ -144,12 +117,7 @@
       "subject": "Reticolo geografico",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/reticolo-geografico.png",
       "text": "Sul globo terrestre possiamo immaginare tante linee orizzontali e verticali.\nLe linee orizzontali si chiamano paralleli.\nLe linee verticali si chiamano meridiani.\nParalleli e meridiani si incrociano formando il reticolo geografico.\nIl reticolo geografico serve per localizzare un punto sulla superficie terrestre.",
-      "keywords": [
-        "reticolo geografico",
-        "paralleli",
-        "meridiani",
-        "localizzare"
-      ],
+      "keywords": ["reticolo geografico", "paralleli", "meridiani", "localizzare"],
       "remember": [
         "Il reticolo geografico è formato da paralleli e meridiani.",
         "Serve per localizzare un punto sulla Terra.",
@@ -170,13 +138,7 @@
       "subject": "Paralleli",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/paralleli-latitudine.png",
       "text": "I paralleli sono linee immaginarie orizzontali.\nSono circonferenze parallele all'Equatore.\nIl parallelo più importante è l'Equatore, chiamato anche parallelo 0.\nI paralleli sono 180.\nLa distanza di un punto dall'Equatore si chiama latitudine.\nLa latitudine si misura in gradi Nord o Sud.",
-      "keywords": [
-        "paralleli",
-        "Equatore",
-        "latitudine",
-        "Nord",
-        "Sud"
-      ],
+      "keywords": ["paralleli", "Equatore", "latitudine", "Nord", "Sud"],
       "remember": [
         "I paralleli sono linee orizzontali.",
         "L'Equatore è il parallelo 0.",
@@ -197,13 +159,7 @@
       "subject": "Meridiani",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/meridiani-longitudine.png",
       "text": "I meridiani sono linee immaginarie verticali che passano per i Poli.\nI meridiani sono 360.\nIl meridiano fondamentale è il meridiano di Greenwich.\nIl meridiano di Greenwich è chiamato anche meridiano 0.\nLa distanza di un punto dal meridiano di Greenwich si chiama longitudine.\nLa longitudine si misura in gradi Est o Ovest.",
-      "keywords": [
-        "meridiani",
-        "Greenwich",
-        "longitudine",
-        "Est",
-        "Ovest"
-      ],
+      "keywords": ["meridiani", "Greenwich", "longitudine", "Est", "Ovest"],
       "remember": [
         "I meridiani sono linee verticali.",
         "Il meridiano fondamentale è quello di Greenwich.",
@@ -224,13 +180,7 @@
       "subject": "Punti cardinali",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/punti-cardinali.png",
       "text": "Per orientarci sulla Terra usiamo i punti cardinali.\nI punti cardinali principali sono Nord, Sud, Est e Ovest.\nIl Nord indica la direzione del Polo Nord.\nIl Sud indica la direzione del Polo Sud.\nEst è dove sorge il Sole.\nOvest è dove tramonta il Sole.",
-      "keywords": [
-        "Nord",
-        "Sud",
-        "Est",
-        "Ovest",
-        "punti cardinali"
-      ],
+      "keywords": ["Nord", "Sud", "Est", "Ovest", "punti cardinali"],
       "remember": [
         "I punti cardinali sono Nord, Sud, Est e Ovest.",
         "Il Sole sorge a Est.",
@@ -251,12 +201,7 @@
       "subject": "Carte geografiche",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/globo-planisfero.png",
       "text": "I cartografi rappresentano la Terra con strumenti diversi.\nIl globo terrestre rappresenta la Terra come una sfera.\nIl planisfero rappresenta tutta la superficie terrestre su un foglio piano.\nIl globo è più simile alla forma reale della Terra.\nIl planisfero è comodo per osservare tutta la Terra insieme.",
-      "keywords": [
-        "globo",
-        "planisfero",
-        "cartografi",
-        "Terra"
-      ],
+      "keywords": ["globo", "planisfero", "cartografi", "Terra"],
       "remember": [
         "Il globo rappresenta la Terra come una sfera.",
         "Il planisfero rappresenta la Terra su un foglio piano.",
