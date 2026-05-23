@@ -4,404 +4,327 @@
   "materia": "Geografia",
   "classe": "4 primaria",
   "icona": "🌍",
-  "descrizione": "Ripasso su struttura della Terra, oceani, continenti, emisferi, paralleli, meridiani e coordinate geografiche.",
-  "colore": "#2E7DFF",
-  "sezioni": [
+  "descrizione": "Forma della Terra, struttura interna, oceani, emisferi, paralleli, meridiani, latitudine e longitudine.",
+  "attiva": true,
+  "blocchi": [
     {
-      "id": "forma-terra",
-      "titolo": "La forma della Terra",
-      "immagine": "images/terra-forma.png",
-      "teoria": [
-        "La Terra è un pianeta di forma quasi sferica.",
-        "Non è una sfera perfetta: è leggermente schiacciata ai Poli.",
-        "Il Polo Nord e il Polo Sud sono uniti da una linea immaginaria chiamata asse terrestre.",
+      "title": "La forma della Terra",
+      "subject": "Geografia",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/terra-forma.png",
+      "text": "La Terra è un pianeta di forma quasi sferica.\nNon è una sfera perfetta: è leggermente schiacciata ai Poli.\nIl Polo Nord e il Polo Sud sono uniti da una linea immaginaria chiamata asse terrestre.\nLa Terra gira attorno al proprio asse.",
+      "keywords": [
+        "Terra",
+        "sfera",
+        "Poli",
+        "asse terrestre"
+      ],
+      "remember": [
+        "La Terra è quasi sferica.",
+        "È leggermente schiacciata ai Poli.",
         "La Terra gira attorno al proprio asse."
       ],
-      "ricorda": "La Terra è quasi una sfera, ma un po’ schiacciata ai Poli.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Che forma ha la Terra?",
-          "opzioni": [
-            "Quasi sferica",
-            "Perfettamente quadrata",
-            "Piatta",
-            "A forma di cubo"
-          ],
-          "risposta": "Quasi sferica"
-        },
-        {
-          "tipo": "vero-falso",
-          "domanda": "La Terra è leggermente schiacciata ai Poli.",
-          "risposta": true
-        }
-      ]
-    },
-    {
-      "id": "struttura-terra",
-      "titolo": "La struttura interna della Terra",
-      "immagine": "images/struttura-terra.png",
-      "teoria": [
-        "La Terra è formata da diversi strati.",
-        "La parte più esterna si chiama crosta terrestre.",
-        "Sotto la crosta si trova il mantello.",
-        "Al centro della Terra si trova il nucleo.",
-        "Il nucleo è formato da nucleo esterno e nucleo interno."
+      "question": "Che forma ha la Terra?",
+      "answers": [
+        "Quasi sferica",
+        "Perfettamente quadrata",
+        "Piatta",
+        "A forma di cubo"
       ],
-      "ricorda": "Gli strati principali della Terra sono: crosta, mantello e nucleo.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Qual è la parte più esterna della Terra?",
-          "opzioni": [
-            "Crosta terrestre",
-            "Nucleo interno",
-            "Mantello",
-            "Nucleo esterno"
-          ],
-          "risposta": "Crosta terrestre"
-        },
-        {
-          "tipo": "scelta",
-          "domanda": "Dove si trova il nucleo?",
-          "opzioni": [
-            "Al centro della Terra",
-            "Sopra le nuvole",
-            "Solo negli oceani",
-            "Fuori dalla Terra"
-          ],
-          "risposta": "Al centro della Terra"
-        }
-      ]
+      "correct": 0,
+      "exercise": "La Terra ha una forma quasi sferica ed è leggermente schiacciata ai Poli."
     },
     {
-      "id": "crosta-mantello-nucleo",
-      "titolo": "Crosta, mantello e nucleo",
-      "immagine": "images/strati-terra.png",
-      "teoria": [
-        "La crosta terrestre è la parte su cui viviamo.",
-        "Sulla crosta terrestre si trovano continenti, oceani, montagne, pianure e tutte le forme di vita.",
-        "Il mantello è sotto la crosta ed è formato da rocce molto calde.",
-        "Quando il materiale caldo del mantello riesce a uscire, può formare la lava dei vulcani.",
+      "title": "La struttura interna della Terra",
+      "subject": "Struttura della Terra",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/struttura-terra.png",
+      "text": "La Terra è formata da diversi strati.\nLa parte più esterna si chiama crosta terrestre.\nSotto la crosta si trova il mantello.\nAl centro della Terra si trova il nucleo.\nIl nucleo è formato da nucleo esterno e nucleo interno.",
+      "keywords": [
+        "crosta",
+        "mantello",
+        "nucleo",
+        "strati"
+      ],
+      "remember": [
+        "Gli strati principali della Terra sono crosta, mantello e nucleo.",
+        "La crosta è la parte esterna.",
+        "Il nucleo si trova al centro della Terra."
+      ],
+      "question": "Qual è la parte più esterna della Terra?",
+      "answers": [
+        "La crosta terrestre",
+        "Il nucleo interno",
+        "Il mantello",
+        "Il Sole"
+      ],
+      "correct": 0,
+      "exercise": "La parte più esterna della Terra si chiama crosta terrestre."
+    },
+    {
+      "title": "Crosta, mantello e nucleo",
+      "subject": "Strati della Terra",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/strati-terra.png",
+      "text": "La crosta terrestre è la parte su cui viviamo.\nSulla crosta si trovano continenti, oceani, montagne, pianure e tutte le forme di vita.\nIl mantello è sotto la crosta ed è formato da rocce molto calde.\nQuando il materiale caldo del mantello esce, può formare la lava dei vulcani.\nIl nucleo è la parte più interna della Terra.",
+      "keywords": [
+        "crosta terrestre",
+        "mantello",
+        "nucleo",
+        "vulcani",
+        "lava"
+      ],
+      "remember": [
+        "Noi viviamo sulla crosta terrestre.",
+        "Il mantello contiene rocce molto calde.",
         "Il nucleo è la parte più interna della Terra."
       ],
-      "ricorda": "Noi viviamo sulla crosta terrestre.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Su quale strato della Terra viviamo?",
-          "opzioni": [
-            "Sulla crosta terrestre",
-            "Nel nucleo",
-            "Nel mantello inferiore",
-            "Dentro il Sole"
-          ],
-          "risposta": "Sulla crosta terrestre"
-        },
-        {
-          "tipo": "vero-falso",
-          "domanda": "La lava può uscire attraverso i vulcani.",
-          "risposta": true
-        }
-      ]
+      "question": "Su quale strato della Terra viviamo?",
+      "answers": [
+        "Sulla crosta terrestre",
+        "Nel nucleo",
+        "Nel mantello",
+        "Dentro un vulcano"
+      ],
+      "correct": 0,
+      "exercise": "Noi viviamo sulla crosta terrestre."
     },
     {
-      "id": "acque-terre",
-      "titolo": "Acque e terre emerse",
-      "immagine": "images/oceani-continenti.png",
-      "teoria": [
-        "La superficie della Terra è coperta soprattutto dall’acqua.",
-        "Circa tre quarti della superficie terrestre sono occupati dalle acque.",
-        "Circa un quarto è formato dalle terre emerse.",
-        "Le acque formano tre grandi oceani: Oceano Pacifico, Oceano Atlantico e Oceano Indiano.",
-        "Le terre emerse formano i continenti."
+      "title": "Acque e terre emerse",
+      "subject": "Superficie terrestre",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/oceani-continenti.png",
+      "text": "La superficie della Terra è coperta soprattutto dall'acqua.\nCirca tre quarti della superficie terrestre sono occupati dalle acque.\nCirca un quarto è formato dalle terre emerse.\nLe acque formano grandi oceani e mari.\nLe terre emerse formano i continenti.",
+      "keywords": [
+        "acqua",
+        "terre emerse",
+        "oceani",
+        "continenti"
       ],
-      "ricorda": "Sulla Terra c’è molta più acqua che terra.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Quale parte occupa più superficie sulla Terra?",
-          "opzioni": [
-            "L’acqua",
-            "La terra",
-            "La sabbia",
-            "Il ghiaccio soltanto"
-          ],
-          "risposta": "L’acqua"
-        },
-        {
-          "tipo": "scelta",
-          "domanda": "Quali sono tre grandi oceani?",
-          "opzioni": [
-            "Pacifico, Atlantico e Indiano",
-            "Europa, Asia e Africa",
-            "Nord, Sud ed Est",
-            "Lago, fiume e mare"
-          ],
-          "risposta": "Pacifico, Atlantico e Indiano"
-        }
-      ]
+      "remember": [
+        "Sulla Terra c'è molta più acqua che terra.",
+        "Le terre emerse formano i continenti.",
+        "Le acque formano mari e oceani."
+      ],
+      "question": "Quale parte occupa più superficie sulla Terra?",
+      "answers": [
+        "L'acqua",
+        "La terra",
+        "La sabbia",
+        "Le montagne"
+      ],
+      "correct": 0,
+      "exercise": "La Terra è coperta soprattutto dall'acqua."
     },
     {
-      "id": "equatore-emisferi",
-      "titolo": "Equatore ed emisferi",
-      "immagine": "images/equatore-emisferi.png",
-      "teoria": [
-        "L’Equatore è una linea immaginaria che divide la Terra in due parti uguali.",
-        "La parte a nord dell’Equatore si chiama Emisfero Boreale o Settentrionale.",
-        "La parte a sud dell’Equatore si chiama Emisfero Australe o Meridionale.",
-        "L’Europa si trova nell’Emisfero Boreale."
+      "title": "Equatore ed emisferi",
+      "subject": "Equatore",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/equatore-emisferi.png",
+      "text": "L'Equatore è una linea immaginaria che divide la Terra in due parti uguali.\nLa parte a nord dell'Equatore si chiama Emisfero Boreale o Settentrionale.\nLa parte a sud dell'Equatore si chiama Emisfero Australe o Meridionale.\nL'Europa si trova nell'Emisfero Boreale.",
+      "keywords": [
+        "Equatore",
+        "Emisfero Boreale",
+        "Emisfero Australe",
+        "Nord",
+        "Sud"
       ],
-      "ricorda": "L’Equatore divide la Terra in Emisfero Boreale e Emisfero Australe.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Che cosa divide la Terra in due emisferi?",
-          "opzioni": [
-            "L’Equatore",
-            "Il meridiano di Greenwich",
-            "Il Polo Nord",
-            "L’oceano Pacifico"
-          ],
-          "risposta": "L’Equatore"
-        },
-        {
-          "tipo": "scelta",
-          "domanda": "Come si chiama l’emisfero a nord dell’Equatore?",
-          "opzioni": [
-            "Emisfero Boreale",
-            "Emisfero Australe",
-            "Emisfero Marino",
-            "Emisfero Occidentale"
-          ],
-          "risposta": "Emisfero Boreale"
-        }
-      ]
+      "remember": [
+        "L'Equatore divide la Terra in due emisferi.",
+        "A nord c'è l'Emisfero Boreale.",
+        "A sud c'è l'Emisfero Australe."
+      ],
+      "question": "Che cosa divide la Terra in due emisferi?",
+      "answers": [
+        "L'Equatore",
+        "Il meridiano di Greenwich",
+        "Il Polo Nord",
+        "L'oceano Pacifico"
+      ],
+      "correct": 0,
+      "exercise": "L'Equatore divide la Terra in Emisfero Boreale ed Emisfero Australe."
     },
     {
-      "id": "reticolo-geografico",
-      "titolo": "Il reticolo geografico",
-      "immagine": "images/reticolo-geografico.png",
-      "teoria": [
-        "Sul globo terrestre possiamo immaginare tante linee orizzontali e verticali.",
-        "Le linee orizzontali si chiamano paralleli.",
-        "Le linee verticali si chiamano meridiani.",
-        "Paralleli e meridiani si incrociano formando il reticolo geografico.",
-        "Il reticolo geografico serve per localizzare un punto sulla superficie terrestre."
+      "title": "Il reticolo geografico",
+      "subject": "Reticolo geografico",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/reticolo-geografico.png",
+      "text": "Sul globo terrestre possiamo immaginare tante linee orizzontali e verticali.\nLe linee orizzontali si chiamano paralleli.\nLe linee verticali si chiamano meridiani.\nParalleli e meridiani si incrociano formando il reticolo geografico.\nIl reticolo geografico serve per localizzare un punto sulla superficie terrestre.",
+      "keywords": [
+        "reticolo geografico",
+        "paralleli",
+        "meridiani",
+        "localizzare"
       ],
-      "ricorda": "Il reticolo geografico è formato da paralleli e meridiani.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Da che cosa è formato il reticolo geografico?",
-          "opzioni": [
-            "Da paralleli e meridiani",
-            "Solo da montagne",
-            "Solo da fiumi",
-            "Da oceani e vulcani"
-          ],
-          "risposta": "Da paralleli e meridiani"
-        },
-        {
-          "tipo": "vero-falso",
-          "domanda": "Il reticolo geografico aiuta a trovare un punto sulla Terra.",
-          "risposta": true
-        }
-      ]
+      "remember": [
+        "Il reticolo geografico è formato da paralleli e meridiani.",
+        "Serve per localizzare un punto sulla Terra.",
+        "Paralleli e meridiani si incrociano."
+      ],
+      "question": "Da che cosa è formato il reticolo geografico?",
+      "answers": [
+        "Da paralleli e meridiani",
+        "Solo da montagne",
+        "Solo da fiumi",
+        "Da mari e laghi"
+      ],
+      "correct": 0,
+      "exercise": "Il reticolo geografico è formato da paralleli e meridiani."
     },
     {
-      "id": "paralleli-latitudine",
-      "titolo": "I paralleli e la latitudine",
-      "immagine": "images/paralleli-latitudine.png",
-      "teoria": [
-        "I paralleli sono linee immaginarie orizzontali.",
-        "Sono circonferenze parallele all’Equatore.",
-        "Il parallelo più importante è l’Equatore, chiamato anche parallelo 0.",
-        "I paralleli sono 180.",
-        "La distanza di un punto dall’Equatore si chiama latitudine.",
-        "La latitudine si misura in gradi Nord o Sud."
+      "title": "I paralleli e la latitudine",
+      "subject": "Paralleli",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/paralleli-latitudine.png",
+      "text": "I paralleli sono linee immaginarie orizzontali.\nSono circonferenze parallele all'Equatore.\nIl parallelo più importante è l'Equatore, chiamato anche parallelo 0.\nI paralleli sono 180.\nLa distanza di un punto dall'Equatore si chiama latitudine.\nLa latitudine si misura in gradi Nord o Sud.",
+      "keywords": [
+        "paralleli",
+        "Equatore",
+        "latitudine",
+        "Nord",
+        "Sud"
       ],
-      "ricorda": "La latitudine indica quanto un luogo è distante dall’Equatore.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Come si chiamano le linee orizzontali del reticolo geografico?",
-          "opzioni": [
-            "Paralleli",
-            "Meridiani",
-            "Vulcani",
-            "Oceani"
-          ],
-          "risposta": "Paralleli"
-        },
-        {
-          "tipo": "scelta",
-          "domanda": "Che cosa indica la latitudine?",
-          "opzioni": [
-            "La distanza dall’Equatore",
-            "La distanza dal Sole",
-            "La profondità del mare",
-            "L’altezza delle montagne"
-          ],
-          "risposta": "La distanza dall’Equatore"
-        }
-      ]
+      "remember": [
+        "I paralleli sono linee orizzontali.",
+        "L'Equatore è il parallelo 0.",
+        "La latitudine indica la distanza dall'Equatore."
+      ],
+      "question": "Come si chiamano le linee orizzontali del reticolo geografico?",
+      "answers": [
+        "Paralleli",
+        "Meridiani",
+        "Vulcani",
+        "Oceani"
+      ],
+      "correct": 0,
+      "exercise": "La latitudine indica la distanza di un punto dall'Equatore."
     },
     {
-      "id": "meridiani-longitudine",
-      "titolo": "I meridiani e la longitudine",
-      "immagine": "images/meridiani-longitudine.png",
-      "teoria": [
-        "I meridiani sono linee immaginarie verticali che passano per i Poli.",
-        "I meridiani sono 360.",
-        "Il meridiano fondamentale è il meridiano di Greenwich.",
-        "Il meridiano di Greenwich è chiamato anche meridiano 0.",
-        "La distanza di un punto dal meridiano di Greenwich si chiama longitudine.",
-        "La longitudine si misura in gradi Est o Ovest."
+      "title": "I meridiani e la longitudine",
+      "subject": "Meridiani",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/meridiani-longitudine.png",
+      "text": "I meridiani sono linee immaginarie verticali che passano per i Poli.\nI meridiani sono 360.\nIl meridiano fondamentale è il meridiano di Greenwich.\nIl meridiano di Greenwich è chiamato anche meridiano 0.\nLa distanza di un punto dal meridiano di Greenwich si chiama longitudine.\nLa longitudine si misura in gradi Est o Ovest.",
+      "keywords": [
+        "meridiani",
+        "Greenwich",
+        "longitudine",
+        "Est",
+        "Ovest"
       ],
-      "ricorda": "La longitudine indica quanto un luogo è distante dal meridiano di Greenwich.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Come si chiamano le linee verticali che passano per i Poli?",
-          "opzioni": [
-            "Meridiani",
-            "Paralleli",
-            "Equatori",
-            "Continenti"
-          ],
-          "risposta": "Meridiani"
-        },
-        {
-          "tipo": "scelta",
-          "domanda": "Qual è il meridiano fondamentale?",
-          "opzioni": [
-            "Il meridiano di Greenwich",
-            "Il Tropico del Cancro",
-            "L’Equatore",
-            "Il Circolo Polare Artico"
-          ],
-          "risposta": "Il meridiano di Greenwich"
-        }
-      ]
+      "remember": [
+        "I meridiani sono linee verticali.",
+        "Il meridiano fondamentale è quello di Greenwich.",
+        "La longitudine indica la distanza dal meridiano di Greenwich."
+      ],
+      "question": "Qual è il meridiano fondamentale?",
+      "answers": [
+        "Il meridiano di Greenwich",
+        "L'Equatore",
+        "Il Tropico del Cancro",
+        "Il Polo Nord"
+      ],
+      "correct": 0,
+      "exercise": "La longitudine indica la distanza di un punto dal meridiano di Greenwich."
     },
     {
-      "id": "punti-cardinali",
-      "titolo": "Nord, Sud, Est e Ovest",
-      "immagine": "images/punti-cardinali.png",
-      "teoria": [
-        "Per orientarci sulla Terra usiamo i punti cardinali.",
-        "I punti cardinali principali sono Nord, Sud, Est e Ovest.",
-        "Il Nord indica la direzione del Polo Nord.",
-        "Il Sud indica la direzione del Polo Sud.",
-        "Est è dove sorge il Sole.",
-        "Ovest è dove tramonta il Sole."
+      "title": "Nord, Sud, Est e Ovest",
+      "subject": "Punti cardinali",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/punti-cardinali.png",
+      "text": "Per orientarci sulla Terra usiamo i punti cardinali.\nI punti cardinali principali sono Nord, Sud, Est e Ovest.\nIl Nord indica la direzione del Polo Nord.\nIl Sud indica la direzione del Polo Sud.\nEst è dove sorge il Sole.\nOvest è dove tramonta il Sole.",
+      "keywords": [
+        "Nord",
+        "Sud",
+        "Est",
+        "Ovest",
+        "punti cardinali"
       ],
-      "ricorda": "I punti cardinali sono Nord, Sud, Est e Ovest.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Quali sono i quattro punti cardinali principali?",
-          "opzioni": [
-            "Nord, Sud, Est e Ovest",
-            "Alto, basso, destra e sinistra",
-            "Europa, Asia, Africa e America",
-            "Acqua, aria, terra e fuoco"
-          ],
-          "risposta": "Nord, Sud, Est e Ovest"
-        },
-        {
-          "tipo": "scelta",
-          "domanda": "Dove sorge il Sole?",
-          "opzioni": [
-            "A Est",
-            "A Ovest",
-            "Al Polo Sud",
-            "Sotto terra"
-          ],
-          "risposta": "A Est"
-        }
-      ]
+      "remember": [
+        "I punti cardinali sono Nord, Sud, Est e Ovest.",
+        "Il Sole sorge a Est.",
+        "Il Sole tramonta a Ovest."
+      ],
+      "question": "Quali sono i quattro punti cardinali principali?",
+      "answers": [
+        "Nord, Sud, Est e Ovest",
+        "Alto, basso, destra e sinistra",
+        "Europa, Asia, Africa e America",
+        "Acqua, aria, terra e fuoco"
+      ],
+      "correct": 0,
+      "exercise": "I punti cardinali principali sono Nord, Sud, Est e Ovest."
     },
     {
-      "id": "globo-planisfero",
-      "titolo": "Globo terrestre e planisfero",
-      "immagine": "images/globo-planisfero.png",
-      "teoria": [
-        "I cartografi rappresentano la Terra con strumenti diversi.",
-        "Il globo terrestre rappresenta la Terra come una sfera.",
-        "Il planisfero rappresenta tutta la superficie terrestre su un foglio piano.",
-        "Il globo è più simile alla forma reale della Terra.",
-        "Il planisfero è comodo per osservare tutta la Terra insieme."
+      "title": "Globo terrestre e planisfero",
+      "subject": "Carte geografiche",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/globo-planisfero.png",
+      "text": "I cartografi rappresentano la Terra con strumenti diversi.\nIl globo terrestre rappresenta la Terra come una sfera.\nIl planisfero rappresenta tutta la superficie terrestre su un foglio piano.\nIl globo è più simile alla forma reale della Terra.\nIl planisfero è comodo per osservare tutta la Terra insieme.",
+      "keywords": [
+        "globo",
+        "planisfero",
+        "cartografi",
+        "Terra"
       ],
-      "ricorda": "Il globo è sferico, il planisfero è piatto.",
-      "domande": [
-        {
-          "tipo": "scelta",
-          "domanda": "Che cos’è il globo terrestre?",
-          "opzioni": [
-            "Una rappresentazione sferica della Terra",
-            "Una montagna",
-            "Una linea immaginaria",
-            "Un oceano"
-          ],
-          "risposta": "Una rappresentazione sferica della Terra"
-        },
-        {
-          "tipo": "scelta",
-          "domanda": "Che cos’è il planisfero?",
-          "opzioni": [
-            "Una rappresentazione piatta della Terra",
-            "Il nucleo della Terra",
-            "Un tipo di vulcano",
-            "Un parallelo"
-          ],
-          "risposta": "Una rappresentazione piatta della Terra"
-        }
-      ]
+      "remember": [
+        "Il globo rappresenta la Terra come una sfera.",
+        "Il planisfero rappresenta la Terra su un foglio piano.",
+        "Il globo è più simile alla forma reale della Terra."
+      ],
+      "question": "Che cos'è il planisfero?",
+      "answers": [
+        "Una rappresentazione piatta della Terra",
+        "Il nucleo della Terra",
+        "Un tipo di vulcano",
+        "Un parallelo"
+      ],
+      "correct": 0,
+      "exercise": "Il globo è sferico, mentre il planisfero è piatto."
     }
   ],
-  "ripasso_finale": [
+  "domandePlus": [
     {
-      "domanda": "Quali sono gli strati principali della Terra?",
-      "risposta": "Crosta terrestre, mantello e nucleo."
+      "q": "Che forma ha la Terra?",
+      "help": "La Terra ha una forma quasi sferica ed è leggermente schiacciata ai Poli."
     },
     {
-      "domanda": "Dove viviamo noi?",
-      "risposta": "Sulla crosta terrestre."
+      "q": "Quali sono gli strati principali della Terra?",
+      "help": "Gli strati principali sono crosta terrestre, mantello e nucleo."
     },
     {
-      "domanda": "Che cosa divide la Terra in Emisfero Boreale e Australe?",
-      "risposta": "L’Equatore."
+      "q": "Dove viviamo noi?",
+      "help": "Noi viviamo sulla crosta terrestre."
     },
     {
-      "domanda": "Come si chiamano le linee orizzontali del reticolo geografico?",
-      "risposta": "Paralleli."
+      "q": "Che cosa divide la Terra in Emisfero Boreale e Australe?",
+      "help": "L'Equatore divide la Terra in due emisferi."
     },
     {
-      "domanda": "Come si chiamano le linee verticali del reticolo geografico?",
-      "risposta": "Meridiani."
+      "q": "Come si chiamano le linee orizzontali del reticolo geografico?",
+      "help": "Le linee orizzontali si chiamano paralleli."
     },
     {
-      "domanda": "Che cosa indica la latitudine?",
-      "risposta": "La distanza di un punto dall’Equatore."
+      "q": "Come si chiamano le linee verticali del reticolo geografico?",
+      "help": "Le linee verticali si chiamano meridiani."
     },
     {
-      "domanda": "Che cosa indica la longitudine?",
-      "risposta": "La distanza di un punto dal meridiano di Greenwich."
+      "q": "Che cosa indica la latitudine?",
+      "help": "La latitudine indica la distanza di un punto dall'Equatore."
     },
     {
-      "domanda": "Qual è il meridiano fondamentale?",
-      "risposta": "Il meridiano di Greenwich."
+      "q": "Che cosa indica la longitudine?",
+      "help": "La longitudine indica la distanza di un punto dal meridiano di Greenwich."
     },
     {
-      "domanda": "Quali sono i quattro punti cardinali?",
-      "risposta": "Nord, Sud, Est e Ovest."
+      "q": "Qual è il meridiano fondamentale?",
+      "help": "Il meridiano fondamentale è il meridiano di Greenwich."
     },
     {
-      "domanda": "Qual è la differenza tra globo e planisfero?",
-      "risposta": "Il globo è sferico, il planisfero è piatto."
+      "q": "Quali sono i quattro punti cardinali?",
+      "help": "I quattro punti cardinali sono Nord, Sud, Est e Ovest."
+    },
+    {
+      "q": "Dove sorge il Sole?",
+      "help": "Il Sole sorge a Est."
+    },
+    {
+      "q": "Dove tramonta il Sole?",
+      "help": "Il Sole tramonta a Ovest."
+    },
+    {
+      "q": "Qual è la differenza tra globo e planisfero?",
+      "help": "Il globo è sferico, il planisfero è piatto."
     }
-  ],
-  "messaggio_finale": "Bravissima! Ora sai spiegare la Terra, i suoi strati, il reticolo geografico, i paralleli, i meridiani, la latitudine e la longitudine."
+  ]
 }
