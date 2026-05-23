@@ -10,7 +10,7 @@
     {
       "id": "forma-terra",
       "titolo": "La forma della Terra",
-      "immagine": "svg/terra-forma.svg",
+      "immagine": "images/terra-forma.png",
       "teoria": [
         "La Terra è un pianeta di forma quasi sferica.",
         "Non è una sfera perfetta: è leggermente schiacciata ai Poli.",
@@ -40,7 +40,7 @@
     {
       "id": "struttura-terra",
       "titolo": "La struttura interna della Terra",
-      "immagine": "svg/struttura-terra.svg",
+      "immagine": "images/struttura-terra.png",
       "teoria": [
         "La Terra è formata da diversi strati.",
         "La parte più esterna si chiama crosta terrestre.",
@@ -77,7 +77,7 @@
     {
       "id": "crosta-mantello-nucleo",
       "titolo": "Crosta, mantello e nucleo",
-      "immagine": "svg/strati-terra.svg",
+      "immagine": "images/strati-terra.png",
       "teoria": [
         "La crosta terrestre è la parte su cui viviamo.",
         "Sulla crosta terrestre si trovano continenti, oceani, montagne, pianure e tutte le forme di vita.",
@@ -108,7 +108,7 @@
     {
       "id": "acque-terre",
       "titolo": "Acque e terre emerse",
-      "immagine": "svg/oceani-continenti.svg",
+      "immagine": "images/oceani-continenti.png",
       "teoria": [
         "La superficie della Terra è coperta soprattutto dall’acqua.",
         "Circa tre quarti della superficie terrestre sono occupati dalle acque.",
@@ -145,7 +145,7 @@
     {
       "id": "equatore-emisferi",
       "titolo": "Equatore ed emisferi",
-      "immagine": "svg/equatore-emisferi.svg",
+      "immagine": "images/equatore-emisferi.png",
       "teoria": [
         "L’Equatore è una linea immaginaria che divide la Terra in due parti uguali.",
         "La parte a nord dell’Equatore si chiama Emisfero Boreale o Settentrionale.",
@@ -181,7 +181,7 @@
     {
       "id": "reticolo-geografico",
       "titolo": "Il reticolo geografico",
-      "immagine": "svg/reticolo-geografico.svg",
+      "immagine": "images/reticolo-geografico.png",
       "teoria": [
         "Sul globo terrestre possiamo immaginare tante linee orizzontali e verticali.",
         "Le linee orizzontali si chiamano paralleli.",
@@ -212,7 +212,7 @@
     {
       "id": "paralleli-latitudine",
       "titolo": "I paralleli e la latitudine",
-      "immagine": "svg/paralleli-latitudine.svg",
+      "immagine": "images/paralleli-latitudine.png",
       "teoria": [
         "I paralleli sono linee immaginarie orizzontali.",
         "Sono circonferenze parallele all’Equatore.",
@@ -250,7 +250,7 @@
     {
       "id": "meridiani-longitudine",
       "titolo": "I meridiani e la longitudine",
-      "immagine": "svg/meridiani-longitudine.svg",
+      "immagine": "images/meridiani-longitudine.png",
       "teoria": [
         "I meridiani sono linee immaginarie verticali che passano per i Poli.",
         "I meridiani sono 360.",
@@ -288,7 +288,7 @@
     {
       "id": "punti-cardinali",
       "titolo": "Nord, Sud, Est e Ovest",
-      "immagine": "svg/punti-cardinali.svg",
+      "immagine": "images/punti-cardinali.png",
       "teoria": [
         "Per orientarci sulla Terra usiamo i punti cardinali.",
         "I punti cardinali principali sono Nord, Sud, Est e Ovest.",
@@ -326,7 +326,7 @@
     {
       "id": "globo-planisfero",
       "titolo": "Globo terrestre e planisfero",
-      "immagine": "svg/globo-planisfero.svg",
+      "immagine": "images/globo-planisfero.png",
       "teoria": [
         "I cartografi rappresentano la Terra con strumenti diversi.",
         "Il globo terrestre rappresenta la Terra come una sfera.",
