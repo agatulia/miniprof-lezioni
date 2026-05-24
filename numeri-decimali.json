@@ -1,555 +1,205 @@
-[
-  {
-    "tipo": "teoria",
-    "titolo": "I numeri decimali",
-    "testo": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
-    "immagine": "",
-    "esempio": "Esempio: 3,45 si legge tre virgola quarantacinque."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Parte intera e parte decimale",
-    "testo": "In un numero decimale, la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
-    "immagine": "",
-    "esempio": "Nel numero 12,36: 12 è la parte intera, 36 è la parte decimale."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Riconosci la parte intera",
-    "domanda": "Nel numero 8,27 qual è la parte intera?",
-    "opzioni": ["8", "27", "2", "7"],
-    "risposta": "8",
-    "spiegazione": "La parte intera si trova prima della virgola."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Riconosci la parte decimale",
-    "domanda": "Nel numero 15,49 qual è la parte decimale?",
-    "opzioni": ["49", "15", "1", "5"],
-    "risposta": "49",
-    "spiegazione": "La parte decimale si trova dopo la virgola."
-  },
-  {
-    "tipo": "vero_falso",
-    "titolo": "Vero o falso?",
-    "domanda": "Nel numero 6,35 il numero 6 è la parte intera.",
-    "risposta": true,
-    "spiegazione": "È vero: 6 si trova prima della virgola."
-  },
-  {
-    "tipo": "vero_falso",
-    "titolo": "Vero o falso?",
-    "domanda": "Nel numero 9,12 la parte decimale è 9.",
-    "risposta": false,
-    "spiegazione": "È falso: 9 è la parte intera, mentre 12 è la parte decimale."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Decimi, centesimi e millesimi",
-    "testo": "Dopo la virgola troviamo le cifre decimali. La prima cifra dopo la virgola indica i decimi, la seconda i centesimi, la terza i millesimi.",
-    "immagine": "",
-    "esempio": "Nel numero 4,372: 3 sono i decimi, 7 sono i centesimi, 2 sono i millesimi."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Trova i decimi",
-    "domanda": "Nel numero 5,68 qual è la cifra dei decimi?",
-    "opzioni": ["6", "8", "5", "68"],
-    "risposta": "6",
-    "spiegazione": "I decimi sono la prima cifra dopo la virgola."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Trova i centesimi",
-    "domanda": "Nel numero 7,42 qual è la cifra dei centesimi?",
-    "opzioni": ["2", "4", "7", "42"],
-    "risposta": "2",
-    "spiegazione": "I centesimi sono la seconda cifra dopo la virgola."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Trova i millesimi",
-    "domanda": "Nel numero 3,519 qual è la cifra dei millesimi?",
-    "opzioni": ["9", "5", "1", "3"],
-    "risposta": "9",
-    "spiegazione": "I millesimi sono la terza cifra dopo la virgola."
-  },
-  {
-    "tipo": "input_numero",
-    "titolo": "Scrivi il numero",
-    "domanda": "Scrivi in cifre il numero: cinque virgola tre.",
-    "risposta": "5,3",
-    "accetta": ["5,3", "5.3"],
-    "spiegazione": "Cinque virgola tre si scrive 5,3."
-  },
-  {
-    "tipo": "input_numero",
-    "titolo": "Scrivi il numero",
-    "domanda": "Scrivi in cifre il numero: dodici virgola quarantacinque.",
-    "risposta": "12,45",
-    "accetta": ["12,45", "12.45"],
-    "spiegazione": "Dodici virgola quarantacinque si scrive 12,45."
-  },
-  {
-    "tipo": "input_numero",
-    "titolo": "Scrivi il numero",
-    "domanda": "Scrivi in cifre il numero: zero virgola otto.",
-    "risposta": "0,8",
-    "accetta": ["0,8", "0.8"],
-    "spiegazione": "Zero virgola otto si scrive 0,8."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Le frazioni decimali",
-    "testo": "Una frazione decimale ha come denominatore 10, 100 o 1000. Le frazioni decimali si possono trasformare in numeri decimali.",
-    "immagine": "",
-    "esempio": "3/10 = 0,3 — 25/100 = 0,25 — 125/1000 = 0,125"
-  },
-  {
-    "tipo": "frazione_decimale_match",
-    "titolo": "Collega frazione e numero decimale",
-    "domanda": "Abbina ogni frazione decimale al numero corretto.",
-    "coppie": [
-      {
-        "sinistra": "4/10",
-        "destra": "0,4"
-      },
-      {
-        "sinistra": "35/100",
-        "destra": "0,35"
-      },
-      {
-        "sinistra": "7/100",
-        "destra": "0,07"
-      },
-      {
-        "sinistra": "128/1000",
-        "destra": "0,128"
-      }
-    ],
-    "spiegazione": "Il denominatore ci aiuta a capire quante cifre devono stare dopo la virgola."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Da frazione a numero decimale",
-    "domanda": "Quale numero decimale corrisponde alla frazione 6/10?",
-    "opzioni": ["0,6", "0,06", "6,10", "60"],
-    "risposta": "0,6",
-    "spiegazione": "6/10 significa sei decimi, cioè 0,6."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Da frazione a numero decimale",
-    "domanda": "Quale numero decimale corrisponde alla frazione 45/100?",
-    "opzioni": ["0,45", "4,5", "45,100", "0,045"],
-    "risposta": "0,45",
-    "spiegazione": "45/100 significa quarantacinque centesimi, cioè 0,45."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Da numero decimale a frazione",
-    "domanda": "A quale frazione corrisponde 0,7?",
-    "opzioni": ["7/10", "7/100", "70/1000", "0/7"],
-    "risposta": "7/10",
-    "spiegazione": "0,7 ha una cifra dopo la virgola, quindi sono decimi: 7/10."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Da numero decimale a frazione",
-    "domanda": "A quale frazione corrisponde 0,09?",
-    "opzioni": ["9/100", "9/10", "90/10", "9/1000"],
-    "risposta": "9/100",
-    "spiegazione": "0,09 ha due cifre dopo la virgola, quindi sono centesimi: 9/100."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Gli zeri dopo la virgola",
-    "testo": "Gli zeri alla fine della parte decimale non cambiano il valore del numero.",
-    "immagine": "",
-    "esempio": "2,5 = 2,50 = 2,500"
-  },
-  {
-    "tipo": "vero_falso",
-    "titolo": "Numeri equivalenti",
-    "domanda": "2,4 e 2,40 hanno lo stesso valore.",
-    "risposta": true,
-    "spiegazione": "È vero: lo zero finale dopo la virgola non cambia il valore."
-  },
-  {
-    "tipo": "vero_falso",
-    "titolo": "Numeri equivalenti",
-    "domanda": "3,05 e 3,5 hanno lo stesso valore.",
-    "risposta": false,
-    "spiegazione": "È falso: 3,05 è minore di 3,5."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Scegli il numero equivalente",
-    "domanda": "Quale numero ha lo stesso valore di 6,8?",
-    "opzioni": ["6,80", "6,08", "68", "0,68"],
-    "risposta": "6,80",
-    "spiegazione": "6,8 e 6,80 valgono uguale."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Confrontare i numeri decimali",
-    "testo": "Per confrontare due numeri decimali, prima guardiamo la parte intera. Se la parte intera è uguale, confrontiamo i decimi, poi i centesimi, poi i millesimi.",
-    "immagine": "",
-    "esempio": "4,72 è maggiore di 4,68 perché i decimi sono uguali, ma 7 centesimi è maggiore di 6 centesimi."
-  },
-  {
-    "tipo": "confronta_numeri",
-    "titolo": "Confronta i numeri",
-    "domanda": "Inserisci il simbolo corretto: >, < oppure =",
-    "sinistra": "3,5",
-    "destra": "3,50",
-    "risposta": "=",
-    "spiegazione": "3,5 e 3,50 hanno lo stesso valore."
-  },
-  {
-    "tipo": "confronta_numeri",
-    "titolo": "Confronta i numeri",
-    "domanda": "Inserisci il simbolo corretto: >, < oppure =",
-    "sinistra": "4,28",
-    "destra": "4,35",
-    "risposta": "<",
-    "spiegazione": "4,28 è minore di 4,35 perché 28 centesimi sono meno di 35 centesimi."
-  },
-  {
-    "tipo": "confronta_numeri",
-    "titolo": "Confronta i numeri",
-    "domanda": "Inserisci il simbolo corretto: >, < oppure =",
-    "sinistra": "7,9",
-    "destra": "7,45",
-    "risposta": ">",
-    "spiegazione": "7,9 è uguale a 7,90 e 90 centesimi sono maggiori di 45 centesimi."
-  },
-  {
-    "tipo": "confronta_numeri",
-    "titolo": "Confronta i numeri",
-    "domanda": "Inserisci il simbolo corretto: >, < oppure =",
-    "sinistra": "0,08",
-    "destra": "0,8",
-    "risposta": "<",
-    "spiegazione": "0,08 sono otto centesimi, mentre 0,8 sono otto decimi."
-  },
-  {
-    "tipo": "ordina_numeri",
-    "titolo": "Ordina dal minore al maggiore",
-    "domanda": "Metti questi numeri in ordine crescente.",
-    "numeri": ["2,5", "2,05", "2,55", "2,15"],
-    "risposta": ["2,05", "2,15", "2,5", "2,55"],
-    "spiegazione": "Per aiutarti puoi scrivere 2,5 come 2,50."
-  },
-  {
-    "tipo": "ordina_numeri",
-    "titolo": "Ordina dal maggiore al minore",
-    "domanda": "Metti questi numeri in ordine decrescente.",
-    "numeri": ["0,7", "0,07", "0,77", "0,17"],
-    "risposta": ["0,77", "0,7", "0,17", "0,07"],
-    "spiegazione": "0,7 vale 0,70, quindi è maggiore di 0,17 e 0,07."
-  },
-  {
-    "tipo": "linea_numerica",
-    "titolo": "Linea numerica",
-    "domanda": "Quale numero si trova tra 1,2 e 1,4?",
-    "min": 1,
-    "max": 2,
-    "passo": 0.1,
-    "opzioni": ["1,1", "1,3", "1,5", "1,7"],
-    "risposta": "1,3",
-    "spiegazione": "1,3 si trova tra 1,2 e 1,4."
-  },
-  {
-    "tipo": "linea_numerica",
-    "titolo": "Linea numerica",
-    "domanda": "Quale numero viene subito dopo 0,6 contando per decimi?",
-    "min": 0,
-    "max": 1,
-    "passo": 0.1,
-    "opzioni": ["0,5", "0,7", "0,06", "0,60"],
-    "risposta": "0,7",
-    "spiegazione": "Contando per decimi: 0,5 — 0,6 — 0,7."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Addizioni con i numeri decimali",
-    "testo": "Per sommare i numeri decimali, bisogna mettere bene in colonna le virgole. Poi si sommano le cifre come nei numeri interi.",
-    "immagine": "",
-    "esempio": "2,35 + 1,40 = 3,75"
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Calcola la somma",
-    "domanda": "Quanto fa 1,2 + 0,3?",
-    "operazione": "1,2 + 0,3",
-    "risposta": "1,5",
-    "accetta": ["1,5", "1.5"],
-    "spiegazione": "1,2 più 0,3 fa 1,5."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Calcola la somma",
-    "domanda": "Quanto fa 2,45 + 1,30?",
-    "operazione": "2,45 + 1,30",
-    "risposta": "3,75",
-    "accetta": ["3,75", "3.75"],
-    "spiegazione": "45 centesimi più 30 centesimi fanno 75 centesimi."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Calcola la somma",
-    "domanda": "Quanto fa 0,8 + 0,15?",
-    "operazione": "0,8 + 0,15",
-    "risposta": "0,95",
-    "accetta": ["0,95", "0.95"],
-    "spiegazione": "0,8 è uguale a 0,80. 0,80 + 0,15 = 0,95."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Sottrazioni con i numeri decimali",
-    "testo": "Anche nelle sottrazioni bisogna mettere bene in colonna le virgole. Se serve, possiamo aggiungere uno zero alla fine del numero decimale.",
-    "immagine": "",
-    "esempio": "5,6 - 2,35 diventa 5,60 - 2,35 = 3,25"
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Calcola la differenza",
-    "domanda": "Quanto fa 4,5 - 1,2?",
-    "operazione": "4,5 - 1,2",
-    "risposta": "3,3",
-    "accetta": ["3,3", "3.3"],
-    "spiegazione": "4,5 meno 1,2 fa 3,3."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Calcola la differenza",
-    "domanda": "Quanto fa 6,80 - 2,50?",
-    "operazione": "6,80 - 2,50",
-    "risposta": "4,30",
-    "accetta": ["4,30", "4,3", "4.30", "4.3"],
-    "spiegazione": "6,80 - 2,50 = 4,30."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Calcola la differenza",
-    "domanda": "Quanto fa 3,5 - 0,25?",
-    "operazione": "3,5 - 0,25",
-    "risposta": "3,25",
-    "accetta": ["3,25", "3.25"],
-    "spiegazione": "3,5 si può scrivere 3,50. 3,50 - 0,25 = 3,25."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Moltiplicare per 10, 100 e 1000",
-    "testo": "Quando moltiplichiamo un numero decimale per 10, 100 o 1000, la virgola si sposta verso destra.",
-    "immagine": "",
-    "esempio": "3,45 × 10 = 34,5 — 3,45 × 100 = 345 — 3,45 × 1000 = 3450"
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Moltiplica per 10",
-    "domanda": "Quanto fa 4,6 × 10?",
-    "operazione": "4,6 × 10",
-    "risposta": "46",
-    "accetta": ["46"],
-    "spiegazione": "Moltiplicando per 10, la virgola si sposta di un posto verso destra."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Moltiplica per 100",
-    "domanda": "Quanto fa 2,35 × 100?",
-    "operazione": "2,35 × 100",
-    "risposta": "235",
-    "accetta": ["235"],
-    "spiegazione": "Moltiplicando per 100, la virgola si sposta di due posti verso destra."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Moltiplica per 1000",
-    "domanda": "Quanto fa 0,125 × 1000?",
-    "operazione": "0,125 × 1000",
-    "risposta": "125",
-    "accetta": ["125"],
-    "spiegazione": "Moltiplicando per 1000, la virgola si sposta di tre posti verso destra."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Dividere per 10, 100 e 1000",
-    "testo": "Quando dividiamo un numero per 10, 100 o 1000, la virgola si sposta verso sinistra.",
-    "immagine": "",
-    "esempio": "45 : 10 = 4,5 — 45 : 100 = 0,45 — 45 : 1000 = 0,045"
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Dividi per 10",
-    "domanda": "Quanto fa 38 : 10?",
-    "operazione": "38 : 10",
-    "risposta": "3,8",
-    "accetta": ["3,8", "3.8"],
-    "spiegazione": "Dividendo per 10, la virgola si sposta di un posto verso sinistra."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Dividi per 100",
-    "domanda": "Quanto fa 72 : 100?",
-    "operazione": "72 : 100",
-    "risposta": "0,72",
-    "accetta": ["0,72", "0.72"],
-    "spiegazione": "Dividendo per 100, la virgola si sposta di due posti verso sinistra."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Dividi per 1000",
-    "domanda": "Quanto fa 9 : 1000?",
-    "operazione": "9 : 1000",
-    "risposta": "0,009",
-    "accetta": ["0,009", "0.009"],
-    "spiegazione": "Dividendo per 1000, la virgola si sposta di tre posti verso sinistra."
-  },
-  {
-    "tipo": "scegli_operazione",
-    "titolo": "Scegli l'operazione",
-    "domanda": "Maria ha 2,50 euro e riceve altri 1,20 euro. Quale operazione bisogna fare per sapere quanti euro ha in tutto?",
-    "opzioni": ["2,50 + 1,20", "2,50 - 1,20", "2,50 × 1,20", "2,50 : 1,20"],
-    "risposta": "2,50 + 1,20",
-    "spiegazione": "Quando si aggiunge una quantità, bisogna fare un'addizione."
-  },
-  {
-    "tipo": "scegli_operazione",
-    "titolo": "Scegli l'operazione",
-    "domanda": "Luca ha 5,00 euro e spende 2,35 euro. Quale operazione bisogna fare per sapere quanti euro gli restano?",
-    "opzioni": ["5,00 - 2,35", "5,00 + 2,35", "5,00 × 2,35", "5,00 : 2,35"],
-    "risposta": "5,00 - 2,35",
-    "spiegazione": "Quando si toglie una quantità, bisogna fare una sottrazione."
-  },
-  {
-    "tipo": "scegli_dati",
-    "titolo": "Scegli i dati utili",
-    "domanda": "Sara compra una penna da 1,20 euro e un quaderno da 2,50 euro. Ha nello zaino 4 matite. Quali dati servono per sapere quanto spende?",
-    "opzioni": ["1,20 euro e 2,50 euro", "4 matite", "1,20 euro e 4 matite", "2,50 euro e 4 matite"],
-    "risposta": "1,20 euro e 2,50 euro",
-    "spiegazione": "Per calcolare la spesa servono i prezzi degli oggetti comprati."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Problema con gli euro",
-    "domanda": "Sara compra una penna da 1,20 euro e un quaderno da 2,50 euro. Quanto spende in tutto?",
-    "operazione": "1,20 + 2,50",
-    "risposta": "3,70",
-    "accetta": ["3,70", "3,7", "3.70", "3.7"],
-    "spiegazione": "1,20 + 2,50 = 3,70 euro."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Problema con gli euro",
-    "domanda": "Hai 10 euro e compri un gelato da 2,80 euro. Quanti euro ti restano?",
-    "operazione": "10,00 - 2,80",
-    "risposta": "7,20",
-    "accetta": ["7,20", "7,2", "7.20", "7.2"],
-    "spiegazione": "10,00 - 2,80 = 7,20 euro."
-  },
-  {
-    "tipo": "completa_tabella",
-    "titolo": "Completa la tabella",
-    "domanda": "Completa trasformando le frazioni decimali in numeri decimali.",
-    "colonne": ["Frazione", "Numero decimale"],
-    "righe": [
-      ["3/10", "0,3"],
-      ["8/10", "0,8"],
-      ["25/100", "0,25"],
-      ["9/100", "0,09"],
-      ["456/1000", "0,456"]
-    ],
-    "spiegazione": "Con denominatore 10 metti una cifra dopo la virgola, con 100 due cifre, con 1000 tre cifre."
-  },
-  {
-    "tipo": "completa_tabella",
-    "titolo": "Completa la tabella",
-    "domanda": "Completa osservando il valore delle cifre.",
-    "colonne": ["Numero", "Parte intera", "Decimi", "Centesimi"],
-    "righe": [
-      ["4,26", "4", "2", "6"],
-      ["8,35", "8", "3", "5"],
-      ["0,74", "0", "7", "4"],
-      ["12,09", "12", "0", "9"]
-    ],
-    "spiegazione": "La parte intera è prima della virgola. Dopo la virgola troviamo decimi e centesimi."
-  },
-  {
-    "tipo": "teoria",
-    "titolo": "Ricorda bene",
-    "testo": "I numeri decimali servono per indicare quantità più precise dell'unità. Li usiamo spesso con gli euro, le misure, il peso e la lunghezza.",
-    "immagine": "",
-    "esempio": "1,5 litri — 2,75 euro — 0,5 kg — 3,20 metri"
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Uso dei numeri decimali",
-    "domanda": "Quale di questi numeri può indicare il prezzo di un prodotto?",
-    "opzioni": ["2,99 euro", "299 case", "2 virgole", "euro,99"],
-    "risposta": "2,99 euro",
-    "spiegazione": "I prezzi spesso si scrivono con numeri decimali."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Uso dei numeri decimali",
-    "domanda": "Quale numero può indicare mezzo chilogrammo?",
-    "opzioni": ["0,5 kg", "5 kg", "50 kg", "0,05 kg"],
-    "risposta": "0,5 kg",
-    "spiegazione": "Mezzo chilogrammo si scrive 0,5 kg."
-  },
-  {
-    "tipo": "ordina_numeri",
-    "titolo": "Ripasso finale",
-    "domanda": "Ordina questi numeri dal minore al maggiore.",
-    "numeri": ["1,09", "1,9", "1,19", "1,90"],
-    "risposta": ["1,09", "1,19", "1,9", "1,90"],
-    "spiegazione": "1,9 e 1,90 hanno lo stesso valore, ma possono comparire entrambi come scritture equivalenti."
-  },
-  {
-    "tipo": "confronta_numeri",
-    "titolo": "Ripasso finale",
-    "domanda": "Inserisci il simbolo corretto: >, < oppure =",
-    "sinistra": "5,07",
-    "destra": "5,70",
-    "risposta": "<",
-    "spiegazione": "5,07 è minore di 5,70 perché 7 centesimi sono meno di 70 centesimi."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Ripasso finale",
-    "domanda": "Quanto fa 8,40 - 3,15?",
-    "operazione": "8,40 - 3,15",
-    "risposta": "5,25",
-    "accetta": ["5,25", "5.25"],
-    "spiegazione": "8,40 - 3,15 = 5,25."
-  },
-  {
-    "tipo": "calcolo",
-    "titolo": "Ripasso finale",
-    "domanda": "Quanto fa 6,25 + 2,30?",
-    "operazione": "6,25 + 2,30",
-    "risposta": "8,55",
-    "accetta": ["8,55", "8.55"],
-    "spiegazione": "6,25 + 2,30 = 8,55."
-  },
-  {
-    "tipo": "scelta_multipla",
-    "titolo": "Domanda finale",
-    "domanda": "Quale frase è corretta?",
-    "opzioni": [
-      "Gli zeri finali dopo la virgola non cambiano il valore del numero.",
-      "La parte decimale si trova prima della virgola.",
-      "0,8 è minore di 0,08.",
-      "I centesimi sono la prima cifra dopo la virgola."
-    ],
-    "risposta": "Gli zeri finali dopo la virgola non cambiano il valore del numero.",
-    "spiegazione": "Per esempio 2,5 e 2,50 hanno lo stesso valore."
-  },
-  {
-    "tipo": "fine",
-    "titolo": "Bravissima!",
-    "testo": "Hai completato la lezione sui numeri decimali. Ora sai riconoscere parte intera e parte decimale, confrontare i numeri, trasformare frazioni decimali e risolvere piccoli calcoli."
-  }
-]
+{
+  "id": "numeri-decimali",
+  "titolo": "I numeri decimali",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "🔢",
+  "descrizione": "Parte intera, parte decimale, decimi, centesimi, confronto e calcoli.",
+  "steps": [
+    {
+      "tipo": "teoria",
+      "type": "teoria",
+      "titolo": "I numeri decimali",
+      "title": "I numeri decimali",
+      "testo": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
+      "contenuto": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
+      "text": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
+      "esempio": "Esempio: 3,45 si legge tre virgola quarantacinque."
+    },
+    {
+      "tipo": "teoria",
+      "type": "teoria",
+      "titolo": "Parte intera e parte decimale",
+      "title": "Parte intera e parte decimale",
+      "testo": "In un numero decimale, la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
+      "contenuto": "In un numero decimale, la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
+      "text": "In un numero decimale, la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
+      "esempio": "Nel numero 12,36: 12 è la parte intera, 36 è la parte decimale."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Riconosci la parte intera",
+      "title": "Riconosci la parte intera",
+      "domanda": "Nel numero 8,27 qual è la parte intera?",
+      "question": "Nel numero 8,27 qual è la parte intera?",
+      "opzioni": ["8", "27", "2", "7"],
+      "options": ["8", "27", "2", "7"],
+      "risposta": "8",
+      "answer": "8",
+      "spiegazione": "La parte intera si trova prima della virgola."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Riconosci la parte decimale",
+      "title": "Riconosci la parte decimale",
+      "domanda": "Nel numero 15,49 qual è la parte decimale?",
+      "question": "Nel numero 15,49 qual è la parte decimale?",
+      "opzioni": ["49", "15", "1", "5"],
+      "options": ["49", "15", "1", "5"],
+      "risposta": "49",
+      "answer": "49",
+      "spiegazione": "La parte decimale si trova dopo la virgola."
+    },
+    {
+      "tipo": "vero_falso",
+      "type": "vero_falso",
+      "titolo": "Vero o falso?",
+      "title": "Vero o falso?",
+      "domanda": "Nel numero 6,35 il numero 6 è la parte intera.",
+      "question": "Nel numero 6,35 il numero 6 è la parte intera.",
+      "risposta": true,
+      "answer": true,
+      "spiegazione": "È vero: 6 si trova prima della virgola."
+    },
+    {
+      "tipo": "vero_falso",
+      "type": "vero_falso",
+      "titolo": "Vero o falso?",
+      "title": "Vero o falso?",
+      "domanda": "Nel numero 9,12 la parte decimale è 9.",
+      "question": "Nel numero 9,12 la parte decimale è 9.",
+      "risposta": false,
+      "answer": false,
+      "spiegazione": "È falso: 9 è la parte intera, mentre 12 è la parte decimale."
+    },
+    {
+      "tipo": "teoria",
+      "type": "teoria",
+      "titolo": "Decimi, centesimi e millesimi",
+      "title": "Decimi, centesimi e millesimi",
+      "testo": "Dopo la virgola troviamo le cifre decimali. La prima cifra dopo la virgola indica i decimi, la seconda i centesimi, la terza i millesimi.",
+      "contenuto": "Dopo la virgola troviamo le cifre decimali. La prima cifra dopo la virgola indica i decimi, la seconda i centesimi, la terza i millesimi.",
+      "text": "Dopo la virgola troviamo le cifre decimali. La prima cifra dopo la virgola indica i decimi, la seconda i centesimi, la terza i millesimi.",
+      "esempio": "Nel numero 4,372: 3 sono i decimi, 7 sono i centesimi, 2 sono i millesimi."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Trova i decimi",
+      "title": "Trova i decimi",
+      "domanda": "Nel numero 5,68 qual è la cifra dei decimi?",
+      "question": "Nel numero 5,68 qual è la cifra dei decimi?",
+      "opzioni": ["6", "8", "5", "68"],
+      "options": ["6", "8", "5", "68"],
+      "risposta": "6",
+      "answer": "6",
+      "spiegazione": "I decimi sono la prima cifra dopo la virgola."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Trova i centesimi",
+      "title": "Trova i centesimi",
+      "domanda": "Nel numero 7,42 qual è la cifra dei centesimi?",
+      "question": "Nel numero 7,42 qual è la cifra dei centesimi?",
+      "opzioni": ["2", "4", "7", "42"],
+      "options": ["2", "4", "7", "42"],
+      "risposta": "2",
+      "answer": "2",
+      "spiegazione": "I centesimi sono la seconda cifra dopo la virgola."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Trova i millesimi",
+      "title": "Trova i millesimi",
+      "domanda": "Nel numero 3,519 qual è la cifra dei millesimi?",
+      "question": "Nel numero 3,519 qual è la cifra dei millesimi?",
+      "opzioni": ["9", "5", "1", "3"],
+      "options": ["9", "5", "1", "3"],
+      "risposta": "9",
+      "answer": "9",
+      "spiegazione": "I millesimi sono la terza cifra dopo la virgola."
+    },
+    {
+      "tipo": "input_numero",
+      "type": "input_numero",
+      "titolo": "Scrivi il numero",
+      "title": "Scrivi il numero",
+      "domanda": "Scrivi in cifre il numero: cinque virgola tre.",
+      "question": "Scrivi in cifre il numero: cinque virgola tre.",
+      "risposta": "5,3",
+      "answer": "5,3",
+      "accetta": ["5,3", "5.3"],
+      "spiegazione": "Cinque virgola tre si scrive 5,3."
+    },
+    {
+      "tipo": "input_numero",
+      "type": "input_numero",
+      "titolo": "Scrivi il numero",
+      "title": "Scrivi il numero",
+      "domanda": "Scrivi in cifre il numero: dodici virgola quarantacinque.",
+      "question": "Scrivi in cifre il numero: dodici virgola quarantacinque.",
+      "risposta": "12,45",
+      "answer": "12,45",
+      "accetta": ["12,45", "12.45"],
+      "spiegazione": "Dodici virgola quarantacinque si scrive 12,45."
+    },
+    {
+      "tipo": "teoria",
+      "type": "teoria",
+      "titolo": "Le frazioni decimali",
+      "title": "Le frazioni decimali",
+      "testo": "Una frazione decimale ha come denominatore 10, 100 o 1000. Le frazioni decimali si possono trasformare in numeri decimali.",
+      "contenuto": "Una frazione decimale ha come denominatore 10, 100 o 1000. Le frazioni decimali si possono trasformare in numeri decimali.",
+      "text": "Una frazione decimale ha come denominatore 10, 100 o 1000. Le frazioni decimali si possono trasformare in numeri decimali.",
+      "esempio": "3/10 = 0,3 — 25/100 = 0,25 — 125/1000 = 0,125"
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Da frazione a numero decimale",
+      "title": "Da frazione a numero decimale",
+      "domanda": "Quale numero decimale corrisponde alla frazione 6/10?",
+      "question": "Quale numero decimale corrisponde alla frazione 6/10?",
+      "opzioni": ["0,6", "0,06", "6,10", "60"],
+      "options": ["0,6", "0,06", "6,10", "60"],
+      "risposta": "0,6",
+      "answer": "0,6",
+      "spiegazione": "6/10 significa sei decimi, cioè 0,6."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Da frazione a numero decimale",
+      "title": "Da frazione a numero decimale",
+      "domanda": "Quale numero decimale corrisponde alla frazione 45/100?",
+      "question": "Quale numero decimale corrisponde alla frazione 45/100?",
+      "opzioni": ["0,45", "4,5", "45,100", "0,045"],
+      "options": ["0,45", "4,5", "45,100", "0,045"],
+      "risposta": "0,45",
+      "answer": "0,45",
+      "spiegazione": "45/100 significa quarantacinque centesimi, cioè 0,45."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Da numero decimale a frazione",
+      "title": "Da numero decimale a frazione",
+      "domanda": "A quale frazione corrisponde 0,7?",
+      "question": "A quale frazione corrisponde 0,7?",
+      "opzioni": ["7/10", "7/100", "70/1000", "0/7"],
+      "options": ["7/10", "7/100", "70/1000", "0/7"],
+      "risposta": "7/10",
+      "answer": "7/10",
+      "spiegazione": "0,7 ha una cifra dopo la virgola, quindi sono decimi: 7/10."
+    },
+    {
+      "tipo": "teoria",
+      "type": "teoria",
+      "titolo": "Gli zeri dopo la virgola",
+      "title": "Gli zeri dopo la virgola",
+      "testo": "Gli zeri alla fine della parte decimale non cambiano il valore del numero.",
+      "contenuto": "Gli zeri alla
