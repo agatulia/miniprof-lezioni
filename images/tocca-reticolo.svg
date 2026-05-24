@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#F1F8E9"/>
+
+  <text x="400" y="42" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#33691E">
+    Tocca paralleli o meridiani
+  </text>
+
+  <circle cx="400" cy="260" r="170" fill="#BBDEFB" stroke="#1565C0" stroke-width="5"/>
+
+  <ellipse cx="400" cy="260" rx="170" ry="35" fill="none" stroke="#43A047" stroke-width="7"/>
+  <ellipse cx="400" cy="210" rx="145" ry="25" fill="none" stroke="#43A047" stroke-width="5"/>
+  <ellipse cx="400" cy="310" rx="145" ry="25" fill="none" stroke="#43A047" stroke-width="5"/>
+  <ellipse cx="400" cy="160" rx="95" ry="16" fill="none" stroke="#43A047" stroke-width="4"/>
+  <ellipse cx="400" cy="360" rx="95" ry="16" fill="none" stroke="#43A047" stroke-width="4"/>
+
+  <ellipse cx="400" cy="260" rx="55" ry="170" fill="none" stroke="#E53935" stroke-width="7"/>
+  <ellipse cx="400" cy="260" rx="105" ry="170" fill="none" stroke="#E53935" stroke-width="5"/>
+  <line x1="400" y1="90" x2="400" y2="430" stroke="#E53935" stroke-width="5"/>
+
+  <rect x="70" y="115" width="190" height="52" rx="16" fill="#FFFFFF" stroke="#43A047" stroke-width="3"/>
+  <text x="165" y="150" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#43A047">
+    Paralleli
+  </text>
+  <path d="M260 142 L310 205" stroke="#43A047" stroke-width="4"/>
+
+  <rect x="540" y="115" width="190" height="52" rx="16" fill="#FFFFFF" stroke="#E53935" stroke-width="3"/>
+  <text x="635" y="150" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#E53935">
+    Meridiani
+  </text>
+  <path d="M540 145 L485 155" stroke="#E53935" stroke-width="4"/>
+
+  <rect x="220" y="435" width="360" height="42" rx="15" fill="#FFFFFF" stroke="#33691E" stroke-width="3"/>
+  <text x="400" y="463" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#33691E">
+    Reticolo geografico
+  </text>
+
+  <circle cx="310" cy="210" r="20" fill="#43A047"/>
+  <text x="310" y="219" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="white">1</text>
+
+  <circle cx="455" cy="205" r="20" fill="#E53935"/>
+  <text x="455" y="214" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="white">2</text>
+
+  <circle cx="400" cy="260" r="24" fill="#33691E"/>
+  <text x="400" y="270" text-anchor="middle" font-family="Arial" font-size="26" font-weight="bold" fill="white">3</text>
+</svg>
