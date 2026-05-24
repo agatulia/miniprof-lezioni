@@ -15,28 +15,7 @@
 
       "text": "I numeri decimali sono numeri con la virgola. La parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.\n\nDopo la virgola possiamo trovare i decimi, i centesimi e i millesimi.\nEsempio: nel numero 4,301 ci sono 4 unità, 3 decimi, 0 centesimi e 1 millesimo.",
 
-      "html": "
-
-      <div class='decimal-help'>
-
-        <div class='decimal-box'>
-
-          <div class='decimal-number'>
-            4 , 3 0 1
-          </div>
-
-          <div class='decimal-labels'>
-            <span>unità</span>
-            <span>decimi</span>
-            <span>centesimi</span>
-            <span>millesimi</span>
-          </div>
-
-        </div>
-
-      </div>
-
-      ",
+      "html": "<div class='decimal-help'><div class='decimal-box'><div class='decimal-number'>4 , 3 0 1</div><div class='decimal-labels'><span>unità</span><span>decimi</span><span>centesimi</span><span>millesimi</span></div></div></div>",
 
       "keywords": [
         "numero decimale",
@@ -100,28 +79,7 @@
 
       "text": "Completa la tabella mettendo ogni cifra al suo posto: unità, decimi, centesimi e millesimi.",
 
-      "html": "
-
-      <div class='decimal-help'>
-
-        <div class='decimal-box'>
-
-          <div class='decimal-number'>
-            4 , 3 0 1
-          </div>
-
-          <div class='decimal-labels'>
-            <span>U</span>
-            <span>D</span>
-            <span>C</span>
-            <span>M</span>
-          </div>
-
-        </div>
-
-      </div>
-
-      ",
+      "html": "<div class='decimal-help'><div class='decimal-box'><div class='decimal-number'>4 , 3 0 1</div><div class='decimal-labels'><span>U</span><span>D</span><span>C</span><span>M</span></div></div></div>",
 
       "colonne": [
         "uk",
