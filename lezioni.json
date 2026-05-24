@@ -58,5 +58,20 @@
     "descrizione": "Decimi, centesimi, confronto, lettura, scrittura e operazioni con i numeri decimali.",
     "attiva": true,
     "file": "numeri-decimali.json"
-  }
-]
+  },
+  {
+  "id": "ripassa-tabelline",
+  "titolo": "Ripassa le tabelline",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "✖️",
+  "descrizione": "Quiz di tabelline miste, moltiplicazioni e calcoli veloci.",
+  "attiva": true,
+  "file": "ripassa-tabelline.json"
+}]
+
+
+
+
+
+
