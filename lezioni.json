@@ -19,7 +19,6 @@
     "attiva": true,
     "file": "terra-reticolo.json"
   },
-  
   {
     "id": "indo",
     "titolo": "La civiltà dell’Indo",
@@ -51,14 +50,14 @@
     "file": "poligoni.json"
   },
   {
-    "id": "numeri-decimali",
-    "titolo": "I numeri decimali",
-    "materia": "Matematica",
-    "classe": "4 primaria",
-    "icona": "🔢",
-    "descrizione": "Decimi, centesimi, confronto, lettura, scrittura e operazioni con i numeri decimali.",
-    "attiva": true,
-    "file": "numeri-decimali.json"
+  "id": "numeri-decimali",
+  "titolo": "I numeri decimali",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "🔢",
+  "descrizione": "Decimi, centesimi, confronto, lettura e operazioni con i numeri decimali.",
+  "attiva": true,
+  "file": "numeri-decimali.json"
   },
   {
   "id": "ripassa-tabelline",
