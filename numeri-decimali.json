@@ -347,7 +347,10 @@
       ],
       "corretta": "77/10",
       "ok": "Giusto! 7,7 corrisponde a 77 decimi."
-      ,
+    }
+  ]
+}
+    ,
     {
       "title": "I numeri decimali sulla linea dei numeri",
       "subject": "Matematica",
@@ -835,9 +838,6 @@
     {
       "q": "Quando scrivo la virgola nel quoziente di una divisione?",
       "help": "Quando arrivo alla virgola del dividendo."
-    }
-  ]
-    }
     }
   ]
 }
