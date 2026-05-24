@@ -4,144 +4,339 @@
   "materia": "Matematica",
   "classe": "4 primaria",
   "icona": "🔢",
-  "descrizione": "Decimi, centesimi, millesimi, confronto, frazioni decimali e calcoli con i numeri decimali.",
+  "descrizione": "Numeri decimali, frazioni decimali, ordine, confronto e calcoli.",
   "attiva": true,
-
   "blocchi": [
-
     {
-      "title": "Che cosa sono i numeri decimali",
-      "subject": "Matematica",
-
-      "text": "I numeri decimali sono numeri con la virgola. La parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.\n\nDopo la virgola possiamo trovare i decimi, i centesimi e i millesimi.\nEsempio: nel numero 4,301 ci sono 4 unità, 3 decimi, 0 centesimi e 1 millesimo.",
-
-      "html": "<div class='decimal-help'><div class='decimal-box'><div class='decimal-number'>4 , 3 0 1</div><div class='decimal-labels'><span>unità</span><span>decimi</span><span>centesimi</span><span>millesimi</span></div></div></div>",
-
-      "keywords": [
-        "numero decimale",
-        "virgola",
-        "parte intera",
-        "parte decimale"
-      ],
-
-      "remember": [
-        "La virgola separa la parte intera dalla parte decimale.",
-        "Dopo la virgola troviamo decimi, centesimi e millesimi.",
-        "I decimali servono per indicare parti più piccole dell'unità."
-      ],
-
-      "quiz": [
-
-        {
-          "question": "Che cosa separa la virgola in un numero decimale?",
-          "answers": [
-            "La parte intera dalla parte decimale",
-            "Il numeratore dal denominatore",
-            "Il maggiore dal minore",
-            "La somma dalla differenza"
-          ],
-          "correct": 0
-        },
-
-        {
-          "question": "Nel numero 4,301 quale cifra indica i decimi?",
-          "answers": [
-            "4",
-            "3",
-            "0",
-            "1"
-          ],
-          "correct": 1
-        },
-
-        {
-          "question": "Quale tra questi è un numero decimale?",
-          "answers": [
-            "12",
-            "45",
-            "3,7",
-            "100"
-          ],
-          "correct": 2
-        }
-
-      ],
-
-      "exercise": "Un numero decimale ha una parte intera e una parte decimale separate dalla virgola."
+      "tipo": "teoria",
+      "titolo": "I numeri decimali",
+      "testo": "I numeri decimali hanno una virgola. Prima della virgola c'è la parte intera, dopo la virgola c'è la parte decimale."
     },
-
+    {
+      "tipo": "quiz",
+      "domanda": "Nel numero 4,301 qual è la parte intera?",
+      "opzioni": ["4", "301", "0", "1"],
+      "corretta": 0
+    },
+    {
+      "tipo": "quiz",
+      "domanda": "Nel numero 5,88 quali cifre sono dopo la virgola?",
+      "opzioni": ["5", "88", "8", "58"],
+      "corretta": 1
+    },
+    {
+      "tipo": "teoria",
+      "titolo": "Decimi, centesimi e millesimi",
+      "testo": "La prima cifra dopo la virgola indica i decimi, la seconda i centesimi, la terza i millesimi."
+    },
+    {
+      "tipo": "input_numero",
+      "domanda": "Scrivi il numero formato da 3 unità e 5 decimi.",
+      "risposta": "3,5"
+    },
+    {
+      "tipo": "input_numero",
+      "domanda": "Scrivi il numero formato da 7 unità, 2 decimi e 4 centesimi.",
+      "risposta": "7,24"
+    },
+    {
+      "tipo": "quiz",
+      "domanda": "Nel numero 5,408 qual è la cifra dei millesimi?",
+      "opzioni": ["5", "4", "0", "8"],
+      "corretta": 3
+    },
     {
       "tipo": "completa_tabella",
-
-      "title": "Scomponi i numeri nella tabella",
-
-      "subject": "Matematica",
-
-      "text": "Completa la tabella mettendo ogni cifra al suo posto: unità, decimi, centesimi e millesimi.",
-
-      "html": "<div class='decimal-help'><div class='decimal-box'><div class='decimal-number'>4 , 3 0 1</div><div class='decimal-labels'><span>U</span><span>D</span><span>C</span><span>M</span></div></div></div>",
-
-      "colonne": [
-        "uk",
-        "h",
-        "da",
-        "u",
-        "d",
-        "c",
-        "m"
-      ],
-
+      "titolo": "Completa la tabella",
+      "colonne": ["Numero", "Unità", "Decimi", "Centesimi", "Millesimi"],
       "righe": [
-
-        {
-          "numero": "4,301",
-
-          "valori": {
-            "u": "4",
-            "d": "3",
-            "c": "0",
-            "m": "1"
-          }
-        },
-
-        {
-          "numero": "15,08",
-
-          "valori": {
-            "da": "1",
-            "u": "5",
-            "d": "0",
-            "c": "8"
-          }
-        },
-
-        {
-          "numero": "120,12",
-
-          "valori": {
-            "h": "1",
-            "da": "2",
-            "u": "0",
-            "d": "1",
-            "c": "2"
-          }
-        },
-
-        {
-          "numero": "876,001",
-
-          "valori": {
-            "h": "8",
-            "da": "7",
-            "u": "6",
-            "d": "0",
-            "c": "0",
-            "m": "1"
-          }
-        }
-
+        ["4,301", "4", "3", "0", "1"],
+        ["15,08", "15", "0", "8", "0"],
+        ["120,12", "120", "1", "2", "0"],
+        ["876,001", "876", "0", "0", "1"]
       ]
+    },
+    {
+      "tipo": "teoria",
+      "titolo": "Frazioni decimali",
+      "testo": "Le frazioni con denominatore 10, 100 o 1000 si possono trasformare in numeri decimali."
+    },
+    {
+      "tipo": "frazione_decimale_match",
+      "domanda": "Collega ogni frazione al numero decimale corretto.",
+      "coppie": [
+        ["2/10", "0,2"],
+        ["6/100", "0,06"],
+        ["3/1000", "0,003"],
+        ["92/100", "0,92"],
+        ["548/1000", "0,548"]
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "domanda": "Quale frazione corrisponde a 0,9?",
+      "opzioni": ["9/10", "9/100", "9/1000", "90/10"],
+      "corretta": 0
+    },
+    {
+      "tipo": "quiz",
+      "domanda": "Quale numero decimale corrisponde a 45/100?",
+      "opzioni": ["4,5", "0,45", "0,045", "45"],
+      "corretta": 1
+    },
+    {
+      "tipo": "linea_numerica",
+      "titolo": "Sulla linea dei numeri",
+      "min": 0,
+      "max": 5,
+      "step": 0.1,
+      "target": 2.7,
+      "domanda": "Tocca il punto corretto per il numero 2,7."
+    },
+    {
+      "tipo": "linea_numerica",
+      "titolo": "Trova il numero",
+      "min": 0,
+      "max": 2,
+      "step": 0.01,
+      "target": 1.25,
+      "domanda": "Tocca il punto corretto per il numero 1,25."
+    },
+    {
+      "tipo": "confronta_numeri",
+      "domanda": "Quale numero è maggiore?",
+      "numero1": "3,5",
+      "numero2": "3,05",
+      "corretta": "3,5"
+    },
+    {
+      "tipo": "confronta_numeri",
+      "domanda": "Quale numero è minore?",
+      "numero1": "7,12",
+      "numero2": "7,2",
+      "corretta": "7,12"
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": "0,5 è maggiore di 0,05.",
+      "corretta": true
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": "7,09 è maggiore di 7,9.",
+      "corretta": false
+    },
+    {
+      "tipo": "ordina_numeri",
+      "titolo": "Ordina in modo crescente",
+      "numeri": ["7", "7,02", "7,2", "7,21", "7,25", "7,3"],
+      "ordine": "crescente"
+    },
+    {
+      "tipo": "quiz",
+      "domanda": "Quale lista è in ordine crescente?",
+      "opzioni": [
+        "0,5 - 0,8 - 1,2",
+        "1,2 - 0,8 - 0,5",
+        "0,8 - 0,5 - 1,2",
+        "1,2 - 0,5 - 0,8"
+      ],
+      "corretta": 0
+    },
+    {
+      "tipo": "teoria",
+      "titolo": "Addizione con i decimali",
+      "testo": "Per sommare i numeri decimali si mettono le virgole una sotto l'altra. Se mancano cifre decimali, si possono aggiungere zeri."
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "12,4 + 3,5",
+      "risultato": "15,9"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "8,25 + 1,7",
+      "risultato": "9,95"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "45,6 + 12,3",
+      "risultato": "57,9"
+    },
+    {
+      "tipo": "teoria",
+      "titolo": "Sottrazione con i decimali",
+      "testo": "Per sottrarre i numeri decimali si mettono le virgole una sotto l'altra e si pareggiano le cifre con gli zeri."
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "15,8 - 2,4",
+      "risultato": "13,4"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "9,05 - 0,5",
+      "risultato": "8,55"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "90,5 - 40,2",
+      "risultato": "50,3"
+    },
+    {
+      "tipo": "teoria",
+      "titolo": "Moltiplicazione con i decimali",
+      "testo": "Per moltiplicare con i decimali eseguo il calcolo come se non ci fosse la virgola, poi conto le cifre decimali nei fattori."
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "3,2 × 2",
+      "risultato": "6,4"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "1,5 × 4",
+      "risultato": "6"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "6,4 × 10",
+      "risultato": "64"
+    },
+    {
+      "tipo": "teoria",
+      "titolo": "Divisione con i decimali",
+      "testo": "Nelle divisioni con il dividendo decimale, prima divido la parte intera, poi continuo con la parte decimale."
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "8,4 : 2",
+      "risultato": "4,2"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "12,6 : 3",
+      "risultato": "4,2"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "84,2 : 10",
+      "risultato": "8,42"
+    },
+    {
+      "tipo": "teoria",
+      "titolo": "Con 10, 100 e 1000",
+      "testo": "Per moltiplicare per 10, 100 e 1000 sposto la virgola verso destra. Per dividere per 10, 100 e 1000 sposto la virgola verso sinistra."
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "3,5 × 10",
+      "risultato": "35"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "48,2 : 10",
+      "risultato": "4,82"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "2,93 × 1000",
+      "risultato": "2930"
+    },
+    {
+      "tipo": "calcolo",
+      "operazione": "2880 : 100",
+      "risultato": "28,8"
+    },
+    {
+      "tipo": "scegli_dati",
+      "domanda": "Quale numero completa correttamente?",
+      "testo": "3,4 + ___ = 5,4",
+      "opzioni": ["1", "2", "3", "4"],
+      "corretta": 1
+    },
+    {
+      "tipo": "scegli_operazione",
+      "domanda": "Quale operazione dà come risultato 5,5?",
+      "opzioni": [
+        "2,5 + 3",
+        "5,5 - 1",
+        "10 : 2",
+        "1,5 + 1"
+      ],
+      "corretta": 0
+    },
+    {
+      "tipo": "problema",
+      "titolo": "Problema con gli euro",
+      "testo": "Maria compra un gelato da 2,50 € e una bibita da 1,20 €. Quanto spende in tutto?",
+      "risposta": "3,70"
+    },
+    {
+      "tipo": "problema",
+      "titolo": "Problema al supermercato",
+      "testo": "Agata compra pane a 1,80 € e latte a 2,10 €. Quanto spende?",
+      "risposta": "3,90"
+    },
+    {
+      "tipo": "sfida_timer",
+      "titolo": "Sfida veloce",
+      "tempo": 30,
+      "domande": [
+        {
+          "domanda": "0,5 + 0,5",
+          "risposta": "1"
+        },
+        {
+          "domanda": "7,2 × 10",
+          "risposta": "72"
+        },
+        {
+          "domanda": "9,5 - 4,5",
+          "risposta": "5"
+        }
+      ]
+    },
+    {
+      "tipo": "quiz_finale",
+      "domande": [
+        {
+          "domanda": "Qual è il numero più grande?",
+          "opzioni": ["4,09", "4,9", "4,009", "4,099"],
+          "corretta": 1
+        },
+        {
+          "domanda": "0,07 corrisponde a:",
+          "opzioni": ["7 decimi", "7 centesimi", "7 millesimi", "70 decimi"],
+          "corretta": 1
+        },
+        {
+          "domanda": "Quanto fa 2,5 + 1,5?",
+          "opzioni": ["4", "3", "5", "4,5"],
+          "corretta": 0
+        },
+        {
+          "domanda": "Quanto fa 7,2 × 10?",
+          "opzioni": ["72", "7,02", "720", "0,72"],
+          "corretta": 0
+        },
+        {
+          "domanda": "Quanto fa 8,4 : 2?",
+          "opzioni": ["4,2", "42", "2,4", "6,2"],
+          "corretta": 0
+        }
+      ]
+    },
+    {
+      "tipo": "stelle_finali",
+      "titolo": "Premio finale",
+      "testo": "🌟 Maria ha conquistato le stelle dei numeri decimali! 🌟",
+      "stelle": 5
+    },
+    {
+      "tipo": "completamento",
+      "titolo": "Bravissima Maria!",
+      "testo": "Hai completato la lezione sui numeri decimali! 🌟"
     }
-
   ]
-}
+    }
