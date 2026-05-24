@@ -1,0 +1,317 @@
+{
+  "id": "ripassa-tabelline",
+  "titolo": "Ripassa le tabelline",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "✖️",
+  "descrizione": "Quiz di tabelline miste, moltiplicazioni e calcoli veloci.",
+  "attiva": true,
+
+  "blocchi": [
+
+    {
+      "tipo": "tabelline_scelta",
+
+      "title": "Tabelline miste",
+
+      "subject": "Matematica",
+
+      "text": "Scegli la risposta corretta.",
+
+      "domande": [
+
+        {
+          "domanda": "7 × 8 = ?",
+          "opzioni": ["54", "56", "48", "64"],
+          "corretta": "56"
+        },
+
+        {
+          "domanda": "9 × 6 = ?",
+          "opzioni": ["45", "52", "54", "63"],
+          "corretta": "54"
+        },
+
+        {
+          "domanda": "4 × 7 = ?",
+          "opzioni": ["28", "24", "21", "32"],
+          "corretta": "28"
+        },
+
+        {
+          "domanda": "3 × 9 = ?",
+          "opzioni": ["18", "21", "27", "36"],
+          "corretta": "27"
+        },
+
+        {
+          "domanda": "8 × 8 = ?",
+          "opzioni": ["56", "64", "72", "48"],
+          "corretta": "64"
+        }
+
+      ]
+    },
+
+    {
+      "tipo": "tabelline_scrivi",
+
+      "title": "Scrivi il risultato",
+
+      "subject": "Matematica",
+
+      "text": "Calcola e scrivi il risultato.",
+
+      "domande": [
+
+        {
+          "domanda": "6 × 7",
+          "risposta": ["42"]
+        },
+
+        {
+          "domanda": "8 × 4",
+          "risposta": ["32"]
+        },
+
+        {
+          "domanda": "9 × 9",
+          "risposta": ["81"]
+        },
+
+        {
+          "domanda": "7 × 3",
+          "risposta": ["21"]
+        },
+
+        {
+          "domanda": "5 × 8",
+          "risposta": ["40"]
+        }
+
+      ]
+    },
+
+    {
+      "tipo": "calcolo",
+
+      "title": "Moltiplicazioni",
+
+      "subject": "Matematica",
+
+      "text": "Calcola il risultato.",
+
+      "operazione": "24 × 3",
+      "risposta": "72"
+    },
+
+    {
+      "tipo": "calcolo",
+
+      "title": "Moltiplicazioni",
+
+      "subject": "Matematica",
+
+      "text": "Calcola il risultato.",
+
+      "operazione": "36 × 4",
+      "risposta": "144"
+    },
+
+    {
+      "tipo": "calcolo",
+
+      "title": "Moltiplicazioni",
+
+      "subject": "Matematica",
+
+      "text": "Calcola il risultato.",
+
+      "operazione": "58 × 2",
+      "risposta": "116"
+    },
+
+    {
+      "tipo": "calcolo",
+
+      "title": "Moltiplicazioni più difficili",
+
+      "subject": "Matematica",
+
+      "text": "Calcola il risultato.",
+
+      "operazione": "127 × 3",
+      "risposta": "381"
+    },
+
+    {
+      "tipo": "calcolo",
+
+      "title": "Moltiplicazioni più difficili",
+
+      "subject": "Matematica",
+
+      "text": "Calcola il risultato.",
+
+      "operazione": "245 × 4",
+      "risposta": "980"
+    },
+
+    {
+      "tipo": "calcolo",
+
+      "title": "Moltiplicazioni più difficili",
+
+      "subject": "Matematica",
+
+      "text": "Calcola il risultato.",
+
+      "operazione": "318 × 5",
+      "risposta": "1590"
+    },
+
+    {
+      "tipo": "scelta_multipla",
+
+      "title": "Moltiplicazioni veloci",
+
+      "subject": "Matematica",
+
+      "domanda": "45 × 2 = ?",
+
+      "opzioni": [
+        "70",
+        "80",
+        "90",
+        "95"
+      ],
+
+      "corretta": "90",
+
+      "ok": "Brava!"
+    },
+
+    {
+      "tipo": "scelta_multipla",
+
+      "title": "Moltiplicazioni veloci",
+
+      "subject": "Matematica",
+
+      "domanda": "12 × 8 = ?",
+
+      "opzioni": [
+        "96",
+        "86",
+        "88",
+        "108"
+      ],
+
+      "corretta": "96",
+
+      "ok": "Esatto!"
+    },
+
+    {
+      "tipo": "scelta_multipla",
+
+      "title": "Moltiplicazioni veloci",
+
+      "subject": "Matematica",
+
+      "domanda": "14 × 6 = ?",
+
+      "opzioni": [
+        "72",
+        "84",
+        "96",
+        "64"
+      ],
+
+      "corretta": "84",
+
+      "ok": "Giusto!"
+    },
+
+    {
+      "tipo": "vero_falso",
+
+      "title": "Vero o falso?",
+
+      "subject": "Matematica",
+
+      "frasi": [
+
+        {
+          "testo": "7 × 7 = 49",
+          "valore": true
+        },
+
+        {
+          "testo": "8 × 6 = 42",
+          "valore": false
+        },
+
+        {
+          "testo": "9 × 4 = 36",
+          "valore": true
+        },
+
+        {
+          "testo": "5 × 9 = 40",
+          "valore": false
+        }
+
+      ]
+    },
+
+    {
+      "tipo": "input_numero",
+
+      "title": "Calcolo finale",
+
+      "subject": "Matematica",
+
+      "domanda": "125 × 6 = ?",
+
+      "risposta": [
+        "750"
+      ],
+
+      "ok": "Perfetto!"
+    },
+
+    {
+      "tipo": "input_numero",
+
+      "title": "Calcolo finale",
+
+      "subject": "Matematica",
+
+      "domanda": "248 × 4 = ?",
+
+      "risposta": [
+        "992"
+      ],
+
+      "ok": "Bravissima!"
+    },
+
+    {
+      "tipo": "input_numero",
+
+      "title": "Super sfida",
+
+      "subject": "Matematica",
+
+      "domanda": "999 × 3 = ?",
+
+      "risposta": [
+        "2997"
+      ],
+
+      "ok": "Grandissima!"
+    }
+
+  ]
+}
