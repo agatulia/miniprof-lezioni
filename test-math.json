@@ -1,0 +1,155 @@
+{
+  "id": "test-math",
+  "titolo": "Test funzioni Math",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "🧪",
+  "descrizione": "Lezione di prova per controllare tutti i blocchi interattivi Math.",
+  "attiva": true,
+
+  "blocchi": [
+    {
+      "tipo": "scelta_multipla",
+      "title": "Scelta multipla",
+      "subject": "Matematica",
+      "domanda": "Quanto fa 7 × 8?",
+      "opzioni": ["54", "56", "64", "48"],
+      "corretta": "56",
+      "ok": "Esatto!"
+    },
+
+    {
+      "tipo": "input_numero",
+      "title": "Input numero",
+      "subject": "Matematica",
+      "domanda": "Scrivi il risultato: 9 × 6",
+      "risposta": ["54"],
+      "ok": "Corretto!"
+    },
+
+    {
+      "tipo": "calcolo",
+      "title": "Calcolo",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "245 × 4",
+      "risposta": "980"
+    },
+
+    {
+      "tipo": "completa_tabella",
+      "title": "Completa tabella",
+      "subject": "Matematica",
+      "text": "Inserisci le cifre al posto giusto.",
+      "colonne": ["h", "da", "u", "d", "c", "m"],
+      "righe": [
+        {
+          "numero": "245,301",
+          "valori": {
+            "h": "2",
+            "da": "4",
+            "u": "5",
+            "d": "3",
+            "c": "0",
+            "m": "1"
+          }
+        },
+        {
+          "numero": "36,08",
+          "valori": {
+            "da": "3",
+            "u": "6",
+            "d": "0",
+            "c": "8"
+          }
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "title": "Vero o falso",
+      "subject": "Matematica",
+      "text": "Scegli vero o falso.",
+      "frasi": [
+        {
+          "testo": "7 × 7 = 49",
+          "valore": true
+        },
+        {
+          "testo": "8 × 6 = 42",
+          "valore": false
+        }
+      ]
+    },
+
+    {
+      "tipo": "tabelline_scelta",
+      "title": "Tabelline scelta",
+      "subject": "Matematica",
+      "text": "Scegli la risposta corretta.",
+      "domande": [
+        {
+          "domanda": "6 × 7 = ?",
+          "opzioni": ["36", "42", "48", "40"],
+          "corretta": "42"
+        }
+      ]
+    },
+
+    {
+      "tipo": "tabelline_scrivi",
+      "title": "Tabelline scrivi",
+      "subject": "Matematica",
+      "text": "Scrivi il risultato.",
+      "domande": [
+        {
+          "domanda": "8 × 9",
+          "risposta": ["72"]
+        }
+      ]
+    },
+
+    {
+      "tipo": "scegli_operazione",
+      "title": "Scegli operazione",
+      "subject": "Matematica",
+      "text": "Scegli l’operazione giusta.",
+      "domanda": "Maria compra 3 pacchi con 6 figurine ciascuno. Quale operazione serve?",
+      "opzioni": ["3 + 6", "3 × 6", "6 - 3", "6 : 3"],
+      "corretta": "3 × 6",
+      "ok": "Giusto! Serve una moltiplicazione."
+    },
+
+    {
+      "tipo": "scegli_dati",
+      "title": "Scegli dati",
+      "subject": "Matematica",
+      "text": "Scegli solo i dati utili.",
+      "domanda": "Luca ha 4 scatole. In ogni scatola ci sono 8 matite. Ha anche 2 gomme. Quanti matite ha in tutto?",
+      "dati": ["4 scatole", "8 matite per scatola", "2 gomme"],
+      "corretti": ["4 scatole", "8 matite per scatola"]
+    },
+
+    {
+      "tipo": "confronta_numeri",
+      "title": "Confronta numeri",
+      "subject": "Matematica",
+      "text": "Scegli il segno corretto.",
+      "coppie": [
+        { "a": "2,9", "b": "2,1" },
+        { "a": "0,05", "b": "0,5" },
+        { "a": "8,4", "b": "8,40" }
+      ]
+    },
+
+    {
+      "tipo": "ordina_numeri",
+      "title": "Ordina numeri",
+      "subject": "Matematica",
+      "text": "Scrivi i numeri dal più piccolo al più grande usando il trattino.",
+      "numeri": ["1", "1,3", "0,3", "2,7"],
+      "verso": "crescente"
+    }
+  ]
+}
