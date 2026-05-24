@@ -1,0 +1,843 @@
+{
+  "id": "numeri-decimali",
+  "titolo": "I numeri decimali",
+  "materia": "Matematica",
+  "classe": "4 primaria",
+  "icona": "🔢",
+  "descrizione": "Decimi, centesimi, millesimi, confronto, frazioni decimali e calcoli con i numeri decimali.",
+  "attiva": true,
+  "blocchi": [
+    {
+      "title": "Che cosa sono i numeri decimali",
+      "subject": "Matematica",
+      "text": "I numeri decimali sono numeri con la virgola. La parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.\n\nDopo la virgola possiamo trovare i decimi, i centesimi e i millesimi.\nEsempio: nel numero 4,301 ci sono 4 unità, 3 decimi, 0 centesimi e 1 millesimo.",
+      "keywords": [
+        "numero decimale",
+        "virgola",
+        "parte intera",
+        "parte decimale"
+      ],
+      "remember": [
+        "La virgola separa la parte intera dalla parte decimale.",
+        "Dopo la virgola troviamo decimi, centesimi e millesimi.",
+        "I decimali servono per indicare parti più piccole dell'unità."
+      ],
+      "quiz": [
+        {
+          "question": "Che cosa separa la virgola in un numero decimale?",
+          "answers": [
+            "La parte intera dalla parte decimale",
+            "Il numeratore dal denominatore",
+            "Il maggiore dal minore",
+            "La somma dalla differenza"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Nel numero 4,301 quale cifra indica i decimi?",
+          "answers": [
+            "4",
+            "3",
+            "0",
+            "1"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Quale tra questi è un numero decimale?",
+          "answers": [
+            "12",
+            "45",
+            "3,7",
+            "100"
+          ],
+          "correct": 2
+        }
+      ],
+      "exercise": "Un numero decimale ha una parte intera e una parte decimale separate dalla virgola."
+    },
+    {
+      "tipo": "completa_tabella",
+      "title": "Scomponi i numeri nella tabella",
+      "subject": "Matematica",
+      "text": "Completa la tabella mettendo ogni cifra al suo posto: unità, decimi, centesimi e millesimi.",
+      "colonne": [
+        "uk",
+        "h",
+        "da",
+        "u",
+        "d",
+        "c",
+        "m"
+      ],
+      "righe": [
+        {
+          "numero": "4,301",
+          "valori": {
+            "u": "4",
+            "d": "3",
+            "c": "0",
+            "m": "1"
+          }
+        },
+        {
+          "numero": "15,08",
+          "valori": {
+            "da": "1",
+            "u": "5",
+            "d": "0",
+            "c": "8"
+          }
+        },
+        {
+          "numero": "120,12",
+          "valori": {
+            "h": "1",
+            "da": "2",
+            "u": "0",
+            "d": "1",
+            "c": "2"
+          }
+        },
+        {
+          "numero": "876,001",
+          "valori": {
+            "h": "8",
+            "da": "7",
+            "u": "6",
+            "d": "0",
+            "c": "0",
+            "m": "1"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "scelta_multipla",
+      "title": "Valore della cifra evidenziata",
+      "subject": "Matematica",
+      "domanda": "Nel numero 0,75 che valore ha la cifra 0 prima della virgola?",
+      "opzioni": [
+        "0 unità",
+        "0 decimi",
+        "7 decimi",
+        "5 centesimi"
+      ],
+      "corretta": "0 unità",
+      "ok": "Esatto! Prima della virgola ci sono le unità."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "title": "Valore della cifra evidenziata",
+      "subject": "Matematica",
+      "domanda": "Nel numero 4,867 che valore ha la cifra 6?",
+      "opzioni": [
+        "6 unità",
+        "6 decimi",
+        "6 centesimi",
+        "6 millesimi"
+      ],
+      "corretta": "6 centesimi",
+      "ok": "Brava! Nel numero 4,867 la cifra 6 è nei centesimi."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "title": "Valore della cifra evidenziata",
+      "subject": "Matematica",
+      "domanda": "Nel numero 90,009 che valore ha la cifra 9 dopo gli zeri?",
+      "opzioni": [
+        "9 unità",
+        "9 decimi",
+        "9 centesimi",
+        "9 millesimi"
+      ],
+      "corretta": "9 millesimi",
+      "ok": "Giusto! L'ultima cifra è nei millesimi."
+    },
+    {
+      "tipo": "input_numero",
+      "title": "Scrivi il numero corrispondente",
+      "subject": "Matematica",
+      "domanda": "Scrivi il numero: 3 decine, 8 unità e 7 decimi.",
+      "risposta": [
+        "38,7",
+        "38.7"
+      ],
+      "ok": "Corretto! 3 decine, 8 unità e 7 decimi formano 38,7."
+    },
+    {
+      "tipo": "input_numero",
+      "title": "Scrivi il numero corrispondente",
+      "subject": "Matematica",
+      "domanda": "Scrivi il numero: 4 decine, 0 unità, 3 decimi e 7 centesimi.",
+      "risposta": [
+        "40,37",
+        "40.37"
+      ],
+      "ok": "Giusto! Il numero è 40,37."
+    },
+    {
+      "tipo": "input_numero",
+      "title": "Scrivi il numero corrispondente",
+      "subject": "Matematica",
+      "domanda": "Scrivi il numero: 1 unità, 6 centesimi e 3 millesimi.",
+      "risposta": [
+        "1,063",
+        "1.063"
+      ],
+      "ok": "Brava! Il numero è 1,063."
+    },
+    {
+      "title": "Gli zeri inutili",
+      "subject": "Matematica",
+      "text": "Nei numeri decimali alcuni zeri finali dopo la virgola possono essere eliminati senza cambiare il valore del numero.\n\nEsempi:\n30,260 = 30,26\n89,40 = 89,4\n405,560 = 405,56\n\nAttenzione: gli zeri in mezzo alle cifre non si possono eliminare se servono a mantenere il valore.",
+      "keywords": [
+        "zeri inutili",
+        "valore",
+        "decimali"
+      ],
+      "remember": [
+        "Gli zeri finali dopo la virgola possono essere eliminati.",
+        "Gli zeri in mezzo al numero spesso servono e non vanno tolti.",
+        "30,260 vale come 30,26."
+      ],
+      "quiz": [
+        {
+          "question": "Quale numero ha lo stesso valore di 30,260?",
+          "answers": [
+            "30,26",
+            "3,026",
+            "302,60",
+            "30,206"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Quale numero ha lo stesso valore di 89,40?",
+          "answers": [
+            "89,4",
+            "8,94",
+            "894",
+            "89,04"
+          ],
+          "correct": 0
+        }
+      ],
+      "exercise": "Gli zeri finali dopo la virgola possono essere tolti quando non cambiano il valore del numero."
+    },
+    {
+      "tipo": "vero_falso",
+      "title": "Zeri inutili: vero o falso?",
+      "subject": "Matematica",
+      "text": "Leggi le frasi e scegli vero o falso.",
+      "frasi": [
+        {
+          "testo": "405,560 ha lo stesso valore di 405,56.",
+          "valore": true
+        },
+        {
+          "testo": "830,908 ha lo stesso valore di 83,908.",
+          "valore": false
+        },
+        {
+          "testo": "2,40 ha lo stesso valore di 2,4.",
+          "valore": true
+        },
+        {
+          "testo": "90,009 ha lo stesso valore di 90,9.",
+          "valore": false
+        }
+      ]
+    },
+    {
+      "title": "Frazioni decimali e numeri decimali",
+      "subject": "Matematica",
+      "text": "Una frazione decimale ha come denominatore 10, 100 o 1000.\n\nSe il denominatore è 10, parliamo di decimi.\nSe il denominatore è 100, parliamo di centesimi.\nSe il denominatore è 1000, parliamo di millesimi.\n\nEsempi:\n2/10 = 0,2\n27/100 = 0,27\n1347/1000 = 1,347",
+      "keywords": [
+        "frazione decimale",
+        "decimi",
+        "centesimi",
+        "millesimi"
+      ],
+      "remember": [
+        "2/10 si scrive 0,2.",
+        "27/100 si scrive 0,27.",
+        "1347/1000 si scrive 1,347."
+      ],
+      "quiz": [
+        {
+          "question": "Quale denominatore indica i centesimi?",
+          "answers": [
+            "10",
+            "100",
+            "1000",
+            "1"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Quale denominatore indica i millesimi?",
+          "answers": [
+            "10",
+            "100",
+            "1000",
+            "0"
+          ],
+          "correct": 2
+        }
+      ],
+      "exercise": "Le frazioni con denominatore 10, 100 e 1000 possono diventare numeri decimali."
+    },
+    {
+      "tipo": "frazione_decimale_match",
+      "title": "Abbina frazione e numero decimale",
+      "subject": "Matematica",
+      "text": "Scegli il numero decimale corrispondente alla frazione.",
+      "items": [
+        {
+          "frazione": "2/10",
+          "decimale": "0,2"
+        },
+        {
+          "frazione": "9/10",
+          "decimale": "0,9"
+        },
+        {
+          "frazione": "6/100",
+          "decimale": "0,06"
+        },
+        {
+          "frazione": "92/100",
+          "decimale": "0,92"
+        },
+        {
+          "frazione": "3/1000",
+          "decimale": "0,003"
+        },
+        {
+          "frazione": "548/1000",
+          "decimale": "0,548"
+        }
+      ]
+    },
+    {
+      "tipo": "scelta_multipla",
+      "title": "Scegli la frazione corrispondente",
+      "subject": "Matematica",
+      "domanda": "Quale frazione corrisponde al numero 1,34?",
+      "opzioni": [
+        "134/10",
+        "134/100",
+        "134/1000",
+        "13/4"
+      ],
+      "corretta": "134/100",
+      "ok": "Esatto! 1,34 corrisponde a 134 centesimi."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "title": "Scegli la frazione corrispondente",
+      "subject": "Matematica",
+      "domanda": "Quale frazione corrisponde al numero 7,7?",
+      "opzioni": [
+        "77/10",
+        "77/100",
+        "7/7",
+        "770/1000"
+      ],
+      "corretta": "77/10",
+      "ok": "Giusto! 7,7 corrisponde a 77 decimi."
+      ,
+    {
+      "title": "I numeri decimali sulla linea dei numeri",
+      "subject": "Matematica",
+      "text": "Sulla linea dei numeri i decimali sono ordinati dal più piccolo al più grande.\nTra 2 e 3 possiamo trovare 2,1 - 2,2 - 2,3 e così via.\nPer ordinare i numeri decimali, confrontiamo prima la parte intera, poi i decimi, poi i centesimi e infine i millesimi.",
+      "keywords": [
+        "linea dei numeri",
+        "ordine crescente",
+        "confronto"
+      ],
+      "remember": [
+        "Sulla linea dei numeri si va dal minore al maggiore.",
+        "Per confrontare i decimali guardo prima la parte intera.",
+        "Se la parte intera è uguale, confronto decimi, centesimi e millesimi."
+      ],
+      "quiz": [
+        {
+          "question": "Quale numero viene prima sulla linea dei numeri?",
+          "answers": [
+            "2,9",
+            "3,5",
+            "1,6",
+            "4"
+          ],
+          "correct": 2
+        }
+      ],
+      "exercise": "Per ordinare i numeri decimali confronto le cifre da sinistra verso destra."
+    },
+    {
+      "tipo": "linea_numerica",
+      "title": "Tocca il numero sulla linea",
+      "subject": "Matematica",
+      "text": "Trova il punto corretto sulla linea dei numeri.",
+      "da": 2,
+      "a": 4,
+      "target": 3.5,
+      "etichetta": "3,5"
+    },
+    {
+      "tipo": "ordina_numeri",
+      "title": "Ordine crescente",
+      "subject": "Matematica",
+      "text": "Riscrivi i numeri dal più piccolo al più grande. Usa il trattino tra i numeri.",
+      "numeri": [
+        "1",
+        "1,3",
+        "3,5",
+        "2,9",
+        "3",
+        "0,3",
+        "3,6",
+        "4",
+        "1,6",
+        "2,7"
+      ],
+      "verso": "crescente"
+    },
+    {
+      "tipo": "ordina_numeri",
+      "title": "Ordine decrescente",
+      "subject": "Matematica",
+      "text": "Riscrivi i numeri dal più grande al più piccolo. Usa il trattino tra i numeri.",
+      "numeri": [
+        "8,04",
+        "8,56",
+        "8,7",
+        "8,4",
+        "8,35",
+        "8"
+      ],
+      "verso": "decrescente"
+    },
+    {
+      "tipo": "confronta_numeri",
+      "title": "Confronta i numeri decimali",
+      "subject": "Matematica",
+      "text": "Scegli il segno giusto: >, < oppure =.",
+      "coppie": [
+        {
+          "a": "2,9",
+          "b": "2,1"
+        },
+        {
+          "a": "8,51",
+          "b": "8,512"
+        },
+        {
+          "a": "0,05",
+          "b": "0,5"
+        },
+        {
+          "a": "32,54",
+          "b": "32,45"
+        },
+        {
+          "a": "6,7",
+          "b": "6,27"
+        },
+        {
+          "a": "0,12",
+          "b": "0,4"
+        }
+      ]
+    },
+    {
+      "title": "Addizioni con i numeri decimali",
+      "subject": "Matematica",
+      "text": "Per sommare numeri decimali in colonna bisogna mettere le virgole una sotto l'altra.\nSe nella parte decimale non c'è lo stesso numero di cifre, si possono aggiungere zeri.\nPoi si somma come con i numeri interi.",
+      "keywords": [
+        "addizione",
+        "virgola",
+        "zeri",
+        "decimali"
+      ],
+      "remember": [
+        "Nelle addizioni con i decimali metto le virgole in colonna.",
+        "Posso aggiungere zeri per pareggiare le cifre decimali.",
+        "Alla fine scrivo la virgola nel risultato."
+      ],
+      "quiz": [
+        {
+          "question": "Nelle addizioni con i decimali che cosa devo mettere in colonna?",
+          "answers": [
+            "Le virgole",
+            "Solo i colori",
+            "Le pagine",
+            "Le domande"
+          ],
+          "correct": 0
+        }
+      ],
+      "exercise": "Per sommare i decimali incolonna le virgole e pareggia con gli zeri se serve."
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Addizione con i decimali",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "212,82 + 65,65",
+      "risposta": "278,47"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Addizione con i decimali",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "357,4 + 112,652",
+      "risposta": "470,052"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Addizione con i decimali",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "167 + 27,635",
+      "risposta": "194,635"
+    },
+    {
+      "title": "Sottrazioni con i numeri decimali",
+      "subject": "Matematica",
+      "text": "Per sottrarre numeri decimali si usano le stesse regole delle sottrazioni.\nBisogna incolonnare i numeri rispettando il valore delle cifre e mettere le virgole una sotto l'altra.\nSe serve, si pareggia con gli zeri.",
+      "keywords": [
+        "sottrazione",
+        "virgola",
+        "decimali",
+        "zeri"
+      ],
+      "remember": [
+        "Nelle sottrazioni con i decimali metto le virgole in colonna.",
+        "Posso aggiungere zeri per pareggiare le cifre.",
+        "Il risultato deve avere la virgola al posto giusto."
+      ],
+      "quiz": [
+        {
+          "question": "Per fare una sottrazione con i decimali devo incolonnare...",
+          "answers": [
+            "le virgole",
+            "solo gli zeri",
+            "solo i numeri grandi",
+            "le parole"
+          ],
+          "correct": 0
+        }
+      ],
+      "exercise": "Per sottrarre i decimali incolonna le virgole e aggiungi zeri se servono."
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Sottrazione con i decimali",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "467,28 - 36,15",
+      "risposta": "431,13"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Sottrazione con i decimali",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "156,99 - 36,756",
+      "risposta": "120,234"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Sottrazione con i decimali",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "84 - 12,563",
+      "risposta": "71,437"
+    },
+    {
+      "title": "Moltiplicazioni con i numeri decimali",
+      "subject": "Matematica",
+      "text": "Per moltiplicare numeri decimali, prima si può calcolare come se non ci fossero le virgole.\nPoi si contano le cifre decimali dei fattori e si mette la virgola nel prodotto.\nEsempio: se nei fattori ci sono in tutto due cifre decimali, nel risultato ci saranno due cifre decimali.",
+      "keywords": [
+        "moltiplicazione",
+        "fattori",
+        "prodotto",
+        "virgola"
+      ],
+      "remember": [
+        "Prima moltiplico come se non ci fossero le virgole.",
+        "Poi conto le cifre decimali dei fattori.",
+        "Infine metto la virgola nel prodotto."
+      ],
+      "quiz": [
+        {
+          "question": "Nella moltiplicazione con decimali, dove metto la virgola?",
+          "answers": [
+            "Nel prodotto, contando le cifre decimali dei fattori",
+            "Sempre all'inizio",
+            "Sempre alla fine",
+            "Non si mette mai"
+          ],
+          "correct": 0
+        }
+      ],
+      "exercise": "Moltiplica come con gli interi, poi conta le cifre decimali."
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Moltiplicazione con i decimali",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "68,2 × 12",
+      "risposta": "818,4"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Moltiplicazione con i decimali",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "2,19 × 3",
+      "risposta": "6,57"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Moltiplicazione con i decimali",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "4,562 × 2",
+      "risposta": "9,124"
+    },
+    {
+      "title": "Moltiplicare e dividere per 10, 100, 1000",
+      "subject": "Matematica",
+      "text": "Per moltiplicare un numero decimale per 10, 100 o 1000 si sposta la virgola verso destra di 1, 2 o 3 posti.\nPer dividere un numero decimale per 10, 100 o 1000 si sposta la virgola verso sinistra di 1, 2 o 3 posti.\nSe mancano cifre, si aggiungono zeri.",
+      "keywords": [
+        "10",
+        "100",
+        "1000",
+        "virgola",
+        "destra",
+        "sinistra"
+      ],
+      "remember": [
+        "×10: virgola di 1 posto a destra.",
+        "×100: virgola di 2 posti a destra.",
+        "×1000: virgola di 3 posti a destra.",
+        ":10, :100, :1000: virgola verso sinistra."
+      ],
+      "quiz": [
+        {
+          "question": "Per moltiplicare per 100 sposto la virgola...",
+          "answers": [
+            "di 2 posti a destra",
+            "di 2 posti a sinistra",
+            "di 1 posto a destra",
+            "non la sposto"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Per dividere per 1000 sposto la virgola...",
+          "answers": [
+            "di 3 posti a sinistra",
+            "di 3 posti a destra",
+            "di 1 posto a sinistra",
+            "non la sposto"
+          ],
+          "correct": 0
+        }
+      ],
+      "exercise": "Con 10, 100 e 1000 la virgola si sposta."
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Moltiplica per 10",
+      "subject": "Matematica",
+      "text": "Sposta la virgola e scrivi il risultato.",
+      "operazione": "6,728 × 10",
+      "risposta": "67,28"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Moltiplica per 100",
+      "subject": "Matematica",
+      "text": "Sposta la virgola e scrivi il risultato.",
+      "operazione": "9,112 × 100",
+      "risposta": "911,2"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Dividi per 10",
+      "subject": "Matematica",
+      "text": "Sposta la virgola e scrivi il risultato.",
+      "operazione": "129,9 : 10",
+      "risposta": "12,99"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Dividi per 1000",
+      "subject": "Matematica",
+      "text": "Sposta la virgola e scrivi il risultato.",
+      "operazione": "453 : 1000",
+      "risposta": "0,453"
+    },
+    {
+      "title": "Divisioni con il dividendo decimale",
+      "subject": "Matematica",
+      "text": "Nelle divisioni con il dividendo decimale, prima si divide la parte intera. Quando si arriva alla virgola del dividendo, si scrive la virgola anche nel quoziente e si continua con la parte decimale.",
+      "keywords": [
+        "divisione",
+        "dividendo",
+        "quoziente",
+        "virgola"
+      ],
+      "remember": [
+        "Prima divido la parte intera.",
+        "Quando arrivo alla virgola, la scrivo nel quoziente.",
+        "Poi continuo con la parte decimale."
+      ],
+      "quiz": [
+        {
+          "question": "Nella divisione con dividendo decimale, quando arrivo alla virgola del dividendo devo...",
+          "answers": [
+            "scrivere la virgola nel quoziente",
+            "cancellare la virgola",
+            "fermarmi",
+            "cambiare operazione"
+          ],
+          "correct": 0
+        }
+      ],
+      "exercise": "Nelle divisioni con decimali scrivo la virgola nel quoziente quando arrivo alla virgola del dividendo."
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Divisione con il dividendo decimale",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "78,6 : 2",
+      "risposta": "39,3"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Divisione con il dividendo decimale",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "94,2 : 4",
+      "risposta": "23,55"
+    },
+    {
+      "tipo": "calcolo",
+      "title": "Divisione con il dividendo decimale",
+      "subject": "Matematica",
+      "text": "Calcola il risultato.",
+      "operazione": "63,45 : 5",
+      "risposta": "12,69"
+    },
+    {
+      "tipo": "scelta_multipla",
+      "title": "Scegli il quoto corretto",
+      "subject": "Matematica",
+      "domanda": "Qual è il quoto di 130,59 : 9?",
+      "opzioni": [
+        "14,51",
+        "145,1",
+        "1,451",
+        "1451"
+      ],
+      "corretta": "14,51",
+      "ok": "Giusto! 130,59 : 9 = 14,51."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "title": "Scegli il quoto corretto",
+      "subject": "Matematica",
+      "domanda": "Qual è il quoto di 32,4 : 4?",
+      "opzioni": [
+        "81",
+        "8,1",
+        "0,81",
+        "810"
+      ],
+      "corretta": "8,1",
+      "ok": "Esatto! 32,4 : 4 = 8,1."
+    },
+    {
+      "tipo": "vero_falso",
+      "title": "Ripasso veloce",
+      "subject": "Matematica",
+      "text": "Scegli vero o falso.",
+      "frasi": [
+        {
+          "testo": "0,5 è maggiore di 0,05.",
+          "valore": true
+        },
+        {
+          "testo": "7,7 corrisponde a 77/100.",
+          "valore": false
+        },
+        {
+          "testo": "Per moltiplicare per 10 sposto la virgola a destra di un posto.",
+          "valore": true
+        },
+        {
+          "testo": "156,99 - 36,756 = 120,234.",
+          "valore": true
+        },
+        {
+          "testo": "3/1000 = 0,3.",
+          "valore": false
+        }
+      ]
+    }
+  ],
+  "domandePlus": [
+    {
+      "q": "Che cos'è un numero decimale?",
+      "help": "È un numero con la virgola, formato da parte intera e parte decimale."
+    },
+    {
+      "q": "Come si chiamano le prime tre posizioni dopo la virgola?",
+      "help": "Decimi, centesimi e millesimi."
+    },
+    {
+      "q": "Che valore ha la cifra 6 nel numero 4,867?",
+      "help": "Vale 6 centesimi."
+    },
+    {
+      "q": "Quando posso togliere uno zero in un numero decimale?",
+      "help": "Posso togliere gli zeri finali dopo la virgola se non cambiano il valore."
+    },
+    {
+      "q": "Come si trasforma 27/100 in numero decimale?",
+      "help": "27/100 diventa 0,27."
+    },
+    {
+      "q": "Come si confrontano due numeri decimali?",
+      "help": "Confronto prima la parte intera, poi decimi, centesimi e millesimi."
+    },
+    {
+      "q": "Come si fanno addizioni e sottrazioni con i decimali?",
+      "help": "Si mettono le virgole in colonna e si pareggiano le cifre con gli zeri se serve."
+    },
+    {
+      "q": "Come si moltiplica un numero decimale per 100?",
+      "help": "Si sposta la virgola di due posti verso destra."
+    },
+    {
+      "q": "Come si divide un numero decimale per 1000?",
+      "help": "Si sposta la virgola di tre posti verso sinistra."
+    },
+    {
+      "q": "Quando scrivo la virgola nel quoziente di una divisione?",
+      "help": "Quando arrivo alla virgola del dividendo."
+    }
+  ]
+    }
+    }
+  ]
+}
