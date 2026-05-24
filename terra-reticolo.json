@@ -12,12 +12,7 @@
       "subject": "Geografia",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/terra-forma.png",
       "text": "La Terra è un pianeta di forma quasi sferica.\nNon è una sfera perfetta: è leggermente schiacciata ai Poli.\nIl Polo Nord e il Polo Sud sono uniti da una linea immaginaria chiamata asse terrestre.\nLa Terra gira attorno al proprio asse.",
-      "keywords": [
-        "Terra",
-        "sfera",
-        "Poli",
-        "asse terrestre"
-      ],
+      "keywords": ["Terra", "sfera", "Poli", "asse terrestre"],
       "remember": [
         "La Terra è quasi sferica.",
         "È leggermente schiacciata ai Poli.",
@@ -38,12 +33,7 @@
       "subject": "Struttura della Terra",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/struttura-terra.png",
       "text": "La Terra è formata da diversi strati.\nLa parte più esterna si chiama crosta terrestre.\nSotto la crosta si trova il mantello.\nAl centro della Terra si trova il nucleo.\nIl nucleo è formato da nucleo esterno e nucleo interno.",
-      "keywords": [
-        "crosta",
-        "mantello",
-        "nucleo",
-        "strati"
-      ],
+      "keywords": ["crosta", "mantello", "nucleo", "strati"],
       "remember": [
         "Gli strati principali della Terra sono crosta, mantello e nucleo.",
         "La crosta è la parte esterna.",
@@ -64,13 +54,7 @@
       "subject": "Strati della Terra",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/strati-terra.png",
       "text": "La crosta terrestre è la parte su cui viviamo.\nSulla crosta si trovano continenti, oceani, montagne, pianure e tutte le forme di vita.\nIl mantello è sotto la crosta ed è formato da rocce molto calde.\nQuando il materiale caldo del mantello esce, può formare la lava dei vulcani.\nIl nucleo è la parte più interna della Terra.",
-      "keywords": [
-        "crosta terrestre",
-        "mantello",
-        "nucleo",
-        "vulcani",
-        "lava"
-      ],
+      "keywords": ["crosta terrestre", "mantello", "nucleo", "vulcani", "lava"],
       "remember": [
         "Noi viviamo sulla crosta terrestre.",
         "Il mantello contiene rocce molto calde.",
@@ -91,12 +75,7 @@
       "subject": "Superficie terrestre",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/oceani-continenti.png",
       "text": "La superficie della Terra è coperta soprattutto dall'acqua.\nCirca tre quarti della superficie terrestre sono occupati dalle acque.\nCirca un quarto è formato dalle terre emerse.\nLe acque formano grandi oceani e mari.\nLe terre emerse formano i continenti.",
-      "keywords": [
-        "acqua",
-        "terre emerse",
-        "oceani",
-        "continenti"
-      ],
+      "keywords": ["acqua", "terre emerse", "oceani", "continenti"],
       "remember": [
         "Sulla Terra c'è molta più acqua che terra.",
         "Le terre emerse formano i continenti.",
@@ -117,13 +96,7 @@
       "subject": "Equatore",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/equatore-emisferi.png",
       "text": "L'Equatore è una linea immaginaria che divide la Terra in due parti uguali.\nLa parte a nord dell'Equatore si chiama Emisfero Boreale o Settentrionale.\nLa parte a sud dell'Equatore si chiama Emisfero Australe o Meridionale.\nL'Europa si trova nell'Emisfero Boreale.",
-      "keywords": [
-        "Equatore",
-        "Emisfero Boreale",
-        "Emisfero Australe",
-        "Nord",
-        "Sud"
-      ],
+      "keywords": ["Equatore", "Emisfero Boreale", "Emisfero Australe", "Nord", "Sud"],
       "remember": [
         "L'Equatore divide la Terra in due emisferi.",
         "A nord c'è l'Emisfero Boreale.",
@@ -143,13 +116,9 @@
       "tipo": "clicca_terra",
       "title": "Tocca l'emisfero giusto",
       "subject": "Esercizio interattivo",
-      "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='%23E8F5E9'/><text x='400' y='42' text-anchor='middle' font-family='Arial' font-size='32' font-weight='bold' fill='%232E7D32'>Tocca la parte giusta</text><circle cx='400' cy='260' r='165' fill='%2390CAF9' stroke='%231565C0' stroke-width='5'/><path d='M260 180 C330 135 470 145 535 210 C470 230 340 225 260 180 Z' fill='%2381C784'/><path d='M285 325 C370 295 500 315 540 365 C445 395 340 370 285 325 Z' fill='%2366BB6A'/><path d='M235 260 Q400 315 565 260' fill='none' stroke='%2300C853' stroke-width='12'/><rect x='250' y='105' width='300' height='45' rx='16' fill='white' stroke='%232E7D32' stroke-width='3'/><text x='400' y='136' text-anchor='middle' font-family='Arial' font-size='24' font-weight='bold' fill='%232E7D32'>Emisfero Boreale</text><rect x='250' y='380' width='300' height='45' rx='16' fill='white' stroke='%23EF6C00' stroke-width='3'/><text x='400' y='411' text-anchor='middle' font-family='Arial' font-size='24' font-weight='bold' fill='%23EF6C00'>Emisfero Australe</text><rect x='565' y='240' width='155' height='45' rx='16' fill='white' stroke='%2300A152' stroke-width='3'/><text x='642' y='270' text-anchor='middle' font-family='Arial' font-size='24' font-weight='bold' fill='%2300A152'>Equatore</text><path d='M565 262 L520 262' stroke='%2300A152' stroke-width='4'/><circle cx='400' cy='135' r='20' fill='%232E7D32'/><text x='400' y='144' text-anchor='middle' font-family='Arial' font-size='24' font-weight='bold' fill='white'>1</text><circle cx='400' cy='260' r='20' fill='%2300A152'/><text x='400' y='269' text-anchor='middle' font-family='Arial' font-size='24' font-weight='bold' fill='white'>2</text><circle cx='400' cy='400' r='20' fill='%23EF6C00'/><text x='400' y='409' text-anchor='middle' font-family='Arial' font-size='24' font-weight='bold' fill='white'>3</text></svg>",
-      "text": "Osserva il globo e tocca la parte corretta: Equatore, Emisfero Boreale o Emisfero Australe.",
-      "keywords": [
-        "tocca",
-        "Equatore",
-        "emisferi"
-      ],
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/tocca-equatore.svg",
+      "text": "Osserva il disegno e tocca la parte corretta: Equatore, Emisfero Boreale o Emisfero Australe.",
+      "keywords": ["tocca", "Equatore", "emisferi"],
       "remember": [
         "L'Equatore è la linea centrale.",
         "L'Emisfero Boreale è sopra l'Equatore.",
@@ -187,12 +156,7 @@
       "subject": "Reticolo geografico",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/reticolo-geografico.png",
       "text": "Sul globo terrestre possiamo immaginare tante linee orizzontali e verticali.\nLe linee orizzontali si chiamano paralleli.\nLe linee verticali si chiamano meridiani.\nParalleli e meridiani si incrociano formando il reticolo geografico.\nIl reticolo geografico serve per localizzare un punto sulla superficie terrestre.",
-      "keywords": [
-        "reticolo geografico",
-        "paralleli",
-        "meridiani",
-        "localizzare"
-      ],
+      "keywords": ["reticolo geografico", "paralleli", "meridiani", "localizzare"],
       "remember": [
         "Il reticolo geografico è formato da paralleli e meridiani.",
         "Serve per localizzare un punto sulla Terra.",
@@ -212,14 +176,9 @@
       "tipo": "clicca_reticolo",
       "title": "Tocca paralleli e meridiani",
       "subject": "Esercizio interattivo",
-      "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='%23F1F8E9'/><text x='400' y='42' text-anchor='middle' font-family='Arial' font-size='32' font-weight='bold' fill='%2333691E'>Tocca paralleli o meridiani</text><circle cx='400' cy='260' r='170' fill='%23BBDEFB' stroke='%231565C0' stroke-width='5'/><ellipse cx='400' cy='260' rx='170' ry='35' fill='none' stroke='%2343A047' stroke-width='7'/><ellipse cx='400' cy='210' rx='145' ry='25' fill='none' stroke='%2343A047' stroke-width='5'/><ellipse cx='400' cy='310' rx='145' ry='25' fill='none' stroke='%2343A047' stroke-width='5'/><ellipse cx='400' cy='160' rx='95' ry='16' fill='none' stroke='%2343A047' stroke-width='4'/><ellipse cx='400' cy='360' rx='95' ry='16' fill='none' stroke='%2343A047' stroke-width='4'/><ellipse cx='400' cy='260' rx='55' ry='170' fill='none' stroke='%23E53935' stroke-width='7'/><ellipse cx='400' cy='260' rx='105' ry='170' fill='none' stroke='%23E53935' stroke-width='5'/><line x1='400' y1='90' x2='400' y2='430' stroke='%23E53935' stroke-width='5'/><rect x='70' y='115' width='190' height='52' rx='16' fill='white' stroke='%2343A047' stroke-width='3'/><text x='165' y='150' text-anchor='middle' font-family='Arial' font-size='25' font-weight='bold' fill='%2343A047'>Paralleli</text><path d='M260 142 L310 205' stroke='%2343A047' stroke-width='4'/><rect x='540' y='115' width='190' height='52' rx='16' fill='white' stroke='%23E53935' stroke-width='3'/><text x='635' y='150' text-anchor='middle' font-family='Arial' font-size='25' font-weight='bold' fill='%23E53935'>Meridiani</text><path d='M540 145 L485 155' stroke='%23E53935' stroke-width='4'/><rect x='220' y='435' width='360' height='42' rx='15' fill='white' stroke='%2333691E' stroke-width='3'/><text x='400' y='463' text-anchor='middle' font-family='Arial' font-size='23' font-weight='bold' fill='%2333691E'>Reticolo geografico</text><circle cx='310' cy='210' r='20' fill='%2343A047'/><text x='310' y='219' text-anchor='middle' font-family='Arial' font-size='24' font-weight='bold' fill='white'>1</text><circle cx='455' cy='205' r='20' fill='%23E53935'/><text x='455' y='214' text-anchor='middle' font-family='Arial' font-size='24' font-weight='bold' fill='white'>2</text><circle cx='400' cy='260' r='24' fill='%2333691E'/><text x='400' y='270' text-anchor='middle' font-family='Arial' font-size='26' font-weight='bold' fill='white'>3</text></svg>",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/tocca-reticolo.svg",
       "text": "Guarda il reticolo geografico e tocca la risposta giusta.",
-      "keywords": [
-        "tocca",
-        "paralleli",
-        "meridiani",
-        "reticolo"
-      ],
+      "keywords": ["tocca", "paralleli", "meridiani", "reticolo"],
       "remember": [
         "I paralleli sono linee orizzontali.",
         "I meridiani sono linee verticali.",
@@ -257,13 +216,7 @@
       "subject": "Paralleli",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/paralleli-latitudine.png",
       "text": "I paralleli sono linee immaginarie orizzontali.\nSono circonferenze parallele all'Equatore.\nIl parallelo più importante è l'Equatore, chiamato anche parallelo 0.\nI paralleli sono 180.\nLa distanza di un punto dall'Equatore si chiama latitudine.\nLa latitudine si misura in gradi Nord o Sud.",
-      "keywords": [
-        "paralleli",
-        "Equatore",
-        "latitudine",
-        "Nord",
-        "Sud"
-      ],
+      "keywords": ["paralleli", "Equatore", "latitudine", "Nord", "Sud"],
       "remember": [
         "I paralleli sono linee orizzontali.",
         "L'Equatore è il parallelo 0.",
@@ -284,13 +237,7 @@
       "subject": "Meridiani",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/meridiani-longitudine.png",
       "text": "I meridiani sono linee immaginarie verticali che passano per i Poli.\nI meridiani sono 360.\nIl meridiano fondamentale è il meridiano di Greenwich.\nIl meridiano di Greenwich è chiamato anche meridiano 0.\nLa distanza di un punto dal meridiano di Greenwich si chiama longitudine.\nLa longitudine si misura in gradi Est o Ovest.",
-      "keywords": [
-        "meridiani",
-        "Greenwich",
-        "longitudine",
-        "Est",
-        "Ovest"
-      ],
+      "keywords": ["meridiani", "Greenwich", "longitudine", "Est", "Ovest"],
       "remember": [
         "I meridiani sono linee verticali.",
         "Il meridiano fondamentale è quello di Greenwich.",
@@ -310,15 +257,9 @@
       "tipo": "clicca_meridiani",
       "title": "Tocca Greenwich e i Poli",
       "subject": "Esercizio interattivo",
-      "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='%23EDE7F6'/><text x='400' y='42' text-anchor='middle' font-family='Arial' font-size='32' font-weight='bold' fill='%234527A0'>Tocca Greenwich e i Poli</text><circle cx='400' cy='260' r='165' fill='%23B3E5FC' stroke='%231565C0' stroke-width='5'/><ellipse cx='400' cy='260' rx='45' ry='165' fill='none' stroke='%23E53935' stroke-width='5'/><ellipse cx='400' cy='260' rx='90' ry='165' fill='none' stroke='%23E53935' stroke-width='4'/><line x1='400' y1='95' x2='400' y2='425' stroke='%23D50000' stroke-width='10'/><circle cx='400' cy='95' r='18' fill='%231A237E'/><text x='400' y='103' text-anchor='middle' font-family='Arial' font-size='22' font-weight='bold' fill='white'>N</text><circle cx='400' cy='425' r='18' fill='%231A237E'/><text x='400' y='433' text-anchor='middle' font-family='Arial' font-size='22' font-weight='bold' fill='white'>S</text><rect x='430' y='105' width='310' height='48' rx='16' fill='white' stroke='%23D50000' stroke-width='3'/><text x='585' y='137' text-anchor='middle' font-family='Arial' font-size='22' font-weight='bold' fill='%23D50000'>Meridiano di Greenwich 0°</text><path d='M430 130 L402 160' stroke='%23D50000' stroke-width='4'/><path d='M400 260 Q470 210 505 155' fill='none' stroke='%236A1B9A' stroke-width='7'/><polygon points='505,155 487,163 502,176' fill='%236A1B9A'/><rect x='500' y='230' width='190' height='50' rx='16' fill='white' stroke='%236A1B9A' stroke-width='3'/><text x='595' y='263' text-anchor='middle' font-family='Arial' font-size='24' font-weight='bold' fill='%236A1B9A'>Longitudine</text><rect x='80' y='105' width='170' height='45' rx='16' fill='white' stroke='%231A237E' stroke-width='3'/><text x='165' y='136' text-anchor='middle' font-family='Arial' font-size='23' font-weight='bold' fill='%231A237E'>Polo Nord</text><rect x='80' y='380' width='170' height='45' rx='16' fill='white' stroke='%231A237E' stroke-width='3'/><text x='165' y='411' text-anchor='middle' font-family='Arial' font-size='23' font-weight='bold' fill='%231A237E'>Polo Sud</text><circle cx='400' cy='260' r='22' fill='%23D50000'/><text x='400' y='269' text-anchor='middle' font-family='Arial' font-size='25' font-weight='bold' fill='white'>1</text><circle cx='400' cy='95' r='22' fill='%231A237E'/><text x='400' y='104' text-anchor='middle' font-family='Arial' font-size='25' font-weight='bold' fill='white'>2</text><circle cx='400' cy='425' r='22' fill='%231A237E'/><text x='400' y='434' text-anchor='middle' font-family='Arial' font-size='25' font-weight='bold' fill='white'>3</text><circle cx='500' cy='165' r='22' fill='%236A1B9A'/><text x='500' y='174' text-anchor='middle' font-family='Arial' font-size='25' font-weight='bold' fill='white'>4</text></svg>",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/tocca-meridiani.svg",
       "text": "Osserva il globo e tocca il punto richiesto.",
-      "keywords": [
-        "tocca",
-        "Greenwich",
-        "Polo Nord",
-        "Polo Sud",
-        "longitudine"
-      ],
+      "keywords": ["tocca", "Greenwich", "Polo Nord", "Polo Sud", "longitudine"],
       "remember": [
         "Greenwich è il meridiano 0.",
         "Il Polo Nord si trova in alto.",
@@ -362,13 +303,7 @@
       "subject": "Punti cardinali",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/punti-cardinali.png",
       "text": "Per orientarci sulla Terra usiamo i punti cardinali.\nI punti cardinali principali sono Nord, Sud, Est e Ovest.\nIl Nord indica la direzione del Polo Nord.\nIl Sud indica la direzione del Polo Sud.\nEst è dove sorge il Sole.\nOvest è dove tramonta il Sole.",
-      "keywords": [
-        "Nord",
-        "Sud",
-        "Est",
-        "Ovest",
-        "punti cardinali"
-      ],
+      "keywords": ["Nord", "Sud", "Est", "Ovest", "punti cardinali"],
       "remember": [
         "I punti cardinali sono Nord, Sud, Est e Ovest.",
         "Il Sole sorge a Est.",
@@ -389,12 +324,7 @@
       "subject": "Carte geografiche",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/globo-planisfero.png",
       "text": "I cartografi rappresentano la Terra con strumenti diversi.\nIl globo terrestre rappresenta la Terra come una sfera.\nIl planisfero rappresenta tutta la superficie terrestre su un foglio piano.\nIl globo è più simile alla forma reale della Terra.\nIl planisfero è comodo per osservare tutta la Terra insieme.",
-      "keywords": [
-        "globo",
-        "planisfero",
-        "cartografi",
-        "Terra"
-      ],
+      "keywords": ["globo", "planisfero", "cartografi", "Terra"],
       "remember": [
         "Il globo rappresenta la Terra come una sfera.",
         "Il planisfero rappresenta la Terra su un foglio piano.",
