@@ -19,13 +19,25 @@
         "La Terra gira attorno al proprio asse."
       ],
       "question": "Che forma ha la Terra?",
-      "answers": [
-        "Perfettamente quadrata",
-        "Quasi sferica",
-        "Piatta",
-        "A forma di cubo"
-      ],
+      "answers": ["Perfettamente quadrata", "Quasi sferica", "Piatta", "A forma di cubo"],
       "correct": 1,
+      "quiz": [
+        {
+          "question": "Che forma ha la Terra?",
+          "answers": ["Piatta", "Quasi sferica", "Quadrata", "A forma di stella"],
+          "correct": 1
+        },
+        {
+          "question": "Com'è la Terra ai Poli?",
+          "answers": ["Leggermente schiacciata", "Appuntita", "Vuota", "Perfettamente liscia"],
+          "correct": 0
+        },
+        {
+          "question": "Come si chiama la linea immaginaria attorno a cui gira la Terra?",
+          "answers": ["Equatore", "Asse terrestre", "Oceano", "Planisfero"],
+          "correct": 1
+        }
+      ],
       "exercise": "Completa: La Terra ha una forma quasi __________ ed è leggermente schiacciata ai Poli."
     },
     {
@@ -40,13 +52,25 @@
         "Il nucleo si trova al centro della Terra."
       ],
       "question": "Qual è la parte più esterna della Terra?",
-      "answers": [
-        "Il nucleo interno",
-        "Il mantello",
-        "La crosta terrestre",
-        "Il Sole"
-      ],
+      "answers": ["Il nucleo interno", "Il mantello", "La crosta terrestre", "Il Sole"],
       "correct": 2,
+      "quiz": [
+        {
+          "question": "Qual è la parte più esterna della Terra?",
+          "answers": ["La crosta terrestre", "Il nucleo interno", "Il mantello", "La lava"],
+          "correct": 0
+        },
+        {
+          "question": "Che cosa si trova sotto la crosta terrestre?",
+          "answers": ["Il cielo", "Il mantello", "L'oceano", "Il planisfero"],
+          "correct": 1
+        },
+        {
+          "question": "Dove si trova il nucleo?",
+          "answers": ["Al centro della Terra", "Sopra le nuvole", "Fuori dalla Terra", "Solo negli oceani"],
+          "correct": 0
+        }
+      ],
       "exercise": "Scrivi in ordine gli strati principali: crosta, mantello, nucleo."
     },
     {
@@ -61,13 +85,25 @@
         "Il nucleo è la parte più interna della Terra."
       ],
       "question": "Su quale strato della Terra viviamo?",
-      "answers": [
-        "Nel nucleo",
-        "Sulla crosta terrestre",
-        "Nel mantello",
-        "Dentro un vulcano"
-      ],
+      "answers": ["Nel nucleo", "Sulla crosta terrestre", "Nel mantello", "Dentro un vulcano"],
       "correct": 1,
+      "quiz": [
+        {
+          "question": "Su quale strato della Terra viviamo?",
+          "answers": ["Sul nucleo", "Sulla crosta terrestre", "Nel mantello", "Nel centro della Terra"],
+          "correct": 1
+        },
+        {
+          "question": "Che cosa può uscire dai vulcani?",
+          "answers": ["Lava", "Neve", "Sabbia fredda", "Acqua dolce"],
+          "correct": 0
+        },
+        {
+          "question": "Com'è il materiale del mantello?",
+          "answers": ["Molto freddo", "Molto caldo", "Di plastica", "Di carta"],
+          "correct": 1
+        }
+      ],
       "exercise": "Rispondi: perché la crosta terrestre è importante per gli esseri viventi?"
     },
     {
@@ -82,13 +118,25 @@
         "Le acque formano mari e oceani."
       ],
       "question": "Quale parte occupa più superficie sulla Terra?",
-      "answers": [
-        "La terra",
-        "La sabbia",
-        "L'acqua",
-        "Le montagne"
-      ],
+      "answers": ["La terra", "La sabbia", "L'acqua", "Le montagne"],
       "correct": 2,
+      "quiz": [
+        {
+          "question": "Quale elemento occupa più superficie sulla Terra?",
+          "answers": ["L'acqua", "La terra", "La sabbia", "La neve"],
+          "correct": 0
+        },
+        {
+          "question": "Che cosa formano le terre emerse?",
+          "answers": ["I continenti", "Le stelle", "I meridiani", "Il nucleo"],
+          "correct": 0
+        },
+        {
+          "question": "Circa quanta parte della superficie terrestre è coperta dalle acque?",
+          "answers": ["Tre quarti", "Un decimo", "Tutta", "Nessuna parte"],
+          "correct": 0
+        }
+      ],
       "exercise": "Completa: circa tre quarti della superficie terrestre sono occupati dalle __________."
     },
     {
@@ -103,13 +151,25 @@
         "A sud c'è l'Emisfero Australe."
       ],
       "question": "Che cosa divide la Terra in due emisferi?",
-      "answers": [
-        "Il meridiano di Greenwich",
-        "Il Polo Nord",
-        "L'Equatore",
-        "L'oceano Pacifico"
-      ],
+      "answers": ["Il meridiano di Greenwich", "Il Polo Nord", "L'Equatore", "L'oceano Pacifico"],
       "correct": 2,
+      "quiz": [
+        {
+          "question": "Che cosa divide la Terra in due emisferi?",
+          "answers": ["L'Equatore", "Il nucleo", "Il mantello", "Il planisfero"],
+          "correct": 0
+        },
+        {
+          "question": "Come si chiama l'emisfero a nord dell'Equatore?",
+          "answers": ["Emisfero Boreale", "Emisfero Australe", "Emisfero Marino", "Emisfero Occidentale"],
+          "correct": 0
+        },
+        {
+          "question": "Dove si trova l'Emisfero Australe?",
+          "answers": ["A sud dell'Equatore", "A nord dell'Equatore", "Dentro la Terra", "Sopra il Polo Nord"],
+          "correct": 0
+        }
+      ],
       "exercise": "Completa: l'Equatore divide la Terra in Emisfero Boreale ed Emisfero __________."
     },
     {
@@ -142,13 +202,25 @@
         }
       ],
       "question": "Dove si trova l'Emisfero Boreale?",
-      "answers": [
-        "Sotto l'Equatore",
-        "A nord dell'Equatore",
-        "Dentro il nucleo",
-        "Sull'oceano"
-      ],
+      "answers": ["Sotto l'Equatore", "A nord dell'Equatore", "Dentro il nucleo", "Sull'oceano"],
       "correct": 1,
+      "quiz": [
+        {
+          "question": "Nel disegno, quale numero indica l'Emisfero Boreale?",
+          "answers": ["1", "2", "3", "4"],
+          "correct": 0
+        },
+        {
+          "question": "Nel disegno, quale numero indica l'Equatore?",
+          "answers": ["1", "2", "3", "4"],
+          "correct": 1
+        },
+        {
+          "question": "Nel disegno, quale numero indica l'Emisfero Australe?",
+          "answers": ["1", "2", "3", "4"],
+          "correct": 2
+        }
+      ],
       "exercise": "Tocca sull'immagine la parte richiesta."
     },
     {
@@ -163,13 +235,25 @@
         "Paralleli e meridiani si incrociano."
       ],
       "question": "Da che cosa è formato il reticolo geografico?",
-      "answers": [
-        "Solo da montagne",
-        "Da paralleli e meridiani",
-        "Solo da fiumi",
-        "Da mari e laghi"
-      ],
+      "answers": ["Solo da montagne", "Da paralleli e meridiani", "Solo da fiumi", "Da mari e laghi"],
       "correct": 1,
+      "quiz": [
+        {
+          "question": "Da che cosa è formato il reticolo geografico?",
+          "answers": ["Da paralleli e meridiani", "Da montagne e pianure", "Da mari e fiumi", "Da Sole e Luna"],
+          "correct": 0
+        },
+        {
+          "question": "Come si chiamano le linee orizzontali?",
+          "answers": ["Paralleli", "Meridiani", "Nuclei", "Continenti"],
+          "correct": 0
+        },
+        {
+          "question": "Come si chiamano le linee verticali?",
+          "answers": ["Paralleli", "Meridiani", "Oceani", "Stati"],
+          "correct": 1
+        }
+      ],
       "exercise": "Completa: il reticolo geografico è formato da paralleli e __________."
     },
     {
@@ -202,13 +286,25 @@
         }
       ],
       "question": "Come si chiamano le linee orizzontali?",
-      "answers": [
-        "Meridiani",
-        "Paralleli",
-        "Nuclei",
-        "Continenti"
-      ],
+      "answers": ["Meridiani", "Paralleli", "Nuclei", "Continenti"],
       "correct": 1,
+      "quiz": [
+        {
+          "question": "Nel disegno, quale numero indica i paralleli?",
+          "answers": ["1", "2", "3", "4"],
+          "correct": 0
+        },
+        {
+          "question": "Nel disegno, quale numero indica i meridiani?",
+          "answers": ["1", "2", "3", "4"],
+          "correct": 1
+        },
+        {
+          "question": "Nel disegno, quale numero indica il reticolo geografico?",
+          "answers": ["1", "2", "3", "4"],
+          "correct": 2
+        }
+      ],
       "exercise": "Tocca sull'immagine le linee richieste."
     },
     {
@@ -223,13 +319,25 @@
         "La latitudine indica la distanza dall'Equatore."
       ],
       "question": "Che cosa indica la latitudine?",
-      "answers": [
-        "La distanza dal Sole",
-        "La profondità del mare",
-        "La distanza dall'Equatore",
-        "L'altezza delle montagne"
-      ],
+      "answers": ["La distanza dal Sole", "La profondità del mare", "La distanza dall'Equatore", "L'altezza delle montagne"],
       "correct": 2,
+      "quiz": [
+        {
+          "question": "Come si chiamano le linee orizzontali del reticolo geografico?",
+          "answers": ["Paralleli", "Meridiani", "Vulcani", "Oceani"],
+          "correct": 0
+        },
+        {
+          "question": "Qual è il parallelo più importante?",
+          "answers": ["L'Equatore", "Greenwich", "Il Polo Nord", "Il nucleo"],
+          "correct": 0
+        },
+        {
+          "question": "Che cosa indica la latitudine?",
+          "answers": ["La distanza dall'Equatore", "La distanza da Greenwich", "Il centro della Terra", "La forma dei continenti"],
+          "correct": 0
+        }
+      ],
       "exercise": "Completa: la latitudine indica la distanza di un punto dall'__________."
     },
     {
@@ -244,13 +352,25 @@
         "La longitudine indica la distanza dal meridiano di Greenwich."
       ],
       "question": "Qual è il meridiano fondamentale?",
-      "answers": [
-        "L'Equatore",
-        "Il Tropico del Cancro",
-        "Il Polo Nord",
-        "Il meridiano di Greenwich"
-      ],
+      "answers": ["L'Equatore", "Il Tropico del Cancro", "Il Polo Nord", "Il meridiano di Greenwich"],
       "correct": 3,
+      "quiz": [
+        {
+          "question": "Come si chiamano le linee verticali che passano per i Poli?",
+          "answers": ["Meridiani", "Paralleli", "Equatori", "Continenti"],
+          "correct": 0
+        },
+        {
+          "question": "Qual è il meridiano fondamentale?",
+          "answers": ["Greenwich", "Equatore", "Polo Sud", "Oceano Pacifico"],
+          "correct": 0
+        },
+        {
+          "question": "Che cosa indica la longitudine?",
+          "answers": ["La distanza dal meridiano di Greenwich", "La distanza dall'Equatore", "La profondità del mare", "La grandezza della Terra"],
+          "correct": 0
+        }
+      ],
       "exercise": "Completa: la longitudine indica la distanza dal meridiano di __________."
     },
     {
@@ -289,13 +409,25 @@
         }
       ],
       "question": "Che cos'è Greenwich?",
-      "answers": [
-        "Il parallelo 0",
-        "Il meridiano 0",
-        "Un oceano",
-        "Uno strato della Terra"
-      ],
+      "answers": ["Il parallelo 0", "Il meridiano 0", "Un oceano", "Uno strato della Terra"],
       "correct": 1,
+      "quiz": [
+        {
+          "question": "Nel disegno, quale numero indica Greenwich?",
+          "answers": ["1", "2", "3", "4"],
+          "correct": 0
+        },
+        {
+          "question": "Nel disegno, quale numero indica il Polo Nord?",
+          "answers": ["1", "2", "3", "4"],
+          "correct": 1
+        },
+        {
+          "question": "Nel disegno, quale numero indica il Polo Sud?",
+          "answers": ["1", "2", "3", "4"],
+          "correct": 2
+        }
+      ],
       "exercise": "Tocca sull'immagine Greenwich, i Poli o la longitudine."
     },
     {
@@ -310,13 +442,25 @@
         "Il Sole tramonta a Ovest."
       ],
       "question": "Dove sorge il Sole?",
-      "answers": [
-        "A Ovest",
-        "A Est",
-        "Al Polo Sud",
-        "Sotto terra"
-      ],
+      "answers": ["A Ovest", "A Est", "Al Polo Sud", "Sotto terra"],
       "correct": 1,
+      "quiz": [
+        {
+          "question": "Quali sono i quattro punti cardinali?",
+          "answers": ["Nord, Sud, Est e Ovest", "Alto, basso, destra e sinistra", "Europa, Asia, Africa e America", "Acqua, aria, terra e fuoco"],
+          "correct": 0
+        },
+        {
+          "question": "Dove sorge il Sole?",
+          "answers": ["A Est", "A Ovest", "Al Polo Sud", "Nel nucleo"],
+          "correct": 0
+        },
+        {
+          "question": "Dove tramonta il Sole?",
+          "answers": ["A Ovest", "A Est", "Al Polo Nord", "Sotto il mare"],
+          "correct": 0
+        }
+      ],
       "exercise": "Completa: il Sole sorge a __________ e tramonta a Ovest."
     },
     {
@@ -331,13 +475,25 @@
         "Il globo è più simile alla forma reale della Terra."
       ],
       "question": "Che cos'è il planisfero?",
-      "answers": [
-        "Il nucleo della Terra",
-        "Una rappresentazione piatta della Terra",
-        "Un tipo di vulcano",
-        "Un parallelo"
-      ],
+      "answers": ["Il nucleo della Terra", "Una rappresentazione piatta della Terra", "Un tipo di vulcano", "Un parallelo"],
       "correct": 1,
+      "quiz": [
+        {
+          "question": "Che cos'è il globo terrestre?",
+          "answers": ["Una rappresentazione sferica della Terra", "Una montagna", "Un oceano", "Un meridiano"],
+          "correct": 0
+        },
+        {
+          "question": "Che cos'è il planisfero?",
+          "answers": ["Una rappresentazione piatta della Terra", "Il nucleo terrestre", "Un vulcano", "Un parallelo"],
+          "correct": 0
+        },
+        {
+          "question": "Quale rappresentazione è più simile alla vera forma della Terra?",
+          "answers": ["Il globo", "Il foglio quadrettato", "Il diario", "La bussola"],
+          "correct": 0
+        }
+      ],
       "exercise": "Spiega la differenza: il globo è sferico, il planisfero è __________."
     }
   ],
