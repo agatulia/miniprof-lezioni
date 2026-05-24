@@ -10,14 +10,14 @@
     "file": "piante.json"
   },
   {
-  "id": "terra-reticolo",
-  "titolo": "La Terra e il reticolo geografico",
-  "materia": "Geografia",
-  "classe": "4 primaria",
-  "icona": "🌍",
-  "descrizione": "Forma della Terra, struttura interna, oceani, emisferi, paralleli, meridiani, latitudine e longitudine.",
-  "attiva": true,
-  "file": "terra-reticolo.json"
+    "id": "terra-reticolo",
+    "titolo": "La Terra e il reticolo geografico",
+    "materia": "Geografia",
+    "classe": "4 primaria",
+    "icona": "🌍",
+    "descrizione": "Forma della Terra, struttura interna, oceani, emisferi, paralleli, meridiani, latitudine e longitudine.",
+    "attiva": true,
+    "file": "terra-reticolo.json"
   },
   {
     "id": "indo",
