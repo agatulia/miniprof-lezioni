@@ -19,16 +19,7 @@
     "attiva": true,
     "file": "terra-reticolo.json"
   },
-  {
-  "id": "test-math",
-  "titolo": "Test funzioni Math",
-  "materia": "Matematica",
-  "classe": "4 primaria",
-  "icona": "🧪",
-  "descrizione": "Lezione di prova per controllare tutti i blocchi interattivi Math.",
-  "attiva": true,
-  "file": "test-math.json"
-  },
+  
   {
     "id": "indo",
     "titolo": "La civiltà dell’Indo",
