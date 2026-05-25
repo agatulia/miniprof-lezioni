@@ -4,7 +4,7 @@
   "materia": "Matematica",
   "classe": "4 primaria",
   "icona": "🔢",
-  "descrizione": "Parte intera, parte decimale, decimi, centesimi, confronto e calcoli.",
+  "descrizione": "Parte intera, parte decimale, decimi, centesimi, millesimi, confronto e calcoli.",
   "steps": [
     {
       "tipo": "teoria",
@@ -14,17 +14,17 @@
       "testo": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
       "contenuto": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
       "text": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
-      "esempio": "Esempio: 3,45 si legge tre virgola quarantacinque."
+      "esempio": "Esempio: 12,45 si legge dodici virgola quarantacinque."
     },
     {
       "tipo": "teoria",
       "type": "teoria",
       "titolo": "Parte intera e parte decimale",
       "title": "Parte intera e parte decimale",
-      "testo": "In un numero decimale, la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
-      "contenuto": "In un numero decimale, la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
-      "text": "In un numero decimale, la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
-      "esempio": "Nel numero 12,36: 12 è la parte intera, 36 è la parte decimale."
+      "testo": "Nel numero decimale la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
+      "contenuto": "Nel numero decimale la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
+      "text": "Nel numero decimale la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
+      "esempio": "Nel numero 8,27: 8 è la parte intera, 27 è la parte decimale."
     },
     {
       "tipo": "scelta_multipla",
@@ -72,134 +72,4 @@
       "question": "Nel numero 9,12 la parte decimale è 9.",
       "risposta": false,
       "answer": false,
-      "spiegazione": "È falso: 9 è la parte intera, mentre 12 è la parte decimale."
-    },
-    {
-      "tipo": "teoria",
-      "type": "teoria",
-      "titolo": "Decimi, centesimi e millesimi",
-      "title": "Decimi, centesimi e millesimi",
-      "testo": "Dopo la virgola troviamo le cifre decimali. La prima cifra dopo la virgola indica i decimi, la seconda i centesimi, la terza i millesimi.",
-      "contenuto": "Dopo la virgola troviamo le cifre decimali. La prima cifra dopo la virgola indica i decimi, la seconda i centesimi, la terza i millesimi.",
-      "text": "Dopo la virgola troviamo le cifre decimali. La prima cifra dopo la virgola indica i decimi, la seconda i centesimi, la terza i millesimi.",
-      "esempio": "Nel numero 4,372: 3 sono i decimi, 7 sono i centesimi, 2 sono i millesimi."
-    },
-    {
-      "tipo": "scelta_multipla",
-      "type": "scelta_multipla",
-      "titolo": "Trova i decimi",
-      "title": "Trova i decimi",
-      "domanda": "Nel numero 5,68 qual è la cifra dei decimi?",
-      "question": "Nel numero 5,68 qual è la cifra dei decimi?",
-      "opzioni": ["6", "8", "5", "68"],
-      "options": ["6", "8", "5", "68"],
-      "risposta": "6",
-      "answer": "6",
-      "spiegazione": "I decimi sono la prima cifra dopo la virgola."
-    },
-    {
-      "tipo": "scelta_multipla",
-      "type": "scelta_multipla",
-      "titolo": "Trova i centesimi",
-      "title": "Trova i centesimi",
-      "domanda": "Nel numero 7,42 qual è la cifra dei centesimi?",
-      "question": "Nel numero 7,42 qual è la cifra dei centesimi?",
-      "opzioni": ["2", "4", "7", "42"],
-      "options": ["2", "4", "7", "42"],
-      "risposta": "2",
-      "answer": "2",
-      "spiegazione": "I centesimi sono la seconda cifra dopo la virgola."
-    },
-    {
-      "tipo": "scelta_multipla",
-      "type": "scelta_multipla",
-      "titolo": "Trova i millesimi",
-      "title": "Trova i millesimi",
-      "domanda": "Nel numero 3,519 qual è la cifra dei millesimi?",
-      "question": "Nel numero 3,519 qual è la cifra dei millesimi?",
-      "opzioni": ["9", "5", "1", "3"],
-      "options": ["9", "5", "1", "3"],
-      "risposta": "9",
-      "answer": "9",
-      "spiegazione": "I millesimi sono la terza cifra dopo la virgola."
-    },
-    {
-      "tipo": "input_numero",
-      "type": "input_numero",
-      "titolo": "Scrivi il numero",
-      "title": "Scrivi il numero",
-      "domanda": "Scrivi in cifre il numero: cinque virgola tre.",
-      "question": "Scrivi in cifre il numero: cinque virgola tre.",
-      "risposta": "5,3",
-      "answer": "5,3",
-      "accetta": ["5,3", "5.3"],
-      "spiegazione": "Cinque virgola tre si scrive 5,3."
-    },
-    {
-      "tipo": "input_numero",
-      "type": "input_numero",
-      "titolo": "Scrivi il numero",
-      "title": "Scrivi il numero",
-      "domanda": "Scrivi in cifre il numero: dodici virgola quarantacinque.",
-      "question": "Scrivi in cifre il numero: dodici virgola quarantacinque.",
-      "risposta": "12,45",
-      "answer": "12,45",
-      "accetta": ["12,45", "12.45"],
-      "spiegazione": "Dodici virgola quarantacinque si scrive 12,45."
-    },
-    {
-      "tipo": "teoria",
-      "type": "teoria",
-      "titolo": "Le frazioni decimali",
-      "title": "Le frazioni decimali",
-      "testo": "Una frazione decimale ha come denominatore 10, 100 o 1000. Le frazioni decimali si possono trasformare in numeri decimali.",
-      "contenuto": "Una frazione decimale ha come denominatore 10, 100 o 1000. Le frazioni decimali si possono trasformare in numeri decimali.",
-      "text": "Una frazione decimale ha come denominatore 10, 100 o 1000. Le frazioni decimali si possono trasformare in numeri decimali.",
-      "esempio": "3/10 = 0,3 — 25/100 = 0,25 — 125/1000 = 0,125"
-    },
-    {
-      "tipo": "scelta_multipla",
-      "type": "scelta_multipla",
-      "titolo": "Da frazione a numero decimale",
-      "title": "Da frazione a numero decimale",
-      "domanda": "Quale numero decimale corrisponde alla frazione 6/10?",
-      "question": "Quale numero decimale corrisponde alla frazione 6/10?",
-      "opzioni": ["0,6", "0,06", "6,10", "60"],
-      "options": ["0,6", "0,06", "6,10", "60"],
-      "risposta": "0,6",
-      "answer": "0,6",
-      "spiegazione": "6/10 significa sei decimi, cioè 0,6."
-    },
-    {
-      "tipo": "scelta_multipla",
-      "type": "scelta_multipla",
-      "titolo": "Da frazione a numero decimale",
-      "title": "Da frazione a numero decimale",
-      "domanda": "Quale numero decimale corrisponde alla frazione 45/100?",
-      "question": "Quale numero decimale corrisponde alla frazione 45/100?",
-      "opzioni": ["0,45", "4,5", "45,100", "0,045"],
-      "options": ["0,45", "4,5", "45,100", "0,045"],
-      "risposta": "0,45",
-      "answer": "0,45",
-      "spiegazione": "45/100 significa quarantacinque centesimi, cioè 0,45."
-    },
-    {
-      "tipo": "scelta_multipla",
-      "type": "scelta_multipla",
-      "titolo": "Da numero decimale a frazione",
-      "title": "Da numero decimale a frazione",
-      "domanda": "A quale frazione corrisponde 0,7?",
-      "question": "A quale frazione corrisponde 0,7?",
-      "opzioni": ["7/10", "7/100", "70/1000", "0/7"],
-      "options": ["7/10", "7/100", "70/1000", "0/7"],
-      "risposta": "7/10",
-      "answer": "7/10",
-      "spiegazione": "0,7 ha una cifra dopo la virgola, quindi sono decimi: 7/10."
-    },
-    {
-      "tipo": "teoria",
-      "type": "teoria",
-      "titolo": "Gli zeri dopo la virgola",
-      "title": "Gli zeri dopo la virgola",
-      "testo": "Gli zeri alla fine della parte decimale non cambiano il valore del numero.",
-      "contenuto": "Gli zeri alla
+      "spiegazione": "È falso: 9 è la parte intera. La
