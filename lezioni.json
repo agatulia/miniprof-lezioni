@@ -1,77 +1,75 @@
-[
-  {
-    "id": "piante-riproduzione",
-    "titolo": "Le piante si riproducono",
-    "materia": "Scienze",
-    "classe": "4 primaria",
-    "icona": "🌸",
-    "descrizione": "Fiore, impollinazione, fecondazione, frutto, seme e germinazione.",
-    "attiva": true,
-    "file": "piante.json"
-  },
-  {
-    "id": "terra-reticolo",
-    "titolo": "La Terra e il reticolo geografico",
-    "materia": "Geografia",
-    "classe": "4 primaria",
-    "icona": "🌍",
-    "descrizione": "Forma della Terra, struttura interna, oceani, emisferi, paralleli, meridiani, latitudine e longitudine.",
-    "attiva": true,
-    "file": "terra-reticolo.json"
-  },
-  {
-    "id": "indo",
-    "titolo": "La civiltà dell’Indo",
-    "materia": "Storia",
-    "classe": "4 primaria",
-    "icona": "🏺",
-    "descrizione": "Agricoltura, città, commercio e società.",
-    "attiva": true,
-    "file": "indo.json"
-  },
-  {
-    "id": "triangoli",
-    "titolo": "I triangoli",
-    "materia": "Matematica",
-    "classe": "4 primaria",
-    "icona": "🔺",
-    "descrizione": "Triangoli, lati, angoli, altezza, simmetria e perimetro.",
-    "attiva": true,
-    "file": "triangoli.json"
-  },
-  {
-    "id": "poligoni",
-    "titolo": "I poligoni",
-    "materia": "Matematica",
-    "classe": "4 primaria",
-    "icona": "⬠",
-    "descrizione": "Poligoni, lati, vertici, angoli, classificazione e perimetro.",
-    "attiva": true,
-    "file": "poligoni.json"
-  },
-  {
+{
   "id": "numeri-decimali",
   "titolo": "I numeri decimali",
   "materia": "Matematica",
   "classe": "4 primaria",
   "icona": "🔢",
-  "descrizione": "Decimi, centesimi, confronto, lettura e operazioni con i numeri decimali.",
-  "attiva": true,
-  "file": "numeri-decimali.json"
-  },
-  {
-  "id": "ripassa-tabelline",
-  "titolo": "Ripassa le tabelline",
-  "materia": "Matematica",
-  "classe": "4 primaria",
-  "icona": "✖️",
-  "descrizione": "Quiz di tabelline miste, moltiplicazioni e calcoli veloci.",
-  "attiva": true,
-  "file": "ripassa-tabelline.json"
-}]
-
-
-
-
-
-
+  "descrizione": "Parte intera, parte decimale, decimi, centesimi, millesimi, confronto e calcoli.",
+  "steps": [
+    {
+      "tipo": "teoria",
+      "type": "teoria",
+      "titolo": "I numeri decimali",
+      "title": "I numeri decimali",
+      "testo": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
+      "contenuto": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
+      "text": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
+      "esempio": "Esempio: 12,45 si legge dodici virgola quarantacinque."
+    },
+    {
+      "tipo": "teoria",
+      "type": "teoria",
+      "titolo": "Parte intera e parte decimale",
+      "title": "Parte intera e parte decimale",
+      "testo": "Nel numero decimale la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
+      "contenuto": "Nel numero decimale la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
+      "text": "Nel numero decimale la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
+      "esempio": "Nel numero 8,27: 8 è la parte intera, 27 è la parte decimale."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Riconosci la parte intera",
+      "title": "Riconosci la parte intera",
+      "domanda": "Nel numero 8,27 qual è la parte intera?",
+      "question": "Nel numero 8,27 qual è la parte intera?",
+      "opzioni": ["8", "27", "2", "7"],
+      "options": ["8", "27", "2", "7"],
+      "risposta": "8",
+      "answer": "8",
+      "spiegazione": "La parte intera si trova prima della virgola."
+    },
+    {
+      "tipo": "scelta_multipla",
+      "type": "scelta_multipla",
+      "titolo": "Riconosci la parte decimale",
+      "title": "Riconosci la parte decimale",
+      "domanda": "Nel numero 15,49 qual è la parte decimale?",
+      "question": "Nel numero 15,49 qual è la parte decimale?",
+      "opzioni": ["49", "15", "1", "5"],
+      "options": ["49", "15", "1", "5"],
+      "risposta": "49",
+      "answer": "49",
+      "spiegazione": "La parte decimale si trova dopo la virgola."
+    },
+    {
+      "tipo": "vero_falso",
+      "type": "vero_falso",
+      "titolo": "Vero o falso?",
+      "title": "Vero o falso?",
+      "domanda": "Nel numero 6,35 il numero 6 è la parte intera.",
+      "question": "Nel numero 6,35 il numero 6 è la parte intera.",
+      "risposta": true,
+      "answer": true,
+      "spiegazione": "È vero: 6 si trova prima della virgola."
+    },
+    {
+      "tipo": "vero_falso",
+      "type": "vero_falso",
+      "titolo": "Vero o falso?",
+      "title": "Vero o falso?",
+      "domanda": "Nel numero 9,12 la parte decimale è 9.",
+      "question": "Nel numero 9,12 la parte decimale è 9.",
+      "risposta": false,
+      "answer": false,
+      "spiegazione": "È falso: 9 è la parte intera. La
