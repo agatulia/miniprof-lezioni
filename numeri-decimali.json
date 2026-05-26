@@ -1,75 +1,257 @@
 {
-  "id": "numeri-decimali",
   "titolo": "I numeri decimali",
   "materia": "Matematica",
   "classe": "4 primaria",
-  "icona": "🔢",
-  "descrizione": "Parte intera, parte decimale, decimi, centesimi, millesimi, confronto e calcoli.",
-  "steps": [
+
+  "blocchi": [
+
     {
-      "tipo": "teoria",
-      "type": "teoria",
-      "titolo": "I numeri decimali",
-      "title": "I numeri decimali",
-      "testo": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
-      "contenuto": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
-      "text": "I numeri decimali sono numeri che hanno una parte intera e una parte decimale. Le due parti sono separate dalla virgola.",
-      "esempio": "Esempio: 12,45 si legge dodici virgola quarantacinque."
+      "tipo": "standard",
+      "titolo": "Che cosa sono i numeri decimali?",
+      "testo": "I numeri decimali hanno la virgola. La parte intera si trova prima della virgola, la parte decimale dopo la virgola.",
+      "immagine": "images/decimali-1.png",
+      "paroleChiave": [
+        "virgola",
+        "parte intera",
+        "parte decimale"
+      ],
+      "ricorda": [
+        "La virgola separa le due parti.",
+        "0,5 significa mezzo."
+      ]
     },
-    {
-      "tipo": "teoria",
-      "type": "teoria",
-      "titolo": "Parte intera e parte decimale",
-      "title": "Parte intera e parte decimale",
-      "testo": "Nel numero decimale la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
-      "contenuto": "Nel numero decimale la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
-      "text": "Nel numero decimale la parte prima della virgola si chiama parte intera. La parte dopo la virgola si chiama parte decimale.",
-      "esempio": "Nel numero 8,27: 8 è la parte intera, 27 è la parte decimale."
-    },
+
     {
       "tipo": "scelta_multipla",
-      "type": "scelta_multipla",
-      "titolo": "Riconosci la parte intera",
-      "title": "Riconosci la parte intera",
-      "domanda": "Nel numero 8,27 qual è la parte intera?",
-      "question": "Nel numero 8,27 qual è la parte intera?",
-      "opzioni": ["8", "27", "2", "7"],
-      "options": ["8", "27", "2", "7"],
-      "risposta": "8",
-      "answer": "8",
-      "spiegazione": "La parte intera si trova prima della virgola."
+      "titolo": "Trova il numero decimale",
+      "domanda": "Quale numero è decimale?",
+      "opzioni": [
+        "12",
+        "4,5",
+        "100",
+        "7"
+      ],
+      "corretta": "4,5",
+      "ok": "Bravissima! I numeri decimali hanno la virgola."
     },
+
     {
-      "tipo": "scelta_multipla",
-      "type": "scelta_multipla",
-      "titolo": "Riconosci la parte decimale",
-      "title": "Riconosci la parte decimale",
-      "domanda": "Nel numero 15,49 qual è la parte decimale?",
-      "question": "Nel numero 15,49 qual è la parte decimale?",
-      "opzioni": ["49", "15", "1", "5"],
-      "options": ["49", "15", "1", "5"],
-      "risposta": "49",
-      "answer": "49",
-      "spiegazione": "La parte decimale si trova dopo la virgola."
+      "tipo": "input_numero",
+      "titolo": "Scrivi il numero",
+      "domanda": "Scrivi il numero: tre virgola due",
+      "risposta": [
+        "3,2",
+        "3.2"
+      ]
     },
+
     {
-      "tipo": "vero_falso",
-      "type": "vero_falso",
-      "titolo": "Vero o falso?",
-      "title": "Vero o falso?",
-      "domanda": "Nel numero 6,35 il numero 6 è la parte intera.",
-      "question": "Nel numero 6,35 il numero 6 è la parte intera.",
-      "risposta": true,
-      "answer": true,
-      "spiegazione": "È vero: 6 si trova prima della virgola."
+      "tipo": "standard",
+      "titolo": "Decimi",
+      "testo": "Il primo numero dopo la virgola indica i decimi.",
+      "immagine": "images/decimi.png",
+      "ricorda": [
+        "0,1 = un decimo",
+        "0,5 = cinque decimi"
+      ]
     },
+
     {
       "tipo": "vero_falso",
-      "type": "vero_falso",
-      "titolo": "Vero o falso?",
-      "title": "Vero o falso?",
-      "domanda": "Nel numero 9,12 la parte decimale è 9.",
-      "question": "Nel numero 9,12 la parte decimale è 9.",
-      "risposta": false,
-      "answer": false,
-      "spiegazione": "È falso: 9 è la parte intera. La
+      "titolo": "Vero o falso",
+      "frasi": [
+        {
+          "testo": "0,1 significa un decimo.",
+          "valore": true
+        },
+        {
+          "testo": "5,8 ha 8 decimi.",
+          "valore": true
+        },
+        {
+          "testo": "2,4 ha 4 centinaia.",
+          "valore": false
+        }
+      ]
+    },
+
+    {
+      "tipo": "completa_tabella",
+      "titolo": "Completa la tabella",
+      "colonne": [
+        "decimi",
+        "centesimi"
+      ],
+      "righe": [
+        {
+          "numero": "0,5",
+          "valori": {
+            "decimi": "5",
+            "centesimi": "50"
+          }
+        },
+        {
+          "numero": "1,2",
+          "valori": {
+            "decimi": "2",
+            "centesimi": "20"
+          }
+        },
+        {
+          "numero": "3,45",
+          "valori": {
+            "decimi": "4",
+            "centesimi": "45"
+          }
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Confrontare numeri decimali",
+      "testo": "Per confrontare i numeri decimali osserva prima la parte intera e poi i numeri dopo la virgola.",
+      "immagine": "images/confronto-decimali.png"
+    },
+
+    {
+      "tipo": "confronta_numeri",
+      "titolo": "Confronta",
+      "coppie": [
+        {
+          "a": "2,5",
+          "b": "2,8",
+          "corretto": "<"
+        },
+        {
+          "a": "4,7",
+          "b": "4,2",
+          "corretto": ">"
+        },
+        {
+          "a": "1,5",
+          "b": "1,5",
+          "corretto": "="
+        }
+      ]
+    },
+
+    {
+      "tipo": "ordina_numeri",
+      "titolo": "Metti in ordine",
+      "numeri": [
+        "0,8",
+        "1,2",
+        "0,3",
+        "2,1"
+      ],
+      "risposta": [
+        "0,3",
+        "0,8",
+        "1,2",
+        "2,1"
+      ]
+    },
+
+    {
+      "tipo": "linea_numerica",
+      "titolo": "Linea dei numeri",
+      "domanda": "Quale numero si trova tra 0 e 1?",
+      "min": "0",
+      "max": "1",
+      "opzioni": [
+        "0,4",
+        "2,5",
+        "5",
+        "10"
+      ],
+      "risposta": "0,4"
+    },
+
+    {
+      "tipo": "calcolo",
+      "titolo": "Calcolo decimale",
+      "operazione": "2,5 + 1,2 = ?",
+      "risposta": "3,7"
+    },
+
+    {
+      "tipo": "calcolo",
+      "titolo": "Calcolo decimale",
+      "operazione": "5,8 - 2,3 = ?",
+      "risposta": "3,5"
+    },
+
+    {
+      "tipo": "frazione_decimale_match",
+      "titolo": "Collega",
+      "coppie": [
+        {
+          "sinistra": "1/10",
+          "destra": "0,1"
+        },
+        {
+          "sinistra": "5/10",
+          "destra": "0,5"
+        },
+        {
+          "sinistra": "25/100",
+          "destra": "0,25"
+        }
+      ]
+    },
+
+    {
+      "tipo": "tabelline_scelta",
+      "titolo": "Ripasso veloce",
+      "domande": [
+        {
+          "domanda": "7 × 8 = ?",
+          "opzioni": [
+            "54",
+            "56",
+            "48",
+            "64"
+          ],
+          "corretta": "56"
+        }
+      ]
+    },
+
+    {
+      "tipo": "tabelline_scrivi",
+      "titolo": "Scrivi il risultato",
+      "domande": [
+        {
+          "domanda": "9 × 6 = ?",
+          "risposta": "54"
+        }
+      ]
+    }
+
+  ],
+
+  "domandePlus": [
+
+    {
+      "domanda": "Che cosa separa la virgola?",
+      "risposta": "La parte intera dalla parte decimale."
+    },
+
+    {
+      "domanda": "Quale numero è più grande: 2,8 oppure 2,3?",
+      "risposta": "2,8"
+    },
+
+    {
+      "domanda": "Quanti decimi ci sono in 0,7?",
+      "risposta": "7"
+    },
+
+    {
+      "domanda": "Scrivi un numero con la virgola.",
+      "risposta": "Esempio: 3,5"
+    }
+
+  ]
+}
