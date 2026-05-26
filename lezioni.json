@@ -1,6 +1,3 @@
-# lezioni.json corretto per miniProf
-
-```json
 [
   {
     "id": "piante-riproduzione",
@@ -73,64 +70,4 @@
     "file": "tabelline.json"
   }
 ]
-```
 
-## Importante
-
-Ogni file JSON delle lezioni deve avere:
-
-```json
-{
-  "titolo": "Nome lezione",
-  "materia": "Matematica",
-  "classe": "4 primaria",
-  "blocchi": []
-}
-```
-
-## Tipi supportati da math.js
-
-```json
-"tipo": "scelta_multipla"
-"tipo": "input_numero"
-"tipo": "calcolo"
-"tipo": "completa_tabella"
-"tipo": "confronta_numeri"
-"tipo": "ordina_numeri"
-"tipo": "frazione_decimale_match"
-"tipo": "linea_numerica"
-"tipo": "vero_falso"
-"tipo": "tabelline_scelta"
-"tipo": "tabelline_scrivi"
-```
-
-## Esempio tabelline_scelta
-
-```json
-{
-  "tipo": "tabelline_scelta",
-  "titolo": "Tabelline miste",
-  "domande": [
-    {
-      "domanda": "7 × 8 = ?",
-      "opzioni": ["54", "56", "48", "64"],
-      "corretta": "56"
-    }
-  ]
-}
-```
-
-## Esempio tabelline_scrivi
-
-```json
-{
-  "tipo": "tabelline_scrivi",
-  "titolo": "Scrivi il risultato",
-  "domande": [
-    {
-      "domanda": "9 × 6 = ?",
-      "risposta": "54"
-    }
-  ]
-}
-```
