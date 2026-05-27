@@ -67,6 +67,6 @@
     "icona": "✖️",
     "descrizione": "Quiz interattivi e tabelline miste.",
     "attiva": true,
-    "file": "tabelline.json"
+    "file": "ripassa-tabelline.json"
   }
 ]
