@@ -1,12 +1,11 @@
 {
-  "id": "ripassa-tabelline",
+  "id": "tabelline",
   "titolo": "Ripassa le tabelline",
   "materia": "Matematica",
   "classe": "4 primaria",
   "icona": "✖️",
   "descrizione": "Quiz di tabelline miste, moltiplicazioni e calcoli veloci.",
   "attiva": true,
-
   "blocchi": [
 
     {
