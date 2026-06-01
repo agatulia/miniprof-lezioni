@@ -20,6 +20,16 @@
   "file": "cellule-procariote-eucariote.json"
   },
   {
+  "id": "molecole-biologiche",
+  "titolo": "Le molecole della vita",
+  "materia": "Biologia",
+  "classe": "Preparazione TOLC-B",
+  "icona": "🧬",
+  "descrizione": "Acqua, biomolecole, monomeri, polimeri e funzioni biologiche.",
+  "attiva": true,
+  "file": "molecole-biologiche.json"
+  },
+  {
     "id": "terra-reticolo",
     "titolo": "La Terra e il reticolo geografico",
     "materia": "Geografia",
