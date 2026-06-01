@@ -10,6 +10,16 @@
     "file": "piante.json"
   },
   {
+  "id": "cellule-procariote-eucariote",
+  "titolo": "Cellule procariote ed eucariote",
+  "materia": "Biologia",
+  "classe": "Scuola superiore",
+  "icona": "🔬",
+  "descrizione": "Struttura, funzioni e differenze tra cellule procariote ed eucariote.",
+  "attiva": true,
+  "file": "cellule-procariote-eucariote.json"
+  },
+  {
     "id": "terra-reticolo",
     "titolo": "La Terra e il reticolo geografico",
     "materia": "Geografia",
