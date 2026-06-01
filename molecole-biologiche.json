@@ -1,0 +1,322 @@
+{
+  "id": "molecole-biologiche",
+  "titolo": "Le molecole della vita",
+  "materia": "Biologia",
+  "classe": "Preparazione TOLC-B",
+  "icona": "🧬",
+  "descrizione": "Acqua, carboidrati, lipidi, proteine e acidi nucleici.",
+  "attiva": true,
+  "argomento": "Biomolecole e chimica della vita",
+  "blocchi": [
+    {
+      "type": "standard",
+      "title": "1. La materia vivente",
+      "subject": "Biologia",
+      "text": "Gli organismi viventi sono formati da sostanze inorganiche e organiche. Tra le sostanze inorganiche troviamo soprattutto acqua e sali minerali. Le sostanze organiche sono molecole basate principalmente sul carbonio: carboidrati, lipidi, proteine e acidi nucleici.",
+      "keywords": [
+        "molecole organiche",
+        "molecole inorganiche",
+        "carbonio",
+        "acqua",
+        "sali minerali"
+      ],
+      "remember": "Le quattro principali biomolecole organiche sono carboidrati, lipidi, proteine e acidi nucleici.",
+      "disegnoNome": "materia-vivente",
+      "svg": "<svg viewBox=\"0 0 800 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"500\" rx=\"24\" fill=\"#f7fbff\"/><text x=\"400\" y=\"55\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#263238\">Le molecole della vita</text><circle cx=\"400\" cy=\"150\" r=\"62\" fill=\"#66bb6a\"/><text x=\"400\" y=\"145\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"bold\" fill=\"white\">Materia</text><text x=\"400\" y=\"174\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"bold\" fill=\"white\">vivente</text><line x1=\"350\" y1=\"200\" x2=\"210\" y2=\"280\" stroke=\"#546e7a\" stroke-width=\"5\"/><line x1=\"450\" y1=\"200\" x2=\"590\" y2=\"280\" stroke=\"#546e7a\" stroke-width=\"5\"/><rect x=\"80\" y=\"280\" width=\"260\" height=\"125\" rx=\"22\" fill=\"#81d4fa\"/><text x=\"210\" y=\"325\" text-anchor=\"middle\" font-size=\"25\" font-weight=\"bold\" fill=\"#01579b\">Inorganiche</text><text x=\"210\" y=\"365\" text-anchor=\"middle\" font-size=\"21\" fill=\"#01579b\">Acqua e sali minerali</text><rect x=\"460\" y=\"280\" width=\"260\" height=\"125\" rx=\"22\" fill=\"#ffcc80\"/><text x=\"590\" y=\"325\" text-anchor=\"middle\" font-size=\"25\" font-weight=\"bold\" fill=\"#e65100\">Organiche</text><text x=\"590\" y=\"362\" text-anchor=\"middle\" font-size=\"18\" fill=\"#bf360c\">Carboidrati • Lipidi</text><text x=\"590\" y=\"390\" text-anchor=\"middle\" font-size=\"18\" fill=\"#bf360c\">Proteine • Acidi nucleici</text></svg>",
+      "quiz": [
+        {
+          "question": "Quale sostanza è inorganica?",
+          "options": [
+            "Una proteina",
+            "L'acqua",
+            "Un carboidrato",
+            "Il DNA"
+          ],
+          "correctAnswer": 1,
+          "explanation": "L’acqua è una sostanza inorganica indispensabile per gli organismi viventi."
+        }
+      ]
+    },
+    {
+      "type": "vero_falso",
+      "title": "Controllo rapido",
+      "domande": [
+        {
+          "testo": "Le molecole organiche contengono generalmente carbonio.",
+          "risposta": true,
+          "spiegazione": "Il carbonio è l’elemento fondamentale delle molecole organiche."
+        },
+        {
+          "testo": "I sali minerali appartengono alle biomolecole organiche.",
+          "risposta": false,
+          "spiegazione": "I sali minerali sono sostanze inorganiche."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "2. Perché l’acqua è indispensabile",
+      "subject": "Biologia",
+      "text": "L’acqua rappresenta una parte molto importante della massa degli organismi. È una molecola polare: possiede una zona con parziale carica negativa e una zona con parziale carica positiva. Questa caratteristica permette la formazione di legami a idrogeno. L’acqua è un buon solvente, partecipa alle reazioni chimiche e aiuta a mantenere stabile la temperatura.",
+      "keywords": [
+        "molecola polare",
+        "legame a idrogeno",
+        "solvente",
+        "temperatura"
+      ],
+      "remember": "La polarità rende l’acqua un ottimo solvente per numerose sostanze.",
+      "disegnoNome": "molecola-acqua",
+      "svg": "<svg viewBox=\"0 0 800 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"500\" rx=\"24\" fill=\"#eef9ff\"/><text x=\"400\" y=\"55\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#01579b\">La molecola dell’acqua</text><circle cx=\"400\" cy=\"230\" r=\"80\" fill=\"#ef5350\"/><text x=\"400\" y=\"244\" text-anchor=\"middle\" font-size=\"45\" font-weight=\"bold\" fill=\"white\">O</text><circle cx=\"245\" cy=\"350\" r=\"58\" fill=\"#90caf9\"/><circle cx=\"555\" cy=\"350\" r=\"58\" fill=\"#90caf9\"/><text x=\"245\" y=\"365\" text-anchor=\"middle\" font-size=\"39\" font-weight=\"bold\" fill=\"white\">H</text><text x=\"555\" y=\"365\" text-anchor=\"middle\" font-size=\"39\" font-weight=\"bold\" fill=\"white\">H</text><line x1=\"340\" y1=\"285\" x2=\"285\" y2=\"325\" stroke=\"#455a64\" stroke-width=\"11\"/><line x1=\"460\" y1=\"285\" x2=\"515\" y2=\"325\" stroke=\"#455a64\" stroke-width=\"11\"/><text x=\"400\" y=\"145\" text-anchor=\"middle\" font-size=\"24\" fill=\"#c62828\">Zona parzialmente negativa</text><text x=\"245\" y=\"435\" text-anchor=\"middle\" font-size=\"21\" fill=\"#1565c0\">Zona parzialmente positiva</text><text x=\"555\" y=\"435\" text-anchor=\"middle\" font-size=\"21\" fill=\"#1565c0\">Zona parzialmente positiva</text></svg>",
+      "quiz": [
+        {
+          "question": "Quale proprietà dell’acqua dipende dalla sua polarità?",
+          "options": [
+            "La capacità di sciogliere molte sostanze",
+            "La presenza di carbonio",
+            "La produzione di DNA",
+            "La formazione dei ribosomi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "La polarità consente all’acqua di interagire con molte sostanze e di agire come solvente."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "3. Monomeri e polimeri",
+      "subject": "Biologia",
+      "text": "Molte biomolecole sono costruite unendo unità più piccole. Una singola unità viene chiamata monomero. Una catena formata da numerosi monomeri viene chiamata polimero. Per esempio, numerosi amminoacidi uniti tra loro formano una proteina.",
+      "keywords": [
+        "monomero",
+        "polimero",
+        "catena",
+        "amminoacido"
+      ],
+      "remember": "Un monomero è una singola unità; un polimero è una catena composta da numerose unità.",
+      "disegnoNome": "monomeri-polimeri",
+      "svg": "<svg viewBox=\"0 0 800 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"500\" rx=\"24\" fill=\"#fffdf5\"/><text x=\"400\" y=\"60\" text-anchor=\"middle\" font-size=\"31\" font-weight=\"bold\" fill=\"#37474f\">Monomeri e polimeri</text><circle cx=\"165\" cy=\"210\" r=\"52\" fill=\"#ffb74d\"/><text x=\"165\" y=\"220\" text-anchor=\"middle\" font-size=\"20\" font-weight=\"bold\" fill=\"#5d4037\">Monomero</text><path d=\"M245 210 L325 210\" stroke=\"#546e7a\" stroke-width=\"6\" marker-end=\"url(#arrow)\"/><defs><marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"10\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L0,6 L9,3 z\" fill=\"#546e7a\"/></marker></defs><circle cx=\"390\" cy=\"210\" r=\"40\" fill=\"#ffb74d\"/><circle cx=\"475\" cy=\"210\" r=\"40\" fill=\"#81c784\"/><circle cx=\"560\" cy=\"210\" r=\"40\" fill=\"#64b5f6\"/><circle cx=\"645\" cy=\"210\" r=\"40\" fill=\"#ba68c8\"/><line x1=\"430\" y1=\"210\" x2=\"435\" y2=\"210\" stroke=\"#455a64\" stroke-width=\"8\"/><line x1=\"515\" y1=\"210\" x2=\"520\" y2=\"210\" stroke=\"#455a64\" stroke-width=\"8\"/><line x1=\"600\" y1=\"210\" x2=\"605\" y2=\"210\" stroke=\"#455a64\" stroke-width=\"8\"/><text x=\"520\" y=\"295\" text-anchor=\"middle\" font-size=\"27\" font-weight=\"bold\" fill=\"#37474f\">Polimero</text><text x=\"400\" y=\"395\" text-anchor=\"middle\" font-size=\"24\" fill=\"#5d4037\">Molte unità semplici formano una catena complessa</text></svg>",
+      "quiz": [
+        {
+          "question": "Quale affermazione è corretta?",
+          "options": [
+            "Un polimero è sempre formato da un solo atomo",
+            "Un monomero è una singola unità molecolare",
+            "I monomeri esistono soltanto nel DNA",
+            "Le proteine non contengono monomeri"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Un monomero è una singola unità che può unirsi ad altre unità per formare un polimero."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "4. I carboidrati",
+      "subject": "Biologia",
+      "text": "I carboidrati forniscono energia rapidamente utilizzabile. I monosaccaridi sono gli zuccheri più semplici: il glucosio è un esempio importante. I polisaccaridi sono formati da numerosi monosaccaridi. L’amido è una riserva energetica delle piante, il glicogeno è una riserva degli animali e la cellulosa svolge una funzione strutturale nella parete delle cellule vegetali.",
+      "keywords": [
+        "glucosio",
+        "monosaccaridi",
+        "polisaccaridi",
+        "amido",
+        "glicogeno",
+        "cellulosa"
+      ],
+      "remember": "Amido nelle piante, glicogeno negli animali, cellulosa nella parete vegetale.",
+      "quiz": [
+        {
+          "question": "Quale polisaccaride rappresenta una riserva energetica negli animali?",
+          "options": [
+            "Cellulosa",
+            "Glicogeno",
+            "Amido",
+            "Colesterolo"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Negli animali il glucosio viene accumulato sotto forma di glicogeno."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "5. I lipidi",
+      "subject": "Biologia",
+      "text": "I lipidi comprendono molecole molto diverse tra loro. I trigliceridi rappresentano una riserva energetica. I fosfolipidi formano la struttura di base delle membrane cellulari. Il colesterolo contribuisce alla stabilità delle membrane ed è un precursore di alcuni ormoni. I lipidi sono generalmente poco solubili in acqua.",
+      "keywords": [
+        "trigliceridi",
+        "fosfolipidi",
+        "colesterolo",
+        "membrana cellulare",
+        "riserva energetica"
+      ],
+      "remember": "I fosfolipidi costituiscono la struttura fondamentale della membrana cellulare.",
+      "disegnoNome": "fosfolipide",
+      "svg": "<svg viewBox=\"0 0 800 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"500\" rx=\"24\" fill=\"#f5faff\"/><text x=\"400\" y=\"55\" text-anchor=\"middle\" font-size=\"31\" font-weight=\"bold\" fill=\"#263238\">Struttura semplificata di un fosfolipide</text><circle cx=\"400\" cy=\"165\" r=\"67\" fill=\"#42a5f5\"/><text x=\"400\" y=\"158\" text-anchor=\"middle\" font-size=\"23\" font-weight=\"bold\" fill=\"white\">Testa</text><text x=\"400\" y=\"187\" text-anchor=\"middle\" font-size=\"18\" fill=\"white\">idrofila</text><path d=\"M375 225 C350 300 345 340 310 420\" fill=\"none\" stroke=\"#ffb74d\" stroke-width=\"18\" stroke-linecap=\"round\"/><path d=\"M425 225 C450 300 455 340 490 420\" fill=\"none\" stroke=\"#ffb74d\" stroke-width=\"18\" stroke-linecap=\"round\"/><text x=\"225\" y=\"390\" text-anchor=\"middle\" font-size=\"22\" fill=\"#e65100\">Code idrofobe</text><line x1=\"280\" y1=\"380\" x2=\"325\" y2=\"350\" stroke=\"#e65100\" stroke-width=\"4\"/><text x=\"590\" y=\"170\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1565c0\">Interagisce con l’acqua</text><line x1=\"515\" y1=\"180\" x2=\"470\" y2=\"180\" stroke=\"#1565c0\" stroke-width=\"4\"/></svg>",
+      "quiz": [
+        {
+          "question": "Quali lipidi formano la struttura di base della membrana cellulare?",
+          "options": [
+            "Trigliceridi",
+            "Fosfolipidi",
+            "Monosaccaridi",
+            "Amminoacidi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La membrana cellulare è costituita principalmente da un doppio strato di fosfolipidi."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "6. Le proteine",
+      "subject": "Biologia",
+      "text": "Le proteine sono polimeri formati da amminoacidi. Possono svolgere molte funzioni: strutturale, enzimatica, di trasporto, di difesa e di movimento. La forma tridimensionale di una proteina è essenziale per il suo funzionamento. Un cambiamento eccessivo di temperatura o pH può alterarne la struttura: questo processo viene chiamato denaturazione.",
+      "keywords": [
+        "amminoacidi",
+        "proteine",
+        "enzimi",
+        "struttura tridimensionale",
+        "denaturazione"
+      ],
+      "remember": "La funzione di una proteina dipende dalla sua struttura tridimensionale.",
+      "quiz": [
+        {
+          "question": "Quali sono i monomeri delle proteine?",
+          "options": [
+            "Nucleotidi",
+            "Acidi grassi",
+            "Amminoacidi",
+            "Monosaccaridi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Le proteine sono catene formate da amminoacidi."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "7. Gli acidi nucleici",
+      "subject": "Biologia",
+      "text": "DNA e RNA sono acidi nucleici. I loro monomeri sono i nucleotidi. Ogni nucleotide è formato da uno zucchero, un gruppo fosfato e una base azotata. Il DNA conserva le informazioni genetiche. L’RNA partecipa all’utilizzo di queste informazioni per produrre proteine.",
+      "keywords": [
+        "DNA",
+        "RNA",
+        "nucleotide",
+        "base azotata",
+        "informazione genetica"
+      ],
+      "remember": "DNA e RNA sono polimeri formati da nucleotidi.",
+      "disegnoNome": "nucleotide",
+      "svg": "<svg viewBox=\"0 0 800 500\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"800\" height=\"500\" rx=\"24\" fill=\"#fcf8ff\"/><text x=\"400\" y=\"55\" text-anchor=\"middle\" font-size=\"31\" font-weight=\"bold\" fill=\"#4527a0\">Struttura di un nucleotide</text><circle cx=\"190\" cy=\"250\" r=\"82\" fill=\"#ffcc80\"/><text x=\"190\" y=\"242\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"bold\" fill=\"#6d4c41\">Gruppo</text><text x=\"190\" y=\"270\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"bold\" fill=\"#6d4c41\">fosfato</text><polygon points=\"400,165 485,225 453,325 347,325 315,225\" fill=\"#81c784\"/><text x=\"400\" y=\"242\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b5e20\">Zucchero</text><text x=\"400\" y=\"270\" text-anchor=\"middle\" font-size=\"18\" fill=\"#1b5e20\">pentoso</text><rect x=\"575\" y=\"175\" width=\"170\" height=\"150\" rx=\"22\" fill=\"#90caf9\"/><text x=\"660\" y=\"242\" text-anchor=\"middle\" font-size=\"21\" font-weight=\"bold\" fill=\"#0d47a1\">Base</text><text x=\"660\" y=\"270\" text-anchor=\"middle\" font-size=\"21\" font-weight=\"bold\" fill=\"#0d47a1\">azotata</text><line x1=\"272\" y1=\"250\" x2=\"320\" y2=\"250\" stroke=\"#546e7a\" stroke-width=\"8\"/><line x1=\"485\" y1=\"250\" x2=\"575\" y2=\"250\" stroke=\"#546e7a\" stroke-width=\"8\"/><text x=\"400\" y=\"410\" text-anchor=\"middle\" font-size=\"24\" fill=\"#4527a0\">Il nucleotide è il monomero di DNA e RNA</text></svg>",
+      "quiz": [
+        {
+          "question": "Qual è il monomero degli acidi nucleici?",
+          "options": [
+            "L’amminoacido",
+            "Il nucleotide",
+            "Il trigliceride",
+            "Il glucosio"
+          ],
+          "correctAnswer": 1,
+          "explanation": "DNA e RNA sono costituiti da sequenze di nucleotidi."
+        }
+      ]
+    },
+    {
+      "type": "scelta_multipla",
+      "title": "Ripasso delle funzioni",
+      "domande": [
+        {
+          "testo": "Quale abbinamento è corretto?",
+          "opzioni": [
+            "Proteine → conservazione dell’informazione genetica",
+            "Fosfolipidi → struttura della membrana cellulare",
+            "DNA → riserva energetica immediata",
+            "Cellulosa → monomero delle proteine"
+          ],
+          "corretta": 1,
+          "spiegazione": "I fosfolipidi costituiscono il doppio strato della membrana cellulare."
+        },
+        {
+          "testo": "Quale sostanza è una riserva energetica delle piante?",
+          "opzioni": [
+            "Glicogeno",
+            "Amido",
+            "DNA",
+            "Colesterolo"
+          ],
+          "corretta": 1,
+          "spiegazione": "Le piante accumulano glucosio sotto forma di amido."
+        },
+        {
+          "testo": "Quale struttura può alterarsi durante la denaturazione?",
+          "opzioni": [
+            "La struttura tridimensionale di una proteina",
+            "Il numero atomico del carbonio",
+            "Il numero di protoni dell’acqua",
+            "La composizione di un sale minerale"
+          ],
+          "corretta": 0,
+          "spiegazione": "La denaturazione modifica la struttura tridimensionale e può compromettere la funzione della proteina."
+        }
+      ]
+    }
+  ],
+  "domandePlus": [
+    {
+      "question": "Quale associazione tra biomolecola e monomero è corretta?",
+      "options": [
+        "Proteina → nucleotide",
+        "Acido nucleico → nucleotide",
+        "Carboidrato → amminoacido",
+        "Lipide → monosaccaride"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DNA e RNA sono acidi nucleici costituiti da nucleotidi."
+    },
+    {
+      "question": "Per quale ragione l’acqua scioglie numerose sostanze?",
+      "options": [
+        "Perché è sempre allo stato liquido",
+        "Perché contiene carbonio",
+        "Perché è una molecola polare",
+        "Perché è formata da nucleotidi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La distribuzione non uniforme delle cariche rende l’acqua una molecola polare."
+    },
+    {
+      "question": "Quale sostanza ha prevalentemente una funzione strutturale nelle cellule vegetali?",
+      "options": [
+        "Glicogeno",
+        "Cellulosa",
+        "Trigliceride",
+        "RNA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La cellulosa è un componente fondamentale della parete cellulare vegetale."
+    },
+    {
+      "question": "Quale affermazione sui lipidi è corretta?",
+      "options": [
+        "I fosfolipidi sono componenti fondamentali delle membrane",
+        "Tutti i lipidi sono polimeri di nucleotidi",
+        "Il colesterolo è un carboidrato",
+        "I trigliceridi formano il DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Il doppio strato fosfolipidico costituisce la base strutturale della membrana cellulare."
+    },
+    {
+      "question": "Un polimero è:",
+      "options": [
+        "Una catena costituita da numerose unità",
+        "Una singola molecola d’acqua",
+        "Un elemento chimico privo di elettroni",
+        "Un sale minerale disciolto"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un polimero è formato dall’unione di numerosi monomeri."
+    }
+  ]
+}
