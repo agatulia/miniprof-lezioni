@@ -10,6 +10,16 @@
     "file": "piante.json"
   },
   {
+  "id": "organelli-cellulari",
+  "titolo": "Gli organelli della cellula",
+  "materia": "Biologia",
+  "classe": "Preparazione TOLC-B",
+  "icona": "🧫",
+  "descrizione": "Nucleo, ribosomi, mitocondri, reticolo endoplasmatico, Golgi, lisosomi e citoscheletro.",
+  "attiva": true,
+  "file": "organelli-cellulari.json"
+  },
+  {
   "id": "cellule-procariote-eucariote",
   "titolo": "Cellule procariotiche ed eucariotiche",
   "materia": "Biologia",
