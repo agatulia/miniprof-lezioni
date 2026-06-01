@@ -10,6 +10,16 @@
     "file": "piante.json"
   },
   {
+  "id": "cellula-animale-vegetale",
+  "titolo": "Cellula animale e cellula vegetale",
+  "materia": "Biologia",
+  "classe": "Preparazione TOLC-B",
+  "icona": "🌿",
+  "descrizione": "Parete cellulare, cloroplasti, vacuolo e confronto tra cellule animali e vegetali.",
+  "attiva": true,
+  "file": "cellula-animale-vegetale.json"
+  },
+  {
   "id": "organelli-cellulari",
   "titolo": "Gli organelli della cellula",
   "materia": "Biologia",
