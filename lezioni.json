@@ -11,11 +11,11 @@
   },
   {
   "id": "cellule-procariote-eucariote",
-  "titolo": "Cellule procariote ed eucariote",
+  "titolo": "Cellule procariotiche ed eucariotiche",
   "materia": "Biologia",
-  "classe": "Scuola superiore",
+  "classe": "Preparazione TOLC-B",
   "icona": "🔬",
-  "descrizione": "Struttura, funzioni e differenze tra cellule procariote ed eucariote.",
+  "descrizione": "Struttura della cellula, batteri, nucleo e differenze tra procarioti ed eucarioti.",
   "attiva": true,
   "file": "cellule-procariote-eucariote.json"
   },
