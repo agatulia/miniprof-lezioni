@@ -1,0 +1,524 @@
+{
+  "id": "cellula-animale-vegetale",
+  "titolo": "Cellula animale e cellula vegetale",
+  "materia": "Biologia",
+  "classe": "Preparazione TOLC-B",
+  "icona": "🌿",
+  "descrizione": "Strutture comuni e differenze tra cellule animali e vegetali.",
+  "attiva": true,
+  "argomento": "Biologia cellulare",
+  "blocchi": [
+    {
+      "type": "standard",
+      "title": "1. Due cellule eucariotiche",
+      "subject": "Biologia",
+      "text": "La cellula animale e la cellula vegetale sono entrambe eucariotiche. Possiedono quindi un nucleo delimitato da membrana, citoplasma, membrana plasmatica, ribosomi, mitocondri, reticolo endoplasmatico, apparato di Golgi e citoscheletro. Tuttavia, la cellula vegetale presenta alcune strutture caratteristiche che le permettono di svolgere funzioni specifiche.",
+      "keywords": [
+        "cellula animale",
+        "cellula vegetale",
+        "eucariote",
+        "nucleo",
+        "organelli"
+      ],
+      "remember": "Cellula animale e vegetale sono entrambe eucariotiche, ma non possiedono esattamente le stesse strutture.",
+      "disegnoNome": "confronto-cellula-animale-vegetale",
+      "svg": "<svg viewBox=\"0 0 950 560\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"950\" height=\"560\" rx=\"24\" fill=\"#f8fcff\"/><text x=\"475\" y=\"48\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#263238\">Cellula animale e vegetale</text><ellipse cx=\"250\" cy=\"300\" rx=\"170\" ry=\"145\" fill=\"#f8bbd0\" stroke=\"#d81b60\" stroke-width=\"8\"/><circle cx=\"250\" cy=\"290\" r=\"57\" fill=\"#9575cd\"/><circle cx=\"250\" cy=\"290\" r=\"20\" fill=\"#673ab7\"/><ellipse cx=\"165\" cy=\"225\" rx=\"39\" ry=\"21\" fill=\"#ef5350\"/><ellipse cx=\"340\" cy=\"365\" rx=\"39\" ry=\"21\" fill=\"#ef5350\"/><path d=\"M155 225 C175 200 190 245 202 220\" fill=\"none\" stroke=\"#ffebee\" stroke-width=\"5\"/><path d=\"M330 365 C350 340 365 385 378 360\" fill=\"none\" stroke=\"#ffebee\" stroke-width=\"5\"/><rect x=\"535\" y=\"145\" width=\"330\" height=\"315\" rx=\"35\" fill=\"#dcedc8\" stroke=\"#558b2f\" stroke-width=\"11\"/><rect x=\"560\" y=\"170\" width=\"280\" height=\"265\" rx=\"25\" fill=\"#e8f5e9\" stroke=\"#8bc34a\" stroke-width=\"5\"/><circle cx=\"660\" cy=\"290\" r=\"52\" fill=\"#9575cd\"/><circle cx=\"660\" cy=\"290\" r=\"18\" fill=\"#673ab7\"/><ellipse cx=\"760\" cy=\"235\" rx=\"40\" ry=\"23\" fill=\"#66bb6a\"/><ellipse cx=\"760\" cy=\"365\" rx=\"40\" ry=\"23\" fill=\"#66bb6a\"/><line x1=\"735\" y1=\"235\" x2=\"785\" y2=\"235\" stroke=\"#e8f5e9\" stroke-width=\"6\"/><line x1=\"735\" y1=\"365\" x2=\"785\" y2=\"365\" stroke=\"#e8f5e9\" stroke-width=\"6\"/><rect x=\"705\" y=\"270\" width=\"105\" height=\"65\" rx=\"20\" fill=\"#90caf9\"/><text x=\"250\" y=\"495\" text-anchor=\"middle\" font-size=\"25\" font-weight=\"bold\" fill=\"#ad1457\">Cellula animale</text><text x=\"700\" y=\"495\" text-anchor=\"middle\" font-size=\"25\" font-weight=\"bold\" fill=\"#33691e\">Cellula vegetale</text></svg>",
+      "quiz": [
+        {
+          "question": "Quale struttura è presente sia nella cellula animale sia nella cellula vegetale?",
+          "options": [
+            "Parete cellulare",
+            "Cloroplasto",
+            "Mitocondrio",
+            "Grande vacuolo centrale"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Il mitocondrio è presente sia nelle cellule animali sia in quelle vegetali."
+        }
+      ]
+    },
+    {
+      "type": "vero_falso",
+      "title": "Controllo iniziale",
+      "domande": [
+        {
+          "testo": "La cellula vegetale è una cellula eucariotica.",
+          "risposta": true,
+          "spiegazione": "Possiede un nucleo delimitato da membrana e numerosi organelli."
+        },
+        {
+          "testo": "La cellula animale non possiede mitocondri.",
+          "risposta": false,
+          "spiegazione": "I mitocondri sono presenti nelle cellule animali e vegetali."
+        },
+        {
+          "testo": "Il nucleo è presente normalmente sia nella cellula animale sia in quella vegetale.",
+          "risposta": true,
+          "spiegazione": "Entrambe sono cellule eucariotiche."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "2. La membrana plasmatica",
+      "subject": "Biologia",
+      "text": "La membrana plasmatica delimita tutte le cellule. È costituita principalmente da un doppio strato di fosfolipidi e regola il passaggio delle sostanze tra l’interno e l’esterno. È presente sia nella cellula animale sia nella cellula vegetale. Nella cellula vegetale si trova immediatamente all’interno della parete cellulare.",
+      "keywords": [
+        "membrana plasmatica",
+        "fosfolipidi",
+        "doppio strato",
+        "trasporto",
+        "permeabilità selettiva"
+      ],
+      "remember": "La membrana plasmatica è presente in tutte le cellule e controlla gli scambi con l’ambiente.",
+      "disegnoNome": "membrana-plasmatica",
+      "svg": "<svg viewBox=\"0 0 900 520\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"520\" rx=\"24\" fill=\"#f7fbff\"/><text x=\"450\" y=\"52\" text-anchor=\"middle\" font-size=\"31\" font-weight=\"bold\" fill=\"#01579b\">Membrana plasmatica</text><text x=\"450\" y=\"96\" text-anchor=\"middle\" font-size=\"22\" fill=\"#455a64\">Doppio strato di fosfolipidi</text><g fill=\"#42a5f5\"><circle cx=\"155\" cy=\"190\" r=\"22\"/><circle cx=\"225\" cy=\"190\" r=\"22\"/><circle cx=\"295\" cy=\"190\" r=\"22\"/><circle cx=\"365\" cy=\"190\" r=\"22\"/><circle cx=\"435\" cy=\"190\" r=\"22\"/><circle cx=\"505\" cy=\"190\" r=\"22\"/><circle cx=\"575\" cy=\"190\" r=\"22\"/><circle cx=\"645\" cy=\"190\" r=\"22\"/><circle cx=\"715\" cy=\"190\" r=\"22\"/><circle cx=\"155\" cy=\"335\" r=\"22\"/><circle cx=\"225\" cy=\"335\" r=\"22\"/><circle cx=\"295\" cy=\"335\" r=\"22\"/><circle cx=\"365\" cy=\"335\" r=\"22\"/><circle cx=\"435\" cy=\"335\" r=\"22\"/><circle cx=\"505\" cy=\"335\" r=\"22\"/><circle cx=\"575\" cy=\"335\" r=\"22\"/><circle cx=\"645\" cy=\"335\" r=\"22\"/><circle cx=\"715\" cy=\"335\" r=\"22\"/></g><g stroke=\"#ffb74d\" stroke-width=\"10\" stroke-linecap=\"round\"><line x1=\"145\" y1=\"215\" x2=\"135\" y2=\"275\"/><line x1=\"165\" y1=\"215\" x2=\"175\" y2=\"275\"/><line x1=\"215\" y1=\"215\" x2=\"205\" y2=\"275\"/><line x1=\"235\" y1=\"215\" x2=\"245\" y2=\"275\"/><line x1=\"285\" y1=\"215\" x2=\"275\" y2=\"275\"/><line x1=\"305\" y1=\"215\" x2=\"315\" y2=\"275\"/><line x1=\"355\" y1=\"215\" x2=\"345\" y2=\"275\"/><line x1=\"375\" y1=\"215\" x2=\"385\" y2=\"275\"/><line x1=\"425\" y1=\"215\" x2=\"415\" y2=\"275\"/><line x1=\"445\" y1=\"215\" x2=\"455\" y2=\"275\"/><line x1=\"495\" y1=\"215\" x2=\"485\" y2=\"275\"/><line x1=\"515\" y1=\"215\" x2=\"525\" y2=\"275\"/><line x1=\"565\" y1=\"215\" x2=\"555\" y2=\"275\"/><line x1=\"585\" y1=\"215\" x2=\"595\" y2=\"275\"/><line x1=\"635\" y1=\"215\" x2=\"625\" y2=\"275\"/><line x1=\"655\" y1=\"215\" x2=\"665\" y2=\"275\"/><line x1=\"705\" y1=\"215\" x2=\"695\" y2=\"275\"/><line x1=\"725\" y1=\"215\" x2=\"735\" y2=\"275\"/><line x1=\"145\" y1=\"310\" x2=\"135\" y2=\"285\"/><line x1=\"165\" y1=\"310\" x2=\"175\" y2=\"285\"/><line x1=\"215\" y1=\"310\" x2=\"205\" y2=\"285\"/><line x1=\"235\" y1=\"310\" x2=\"245\" y2=\"285\"/><line x1=\"285\" y1=\"310\" x2=\"275\" y2=\"285\"/><line x1=\"305\" y1=\"310\" x2=\"315\" y2=\"285\"/><line x1=\"355\" y1=\"310\" x2=\"345\" y2=\"285\"/><line x1=\"375\" y1=\"310\" x2=\"385\" y2=\"285\"/><line x1=\"425\" y1=\"310\" x2=\"415\" y2=\"285\"/><line x1=\"445\" y1=\"310\" x2=\"455\" y2=\"285\"/><line x1=\"495\" y1=\"310\" x2=\"485\" y2=\"285\"/><line x1=\"515\" y1=\"310\" x2=\"525\" y2=\"285\"/><line x1=\"565\" y1=\"310\" x2=\"555\" y2=\"285\"/><line x1=\"585\" y1=\"310\" x2=\"595\" y2=\"285\"/><line x1=\"635\" y1=\"310\" x2=\"625\" y2=\"285\"/><line x1=\"655\" y1=\"310\" x2=\"665\" y2=\"285\"/><line x1=\"705\" y1=\"310\" x2=\"695\" y2=\"285\"/><line x1=\"725\" y1=\"310\" x2=\"735\" y2=\"285\"/></g><text x=\"450\" y=\"430\" text-anchor=\"middle\" font-size=\"23\" fill=\"#01579b\">Controlla il passaggio delle sostanze</text></svg>",
+      "quiz": [
+        {
+          "question": "Quale affermazione sulla membrana plasmatica è corretta?",
+          "options": [
+            "È presente esclusivamente nelle cellule animali",
+            "È formata principalmente da un doppio strato di fosfolipidi",
+            "Sostituisce il nucleo nelle cellule vegetali",
+            "Impedisce qualsiasi scambio con l’esterno"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La membrana è costituita principalmente da un doppio strato fosfolipidico e regola gli scambi."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "3. La parete cellulare",
+      "subject": "Biologia",
+      "text": "La cellula vegetale possiede una parete cellulare esterna alla membrana plasmatica. La parete è costituita principalmente da cellulosa. Fornisce sostegno, protegge la cellula e contribuisce a mantenerne la forma. Non sostituisce la membrana: le cellule vegetali possiedono entrambe le strutture.",
+      "keywords": [
+        "parete cellulare",
+        "cellulosa",
+        "sostegno",
+        "protezione",
+        "forma cellulare"
+      ],
+      "remember": "La cellula vegetale possiede sia la parete cellulare sia la membrana plasmatica.",
+      "disegnoNome": "parete-cellulare",
+      "svg": "<svg viewBox=\"0 0 860 520\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"860\" height=\"520\" rx=\"24\" fill=\"#f8fff6\"/><text x=\"430\" y=\"52\" text-anchor=\"middle\" font-size=\"31\" font-weight=\"bold\" fill=\"#33691e\">Parete e membrana della cellula vegetale</text><rect x=\"155\" y=\"125\" width=\"550\" height=\"285\" rx=\"38\" fill=\"#dcedc8\" stroke=\"#558b2f\" stroke-width=\"18\"/><rect x=\"185\" y=\"155\" width=\"490\" height=\"225\" rx=\"30\" fill=\"#e3f2fd\" stroke=\"#42a5f5\" stroke-width=\"8\"/><text x=\"430\" y=\"270\" text-anchor=\"middle\" font-size=\"25\" font-weight=\"bold\" fill=\"#1565c0\">Citoplasma</text><text x=\"720\" y=\"170\" font-size=\"22\" fill=\"#33691e\">Parete cellulare</text><line x1=\"670\" y1=\"140\" x2=\"705\" y2=\"160\" stroke=\"#33691e\" stroke-width=\"4\"/><text x=\"710\" y=\"340\" font-size=\"22\" fill=\"#1565c0\">Membrana plasmatica</text><line x1=\"670\" y1=\"350\" x2=\"695\" y2=\"340\" stroke=\"#1565c0\" stroke-width=\"4\"/><text x=\"430\" y=\"465\" text-anchor=\"middle\" font-size=\"23\" fill=\"#33691e\">La parete contiene cellulosa e fornisce sostegno</text></svg>",
+      "quiz": [
+        {
+          "question": "Qual è il principale componente della parete cellulare vegetale?",
+          "options": [
+            "Glicogeno",
+            "Cellulosa",
+            "Colesterolo",
+            "DNA"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La parete delle cellule vegetali è formata principalmente da cellulosa."
+        },
+        {
+          "question": "Quale affermazione è corretta?",
+          "options": [
+            "La parete cellulare sostituisce la membrana plasmatica",
+            "Le cellule vegetali non possiedono membrana plasmatica",
+            "La parete cellulare si trova esternamente alla membrana plasmatica",
+            "La parete cellulare è presente soltanto negli animali"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Nelle cellule vegetali la parete si trova esternamente alla membrana."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "4. Il vacuolo centrale",
+      "subject": "Biologia",
+      "text": "Nelle cellule vegetali mature è spesso presente un grande vacuolo centrale. È delimitato da una membrana chiamata tonoplasto e contiene una soluzione acquosa. Il vacuolo accumula acqua, ioni, sostanze di riserva e prodotti di scarto. Inoltre, contribuisce alla pressione di turgore, che aiuta la pianta a mantenere i tessuti sostenuti.",
+      "keywords": [
+        "vacuolo",
+        "tonoplasto",
+        "acqua",
+        "turgore",
+        "sostanze di riserva"
+      ],
+      "remember": "Il grande vacuolo centrale accumula sostanze e contribuisce al sostegno della pianta attraverso il turgore.",
+      "disegnoNome": "vacuolo-centrale",
+      "svg": "<svg viewBox=\"0 0 880 530\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"880\" height=\"530\" rx=\"24\" fill=\"#f7fcff\"/><text x=\"440\" y=\"52\" text-anchor=\"middle\" font-size=\"31\" font-weight=\"bold\" fill=\"#01579b\">Il grande vacuolo centrale</text><rect x=\"165\" y=\"110\" width=\"550\" height=\"345\" rx=\"40\" fill=\"#dcedc8\" stroke=\"#558b2f\" stroke-width=\"14\"/><rect x=\"225\" y=\"160\" width=\"425\" height=\"245\" rx=\"60\" fill=\"#90caf9\" stroke=\"#1976d2\" stroke-width=\"8\"/><text x=\"438\" y=\"270\" text-anchor=\"middle\" font-size=\"29\" font-weight=\"bold\" fill=\"#0d47a1\">Vacuolo</text><text x=\"438\" y=\"310\" text-anchor=\"middle\" font-size=\"22\" fill=\"#0d47a1\">Acqua, ioni e sostanze</text><text x=\"700\" y=\"210\" font-size=\"22\" fill=\"#1565c0\">Tonoplasto</text><line x1=\"640\" y1=\"190\" x2=\"685\" y2=\"205\" stroke=\"#1565c0\" stroke-width=\"4\"/><text x=\"440\" y=\"490\" text-anchor=\"middle\" font-size=\"23\" fill=\"#33691e\">Favorisce il turgore e sostiene i tessuti vegetali</text></svg>",
+      "quiz": [
+        {
+          "question": "Quale funzione appartiene al vacuolo centrale?",
+          "options": [
+            "Produrre proteine",
+            "Conservare il DNA",
+            "Accumulare sostanze e contribuire al turgore",
+            "Formare i ribosomi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Il vacuolo accumula acqua e altre sostanze e contribuisce al sostegno dei tessuti vegetali."
+        },
+        {
+          "question": "Come si chiama la membrana che delimita il vacuolo?",
+          "options": [
+            "Capside",
+            "Tonoplasto",
+            "Nucleoide",
+            "Plasmide"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La membrana del vacuolo viene chiamata tonoplasto."
+        }
+      ]
+    },
+    {
+      "type": "vero_falso",
+      "title": "Parete e vacuolo: verifica rapida",
+      "domande": [
+        {
+          "testo": "La parete cellulare vegetale contiene principalmente cellulosa.",
+          "risposta": true,
+          "spiegazione": "La cellulosa è un polisaccaride strutturale."
+        },
+        {
+          "testo": "Il vacuolo centrale può accumulare acqua e sostanze di riserva.",
+          "risposta": true,
+          "spiegazione": "Il vacuolo svolge una funzione di deposito."
+        },
+        {
+          "testo": "La parete cellulare impedisce alla cellula vegetale di possedere una membrana plasmatica.",
+          "risposta": false,
+          "spiegazione": "Parete e membrana plasmatica sono entrambe presenti."
+        },
+        {
+          "testo": "Il tonoplasto è la membrana che delimita il vacuolo.",
+          "risposta": true,
+          "spiegazione": "Il termine tonoplasto indica la membrana del vacuolo."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "5. I cloroplasti",
+      "subject": "Biologia",
+      "text": "I cloroplasti sono organelli presenti nelle cellule vegetali fotosintetiche. Sono delimitati da una doppia membrana e contengono tilacoidi, strutture membranose organizzate in pile chiamate grana. Nei tilacoidi si trova la clorofilla, un pigmento capace di assorbire energia luminosa. I cloroplasti svolgono la fotosintesi clorofilliana.",
+      "keywords": [
+        "cloroplasto",
+        "fotosintesi",
+        "clorofilla",
+        "tilacoide",
+        "grana",
+        "doppia membrana"
+      ],
+      "remember": "I cloroplasti utilizzano l’energia luminosa per la fotosintesi.",
+      "disegnoNome": "cloroplasto",
+      "svg": "<svg viewBox=\"0 0 900 540\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"540\" rx=\"24\" fill=\"#f7fff5\"/><text x=\"450\" y=\"52\" text-anchor=\"middle\" font-size=\"31\" font-weight=\"bold\" fill=\"#1b5e20\">Il cloroplasto</text><ellipse cx=\"415\" cy=\"270\" rx=\"260\" ry=\"155\" fill=\"#a5d6a7\" stroke=\"#2e7d32\" stroke-width=\"12\"/><ellipse cx=\"415\" cy=\"270\" rx=\"232\" ry=\"130\" fill=\"#e8f5e9\" stroke=\"#66bb6a\" stroke-width=\"6\"/><g fill=\"#43a047\" stroke=\"#1b5e20\" stroke-width=\"4\"><ellipse cx=\"310\" cy=\"205\" rx=\"58\" ry=\"14\"/><ellipse cx=\"310\" cy=\"230\" rx=\"58\" ry=\"14\"/><ellipse cx=\"310\" cy=\"255\" rx=\"58\" ry=\"14\"/><ellipse cx=\"505\" cy=\"275\" rx=\"58\" ry=\"14\"/><ellipse cx=\"505\" cy=\"300\" rx=\"58\" ry=\"14\"/><ellipse cx=\"505\" cy=\"325\" rx=\"58\" ry=\"14\"/></g><line x1=\"368\" y1=\"230\" x2=\"447\" y2=\"290\" stroke=\"#66bb6a\" stroke-width=\"7\"/><text x=\"675\" y=\"175\" font-size=\"22\" fill=\"#2e7d32\">Doppia membrana</text><line x1=\"610\" y1=\"170\" x2=\"660\" y2=\"175\" stroke=\"#2e7d32\" stroke-width=\"4\"/><text x=\"675\" y=\"280\" font-size=\"22\" fill=\"#1b5e20\">Grana</text><line x1=\"565\" y1=\"295\" x2=\"660\" y2=\"280\" stroke=\"#1b5e20\" stroke-width=\"4\"/><text x=\"660\" y=\"390\" font-size=\"22\" fill=\"#388e3c\">Tilacoidi</text><line x1=\"550\" y1=\"330\" x2=\"645\" y2=\"385\" stroke=\"#388e3c\" stroke-width=\"4\"/><text x=\"450\" y=\"490\" text-anchor=\"middle\" font-size=\"23\" fill=\"#1b5e20\">Contiene clorofilla e svolge la fotosintesi</text></svg>",
+      "quiz": [
+        {
+          "question": "Dove si trova la clorofilla all’interno del cloroplasto?",
+          "options": [
+            "Nella parete cellulare",
+            "Nelle membrane dei tilacoidi",
+            "Nel nucleolo",
+            "Nel tonoplasto"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La clorofilla è localizzata nelle membrane dei tilacoidi."
+        },
+        {
+          "question": "Come vengono chiamate le pile di tilacoidi?",
+          "options": [
+            "Grana",
+            "Creste",
+            "Capsidi",
+            "Pili"
+          ],
+          "correctAnswer": 0,
+          "explanation": "I tilacoidi sono spesso organizzati in pile chiamate grana."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "6. Fotosintesi e respirazione cellulare",
+      "subject": "Biologia",
+      "text": "Le cellule vegetali possiedono sia cloroplasti sia mitocondri. Nei cloroplasti avviene la fotosintesi: l’energia luminosa viene utilizzata per produrre molecole organiche. Nei mitocondri avviene la respirazione cellulare, che permette di ottenere ATP dalle molecole nutritive. È quindi errato affermare che le cellule vegetali non possiedano mitocondri.",
+      "keywords": [
+        "fotosintesi",
+        "respirazione cellulare",
+        "cloroplasto",
+        "mitocondrio",
+        "ATP"
+      ],
+      "remember": "Le cellule vegetali possiedono cloroplasti e mitocondri.",
+      "disegnoNome": "cloroplasto-mitocondrio",
+      "svg": "<svg viewBox=\"0 0 900 520\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"900\" height=\"520\" rx=\"24\" fill=\"#fbfff8\"/><text x=\"450\" y=\"52\" text-anchor=\"middle\" font-size=\"31\" font-weight=\"bold\" fill=\"#263238\">Cloroplasto e mitocondrio</text><ellipse cx=\"260\" cy=\"265\" rx=\"155\" ry=\"100\" fill=\"#a5d6a7\" stroke=\"#2e7d32\" stroke-width=\"9\"/><ellipse cx=\"260\" cy=\"265\" rx=\"135\" ry=\"82\" fill=\"#e8f5e9\"/><g fill=\"#43a047\"><rect x=\"185\" y=\"220\" width=\"70\" height=\"14\" rx=\"7\"/><rect x=\"185\" y=\"245\" width=\"70\" height=\"14\" rx=\"7\"/><rect x=\"185\" y=\"270\" width=\"70\" height=\"14\" rx=\"7\"/><rect x=\"280\" y=\"245\" width=\"70\" height=\"14\" rx=\"7\"/><rect x=\"280\" y=\"270\" width=\"70\" height=\"14\" rx=\"7\"/><rect x=\"280\" y=\"295\" width=\"70\" height=\"14\" rx=\"7\"/></g><ellipse cx=\"650\" cy=\"265\" rx=\"155\" ry=\"100\" fill=\"#ef5350\" stroke=\"#b71c1c\" stroke-width=\"9\"/><ellipse cx=\"650\" cy=\"265\" rx=\"135\" ry=\"82\" fill=\"#ffcdd2\"/><path d=\"M545 265 C575 195 605 330 635 265 C665 195 695 330 735 255\" fill=\"none\" stroke=\"#c62828\" stroke-width=\"11\"/><text x=\"260\" y=\"415\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"#1b5e20\">Cloroplasto</text><text x=\"260\" y=\"448\" text-anchor=\"middle\" font-size=\"20\" fill=\"#1b5e20\">Fotosintesi</text><text x=\"650\" y=\"415\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"#b71c1c\">Mitocondrio</text><text x=\"650\" y=\"448\" text-anchor=\"middle\" font-size=\"20\" fill=\"#b71c1c\">Respirazione cellulare e ATP</text><path d=\"M390 260 L505 260\" stroke=\"#546e7a\" stroke-width=\"7\" marker-end=\"url(#arrow)\"/><defs><marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"10\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L0,6 L9,3 z\" fill=\"#546e7a\"/></marker></defs></svg>",
+      "quiz": [
+        {
+          "question": "Quale affermazione è corretta?",
+          "options": [
+            "Le cellule vegetali possiedono cloroplasti ma non mitocondri",
+            "Le cellule vegetali possiedono normalmente sia cloroplasti sia mitocondri",
+            "La fotosintesi avviene nei lisosomi",
+            "La respirazione cellulare avviene soltanto negli animali"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Le cellule vegetali svolgono fotosintesi nei cloroplasti e respirazione cellulare nei mitocondri."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "7. Caratteristiche della cellula animale",
+      "subject": "Biologia",
+      "text": "La cellula animale non possiede parete cellulare né cloroplasti. La sua forma è spesso più variabile rispetto a quella della cellula vegetale. Può contenere piccoli vacuoli e possiede generalmente un centrosoma con centrioli, importante nell’organizzazione dei microtubuli e nella divisione cellulare. I lisosomi sono spesso particolarmente evidenti nelle cellule animali.",
+      "keywords": [
+        "cellula animale",
+        "centrosoma",
+        "centrioli",
+        "microtubuli",
+        "lisosomi"
+      ],
+      "remember": "La cellula animale non possiede parete cellulare né cloroplasti.",
+      "disegnoNome": "cellula-animale",
+      "svg": "<svg viewBox=\"0 0 880 530\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"880\" height=\"530\" rx=\"24\" fill=\"#fff8fb\"/><text x=\"440\" y=\"52\" text-anchor=\"middle\" font-size=\"31\" font-weight=\"bold\" fill=\"#ad1457\">Cellula animale</text><ellipse cx=\"425\" cy=\"285\" rx=\"270\" ry=\"175\" fill=\"#f8bbd0\" stroke=\"#d81b60\" stroke-width=\"10\"/><circle cx=\"420\" cy=\"275\" r=\"78\" fill=\"#b39ddb\" stroke=\"#6a1b9a\" stroke-width=\"6\"/><circle cx=\"420\" cy=\"275\" r=\"25\" fill=\"#7e57c2\"/><ellipse cx=\"250\" cy=\"205\" rx=\"48\" ry=\"26\" fill=\"#ef5350\"/><ellipse cx=\"590\" cy=\"360\" rx=\"48\" ry=\"26\" fill=\"#ef5350\"/><path d=\"M220 205 C245 180 265 235 290 200\" fill=\"none\" stroke=\"#ffebee\" stroke-width=\"5\"/><path d=\"M560 360 C585 335 605 390 630 355\" fill=\"none\" stroke=\"#ffebee\" stroke-width=\"5\"/><circle cx=\"280\" cy=\"365\" r=\"24\" fill=\"#90caf9\"/><circle cx=\"570\" cy=\"190\" r=\"20\" fill=\"#90caf9\"/><rect x=\"495\" y=\"255\" width=\"16\" height=\"70\" rx=\"8\" fill=\"#ffb74d\" transform=\"rotate(35 503 290)\"/><rect x=\"530\" y=\"255\" width=\"16\" height=\"70\" rx=\"8\" fill=\"#ffa726\" transform=\"rotate(-35 538 290)\"/><text x=\"690\" y=\"220\" font-size=\"21\" fill=\"#ef6c00\">Centrioli</text><line x1=\"545\" y1=\"275\" x2=\"675\" y2=\"220\" stroke=\"#ef6c00\" stroke-width=\"4\"/><text x=\"675\" y=\"385\" font-size=\"21\" fill=\"#1565c0\">Lisosoma</text><line x1=\"605\" y1=\"360\" x2=\"660\" y2=\"380\" stroke=\"#1565c0\" stroke-width=\"4\"/><text x=\"440\" y=\"485\" text-anchor=\"middle\" font-size=\"23\" fill=\"#ad1457\">Nessuna parete cellulare e nessun cloroplasto</text></svg>",
+      "quiz": [
+        {
+          "question": "Quale struttura è tipicamente associata alle cellule animali?",
+          "options": [
+            "Cloroplasto",
+            "Grande vacuolo centrale",
+            "Parete di cellulosa",
+            "Centrosoma con centrioli"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Il centrosoma con centrioli è una struttura tipicamente presente nelle cellule animali."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "8. Confronto finale",
+      "subject": "Biologia",
+      "text": "Per riconoscere una cellula vegetale, cerca soprattutto la parete cellulare, il grande vacuolo centrale e gli eventuali cloroplasti. Per riconoscere una cellula animale, considera l’assenza di parete e cloroplasti e la possibile presenza dei centrioli. Entrambe possiedono nucleo, mitocondri, ribosomi, membrana plasmatica, reticolo endoplasmatico e apparato di Golgi.",
+      "keywords": [
+        "confronto",
+        "cellula animale",
+        "cellula vegetale",
+        "cloroplasto",
+        "vacuolo",
+        "parete cellulare"
+      ],
+      "remember": "Vegetale: parete, grande vacuolo e cloroplasti. Animale: assenza di parete e cloroplasti, presenza tipica dei centrioli.",
+      "disegnoNome": "tabella-confronto-cellule",
+      "svg": "<svg viewBox=\"0 0 950 570\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"950\" height=\"570\" rx=\"24\" fill=\"#fffdf7\"/><text x=\"475\" y=\"50\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#263238\">Confronto tra cellule</text><rect x=\"70\" y=\"100\" width=\"380\" height=\"390\" rx=\"25\" fill=\"#fff0f5\" stroke=\"#d81b60\" stroke-width=\"7\"/><rect x=\"500\" y=\"100\" width=\"380\" height=\"390\" rx=\"25\" fill=\"#f1f8e9\" stroke=\"#558b2f\" stroke-width=\"7\"/><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"27\" font-weight=\"bold\" fill=\"#ad1457\">CELLULA ANIMALE</text><text x=\"690\" y=\"150\" text-anchor=\"middle\" font-size=\"27\" font-weight=\"bold\" fill=\"#33691e\">CELLULA VEGETALE</text><text x=\"115\" y=\"215\" font-size=\"21\" fill=\"#880e4f\">• Nucleo</text><text x=\"115\" y=\"260\" font-size=\"21\" fill=\"#880e4f\">• Mitocondri</text><text x=\"115\" y=\"305\" font-size=\"21\" fill=\"#880e4f\">• Membrana plasmatica</text><text x=\"115\" y=\"350\" font-size=\"21\" fill=\"#880e4f\">• Nessuna parete cellulare</text><text x=\"115\" y=\"395\" font-size=\"21\" fill=\"#880e4f\">• Nessun cloroplasto</text><text x=\"115\" y=\"440\" font-size=\"21\" fill=\"#880e4f\">• Centrioli tipicamente presenti</text><text x=\"545\" y=\"215\" font-size=\"21\" fill=\"#1b5e20\">• Nucleo</text><text x=\"545\" y=\"260\" font-size=\"21\" fill=\"#1b5e20\">• Mitocondri</text><text x=\"545\" y=\"305\" font-size=\"21\" fill=\"#1b5e20\">• Membrana plasmatica</text><text x=\"545\" y=\"350\" font-size=\"21\" fill=\"#1b5e20\">• Parete cellulare</text><text x=\"545\" y=\"395\" font-size=\"21\" fill=\"#1b5e20\">• Cloroplasti</text><text x=\"545\" y=\"440\" font-size=\"21\" fill=\"#1b5e20\">• Grande vacuolo centrale</text><text x=\"475\" y=\"540\" text-anchor=\"middle\" font-size=\"22\" fill=\"#455a64\">Entrambe sono cellule eucariotiche</text></svg>",
+      "quiz": [
+        {
+          "question": "Quale insieme di strutture permette di identificare una cellula vegetale?",
+          "options": [
+            "Nucleo, ribosomi e mitocondri",
+            "Parete cellulare, cloroplasti e grande vacuolo centrale",
+            "Centrioli, capside e flagello",
+            "Nucleoide, pili e plasmidi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Parete cellulare, cloroplasti e grande vacuolo centrale sono elementi caratteristici della cellula vegetale."
+        }
+      ]
+    },
+    {
+      "type": "vero_falso",
+      "title": "Ripasso finale",
+      "domande": [
+        {
+          "testo": "Le cellule vegetali possiedono normalmente mitocondri.",
+          "risposta": true,
+          "spiegazione": "I mitocondri permettono anche alle cellule vegetali di produrre ATP attraverso la respirazione cellulare."
+        },
+        {
+          "testo": "I cloroplasti contengono clorofilla.",
+          "risposta": true,
+          "spiegazione": "La clorofilla assorbe energia luminosa."
+        },
+        {
+          "testo": "La parete cellulare vegetale si trova internamente alla membrana plasmatica.",
+          "risposta": false,
+          "spiegazione": "La parete cellulare si trova esternamente alla membrana plasmatica."
+        },
+        {
+          "testo": "La cellula animale possiede normalmente cloroplasti.",
+          "risposta": false,
+          "spiegazione": "I cloroplasti sono caratteristici delle cellule vegetali fotosintetiche."
+        },
+        {
+          "testo": "Il vacuolo centrale contribuisce al turgore della cellula vegetale.",
+          "risposta": true,
+          "spiegazione": "L’acqua contenuta nel vacuolo esercita una pressione che contribuisce al sostegno dei tessuti."
+        },
+        {
+          "testo": "Le cellule animali e vegetali sono entrambe eucariotiche.",
+          "risposta": true,
+          "spiegazione": "Entrambe possiedono un nucleo delimitato da membrana."
+        }
+      ]
+    },
+    {
+      "type": "scelta_multipla",
+      "title": "Quiz TOLC-B: ragionamento",
+      "domande": [
+        {
+          "testo": "Osservando al microscopio una cellula si notano una parete rigida, un grande vacuolo e numerosi cloroplasti. Di quale cellula si tratta?",
+          "opzioni": [
+            "Cellula batterica",
+            "Cellula animale",
+            "Cellula vegetale fotosintetica",
+            "Virus"
+          ],
+          "corretta": 2,
+          "spiegazione": "Parete cellulare, grande vacuolo e cloroplasti indicano una cellula vegetale fotosintetica."
+        },
+        {
+          "testo": "Quale struttura è presente sia in una cellula animale sia in una cellula vegetale?",
+          "opzioni": [
+            "Parete di cellulosa",
+            "Cloroplasto",
+            "Mitocondrio",
+            "Grande vacuolo centrale"
+          ],
+          "corretta": 2,
+          "spiegazione": "Le cellule animali e vegetali possiedono entrambe mitocondri."
+        },
+        {
+          "testo": "Una sostanza blocca il funzionamento dei tilacoidi. Quale processo viene compromesso direttamente?",
+          "opzioni": [
+            "Sintesi proteica",
+            "Fotosintesi",
+            "Digestione intracellulare",
+            "Divisione batterica"
+          ],
+          "corretta": 1,
+          "spiegazione": "I tilacoidi sono strutture interne dei cloroplasti coinvolte nella fotosintesi."
+        },
+        {
+          "testo": "Una cellula vegetale perde molta acqua. Quale conseguenza è più probabile?",
+          "opzioni": [
+            "Aumento del turgore",
+            "Riduzione del turgore",
+            "Produzione immediata di nuovi ribosomi",
+            "Trasformazione della parete in membrana"
+          ],
+          "corretta": 1,
+          "spiegazione": "La perdita d’acqua riduce la pressione di turgore."
+        },
+        {
+          "testo": "Quale affermazione sulla parete cellulare è corretta?",
+          "opzioni": [
+            "È presente nella cellula animale",
+            "È formata principalmente da cellulosa nelle piante",
+            "Sostituisce completamente la membrana plasmatica",
+            "Contiene la maggior parte del DNA"
+          ],
+          "corretta": 1,
+          "spiegazione": "La parete delle cellule vegetali contiene principalmente cellulosa."
+        },
+        {
+          "testo": "Quale struttura svolge la respirazione cellulare nelle cellule vegetali?",
+          "opzioni": [
+            "Cloroplasto",
+            "Mitocondrio",
+            "Vacuolo",
+            "Parete cellulare"
+          ],
+          "corretta": 1,
+          "spiegazione": "La respirazione cellulare avviene nei mitocondri anche nelle cellule vegetali."
+        }
+      ]
+    }
+  ],
+  "domandePlus": [
+    {
+      "question": "Quale struttura distingue una cellula vegetale da una cellula animale?",
+      "options": [
+        "Ribosoma",
+        "Mitocondrio",
+        "Cloroplasto",
+        "Membrana plasmatica"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Il cloroplasto è caratteristico delle cellule vegetali fotosintetiche."
+    },
+    {
+      "question": "La pressione di turgore dipende soprattutto:",
+      "options": [
+        "Dall’acqua contenuta nel vacuolo",
+        "Dal DNA nel nucleo",
+        "Dai ribosomi nel citoplasma",
+        "Dai centrioli"
+      ],
+      "correctAnswer": 0,
+      "explanation": "L’accumulo di acqua nel vacuolo genera una pressione interna che sostiene la cellula."
+    },
+    {
+      "question": "Quale struttura contiene clorofilla?",
+      "options": [
+        "Tilacoide",
+        "Nucleolo",
+        "Lisosoma",
+        "Tonoplasto"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La clorofilla si trova nelle membrane dei tilacoidi."
+    },
+    {
+      "question": "Quale affermazione sulle cellule vegetali è errata?",
+      "options": [
+        "Possiedono una membrana plasmatica",
+        "Possono possedere cloroplasti",
+        "Non possiedono mitocondri",
+        "Possono contenere un grande vacuolo centrale"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Le cellule vegetali possiedono anche mitocondri."
+    },
+    {
+      "question": "Il tonoplasto è:",
+      "options": [
+        "La membrana del vacuolo",
+        "Una pila di tilacoidi",
+        "La parete cellulare",
+        "Una parte del centrosoma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Il tonoplasto delimita il vacuolo."
+    },
+    {
+      "question": "Quale struttura fornisce sostegno meccanico alla cellula vegetale?",
+      "options": [
+        "Parete cellulare",
+        "Ribosoma",
+        "Nucleolo",
+        "Centriolo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La parete cellulare fornisce sostegno e protezione."
+    },
+    {
+      "question": "Le cellule animali e vegetali condividono:",
+      "options": [
+        "Cloroplasti e parete cellulare",
+        "Mitocondri e nucleo",
+        "Grande vacuolo centrale e tilacoidi",
+        "Parete di cellulosa e tonoplasto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Essendo entrambe eucariotiche, possiedono nucleo e mitocondri."
+    },
+    {
+      "question": "Quale associazione è corretta?",
+      "options": [
+        "Cloroplasto → fotosintesi",
+        "Vacuolo → sintesi proteica",
+        "Parete cellulare → produzione di ATP",
+        "Centriolo → accumulo di acqua"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Il cloroplasto è l’organello responsabile della fotosintesi."
+    }
+  ]
+}
