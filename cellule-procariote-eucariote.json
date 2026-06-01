@@ -1,0 +1,297 @@
+{
+  "id": "cellule-procariote-eucariote",
+  "titolo": "Cellule procariote ed eucariote",
+  "materia": "Biologia",
+  "classe": "Scuola superiore",
+  "icona": "🔬",
+  "descrizione": "Struttura, funzioni e differenze tra cellule procariote ed eucariote.",
+  "attiva": true,
+  "blocchi": [
+    {
+      "tipo": "standard",
+      "title": "La cellula come unità fondamentale della vita",
+      "subject": "Introduzione",
+      "image": "images/01-cellula-unita-vita.svg",
+      "disegnoNome": "01-cellula-unita-vita.svg",
+      "disegnoPrompt": "Crea un SVG educativo per scuola superiore, stile libro di biologia. Titolo: 'La cellula come unità fondamentale della vita'. Mostra al centro una cellula stilizzata e intorno quattro concetti: unità strutturale, unità funzionale, presenza di materiale genetico, capacità di scambio con l'ambiente. Usa frecce e etichette grandi in italiano. Sfondo chiaro, colori scientifici puliti, leggibile anche da smartphone.",
+      "text": "La cellula rappresenta l'unità strutturale e funzionale di tutti gli organismi viventi. In ogni cellula avvengono i processi fondamentali per la vita: metabolismo, sintesi proteica, scambio di sostanze con l'ambiente, conservazione e trasmissione dell'informazione genetica. Nonostante la grande varietà morfologica e funzionale, tutte le cellule condividono alcuni elementi di base: membrana plasmatica, citoplasma, ribosomi e materiale genetico.",
+      "keywords": ["cellula", "unità della vita", "membrana plasmatica", "citoplasma", "ribosomi", "DNA"],
+      "remember": [
+        "La cellula è l'unità strutturale e funzionale della vita.",
+        "Tutte le cellule possiedono membrana plasmatica, citoplasma, ribosomi e materiale genetico.",
+        "Le differenze tra procarioti ed eucarioti riguardano soprattutto il livello di organizzazione interna."
+      ],
+      "question": "Quale delle seguenti strutture è presente sia nelle cellule procariote sia in quelle eucariote?",
+      "answers": ["Nucleo", "Mitocondrio", "Ribosoma", "Apparato di Golgi"],
+      "correct": 2,
+      "exercise": "Spiega in due righe perché la cellula è considerata l'unità fondamentale della vita."
+    },
+    {
+      "tipo": "collega",
+      "title": "Elementi comuni a tutte le cellule",
+      "subject": "Interattivo",
+      "text": "Collega ogni struttura alla sua funzione essenziale.",
+      "items": [
+        {
+          "parola": "Membrana plasmatica",
+          "opzioni": ["Delimita la cellula e regola gli scambi", "Produce ATP", "Contiene clorofilla"],
+          "corretta": "Delimita la cellula e regola gli scambi"
+        },
+        {
+          "parola": "Citoplasma",
+          "opzioni": ["Ambiente interno dove avvengono molte reazioni", "Rivestimento esterno rigido", "Deposito esclusivo del DNA"],
+          "corretta": "Ambiente interno dove avvengono molte reazioni"
+        },
+        {
+          "parola": "Ribosomi",
+          "opzioni": ["Sede della sintesi proteica", "Producono lipidi di membrana", "Demoliscono rifiuti cellulari"],
+          "corretta": "Sede della sintesi proteica"
+        },
+        {
+          "parola": "Materiale genetico",
+          "opzioni": ["Contiene l'informazione ereditaria", "Trasporta ossigeno", "Forma la parete cellulare"],
+          "corretta": "Contiene l'informazione ereditaria"
+        }
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "La cellula procariotica",
+      "subject": "Procarioti",
+      "image": "images/02-cellula-procariotica.svg",
+      "disegnoNome": "02-cellula-procariotica.svg",
+      "disegnoPrompt": "Crea un SVG educativo per scuola superiore. Titolo: 'Cellula procariotica'. Disegna un batterio in sezione con etichette in italiano: capsula, parete cellulare, membrana plasmatica, citoplasma, ribosomi, nucleoide, plasmidi, flagello, pili/fimbrie. Inserisci una breve nota: 'assenza di nucleo vero e proprio' e 'assenza di organuli delimitati da membrana'. Stile scientifico, chiaro e ordinato.",
+      "text": "Le cellule procariotiche sono tipiche di batteri e archei. Hanno dimensioni generalmente ridotte e una struttura interna relativamente semplice. Il loro DNA non è racchiuso in un nucleo delimitato da membrana, ma si trova in una regione detta nucleoide. Possono inoltre possedere plasmidi, piccole molecole circolari di DNA. All'esterno sono spesso presenti parete cellulare, capsula, pili e flagelli. I procarioti non possiedono organuli membranosi come mitocondri, reticolo endoplasmatico o apparato di Golgi.",
+      "keywords": ["procarioti", "batteri", "archei", "nucleoide", "plasmidi", "parete cellulare", "flagello"],
+      "remember": [
+        "Il DNA procariotico non è racchiuso in un nucleo.",
+        "Il materiale genetico principale si trova nel nucleoide.",
+        "I procarioti non possiedono organuli membranosi.",
+        "Plasmidi, pili e flagelli possono essere presenti in molte specie batteriche."
+      ],
+      "question": "Quale caratteristica distingue in modo diretto una cellula procariotica da una eucariotica?",
+      "answers": [
+        "La presenza di ribosomi",
+        "L'assenza di membrana plasmatica",
+        "L'assenza di un nucleo delimitato da membrana",
+        "La totale assenza di DNA"
+      ],
+      "correct": 2,
+      "exercise": "Descrivi il ruolo del nucleoide e dei plasmidi in una cellula procariotica."
+    },
+    {
+      "tipo": "collega",
+      "title": "Riconosci le strutture procariotiche",
+      "subject": "Interattivo",
+      "text": "Collega ciascun elemento alla descrizione corretta.",
+      "items": [
+        {
+          "parola": "Nucleoide",
+          "opzioni": ["Regione contenente il DNA principale", "Organulo che produce ATP", "Struttura per la digestione intracellulare"],
+          "corretta": "Regione contenente il DNA principale"
+        },
+        {
+          "parola": "Plasmide",
+          "opzioni": ["Piccola molecola circolare di DNA", "Proteina di membrana", "Riserva di amido"],
+          "corretta": "Piccola molecola circolare di DNA"
+        },
+        {
+          "parola": "Flagello",
+          "opzioni": ["Permette il movimento", "Sintetizza proteine", "Delimita il nucleo"],
+          "corretta": "Permette il movimento"
+        },
+        {
+          "parola": "Pili",
+          "opzioni": ["Favoriscono adesione e coniugazione", "Producono energia", "Trasportano enzimi nel nucleo"],
+          "corretta": "Favoriscono adesione e coniugazione"
+        }
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "La cellula eucariotica",
+      "subject": "Eucarioti",
+      "image": "images/03-cellula-eucariotica.svg",
+      "disegnoNome": "03-cellula-eucariotica.svg",
+      "disegnoPrompt": "Crea un SVG educativo per scuola superiore. Titolo: 'Cellula eucariotica'. Disegna una cellula animale stilizzata in sezione con etichette: membrana plasmatica, citoplasma, nucleo, nucleolo, reticolo endoplasmatico rugoso, reticolo endoplasmatico liscio, apparato di Golgi, mitocondri, lisosomi, vescicole, ribosomi. Inserisci una nota sulla compartimentalizzazione interna. Grafica chiara e scientifica.",
+      "text": "Le cellule eucariotiche caratterizzano protisti, funghi, piante e animali. Sono generalmente più grandi e complesse rispetto alle procariotiche. Il DNA è racchiuso all'interno di un vero nucleo delimitato da doppia membrana. Il citoplasma contiene numerosi organuli membranosi specializzati: mitocondri, reticolo endoplasmatico, apparato di Golgi, lisosomi, perossisomi e, nelle cellule vegetali, cloroplasti e un grande vacuolo centrale. Questa compartimentalizzazione consente una maggiore efficienza e specializzazione dei processi metabolici.",
+      "keywords": ["eucarioti", "nucleo", "organuli", "mitocondri", "reticolo endoplasmatico", "Golgi", "compartimentalizzazione"],
+      "remember": [
+        "Le cellule eucariotiche possiedono un nucleo delimitato da membrana.",
+        "Presentano numerosi organuli membranosi specializzati.",
+        "La compartimentalizzazione aumenta l'efficienza funzionale della cellula."
+      ],
+      "question": "Quale tra le seguenti strutture è tipica delle cellule eucariotiche e assente nei procarioti?",
+      "answers": ["Ribosoma", "Membrana plasmatica", "Nucleo delimitato da membrana", "Citoplasma"],
+      "correct": 2,
+      "exercise": "Spiega che cosa si intende per compartimentalizzazione nelle cellule eucariotiche."
+    },
+    {
+      "tipo": "collega",
+      "title": "Organuli e funzione",
+      "subject": "Interattivo",
+      "text": "Associa ogni organulo eucariotico alla sua funzione principale.",
+      "items": [
+        {
+          "parola": "Mitocondrio",
+          "opzioni": ["Respirazione cellulare e produzione di ATP", "Sintesi del DNA", "Formazione della parete batterica"],
+          "corretta": "Respirazione cellulare e produzione di ATP"
+        },
+        {
+          "parola": "Reticolo endoplasmatico rugoso",
+          "opzioni": ["Sintesi e prima modificazione di proteine", "Digestione intracellulare", "Fotosintesi"],
+          "corretta": "Sintesi e prima modificazione di proteine"
+        },
+        {
+          "parola": "Apparato di Golgi",
+          "opzioni": ["Modifica, impacchetta e smista molecole", "Conserva i cromosomi", "Muove la cellula con flagelli"],
+          "corretta": "Modifica, impacchetta e smista molecole"
+        },
+        {
+          "parola": "Lisosoma",
+          "opzioni": ["Digestione intracellulare", "Produzione di ribosomi", "Sintesi di ATP mediante clorofilla"],
+          "corretta": "Digestione intracellulare"
+        }
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Membrana plasmatica e trasporto",
+      "subject": "Strutture comuni e funzioni",
+      "image": "images/04-membrana-plasmatica-trasporto.svg",
+      "disegnoNome": "04-membrana-plasmatica-trasporto.svg",
+      "disegnoPrompt": "Crea un SVG educativo per scuola superiore. Titolo: 'Membrana plasmatica e trasporto'. Disegna il doppio strato fosfolipidico con teste idrofile e code idrofobe, proteine di membrana, canali e pompe. Inserisci quattro mini schemi con etichette: diffusione semplice, diffusione facilitata, osmosi, trasporto attivo. Stile chiaro, ordinato, da manuale scolastico.",
+      "text": "La membrana plasmatica è costituita principalmente da un doppio strato di fosfolipidi con proteine immerse. Essa separa l'ambiente intracellulare da quello extracellulare e controlla selettivamente il passaggio delle sostanze. I meccanismi di trasporto comprendono diffusione semplice, diffusione facilitata, osmosi e trasporto attivo. Quest'ultimo richiede energia, generalmente sotto forma di ATP, per spostare sostanze contro gradiente di concentrazione.",
+      "keywords": ["membrana plasmatica", "fosfolipidi", "diffusione", "osmosi", "trasporto attivo", "gradiente"],
+      "remember": [
+        "La membrana plasmatica è selettivamente permeabile.",
+        "La diffusione avviene secondo gradiente di concentrazione.",
+        "L'osmosi riguarda il movimento dell'acqua.",
+        "Il trasporto attivo richiede energia."
+      ],
+      "question": "Quale processo richiede direttamente energia metabolica?",
+      "answers": ["Diffusione semplice", "Osmosi", "Diffusione facilitata", "Trasporto attivo"],
+      "correct": 3,
+      "exercise": "Confronta diffusione facilitata e trasporto attivo, indicando una differenza fondamentale."
+    },
+    {
+      "tipo": "standard",
+      "title": "Nucleo, DNA e sintesi proteica",
+      "subject": "Informazione genetica",
+      "image": "images/05-nucleo-dna-sintesi-proteica.svg",
+      "disegnoNome": "05-nucleo-dna-sintesi-proteica.svg",
+      "disegnoPrompt": "Crea un SVG educativo per scuola superiore. Titolo: 'Nucleo, DNA e sintesi proteica'. Mostra un nucleo con involucro nucleare e pori, cromatina, nucleolo. A lato mostra la sequenza: DNA -> trascrizione -> mRNA -> ribosoma -> proteina. Usa frecce, colori diversi e etichette italiane chiare.",
+      "text": "Nelle cellule eucariotiche il nucleo custodisce il DNA, organizzato sotto forma di cromatina e, durante la divisione, di cromosomi. Il nucleolo è coinvolto nella produzione delle subunità ribosomali. L'informazione genetica viene trascritta in RNA messaggero, che lascia il nucleo attraverso i pori nucleari e raggiunge i ribosomi, sede della traduzione. Nei procarioti, in assenza di nucleo, trascrizione e traduzione possono avvenire in modo strettamente associato nel citoplasma.",
+      "keywords": ["nucleo", "DNA", "cromatina", "nucleolo", "trascrizione", "traduzione", "mRNA"],
+      "remember": [
+        "Il nucleo contiene il patrimonio genetico eucariotico.",
+        "Il nucleolo produce componenti dei ribosomi.",
+        "La trascrizione produce RNA a partire dal DNA.",
+        "La traduzione avviene sui ribosomi."
+      ],
+      "question": "Dove avviene la traduzione dell'mRNA in proteina?",
+      "answers": ["Nel nucleolo", "Sui ribosomi", "Nella parete cellulare", "Nel nucleoide"],
+      "correct": 1,
+      "exercise": "Descrivi in modo sintetico il percorso dell'informazione genetica dal DNA alla proteina."
+    },
+    {
+      "tipo": "standard",
+      "title": "Cellula animale e cellula vegetale",
+      "subject": "Confronto tra eucarioti",
+      "image": "images/06-cellula-animale-vs-vegetale.svg",
+      "disegnoNome": "06-cellula-animale-vs-vegetale.svg",
+      "disegnoPrompt": "Crea un SVG educativo comparativo per scuola superiore. Titolo: 'Cellula animale e cellula vegetale'. Disegna affiancate una cellula animale e una vegetale. Etichetta per entrambe: nucleo, membrana, citoplasma, mitocondri, reticolo endoplasmatico, Golgi. Solo nella vegetale: parete cellulare, cloroplasti, vacuolo centrale. Solo nell'animale: lisosomi ben evidenziati e centrioli. Inserisci un piccolo riquadro 'elementi comuni' e 'elementi distintivi'.",
+      "text": "Le cellule animali e vegetali sono entrambe eucariotiche e condividono nucleo, membrana plasmatica, citoplasma e numerosi organuli. Tuttavia, la cellula vegetale possiede strutture caratteristiche: parete cellulare di cellulosa, cloroplasti e un ampio vacuolo centrale. La cellula animale, invece, è priva di parete e cloroplasti e presenta generalmente lisosomi più evidenti e centrioli associati alla divisione cellulare.",
+      "keywords": ["cellula animale", "cellula vegetale", "parete cellulare", "cloroplasti", "vacuolo", "centrioli"],
+      "remember": [
+        "Le cellule animali e vegetali sono entrambe eucariotiche.",
+        "La parete cellulare è tipica della cellula vegetale.",
+        "I cloroplasti sono presenti solo nelle cellule vegetali fotosintetiche.",
+        "Il grande vacuolo centrale è una caratteristica tipica delle cellule vegetali."
+      ],
+      "question": "Quale struttura è tipica della cellula vegetale?",
+      "answers": ["Centriolo", "Cloroplasto", "Pilo", "Capsula batterica"],
+      "correct": 1,
+      "exercise": "Indica due caratteristiche che distinguono la cellula vegetale da quella animale."
+    },
+    {
+      "tipo": "collega",
+      "title": "Classifica le strutture",
+      "subject": "Interattivo",
+      "text": "Collega ogni struttura alla categoria corretta.",
+      "items": [
+        {
+          "parola": "Cloroplasto",
+          "opzioni": ["Cellula vegetale", "Cellula animale", "Cellula procariotica"],
+          "corretta": "Cellula vegetale"
+        },
+        {
+          "parola": "Centriolo",
+          "opzioni": ["Cellula animale", "Cellula vegetale", "Nucleoide batterico"],
+          "corretta": "Cellula animale"
+        },
+        {
+          "parola": "Parete cellulare di cellulosa",
+          "opzioni": ["Cellula vegetale", "Cellula animale", "Mitocondrio"],
+          "corretta": "Cellula vegetale"
+        },
+        {
+          "parola": "Capsula batterica",
+          "opzioni": ["Cellula procariotica", "Cellula animale", "Cellula vegetale"],
+          "corretta": "Cellula procariotica"
+        }
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Procarioti ed eucarioti: confronto finale",
+      "subject": "Sintesi comparativa",
+      "image": "images/07-confronto-procarioti-eucarioti.svg",
+      "disegnoNome": "07-confronto-procarioti-eucarioti.svg",
+      "disegnoPrompt": "Crea un SVG educativo comparativo per scuola superiore. Titolo: 'Procarioti vs eucarioti'. Costruisci una tabella o doppia colonna con confronti chiari: dimensioni, nucleo, DNA, organuli membranosi, ribosomi, parete cellulare, riproduzione, esempi. Aggiungi in basso un piccolo schema sull'ipotesi endosimbiotica collegando batteri antichi a mitocondri e cloroplasti.",
+      "text": "Le differenze tra procarioti ed eucarioti riguardano dimensioni, organizzazione interna e complessità. I procarioti sono generalmente più piccoli, privi di nucleo e di organuli membranosi. Gli eucarioti sono più grandi e altamente compartimentalizzati. Il DNA procariotico è in genere circolare e localizzato nel nucleoide; quello eucariotico è lineare, associato a proteine istoniche e racchiuso nel nucleo. L'ipotesi endosimbiotica propone che mitocondri e cloroplasti derivino da antichi procarioti inglobati da cellule ancestrali.",
+      "keywords": ["confronto", "procarioti", "eucarioti", "DNA circolare", "DNA lineare", "endosimbiosi"],
+      "remember": [
+        "I procarioti sono piccoli e semplici dal punto di vista strutturale.",
+        "Gli eucarioti possiedono nucleo e organuli membranosi.",
+        "Mitocondri e cloroplasti sono collegati all'ipotesi endosimbiotica."
+      ],
+      "question": "Quale affermazione sull'ipotesi endosimbiotica è corretta?",
+      "answers": [
+        "Spiega l'origine dei ribosomi",
+        "Propone che mitocondri e cloroplasti derivino da antichi batteri",
+        "Descrive la formazione della parete cellulare",
+        "Riguarda esclusivamente i virus"
+      ],
+      "correct": 1,
+      "exercise": "Riassumi in massimo 5 righe le principali differenze tra cellule procariotiche ed eucariotiche."
+    },
+    {
+      "tipo": "sequenza",
+      "title": "Ripasso logico",
+      "subject": "Interattivo",
+      "text": "Metti in ordine logico questi passaggi del ripasso.",
+      "items": [
+        "Tutte le cellule condividono alcune strutture di base.",
+        "I procarioti non possiedono un nucleo delimitato da membrana.",
+        "Gli eucarioti presentano compartimentalizzazione e organuli membranosi.",
+        "Le cellule vegetali possiedono cloroplasti, parete cellulare e grande vacuolo.",
+        "Mitocondri e cloroplasti sono collegati all'ipotesi endosimbiotica."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Mappa conclusiva",
+      "subject": "Sintesi finale",
+      "image": "images/08-mappa-cellule.svg",
+      "disegnoNome": "08-mappa-cellule.svg",
+      "disegnoPrompt": "Crea un SVG conclusivo tipo mappa concettuale per scuola superiore. Titolo: 'Mappa finale: cellule procariote ed eucariote'. Nodo centrale 'Cellula', due rami principali 'Procariotica' e 'Eucariotica', con sotto-rami su nucleo, DNA, organuli, esempi, dimensioni, particolarità di animale e vegetale. Stile chiaro e sintetico, molto leggibile.",
+      "text": "La comprensione delle differenze tra cellule procariotiche ed eucariotiche è fondamentale per lo studio della biologia. Essa permette di interpretare l'evoluzione della complessità cellulare, le basi dell'organizzazione dei viventi e molte applicazioni della biologia moderna, dalla microbiologia alla genetica molecolare.",
+      "keywords": ["mappa concettuale", "ripasso", "procarioti", "eucarioti", "biologia cellulare"],
+      "remember": [
+        "Cellule procariotiche: semplici, senza nucleo, senza organuli membranosi.",
+        "Cellule eucariotiche: complesse, con nucleo e organuli.",
+        "Vegetale e animale sono due principali modelli di cellula eucariotica.",
+        "La biologia cellulare è la base per comprendere i sistemi viventi."
+      ],
+      "question": "Quale caratteristica rende le cellule eucariotiche più complesse dal punto di v
