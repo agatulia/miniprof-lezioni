@@ -10,6 +10,16 @@
     "file": "piante.json"
   },
   {
+  "id": "teoria-endosimbiotica",
+  "titolo": "La teoria endosimbiotica",
+  "materia": "Biologia",
+  "classe": "Preparazione TOLC-B",
+  "icona": "🧬",
+  "descrizione": "Origine di mitocondri e cloroplasti, prove scientifiche ed evoluzione della cellula eucariotica.",
+  "attiva": true,
+  "file": "teoria-endosimbiotica.json"
+  },
+  {
   "id": "cellula-animale-vegetale",
   "titolo": "Cellula animale e cellula vegetale",
   "materia": "Biologia",
