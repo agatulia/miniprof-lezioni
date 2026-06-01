@@ -294,4 +294,37 @@
         "Vegetale e animale sono due principali modelli di cellula eucariotica.",
         "La biologia cellulare è la base per comprendere i sistemi viventi."
       ],
-      "question": "Quale caratteristica rende le cellule eucariotiche più complesse dal punto di v
+      "question": "Quale caratteristica rende le cellule eucariotiche più complesse dal punto di vista organizzativo?",
+      "answers": [
+        "La completa assenza di membrane interne",
+        "La compartimentalizzazione in organuli specializzati",
+        "L'assenza di materiale genetico",
+        "La mancanza di ribosomi"
+      ],
+      "correct": 1,
+      "exercise": "Prepara un breve confronto orale tra procarioti ed eucarioti utilizzando la mappa finale."
+    }
+  ],
+  "domandePlus": [
+    {
+      "q": "Perché i ribosomi sono presenti sia nei procarioti sia negli eucarioti?",
+      "help": "Perché la sintesi proteica è un processo fondamentale in tutte le cellule."
+    },
+    {
+      "q": "Che differenza c'è tra nucleo e nucleoide?",
+      "help": "Il nucleo è delimitato da membrana; il nucleoide no."
+    },
+    {
+      "q": "Perché i mitocondri sono considerati organuli energetici?",
+      "help": "Perché sono sede della respirazione cellulare e della produzione di ATP."
+    },
+    {
+      "q": "Che cosa distingue una cellula vegetale da una animale?",
+      "help": "La presenza di parete cellulare, cloroplasti e grande vacuolo centrale."
+    },
+    {
+      "q": "Qual è il significato biologico della compartimentalizzazione?",
+      "help": "Permette una maggiore specializzazione e un migliore controllo dei processi cellulari."
+    }
+  ]
+}
