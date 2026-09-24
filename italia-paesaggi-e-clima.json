@@ -1,241 +1,193 @@
 {
-  "id": "italia-paesaggi-e-clima",
-  "titolo": "L’Italia: paesaggi e clima",
+  "id": "italia-paesaggi-territorio",
+  "titolo": "L’Italia: paesaggi e territorio",
   "materia": "Geografia",
   "classe": "5 primaria",
+  "catalogo": "5 primaria",
   "icona": "🌍",
-  "descrizione": "Forma e posizione dell’Italia, mari, montagne e colline.",
+  "descrizione": "Forma e posizione dell’Italia, mari, paesaggi, montagne e colline.",
   "attiva": true,
   "blocchi": [
     {
       "tipo": "standard",
-      "titolo": "Forma e posizione dell’Italia",
-      "testo": "L’Italia è una penisola che si estende nel Mar Mediterraneo. Ha una forma lunga e stretta e assomiglia a uno stivale. La sua lunghezza è di circa 1200 chilometri. La sua larghezza, nel punto più esteso, è di circa 550 chilometri. La superficie è di più di 300.000 km².",
+      "titolo": "Una penisola nel Mediterraneo",
+      "testo": "L’Italia è una penisola lunga e stretta che si estende nel Mar Mediterraneo e ricorda la forma di uno stivale. Dalle Alpi, a nord, fino alla Sicilia, a sud, misura circa 1200 chilometri. Nel punto più largo raggiunge circa 550 chilometri e la sua superficie supera i 300.000 km². L’Italia è circondata dal mare su tre lati: il Mar Ligure a nord-ovest, il Mar Adriatico a est, il Mar Tirreno a ovest e il Mar Ionio a sud.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-penisola-mediterraneo.png",
       "paroleChiave": [
         "penisola",
         "Mar Mediterraneo",
-        "1200 km",
-        "550 km",
-        "300.000 km²"
-      ],
-      "ricorda": [
-        "L’Italia è una penisola.",
-        "Si estende nel Mar Mediterraneo.",
-        "È lunga circa 1200 km e larga circa 550 km nel punto più esteso."
-      ]
-    },
-    {
-      "tipo": "scelta_multipla",
-      "titolo": "Controllo veloce",
-      "domanda": "Che forma ha l’Italia?",
-      "opzioni": [
-        "Una penisola",
-        "Un’isola",
-        "Un continente",
-        "Un arcipelago"
-      ],
-      "corretta": "Una penisola",
-      "ok": "Bravissima!"
-    },
-    {
-      "tipo": "domanda_scritta",
-      "titolo": "Spiega con parole tue",
-      "domanda": "Come descriveresti la forma e la posizione dell’Italia?",
-      "aiuto": "Ricorda: penisola, Mar Mediterraneo, lunga e stretta.",
-      "placeholder": "Scrivi qui la tua risposta...",
-      "esempioRisposta": "L’Italia è una penisola lunga e stretta che si estende nel Mar Mediterraneo e assomiglia a uno stivale."
-    },
-    {
-      "tipo": "standard",
-      "titolo": "I mari che circondano l’Italia",
-      "testo": "L’Italia si trova al centro del Mar Mediterraneo ed è circondata dal mare su tre lati. A est si trova il Mar Adriatico. A ovest si trovano il Mar Tirreno e il Mar Ligure. A sud si trova il Mar Ionio.",
-      "paroleChiave": [
+        "Mar Ligure",
         "Mar Adriatico",
         "Mar Tirreno",
-        "Mar Ligure",
-        "Mar Ionio",
-        "Mediterraneo"
-      ],
-      "ricorda": [
-        "Adriatico a est.",
-        "Tirreno e Ligure a ovest.",
-        "Ionio a sud."
-      ]
-    },
-    {
-      "tipo": "scelta_multipla",
-      "titolo": "Dove si trova?",
-      "domanda": "Quale mare si trova a est dell’Italia?",
-      "opzioni": [
-        "Mar Adriatico",
-        "Mar Tirreno",
-        "Mar Ligure",
         "Mar Ionio"
       ],
-      "corretta": "Mar Adriatico",
-      "ok": "Esatto!"
-    },
-    {
-      "tipo": "vero_falso",
-      "titolo": "Vero o falso?",
-      "frasi": [
-        {
-          "testo": "Il Mar Ionio si trova a sud dell’Italia.",
-          "valore": true
-        },
-        {
-          "testo": "Il Mar Adriatico si trova a ovest dell’Italia.",
-          "valore": false
-        },
-        {
-          "testo": "Il Mar Tirreno e il Mar Ligure si trovano a ovest.",
-          "valore": true
-        }
-      ]
-    },
-    {
-      "tipo": "standard",
-      "titolo": "Com’è il paesaggio italiano?",
-      "testo": "Il paesaggio italiano è formato da zone montuose, collinari e pianeggianti. Il grafico del quaderno indica il 35,2% di montagna, il 41,6% di collina e il 23,2% di pianura. Quindi le colline occupano la parte più estesa del territorio, seguite dalle montagne e poi dalle pianure.",
-      "paroleChiave": [
-        "montagna",
-        "collina",
-        "pianura",
-        "35,2%",
-        "41,6%",
-        "23,2%"
-      ],
       "ricorda": [
-        "Collina: 41,6%.",
-        "Montagna: 35,2%.",
-        "Pianura: 23,2%."
+        "L’Italia è una penisola lunga e stretta.",
+        "È lunga circa 1200 km e larga circa 550 km nel punto più esteso.",
+        "È bagnata dal Mar Ligure, Adriatico, Tirreno e Ionio."
       ]
     },
     {
-      "tipo": "scelta_multipla",
-      "titolo": "Leggi i dati",
-      "domanda": "Quale paesaggio occupa la percentuale maggiore del territorio italiano?",
-      "opzioni": [
-        "Collina",
-        "Montagna",
-        "Pianura",
-        "Mare"
-      ],
-      "corretta": "Collina",
-      "ok": "Perfetto!"
-    },
-    {
-      "tipo": "vero_falso",
-      "titolo": "Ricorda le percentuali",
-      "frasi": [
+      "tipo": "quiz",
+      "titolo": "Orientiamoci sulla carta",
+      "quiz": [
         {
-          "testo": "La collina occupa il 41,6% del territorio italiano.",
-          "valore": true
+          "domanda": "Quale affermazione descrive meglio la posizione dell’Italia?",
+          "risposte": [
+            "È una penisola che si estende nel Mar Mediterraneo",
+            "È un’isola situata nell'Oceano Atlantico",
+            "È una penisola circondata dal mare su quattro lati",
+            "È un arcipelago formato solo da Sicilia e Sardegna"
+          ],
+          "corretta": 0
         },
         {
-          "testo": "La pianura occupa più territorio della montagna.",
-          "valore": false
-        },
-        {
-          "testo": "La montagna occupa il 35,2% del territorio italiano.",
-          "valore": true
+          "domanda": "Quale abbinamento mare-posizione è corretto?",
+          "risposte": [
+            "Mar Adriatico - est",
+            "Mar Ionio - nord",
+            "Mar Tirreno - est",
+            "Mar Ligure - sud"
+          ],
+          "corretta": 0
         }
       ]
     },
     {
       "tipo": "standard",
-      "titolo": "Le montagne italiane",
-      "testo": "Circa un terzo della superficie italiana è coperto da montagne. Nel paesaggio montuoso i terreni coltivabili sono pochi e la popolazione è scarsa. In Italia ci sono due grandi sistemi montuosi: le Alpi e gli Appennini.",
+      "titolo": "I paesaggi italiani",
+      "testo": "Il paesaggio italiano è molto vario. Nel nostro territorio troviamo montagne, colline e pianure, che si alternano lungo tutta la penisola e nelle isole. I rilievi influenzano il modo in cui il territorio viene utilizzato dall’uomo: nelle zone montuose gli spazi coltivabili sono più limitati, mentre nelle colline e nelle pianure sono più diffuse le attività agricole e i centri abitati.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-paesaggi.png",
       "paroleChiave": [
+        "paesaggio",
         "montagne",
-        "Alpi",
-        "Appennini",
-        "terreni coltivabili",
-        "popolazione scarsa"
+        "colline",
+        "pianure",
+        "rilievi",
+        "territorio"
       ],
       "ricorda": [
-        "Le grandi catene montuose italiane sono Alpi e Appennini.",
-        "Nel paesaggio montuoso i terreni coltivabili sono pochi.",
-        "La popolazione è scarsa."
+        "Il paesaggio italiano è formato da montagne, colline e pianure.",
+        "I rilievi modificano l’aspetto e l’uso del territorio.",
+        "Il paesaggio italiano è molto vario."
+      ]
+    },
+    {
+      "tipo": "vero_falso",
+      "titolo": "Vero o falso? I paesaggi",
+      "frasi": [
+        {
+          "testo": "Il territorio italiano comprende montagne, colline e pianure.",
+          "valore": true
+        },
+        {
+          "testo": "Le zone montuose sono generalmente le più facili da coltivare.",
+          "valore": false
+        },
+        {
+          "testo": "La presenza dei rilievi può influenzare gli insediamenti e le attività dell’uomo.",
+          "valore": true
+        }
       ]
     },
     {
       "tipo": "standard",
-      "titolo": "Le Alpi",
-      "testo": "La grande catena montuosa delle Alpi si trova a nord e forma un grande arco. Qui si trovano alcune delle vette più alte d’Europa. Nel quaderno sono indicati il Monte Bianco, 4810 metri, il Monte Rosa, 4635 metri, e il Monte Cervino, 4478 metri.",
+      "titolo": "Com’è fatto il territorio?",
+      "testo": "Il territorio italiano non è distribuito in parti uguali tra montagna, collina e pianura. Le colline occupano il 41,6% della superficie e rappresentano la parte più estesa. Le montagne occupano il 35,2%, mentre le pianure coprono il 23,2%. Osservare queste percentuali permette di capire perché l’Italia viene considerata un Paese prevalentemente collinare e montuoso.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-territorio-percentuali.png",
+      "paroleChiave": [
+        "41,6% collina",
+        "35,2% montagna",
+        "23,2% pianura",
+        "superficie",
+        "percentuale"
+      ],
+      "ricorda": [
+        "La collina occupa il 41,6% del territorio.",
+        "La montagna occupa il 35,2%.",
+        "La pianura occupa il 23,2%.",
+        "Collina e montagna insieme occupano la maggior parte del territorio."
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titolo": "Leggiamo i dati",
+      "quiz": [
+        {
+          "domanda": "Quale tipo di territorio occupa la parte più estesa dell’Italia?",
+          "risposte": [
+            "Collina",
+            "Montagna",
+            "Pianura",
+            "Costa"
+          ],
+          "corretta": 0
+        },
+        {
+          "domanda": "Quale conclusione si può ricavare dalle percentuali del territorio italiano?",
+          "risposte": [
+            "Collina e montagna insieme occupano più della pianura",
+            "La pianura occupa più della metà dell’Italia",
+            "Montagna e pianura hanno la stessa estensione",
+            "La collina è il tipo di territorio meno presente"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+    {
+      "tipo": "standard",
+      "titolo": "Le montagne",
+      "testo": "Circa un terzo della superficie italiana è coperto da montagne. Nel paesaggio montuoso i terreni coltivabili sono pochi e la popolazione è generalmente più scarsa. Le due principali catene montuose italiane sono le Alpi e gli Appennini. Le Alpi si trovano a nord e formano un grande arco; tra le vette indicate nel quaderno ci sono il Monte Bianco (4810 m), il Monte Rosa (4635 m) e il Monte Cervino (4478 m). Gli Appennini attraversano la penisola dalla Liguria alla Sicilia; tra le cime più alte indicate ci sono il Gran Sasso (2912 m) e la Maiella (2795 m), in Abruzzo. In Italia sono presenti anche vulcani, come l’Etna in Sicilia e il Vesuvio vicino a Napoli.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-montagne-alpi-appennini.png",
       "paroleChiave": [
         "Alpi",
-        "nord",
+        "Appennini",
         "Monte Bianco",
-        "Monte Rosa",
-        "Monte Cervino"
-      ],
-      "ricorda": [
-        "Le Alpi si trovano a nord.",
-        "Formano un grande arco.",
-        "Tra le vette indicate ci sono Monte Bianco, Monte Rosa e Cervino."
-      ]
-    },
-    {
-      "tipo": "scelta_multipla",
-      "titolo": "Le Alpi",
-      "domanda": "Dove si trovano le Alpi?",
-      "opzioni": [
-        "A nord",
-        "A sud",
-        "Solo in Sicilia",
-        "Solo in Sardegna"
-      ],
-      "corretta": "A nord",
-      "ok": "Giusto!"
-    },
-    {
-      "tipo": "standard",
-      "titolo": "Gli Appennini e i vulcani",
-      "testo": "Gli Appennini si sviluppano lungo tutta l’Italia, da nord a sud, precisamente dalla Liguria alla Sicilia. Le cime più alte indicate nel quaderno si trovano in Abruzzo: il Gran Sasso, 2912 metri, e la Maiella, 2795 metri. Tra le montagne d’Italia ci sono anche vulcani, come l’Etna in Sicilia, indicato a 3330 metri, e il Vesuvio a Napoli, indicato a 1281 metri.",
-      "paroleChiave": [
-        "Appennini",
-        "Liguria",
-        "Sicilia",
         "Gran Sasso",
-        "Maiella",
         "Etna",
         "Vesuvio"
       ],
       "ricorda": [
-        "Gli Appennini attraversano l’Italia da nord a sud.",
-        "Gran Sasso e Maiella si trovano in Abruzzo.",
+        "Le Alpi si trovano a nord e formano un grande arco.",
+        "Gli Appennini attraversano l’Italia dalla Liguria alla Sicilia.",
+        "Monte Bianco, Monte Rosa e Cervino sono vette alpine.",
         "Etna e Vesuvio sono vulcani."
       ]
     },
     {
-      "tipo": "vero_falso",
+      "tipo": "quiz",
       "titolo": "Montagne e vulcani",
-      "frasi": [
+      "quiz": [
         {
-          "testo": "Gli Appennini si sviluppano dalla Liguria alla Sicilia.",
-          "valore": true
+          "domanda": "Quale differenza distingue correttamente Alpi e Appennini?",
+          "risposte": [
+            "Le Alpi formano un arco a nord, gli Appennini attraversano la penisola",
+            "Gli Appennini si trovano solo al nord, le Alpi solo al sud",
+            "Le Alpi attraversano la Sicilia, gli Appennini il Piemonte",
+            "Sono due nomi diversi della stessa catena montuosa"
+          ],
+          "corretta": 0
         },
         {
-          "testo": "Il Gran Sasso e la Maiella si trovano in Abruzzo.",
-          "valore": true
-        },
-        {
-          "testo": "L’Etna si trova a Napoli.",
-          "valore": false
-        },
-        {
-          "testo": "Il Vesuvio si trova a Napoli.",
-          "valore": true
+          "domanda": "Quale gruppo contiene solo elementi citati come montagne o vulcani italiani?",
+          "risposte": [
+            "Monte Bianco, Gran Sasso, Etna, Vesuvio",
+            "Monte Bianco, Vesuvio, Mar Ionio, Langhe",
+            "Gran Sasso, Chianti, Adriatico, Etna",
+            "Maiella, Mar Ligure, Pianura Padana, Vesuvio"
+          ],
+          "corretta": 0
         }
       ]
     },
     {
       "tipo": "standard",
       "titolo": "Le colline",
-      "testo": "Circa il 40% del territorio italiano è occupato da colline. Il paesaggio collinare è caratterizzato da bassi rilievi, tra i 300 e i 600 metri, con forme arrotondate e numerosi centri abitati. Il paesaggio collinare è molto vario: nel quaderno sono ricordate le verdi colline del Chianti in Toscana, ricche di vigneti e oliveti, e le Murge in Puglia. Sono mostrati anche esempi di colline senesi in Toscana e delle Langhe in Piemonte.",
+      "testo": "Le colline occupano circa il 40% del territorio italiano e costituiscono il paesaggio più diffuso. Sono bassi rilievi, generalmente compresi tra 300 e 600 metri di altitudine, con forme arrotondate. Il paesaggio collinare è molto vario e ospita numerosi centri abitati. Nel quaderno sono ricordate le colline del Chianti e le colline senesi in Toscana, le Murge in Puglia e le Langhe in Piemonte. Nelle colline del Chianti sono diffusi vigneti e oliveti.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-colline.png",
       "paroleChiave": [
-        "colline",
+        "bassi rilievi",
         "300-600 m",
         "forme arrotondate",
         "Chianti",
@@ -243,44 +195,87 @@
         "Langhe"
       ],
       "ricorda": [
-        "Le colline sono rilievi tra 300 e 600 metri.",
+        "Le colline sono rilievi generalmente tra 300 e 600 metri.",
         "Hanno forme arrotondate.",
-        "Il paesaggio collinare italiano è molto vario."
+        "Il paesaggio collinare è molto vario e ospita numerosi centri abitati.",
+        "Chianti, Murge e Langhe sono esempi di paesaggi collinari italiani."
       ]
     },
     {
-      "tipo": "domanda_scritta",
-      "titolo": "Ripeti con metodo",
-      "domanda": "Quali caratteristiche ha il paesaggio collinare italiano?",
-      "aiuto": "Pensa all’altezza, alla forma dei rilievi e agli esempi scritti sul quaderno.",
-      "placeholder": "Scrivi qui la tua risposta...",
-      "esempioRisposta": "Il paesaggio collinare ha bassi rilievi tra 300 e 600 metri, forme arrotondate e molti centri abitati. È molto vario e comprende, per esempio, le colline del Chianti, le Murge e le Langhe."
+      "tipo": "vero_falso",
+      "titolo": "Vero o falso? Le colline",
+      "frasi": [
+        {
+          "testo": "Le colline sono rilievi generalmente compresi tra 300 e 600 metri.",
+          "valore": true
+        },
+        {
+          "testo": "Le Langhe si trovano in Puglia.",
+          "valore": false
+        },
+        {
+          "testo": "Le colline hanno in genere forme più arrotondate rispetto alle montagne.",
+          "valore": true
+        },
+        {
+          "testo": "Nel paesaggio collinare italiano non ci sono centri abitati.",
+          "valore": false
+        }
+      ]
+    },
+    {
+      "tipo": "clicca_fiore",
+      "titolo": "Tocca il mare giusto",
+      "testo": "Osserva la carta dell’Italia e individua il mare richiesto.",
+      "disegno": "italia_mari",
+      "domande": [
+        {
+          "q": "Tocca il Mar Ligure.",
+          "risposta": "ligure",
+          "ok": "Esatto! Il Mar Ligure si trova a nord-ovest."
+        },
+        {
+          "q": "Tocca il Mar Adriatico.",
+          "risposta": "adriatico",
+          "ok": "Bravissima! Il Mar Adriatico si trova a est."
+        },
+        {
+          "q": "Tocca il Mar Tirreno.",
+          "risposta": "tirreno",
+          "ok": "Giusto! Il Mar Tirreno si trova a ovest."
+        },
+        {
+          "q": "Tocca il Mar Ionio.",
+          "risposta": "ionio",
+          "ok": "Perfetto! Il Mar Ionio si trova a sud."
+        }
+      ]
     }
   ],
   "domandePlus": [
     {
-      "domanda": "Che cos’è l’Italia e dove si trova?",
-      "risposta": "L’Italia è una penisola lunga e stretta che si estende nel Mar Mediterraneo."
+      "domanda": "Perché l’Italia viene definita una penisola?",
+      "risposta": "Perché è una terra circondata dal mare su tre lati e collegata al continente a nord."
     },
     {
-      "domanda": "Quali mari circondano l’Italia?",
-      "risposta": "Il Mar Adriatico a est, il Mar Tirreno e il Mar Ligure a ovest, il Mar Ionio a sud."
+      "domanda": "Quali sono i quattro mari indicati intorno all’Italia?",
+      "risposta": "Mar Ligure, Mar Adriatico, Mar Tirreno e Mar Ionio."
     },
     {
-      "domanda": "Quali percentuali del territorio sono occupate da montagna, collina e pianura?",
-      "risposta": "35,2% montagna, 41,6% collina e 23,2% pianura."
+      "domanda": "Quale tipo di territorio occupa la percentuale maggiore?",
+      "risposta": "La collina, con il 41,6%."
     },
     {
-      "domanda": "Quali sono i due grandi sistemi montuosi italiani?",
+      "domanda": "Quali sono le due principali catene montuose italiane?",
       "risposta": "Le Alpi e gli Appennini."
     },
     {
-      "domanda": "Quali vette importanti sono indicate nelle Alpi?",
-      "risposta": "Monte Bianco 4810 m, Monte Rosa 4635 m e Monte Cervino 4478 m."
+      "domanda": "Dove si estendono gli Appennini?",
+      "risposta": "Dalla Liguria alla Sicilia."
     },
     {
-      "domanda": "Quali caratteristiche hanno le colline italiane?",
-      "risposta": "Sono bassi rilievi tra 300 e 600 metri, con forme arrotondate; nel quaderno sono citati Chianti, Murge, colline senesi e Langhe."
+      "domanda": "Quali caratteristiche hanno le colline?",
+      "risposta": "Sono bassi rilievi, generalmente tra 300 e 600 metri, con forme arrotondate."
     }
   ]
 }
