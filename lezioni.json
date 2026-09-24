@@ -10,6 +10,17 @@
     "file": "piante.json"
   },
   {
+  "id": "italia-paesaggi-e-clima",
+  "file": "italia-paesaggi-e-clima.json",
+  "titolo": "L’Italia: paesaggi e clima",
+  "materia": "Geografia",
+  "classe": "5 primaria",
+  "icona": "🌍",
+  "descrizione": "Forma e posizione dell’Italia, mari, montagne e colline.",
+  "attiva": true,
+  "blocchiCount": 16
+},
+  {
   "id": "teoria-endosimbiotica",
   "titolo": "La teoria endosimbiotica",
   "materia": "Biologia",
