@@ -1,0 +1,477 @@
+{
+  "id": "ecosistemi-vita-terra",
+  "titolo": "Gli ecosistemi e la vita sulla Terra",
+  "materia": "Scienze",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🌱",
+  "descrizione": "Ecosistemi, fattori limitanti e biomi.",
+  "attiva": true,
+
+  "blocchi": [
+
+    {
+      "tipo": "standard",
+      "titolo": "Che cos’è un ecosistema?",
+      "testo": "Un ecosistema è formato dagli esseri viventi e dagli elementi non viventi di un ambiente, che sono in relazione tra loro.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/ecosistema-elementi-viventi-non-viventi.png",
+      "paroleChiave": [
+        "ECOSISTEMA",
+        "ESSERI VIVENTI",
+        "ELEMENTI NON VIVENTI"
+      ],
+      "ricorda": [
+        "Essere viventi → piante, animali, microrganismi",
+        "Elementi non viventi → acqua, aria, luce, temperatura, terreno",
+        "Tutti gli elementi sono collegati tra loro"
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Hai capito?",
+      "quiz": [
+        {
+          "q": "Che cos’è un ecosistema?",
+          "risposte": [
+            "L’insieme di esseri viventi ed elementi non viventi in relazione tra loro",
+            "Solo l’insieme degli animali",
+            "Solo il luogo in cui crescono le piante"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quale di questi è un elemento non vivente?",
+          "risposte": [
+            "Acqua",
+            "Pianta",
+            "Animale"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Viventi e non viventi",
+      "testo": "In ogni ecosistema troviamo elementi viventi e non viventi.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/ecosistema-elementi-viventi-non-viventi.png",
+      "paroleChiave": [
+        "PIANTE",
+        "ANIMALI",
+        "MICRORGANISMI",
+        "ACQUA",
+        "ARIA",
+        "LUCE"
+      ],
+      "ricorda": [
+        "Viventi → piante, animali, microrganismi",
+        "Non viventi → acqua, aria, luce, temperatura, terreno"
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Vero o falso?",
+      "frasi": [
+        {
+          "testo": "Le piante sono esseri viventi.",
+          "valore": true
+        },
+        {
+          "testo": "L’acqua è un essere vivente.",
+          "valore": false
+        },
+        {
+          "testo": "La luce è un elemento non vivente.",
+          "valore": true
+        },
+        {
+          "testo": "I microrganismi sono esseri viventi.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Ecosistemi diversi",
+      "testo": "Gli ecosistemi possono essere molto diversi tra loro.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/ecosistemi-diversi.png",
+      "paroleChiave": [
+        "BOSCO",
+        "STAGNO",
+        "MARE",
+        "DESERTO",
+        "PRATO",
+        "MONTAGNA"
+      ],
+      "ricorda": [
+        "Ogni ecosistema ha caratteristiche proprie",
+        "Ogni ecosistema ospita organismi adatti a quelle condizioni"
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Riconosci gli ecosistemi",
+      "quiz": [
+        {
+          "q": "Quale di questi è un ecosistema?",
+          "risposte": [
+            "Bosco",
+            "Sedia",
+            "Quaderno"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quale di questi ambienti può essere un ecosistema?",
+          "risposte": [
+            "Stagno",
+            "Armadio",
+            "Astuccio"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Ogni ecosistema è diverso",
+      "testo": "Ogni ecosistema ha condizioni proprie e ospita organismi adatti a viverci.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/ecosistemi-diversi.png",
+      "paroleChiave": [
+        "CARATTERISTICHE",
+        "ORGANISMI",
+        "ADATTAMENTO"
+      ],
+      "ricorda": [
+        "Bosco, mare e deserto non hanno le stesse condizioni",
+        "Gli organismi vivono dove trovano condizioni adatte"
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Vero o falso?",
+      "frasi": [
+        {
+          "testo": "Tutti gli ecosistemi sono uguali.",
+          "valore": false
+        },
+        {
+          "testo": "Gli organismi sono adattati all’ambiente in cui vivono.",
+          "valore": true
+        },
+        {
+          "testo": "Un deserto e uno stagno hanno le stesse condizioni.",
+          "valore": false
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I fattori limitanti",
+      "testo": "Non tutti gli esseri viventi possono vivere ovunque. Alcune condizioni dell’ambiente possono limitarne crescita e sopravvivenza.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/fattori-limitanti.png",
+      "paroleChiave": [
+        "FATTORI LIMITANTI",
+        "CRESCITA",
+        "SOPRAVVIVENZA"
+      ],
+      "ricorda": [
+        "I fattori limitanti sono condizioni o risorse",
+        "Possono limitare crescita e sopravvivenza"
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Che cosa limita la vita?",
+      "quiz": [
+        {
+          "q": "Che cosa sono i fattori limitanti?",
+          "risposte": [
+            "Condizioni o risorse che possono limitare crescita e sopravvivenza",
+            "Solo gli animali predatori",
+            "Solo il freddo"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Tutti gli esseri viventi possono vivere ovunque?",
+          "risposte": [
+            "No",
+            "Sì",
+            "Solo le piante"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Quali sono i fattori limitanti?",
+      "testo": "La vita degli organismi dipende dalla disponibilità di alcune risorse e dalle condizioni dell’ambiente.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/fattori-limitanti.png",
+      "paroleChiave": [
+        "ACQUA",
+        "LUCE",
+        "TEMPERATURA",
+        "CIBO",
+        "SPAZIO"
+      ],
+      "ricorda": [
+        "Quantità di acqua",
+        "Quantità di luce",
+        "Temperatura",
+        "Disponibilità di cibo",
+        "Disponibilità di spazio e rifugi"
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Riconosci i fattori limitanti",
+      "frasi": [
+        {
+          "testo": "La quantità di acqua può essere un fattore limitante.",
+          "valore": true
+        },
+        {
+          "testo": "La luce non influenza mai gli esseri viventi.",
+          "valore": false
+        },
+        {
+          "testo": "Il cibo può essere un fattore limitante.",
+          "valore": true
+        },
+        {
+          "testo": "Lo spazio e i rifugi possono essere importanti.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Un esempio",
+      "testo": "Se in un ambiente c’è poca acqua, le piante che hanno bisogno di molta acqua avranno difficoltà.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/fattori-limitanti.png",
+      "paroleChiave": [
+        "POCA ACQUA",
+        "DIFFICOLTÀ"
+      ],
+      "ricorda": [
+        "La mancanza di una risorsa può limitare gli organismi",
+        "I fattori limitanti stabiliscono quanto e dove gli esseri viventi possono vivere e riprodursi"
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Ragiona sull’esempio",
+      "quiz": [
+        {
+          "q": "Che cosa può succedere a una pianta che necessita di molta acqua in un ambiente molto secco?",
+          "risposte": [
+            "Avrà difficoltà a vivere",
+            "Crescerà meglio",
+            "Non avrà alcun problema"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "I fattori limitanti possono influenzare anche la riproduzione?",
+          "risposte": [
+            "Sì",
+            "No",
+            "Solo negli animali"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Che cos’è un bioma?",
+      "testo": "Un bioma è una grande regione della Terra caratterizzata da clima, vegetazione e animali.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/biomi-foresta-deserto-tundra.png",
+      "paroleChiave": [
+        "BIOMA",
+        "CLIMA",
+        "VEGETAZIONE",
+        "ANIMALI"
+      ],
+      "ricorda": [
+        "Un bioma è una grande zona della Terra",
+        "Ha un clima caratteristico",
+        "Ha una vegetazione caratteristica",
+        "Ospita animali adatti a quell’ambiente"
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Ecosistema o bioma?",
+      "quiz": [
+        {
+          "q": "Che cos’è un bioma?",
+          "risposte": [
+            "Una grande regione della Terra con clima e forme di vita caratteristiche",
+            "Un singolo animale",
+            "Un elemento non vivente"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Che cosa caratterizza un bioma?",
+          "risposte": [
+            "Clima, vegetazione e animali",
+            "Il numero di case",
+            "Il nome della città"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Alcuni biomi",
+      "testo": "Foresta tropicale, deserto e tundra hanno condizioni molto diverse.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/biomi-foresta-deserto-tundra.png",
+      "paroleChiave": [
+        "FORESTA TROPICALE",
+        "DESERTO",
+        "TUNDRA"
+      ],
+      "ricorda": [
+        "Foresta tropicale → caldo e molto umido",
+        "Deserto → clima molto secco",
+        "Tundra → molto freddo e vegetazione bassa"
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Riconosci i biomi",
+      "frasi": [
+        {
+          "testo": "La foresta tropicale ha un clima caldo e molto umido.",
+          "valore": true
+        },
+        {
+          "testo": "Il deserto ha un clima molto umido.",
+          "valore": false
+        },
+        {
+          "testo": "La tundra ha un clima molto freddo.",
+          "valore": true
+        },
+        {
+          "testo": "Nella tundra la vegetazione è bassa.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Riepilogo",
+      "testo": "Ripassiamo le tre idee più importanti della lezione.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/scienze/ecosistema-elementi-viventi-non-viventi.png",
+      "paroleChiave": [
+        "ECOSISTEMA",
+        "FATTORI LIMITANTI",
+        "BIOMA"
+      ],
+      "ricorda": [
+        "ECOSISTEMA → viventi + non viventi in relazione",
+        "FATTORI LIMITANTI → condizioni e risorse che limitano la vita",
+        "BIOMA → grande regione con clima, vegetazione e animali caratteristici"
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Riepilogo finale",
+      "quiz": [
+        {
+          "q": "Un ecosistema comprende:",
+          "risposte": [
+            "Essere viventi ed elementi non viventi",
+            "Solo animali",
+            "Solo elementi non viventi"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quale tra questi è un fattore limitante?",
+          "risposte": [
+            "Acqua",
+            "Colore del quaderno",
+            "Nome del luogo"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Un bioma è:",
+          "risposte": [
+            "Una grande regione della Terra con clima e forme di vita caratteristiche",
+            "Un singolo stagno",
+            "Una sola pianta"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quale bioma ha clima molto freddo e vegetazione bassa?",
+          "risposte": [
+            "Tundra",
+            "Foresta tropicale",
+            "Deserto"
+          ],
+          "corretta": 0
+        }
+      ]
+    }
+
+  ],
+
+  "domandePlus": [
+    {
+      "q": "Che cos’è un ecosistema?",
+      "aiuto": "È l’insieme degli esseri viventi e degli elementi non viventi di un ambiente, in relazione tra loro."
+    },
+    {
+      "q": "Quali sono alcuni esempi di ecosistema?",
+      "aiuto": "Bosco, stagno, mare, deserto, prato e montagna."
+    },
+    {
+      "q": "Che cosa sono i fattori limitanti?",
+      "aiuto": "Sono condizioni o risorse che possono limitare la crescita e la sopravvivenza degli organismi."
+    },
+    {
+      "q": "Quali sono alcuni fattori limitanti?",
+      "aiuto": "Acqua, luce, temperatura, cibo, spazio e rifugi."
+    },
+    {
+      "q": "Che cosa può succedere se in un ambiente c’è poca acqua?",
+      "aiuto": "Gli organismi che hanno bisogno di molta acqua possono avere difficoltà."
+    },
+    {
+      "q": "Che cos’è un bioma?",
+      "aiuto": "È una grande regione della Terra caratterizzata da clima, vegetazione e animali."
+    },
+    {
+      "q": "Qual è la differenza tra ecosistema e bioma?",
+      "aiuto": "Un ecosistema è un ambiente preciso con elementi viventi e non viventi in relazione; un bioma è una grande regione della Terra con clima e forme di vita caratteristiche."
+    }
+  ]
+}
