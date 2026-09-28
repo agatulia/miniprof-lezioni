@@ -10,6 +10,18 @@
     "file": "piante.json"
   },
   {
+  "id": "ecosistemi-vita-terra",
+  "file": "ecosistemi-vita-terra.json",
+  "titolo": "Gli ecosistemi e la vita sulla Terra",
+  "materia": "Scienze",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🌱",
+  "descrizione": "Ecosistemi, fattori limitanti e biomi.",
+  "attiva": true,
+  "blocchiCount": 20
+  },
+  {
   "id": "italia-paesaggi-e-clima",
   "file": "italia-paesaggi-e-clima.json",
   "titolo": "L’Italia: paesaggi e clima",
