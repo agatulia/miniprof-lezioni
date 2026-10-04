@@ -10,6 +10,18 @@
     "file": "piante.json"
   },
   {
+  "id": "introduzione-civilta-greca",
+  "file": "introduzione-civilta-greca.json",
+  "titolo": "Introduzione alla civiltà greca",
+  "materia": "Storia",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🏛️",
+  "descrizione": "Dove vivevano i Greci, i popoli della Grecia, le attività, la linea del tempo e la loro eredità.",
+  "attiva": true,
+  "blocchiCount": 19
+  },
+  {
   "id": "ecosistemi-vita-terra",
   "file": "ecosistemi-vita-terra.json",
   "titolo": "Gli ecosistemi e la vita sulla Terra",
