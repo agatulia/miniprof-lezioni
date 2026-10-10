@@ -103,8 +103,457 @@
     {
       "tipo": "standard",
       "titolo": "I popoli della Grecia",
-      "testo": "Nel corso delborarono la Lineare B",
-        "La Lineare B aveva circa 90 segni"
+      "testo": "Nel corso del tempo in Grecia si stabilirono diversi popoli. Tra i principali ricordiamo Micenei, Dori, Ioni ed Eoli.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/popoli-grecia.png",
+      "keywords": [
+        "MICENEI",
+        "DORI",
+        "IONI",
+        "EOLI"
+      ],
+      "remember": [
+        "I Micenei furono tra i primi importanti popoli della Grecia",
+        "In seguito arrivarono i Dori",
+        "Ioni ed Eoli abitarono altre zone della Grecia e dell'Asia Minore"
+      ],
+      "quiz": [
+        {
+          "q": "Quali sono i quattro popoli da ricordare?",
+          "answers": [
+            "Micenei, Dori, Ioni ed Eoli",
+            "Romani, Celti, Etruschi e Camuni",
+            "Egizi, Fenici, Assiri e Babilonesi"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I Micenei arrivano in Grecia",
+      "testo": "I Micenei erano forti guerrieri. Arrivarono in Grecia e si stabilirono nel Peloponneso.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "MICENEI",
+        "GUERRIERI",
+        "PELOPONNESO"
+      ],
+      "remember": [
+        "I Micenei erano forti guerrieri",
+        "Si stabilirono nel Peloponneso",
+        "La loro civiltà si sviluppò in Grecia"
+      ],
+      "quiz": [
+        {
+          "q": "Dove si stabilirono i Micenei?",
+          "answers": [
+            "Nel Peloponneso",
+            "In Sicilia",
+            "In Egitto"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Un territorio difficile",
+      "testo": "Il Peloponneso era una regione arida e montuosa e quindi poco adatta all'agricoltura. Era però ricco di coste, dalle quali era facile raggiungere altre terre.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-mappa.png",
+      "keywords": [
+        "MONTUOSO",
+        "AGRICOLTURA",
+        "COSTE",
+        "MARE"
+      ],
+      "remember": [
+        "Il Peloponneso era arido e montuoso",
+        "Il territorio non era molto adatto all'agricoltura",
+        "Le numerose coste favorivano gli spostamenti via mare"
+      ],
+      "quiz": [
+        {
+          "q": "Quale vantaggio offrivano le numerose coste?",
+          "answers": [
+            "Permettevano di raggiungere più facilmente altre terre",
+            "Rendevano impossibile navigare",
+            "Permettevano di coltivare il riso"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le città micenee",
+      "testo": "I Micenei erano organizzati in città-stato, cioè piccoli regni indipendenti. Le città sorgevano su ampie colline.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "CITTÀ-STATO",
+        "REGNI INDIPENDENTI",
+        "COLLINE"
+      ],
+      "remember": [
+        "Le città micenee erano città-stato",
+        "Ogni città formava un piccolo regno indipendente",
+        "Le città venivano costruite sulle colline"
+      ],
+      "quiz": [
+        {
+          "q": "Che cos'era una città-stato micenea?",
+          "answers": [
+            "Un piccolo regno indipendente",
+            "Una colonia romana",
+            "Un grande impero"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Perché sulle colline?",
+      "testo": "La posizione elevata permetteva ai soldati di avvistare in tempo l'arrivo dei nemici e di prepararsi a difendere la città.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "POSIZIONE ELEVATA",
+        "NEMICI",
+        "DIFESA"
+      ],
+      "remember": [
+        "Dall'alto era più facile controllare il territorio",
+        "I soldati potevano vedere arrivare i nemici",
+        "La posizione aiutava a difendere la città"
+      ],
+      "quiz": [
+        {
+          "q": "Perché le città micenee erano costruite sulle colline?",
+          "answers": [
+            "Per vedere arrivare i nemici e difendersi",
+            "Per essere più vicine ai pesci",
+            "Per nascondere le navi"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Mura potenti",
+      "testo": "La città micenea era circondata da poderose mura di pietra che proteggevano il centro abitato dagli attacchi.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "MURA",
+        "PROTEZIONE",
+        "CITTÀ"
+      ],
+      "remember": [
+        "Le città erano fortificate",
+        "Le mura erano molto robuste",
+        "Le mura servivano a proteggere gli abitanti"
+      ],
+      "quiz": [
+        {
+          "q": "A che cosa servivano le mura?",
+          "answers": [
+            "A proteggere la città",
+            "A coltivare il grano",
+            "A costruire le navi"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Il palazzo reale",
+      "testo": "In cima alla collina sorgeva il palazzo reale. Era uno degli edifici più importanti della città.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "PALAZZO REALE",
+        "COLLINA",
+        "RE"
+      ],
+      "remember": [
+        "Il palazzo reale si trovava nella parte più alta",
+        "Il palazzo era il centro del potere del re"
+      ],
+      "quiz": [
+        {
+          "q": "Dove si trovava il palazzo reale?",
+          "answers": [
+            "In cima alla collina",
+            "Fuori dalla città",
+            "Sulla spiaggia"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Templi e magazzini",
+      "testo": "Vicino ai templi si trovavano i magazzini, nei quali venivano conservate le scorte alimentari.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "TEMPLI",
+        "MAGAZZINI",
+        "SCORTE"
+      ],
+      "remember": [
+        "Nella città c'erano templi",
+        "Vicino ai templi si trovavano i magazzini",
+        "Nei magazzini venivano conservati gli alimenti"
+      ],
+      "quiz": [
+        {
+          "q": "Che cosa veniva conservato nei magazzini?",
+          "answers": [
+            "Le scorte alimentari",
+            "Le navi",
+            "Le armi dei Romani"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le tombe dei re",
+      "testo": "Le tombe dei re si trovavano all'interno della città micenea.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "TOMBE",
+        "RE",
+        "CITTÀ"
+      ],
+      "remember": [
+        "Le tombe dei re erano dentro la città",
+        "Il re era una figura molto importante nella società micenea"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Fuori dalle mura",
+      "testo": "La maggior parte della popolazione viveva fuori dalle mura. Intorno alla città si estendevano le campagne necessarie per produrre il cibo.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "POPOLAZIONE",
+        "CAMPAGNE",
+        "CIBO"
+      ],
+      "remember": [
+        "Molte persone vivevano fuori dalle mura",
+        "Intorno alla città c'erano le campagne",
+        "Le campagne fornivano il cibo necessario"
+      ],
+      "quiz": [
+        {
+          "q": "Dove viveva gran parte della popolazione?",
+          "answers": [
+            "Fuori dalle mura",
+            "Dentro il palazzo reale",
+            "Dentro i magazzini"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Dentro la città micenea",
+      "frasi": [
+        {
+          "testo": "Le città micenee erano costruite sulle colline.",
+          "risposta": true
+        },
+        {
+          "testo": "Le mura proteggevano la città.",
+          "risposta": true
+        },
+        {
+          "testo": "Il palazzo reale si trovava in cima alla collina.",
+          "risposta": true
+        },
+        {
+          "testo": "I magazzini servivano a conservare le scorte alimentari.",
+          "risposta": true
+        },
+        {
+          "testo": "Tutta la popolazione viveva dentro le mura.",
+          "risposta": false
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Città indipendenti",
+      "testo": "Le città-stato micenee erano indipendenti le une dalle altre. Ogni regno poteva prendere le proprie decisioni.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "INDIPENDENTI",
+        "CITTÀ-STATO",
+        "REGNI"
+      ],
+      "remember": [
+        "Ogni città-stato era indipendente",
+        "Ogni città aveva il proprio re"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "L'alleanza militare",
+      "testo": "Quando arrivava un pericolo dall'esterno, più città potevano unirsi e formare un'alleanza militare.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "ALLEANZA MILITARE",
+        "ACCORDO",
+        "GUERRA"
+      ],
+      "remember": [
+        "Un'alleanza militare era un accordo tra più città",
+        "Le città promettevano di aiutarsi",
+        "L'alleanza veniva stretta in caso di guerra o pericolo"
+      ],
+      "quiz": [
+        {
+          "q": "Che cos'è un'alleanza militare?",
+          "answers": [
+            "Un accordo per aiutarsi in caso di guerra",
+            "Un mercato tra città",
+            "Una gara sportiva"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I Micenei e il mare",
+      "testo": "I Micenei erano esperti guerrieri, ma inizialmente non conoscevano bene la navigazione. Affrontarono però il mare e raggiunsero Creta e l'Asia Minore.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "keywords": [
+        "NAVIGAZIONE",
+        "CRETA",
+        "ASIA MINORE"
+      ],
+      "remember": [
+        "All'inizio i Micenei non erano esperti navigatori",
+        "Raggiunsero Creta",
+        "Raggiunsero anche l'Asia Minore"
+      ],
+      "quiz": [
+        {
+          "q": "Quali terre raggiunsero i Micenei attraversando il mare?",
+          "answers": [
+            "Creta e Asia Minore",
+            "America e Australia",
+            "Gallia e Britannia"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I Micenei imparano dai Cretesi",
+      "testo": "Grazie ai contatti con i Cretesi, i Micenei impararono a navigare e diventarono abili marinai.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "keywords": [
+        "CRETESI",
+        "MARINAI",
+        "NAVIGAZIONE"
+      ],
+      "remember": [
+        "I Micenei ebbero contatti con i Cretesi",
+        "Dai Cretesi impararono la navigazione",
+        "Diventarono abili marinai"
+      ],
+      "quiz": [
+        {
+          "q": "Da chi impararono molto sulla navigazione?",
+          "answers": [
+            "Dai Cretesi",
+            "Dai Romani",
+            "Dagli Etruschi"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "La conquista di Creta",
+      "testo": "I Micenei conquistarono Creta e ottennero il controllo delle importanti rotte commerciali del Mediterraneo.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-mappa.png",
+      "keywords": [
+        "CRETA",
+        "ROTTE COMMERCIALI",
+        "MEDITERRANEO"
+      ],
+      "remember": [
+        "I Micenei conquistarono Creta",
+        "Controllarono importanti rotte commerciali",
+        "La navigazione aumentò la loro potenza"
+      ],
+      "quiz": [
+        {
+          "q": "Perché la conquista di Creta fu importante?",
+          "answers": [
+            "Per il controllo delle rotte commerciali",
+            "Perché lì nacque Roma",
+            "Perché Creta non aveva il mare"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le colonie dei Micenei",
+      "testo": "Dopo la conquista di Creta, i Micenei si espansero e crearono colonie lungo il Mar Mediterraneo.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-mappa.png",
+      "keywords": [
+        "COLONIE",
+        "ESPANSIONE",
+        "MEDITERRANEO"
+      ],
+      "remember": [
+        "I Micenei si espansero nel Mediterraneo",
+        "Fondarono diverse colonie"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "La scrittura Lineare B",
+      "testo": "I Micenei impararono dai Cretesi anche l'arte della scrittura. Partendo dalla Lineare A elaborarono la Lineare B.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "LINEARE A",
+        "LINEARE B",
+        "SCRITTURA"
+      ],
+      "remember": [
+        "I Micenei impararono la scrittura dai Cretesi",
+        "Dalla Lineare A elaborarono la Lineare B",
+        "La Lineare B era composta da circa 90 segni"
       ],
       "quiz": [
         {
@@ -120,54 +569,27 @@
     },
 
     {
-      "tipo": "standard",
-      "titolo": "Come vivevano i Greci?",
-      "testo": "I Greci praticavano l'agricoltura, lavoravano come artigiani, commerciavano e navigavano. Anche la musica, l'arte e lo sport erano importanti.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
-      "keywords": [
-        "AGRICOLTURA",
-        "ARTIGIANATO",
-        "COMMERCIO",
-        "MUSICA"
-      ],
-      "remember": [
-        "I Greci coltivavano la terra",
-        "Producevano oggetti artigianali",
-        "Commerciavano via mare",
-        "Musica, arte e sport facevano parte della loro cultura"
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Le attività dei Greci",
-      "domanda": "Quale di queste era un'attività importante dei Greci?",
-      "answers": [
-        "Commercio marittimo",
-        "Costruzione di automobili",
-        "Viaggi nello spazio"
-      ],
-      "correct": 0
-    },
-
-    {
       "tipo": "vero_falso",
-      "titolo": "La vita dei Greci",
+      "titolo": "Ripassiamo i Micenei",
       "frasi": [
         {
-          "testo": "I Greci praticavano l'agricoltura.",
+          "testo": "I Micenei si stabilirono nel Peloponneso.",
           "risposta": true
         },
         {
-          "testo": "I Greci erano anche artigiani.",
+          "testo": "Le loro città erano fortificate.",
           "risposta": true
         },
         {
-          "testo": "Il commercio marittimo era importante.",
+          "testo": "I Micenei impararono la navigazione dai Cretesi.",
           "risposta": true
         },
         {
-          "testo": "I Greci non conoscevano la musica.",
+          "testo": "I Micenei elaborarono la Lineare B.",
+          "risposta": true
+        },
+        {
+          "testo": "Le città micenee dipendevano tutte da un unico re.",
           "risposta": false
         }
       ]
@@ -175,25 +597,60 @@
 
     {
       "tipo": "standard",
+      "titolo": "Come vivevano i Greci",
+      "testo": "Nel mondo greco erano importanti l'agricoltura, l'artigianato e il commercio. Il mare permetteva di viaggiare e scambiare prodotti con altri popoli.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "keywords": [
+        "AGRICOLTURA",
+        "ARTIGIANATO",
+        "COMMERCIO",
+        "NAVIGAZIONE"
+      ],
+      "remember": [
+        "I Greci coltivavano la terra",
+        "Producevano oggetti artigianali",
+        "Commerciavano con altri popoli",
+        "Il mare era molto importante"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Musica e cultura",
+      "testo": "I Greci svilupparono anche molte attività culturali. La musica, l'arte e in seguito il teatro divennero aspetti importanti della loro civiltà.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "keywords": [
+        "MUSICA",
+        "ARTE",
+        "CULTURA"
+      ],
+      "remember": [
+        "La vita greca non comprendeva soltanto guerra e commercio",
+        "Musica e arte erano importanti nella cultura greca"
+      ]
+    },
+
+    {
+      "tipo": "standard",
       "titolo": "Troia",
-      "testo": "Troia era una potente città dell'Asia Minore, situata sulla costa e vicina alle importanti rotte commerciali.",
+      "testo": "Troia era una città dell'Asia Minore. La sua posizione la rendeva importante per i commerci.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
         "TROIA",
         "ASIA MINORE",
-        "ROTTE COMMERCIALI"
+        "COMMERCIO"
       ],
       "remember": [
         "Troia si trovava in Asia Minore",
-        "Era una città ricca e potente",
-        "La sua posizione era importante per il commercio"
+        "La città occupava una posizione importante",
+        "Troia controllava una zona strategica per il commercio"
       ],
       "quiz": [
         {
           "q": "Dove si trovava Troia?",
           "answers": [
             "In Asia Minore",
-            "In Sicilia",
+            "In Italia",
             "In Egitto"
           ],
           "correct": 0
@@ -203,37 +660,42 @@
 
     {
       "tipo": "standard",
-      "titolo": "La guerra di Troia",
-      "testo": "Secondo la tradizione, i Greci combatterono contro Troia per molti anni. La città era ben fortificata e difficile da conquistare.",
+      "titolo": "Micenei contro Troia",
+      "testo": "Secondo la tradizione, i re micenei unirono i loro eserciti e mossero guerra contro Troia.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
         "GUERRA DI TROIA",
-        "GRECI",
-        "TROIANI"
+        "MICENEI",
+        "ALLEANZA"
       ],
       "remember": [
-        "La guerra durò molti anni secondo la tradizione",
-        "Troia era una città fortificata",
-        "I Greci non riuscivano a conquistarla facilmente"
+        "I re micenei unirono le loro forze",
+        "L'esercito greco combatté contro Troia",
+        "La storia della guerra di Troia è arrivata fino a noi attraverso la tradizione"
       ]
     },
 
     {
-      "tipo": "quiz",
-      "titolo": "La guerra di Troia",
-      "domanda": "Perché Troia era difficile da conquistare?",
-      "answers": [
-        "Perché era ben fortificata",
-        "Perché si trovava sott'acqua",
-        "Perché non aveva abitanti"
+      "tipo": "standard",
+      "titolo": "Una città difficile da conquistare",
+      "testo": "Troia era protetta da forti mura. Secondo il racconto tradizionale, i Greci la assediarono per molti anni senza riuscire a conquistarla.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
+      "keywords": [
+        "MURA",
+        "ASSEDIO",
+        "GUERRA"
       ],
-      "correct": 0
+      "remember": [
+        "Troia era una città fortificata",
+        "Le sue mura la rendevano difficile da conquistare",
+        "L'assedio durò a lungo secondo la tradizione"
+      ]
     },
 
     {
       "tipo": "standard",
       "titolo": "Il cavallo di legno",
-      "testo": "Secondo la leggenda, i Greci costruirono un enorme cavallo di legno. All'interno si nascosero alcuni guerrieri.",
+      "testo": "Secondo la leggenda, i Greci costruirono un enorme cavallo di legno vuoto. Alcuni guerrieri si nascosero al suo interno.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
         "CAVALLO DI TROIA",
@@ -241,15 +703,16 @@
         "GUERRIERI"
       ],
       "remember": [
-        "I Greci costruirono un grande cavallo di legno",
-        "Alcuni guerrieri si nascosero dentro il cavallo"
+        "Il cavallo era di legno",
+        "Era abbastanza grande da contenere alcuni guerrieri",
+        "I guerrieri greci si nascosero al suo interno"
       ]
     },
 
     {
       "tipo": "standard",
       "titolo": "I Greci fingono di partire",
-      "testo": "I Greci fecero finta di abbandonare la guerra e partirono con le loro navi, lasciando il cavallo sulla spiaggia.",
+      "testo": "I Greci fecero finta di abbandonare la guerra. Salparono con le navi e lasciarono il cavallo davanti a Troia.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
         "INGANNO",
@@ -257,66 +720,67 @@
         "CAVALLO"
       ],
       "remember": [
-        "I Greci fecero finta di partire",
-        "Lasciarono il cavallo vicino a Troia"
+        "I Greci finsero di partire",
+        "Lasciarono il cavallo vicino alla città",
+        "Il cavallo faceva parte di uno stratagemma"
       ]
     },
 
     {
       "tipo": "standard",
-      "titolo": "Il cavallo entra a Troia",
-      "testo": "I Troiani pensarono che il cavallo fosse un dono. Lo portarono all'interno della città.",
+      "titolo": "Il cavallo entra nella città",
+      "testo": "I Troiani pensarono che il cavallo fosse un dono e lo portarono all'interno delle mura.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
         "TROIANI",
         "DONO",
-        "CITTÀ"
+        "MURA"
       ],
       "remember": [
         "I Troiani credettero che il cavallo fosse un dono",
-        "Portarono il cavallo dentro le mura"
+        "Portarono il cavallo dentro Troia"
       ]
     },
 
     {
       "tipo": "standard",
-      "titolo": "La notte di Troia",
-      "testo": "Durante la notte i guerrieri greci uscirono dal cavallo e aprirono le porte della città. Secondo la leggenda, così Troia venne conquistata.",
+      "titolo": "La notte della conquista",
+      "testo": "Durante la notte i guerrieri greci uscirono dal cavallo. Aprirono le porte della città e permisero agli altri guerrieri di entrare.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
         "NOTTE",
-        "GUERRIERI",
+        "PORTE",
         "CONQUISTA"
       ],
       "remember": [
-        "I guerrieri uscirono dal cavallo durante la notte",
-        "Aprirono le porte della città",
-        "Troia venne conquistata"
+        "I guerrieri uscirono dal cavallo di notte",
+        "Aprirono le porte di Troia",
+        "Secondo la leggenda, così Troia venne conquistata"
       ]
     },
 
     {
       "tipo": "vero_falso",
-      "titolo": "La leggenda di Troia",
+      "titolo": "La storia del cavallo di Troia",
       "frasi": [
         {
           "testo": "Troia si trovava in Asia Minore.",
           "risposta": true
         },
         {
-          "testo": "Troia era facile da conquistare.",
-          "risposta": false
-        },
-        {
-          "testo": "I Greci costruirono un cavallo di legno.",
+          "testo": "Troia era protetta da forti mura.",
           "risposta": true
         },
         {
-          "testo": "I Troiani lasciarono il cavallo fuori dalla città.",
+          "testo": "I guerrieri greci si nascosero dentro un cavallo di legno.",
+          "risposta": true
+        },
+        {
+          "testo": "I Troiani distrussero immediatamente il cavallo.",
           "risposta": false
         },
         {
-          "testo": "I guerrieri greci uscirono dal cavallo durante la notte.",
+          "testo": "I guerrieri uscirono dal cavallo durante la notte.",
           "risposta": true
         }
       ]
@@ -324,67 +788,60 @@
 
     {
       "tipo": "standard",
-      "titolo": "La civiltà greca nel tempo",
-      "testo": "Osserviamo alcuni avvenimenti importanti per orientarci nella storia della Grecia.",
+      "titolo": "La linea del tempo",
+      "testo": "Mettiamo ora in ordine alcuni avvenimenti importanti della storia dei Micenei e della Grecia.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-linea-tempo.png",
       "keywords": [
         "2000 a.C.",
         "1450 a.C.",
-        "1200 a.C.",
-        "490 a.C.",
-        "338 a.C."
+        "1200 a.C."
       ],
       "remember": [
-        "2000 a.C. circa: i Micenei arrivano in Grecia",
-        "1450 a.C. circa: i Micenei conquistano Creta",
-        "1200 a.C. circa: arrivano i Dori",
-        "490 a.C.: guerra con i Persiani",
-        "338 a.C.: la Grecia viene conquistata dai Macedoni"
+        "Intorno al 2000 a.C. i Micenei arrivarono in Grecia e si stabilirono nel Peloponneso",
+        "Intorno al 1450 a.C. conquistarono Creta e le sue rotte commerciali",
+        "Intorno al 1200 a.C. arrivarono i Dori e terminò la civiltà micenea"
+      ],
+      "quiz": [
+        {
+          "q": "Che cosa accadde intorno al 1450 a.C.?",
+          "answers": [
+            "I Micenei conquistarono Creta",
+            "Arrivarono i Romani",
+            "Nacque la democrazia moderna"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Che cosa accadde intorno al 1200 a.C.?",
+          "answers": [
+            "Arrivarono i Dori",
+            "I Micenei arrivarono per la prima volta in Grecia",
+            "Roma conquistò la Grecia"
+          ],
+          "correct": 0
+        }
       ]
     },
 
     {
-      "tipo": "quiz",
-      "titolo": "La linea del tempo",
-      "domanda": "Che cosa accadde intorno al 1450 a.C.?",
-      "answers": [
-        "I Micenei conquistarono Creta",
-        "Arrivarono i Romani",
-        "La Grecia fu conquistata dai Macedoni"
-      ],
-      "correct": 0
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "La linea del tempo",
-      "domanda": "Che cosa accadde intorno al 1200 a.C.?",
-      "answers": [
-        "Arrivarono i Dori",
-        "I Micenei conquistarono Creta",
-        "Roma divenne un impero"
-      ],
-      "correct": 0
-    },
-
-    {
       "tipo": "standard",
-      "titolo": "Ripassiamo",
-      "testo": "La civiltà greca nacque dall'incontro di diversi popoli. I Micenei costruirono città fortificate, impararono a navigare e svilupparono la Lineare B. I Greci praticavano agricoltura, artigianato e commercio. La leggenda del cavallo di Troia racconta uno degli episodi più famosi dell'antica Grecia.",
+      "titolo": "Ripasso finale",
+      "testo": "I Micenei erano guerrieri organizzati in città-stato fortificate. Impararono dai Cretesi la navigazione e la scrittura, conquistarono Creta e svilupparono commerci nel Mediterraneo. La leggenda del cavallo di Troia racconta uno degli episodi più famosi legati al mondo greco.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-introduzione.png",
       "keywords": [
         "MICENEI",
+        "CITTÀ-STATO",
+        "CRETA",
         "LINEARE B",
-        "COMMERCIO",
-        "TROIA",
-        "CIVILTÀ GRECA"
+        "TROIA"
       ],
       "remember": [
-        "La civiltà greca nacque dall'incontro di diversi popoli",
-        "I Micenei costruivano città fortificate",
-        "I Micenei elaborarono la Lineare B",
-        "I Greci erano agricoltori, artigiani, navigatori e commercianti",
-        "Il cavallo di Troia appartiene alla famosa leggenda della guerra di Troia"
+        "Micenei = guerrieri e città fortificate",
+        "Le città micenee erano indipendenti",
+        "Creta fu importante per navigazione e commerci",
+        "La scrittura micenea era la Lineare B",
+        "Troia si trovava in Asia Minore",
+        "Il cavallo di Troia appartiene alla famosa leggenda della guerra"
       ]
     }
 
@@ -392,24 +849,32 @@
 
   "domandePlus": [
     {
-      "q": "Dove si trova la Grecia?",
-      "help": "La Grecia si trova nella penisola balcanica."
+      "q": "Perché i Micenei costruivano le città sulle colline?",
+      "help": "La posizione elevata permetteva di vedere arrivare i nemici e preparare la difesa."
     },
     {
-      "q": "Quali furono alcuni dei principali popoli della Grecia?",
-      "help": "Micenei, Dori, Ioni ed Eoli."
+      "q": "Che cos'era una città-stato micenea?",
+      "help": "Era un piccolo regno indipendente."
     },
     {
-      "q": "Come erano organizzate le città micenee?",
-      "help": "Erano città fortificate costruite su colline e protette da mura."
+      "q": "A che cosa servivano le mura?",
+      "help": "Servivano a proteggere il centro abitato dagli attacchi."
     },
     {
       "q": "Dove si trovava il palazzo reale?",
-      "help": "Nella parte più alta della città, in cima alla collina."
+      "help": "In cima alla collina, nella parte più alta della città."
     },
     {
-      "q": "Che cos'era un'alleanza militare?",
-      "help": "Un accordo tra città o re per aiutarsi in caso di guerra."
+      "q": "A che cosa servivano i magazzini?",
+      "help": "Servivano a conservare le scorte alimentari."
+    },
+    {
+      "q": "Dove viveva gran parte della popolazione?",
+      "help": "Fuori dalle mura, vicino alle campagne."
+    },
+    {
+      "q": "Che cos'è un'alleanza militare?",
+      "help": "È un accordo tra più città o re per aiutarsi in caso di guerra o pericolo."
     },
     {
       "q": "Che cosa impararono i Micenei dai Cretesi?",
@@ -417,15 +882,31 @@
     },
     {
       "q": "Come si chiamava la scrittura dei Micenei?",
-      "help": "Lineare B."
+      "help": "Si chiamava Lineare B."
     },
     {
-      "q": "Quali attività praticavano i Greci?",
-      "help": "Agricoltura, artigianato, navigazione, commercio, musica e altre attività culturali."
+      "q": "Perché Creta era importante per i Micenei?",
+      "help": "La conquista di Creta permise ai Micenei di controllare importanti rotte commerciali."
     },
     {
       "q": "Dove si trovava Troia?",
       "help": "Troia si trovava in Asia Minore."
     },
     {
-      "q": "Come riuscirono i Greci a entrare a Troia secondo la l
+      "q": "Come entrarono i Greci a Troia secondo la leggenda?",
+      "help": "Alcuni guerrieri si nascosero in un grande cavallo di legno che i Troiani portarono dentro la città."
+    },
+    {
+      "q": "Che cosa fecero i guerrieri nascosti nel cavallo?",
+      "help": "Durante la notte uscirono dal cavallo e aprirono le porte della città."
+    },
+    {
+      "q": "Che cosa accadde intorno al 1450 a.C.?",
+      "help": "I Micenei conquistarono Creta."
+    },
+    {
+      "q": "Che cosa accadde intorno al 1200 a.C.?",
+      "help": "Arrivarono i Dori e terminò la civiltà micenea."
+    }
+  ]
+}
