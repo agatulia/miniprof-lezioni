@@ -1,11 +1,11 @@
 {
   "id": "introduzione-civilta-greca",
-  "titolo": "Introduzione alla civiltà greca",
+  "titolo": "La civiltà greca",
   "materia": "Storia",
   "classe": "5 primaria",
   "catalogo": "5 primaria",
   "icona": "🏛️",
-  "descrizione": "Dove vivevano i Greci, i popoli della Grecia, le attività, la linea del tempo e la loro eredità.",
+  "descrizione": "I popoli della Grecia, i Micenei, la vita quotidiana, Troia e la linea del tempo.",
   "attiva": true,
 
   "blocchi": [
@@ -13,25 +13,25 @@
     {
       "tipo": "standard",
       "titolo": "La civiltà greca",
-      "testo": "La civiltà greca è una delle civiltà più importanti del passato. I Greci hanno lasciato molte tracce nella nostra cultura, nel modo di pensare, nell'arte, nello sport e nella vita politica.",
+      "testo": "La civiltà greca è una delle più importanti civiltà del passato. Nacque dall'incontro di popoli diversi e lasciò profonde tracce nella nostra cultura.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-introduzione.png",
       "keywords": [
         "CIVILTÀ GRECA",
         "CULTURA",
-        "GRECIA"
+        "POPOLI"
       ],
       "remember": [
-        "La civiltà greca è una delle grandi civiltà del passato",
-        "Molte idee dei Greci sono importanti ancora oggi",
-        "Arte, sport, teatro e democrazia hanno radici nel mondo greco"
+        "La civiltà greca nacque dall'incontro di diversi popoli",
+        "La cultura greca ha influenzato profondamente la nostra cultura",
+        "Molte idee dei Greci sono importanti ancora oggi"
       ],
       "quiz": [
         {
-          "q": "Perché studiamo ancora oggi la civiltà greca?",
+          "q": "Da che cosa nacque la civiltà greca?",
           "answers": [
-            "Perché ha lasciato importanti tracce nella nostra cultura",
-            "Perché fu l'unica civiltà antica",
-            "Perché viveva soltanto sulle montagne"
+            "Dall'incontro di diversi popoli",
+            "Da un unico villaggio",
+            "Dall'Impero romano"
           ],
           "correct": 0
         }
@@ -41,7 +41,7 @@
     {
       "tipo": "standard",
       "titolo": "Dove si trova la Grecia?",
-      "testo": "La Grecia si trova nella penisola balcanica, nella parte orientale del Mar Mediterraneo. Il territorio comprende una parte continentale, il Peloponneso e moltissime isole.",
+      "testo": "La Grecia si trova nella penisola balcanica. Il territorio comprende una parte continentale, il Peloponneso e moltissime isole.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-mappa.png",
       "keywords": [
         "PENISOLA BALCANICA",
@@ -51,9 +51,9 @@
       ],
       "remember": [
         "La Grecia si trova nella penisola balcanica",
-        "Il Peloponneso è una parte importante del territorio greco",
-        "La Grecia comprende moltissime isole",
-        "A est della Grecia si trova il Mar Egeo"
+        "Il Peloponneso fa parte della Grecia",
+        "La Grecia possiede moltissime isole",
+        "Tra la Grecia e l'Asia Minore si trova il Mar Egeo"
       ],
       "quiz": [
         {
@@ -64,38 +64,29 @@
             "Penisola scandinava"
           ],
           "correct": 0
-        },
-        {
-          "q": "Quale mare si trova tra la Grecia e l'Asia Minore?",
-          "answers": [
-            "Mar Egeo",
-            "Mar Baltico",
-            "Mar Rosso"
-          ],
-          "correct": 0
         }
       ]
     },
 
     {
       "tipo": "vero_falso",
-      "titolo": "La Grecia e il territorio",
+      "titolo": "Il territorio della Grecia",
       "frasi": [
         {
           "testo": "La Grecia si trova nella penisola balcanica.",
           "risposta": true
         },
         {
-          "testo": "La Grecia comprende molte isole.",
+          "testo": "Il Peloponneso fa parte della Grecia.",
           "risposta": true
         },
         {
-          "testo": "Il Peloponneso fa parte del territorio greco.",
-          "risposta": true
-        },
-        {
-          "testo": "Il Mar Egeo si trova nell'Europa settentrionale.",
+          "testo": "La Grecia non possiede isole.",
           "risposta": false
+        },
+        {
+          "testo": "Il Mar Egeo si trova tra la Grecia e l'Asia Minore.",
+          "risposta": true
         }
       ]
     },
@@ -103,7 +94,7 @@
     {
       "tipo": "standard",
       "titolo": "I popoli della Grecia",
-      "testo": "La civiltà greca nacque dall'incontro di diversi popoli. Tra i principali ricordiamo Micenei, Dori, Ioni ed Eoli.",
+      "testo": "La civiltà greca nacque dall'unione di diversi popoli. Tra i principali ricordiamo Micenei, Dori, Ioni ed Eoli.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/popoli-grecia.png",
       "keywords": [
         "MICENEI",
@@ -112,16 +103,17 @@
         "EOLI"
       ],
       "remember": [
-        "La Grecia antica era abitata da diversi popoli",
-        "Micenei, Dori, Ioni ed Eoli contribuirono alla formazione della civiltà greca"
+        "I Micenei furono tra i primi popoli della Grecia",
+        "I Dori arrivarono successivamente",
+        "Ioni ed Eoli si stabilirono in diverse zone della Grecia e dell'Asia Minore"
       ],
       "quiz": [
         {
-          "q": "Quali furono alcuni dei principali popoli della Grecia antica?",
+          "q": "Quali erano alcuni dei principali popoli della Grecia?",
           "answers": [
             "Micenei, Dori, Ioni ed Eoli",
             "Romani, Etruschi e Celti",
-            "Egizi, Assiri e Babilonesi"
+            "Egizi, Fenici e Babilonesi"
           ],
           "correct": 0
         }
@@ -131,26 +123,164 @@
     {
       "tipo": "standard",
       "titolo": "I Micenei",
-      "testo": "I Micenei erano un popolo di guerrieri. Si stabilirono nel Peloponneso e divennero anche abili navigatori.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/popoli-grecia.png",
+      "testo": "I Micenei erano forti guerrieri. Occuparono il Peloponneso e costruirono città fortificate su colline.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
       "keywords": [
         "MICENEI",
         "GUERRIERI",
         "PELOPONNESO",
-        "NAVIGATORI"
+        "CITTÀ FORTIFICATE"
       ],
       "remember": [
         "I Micenei erano guerrieri",
         "Si stabilirono nel Peloponneso",
+        "Le loro città erano costruite sulle colline",
+        "Le città erano protette da mura"
+      ],
+      "quiz": [
+        {
+          "q": "Perché le città micenee erano costruite sulle colline?",
+          "answers": [
+            "Per difendersi meglio dagli attacchi",
+            "Per essere più vicine al mare",
+            "Per coltivare il riso"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "La città micenea",
+      "testo": "La città micenea era protetta da mura potenti. In cima alla collina si trovava il palazzo reale. Vicino ai templi si trovavano anche i magazzini per conservare le scorte alimentari.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "MURA",
+        "PALAZZO REALE",
+        "TEMPLI",
+        "MAGAZZINI"
+      ],
+      "remember": [
+        "Le mura proteggevano la città",
+        "Il palazzo reale si trovava nella parte alta",
+        "Vicino ai templi c'erano i magazzini",
+        "Nei magazzini venivano conservate le scorte"
+      ],
+      "quiz": [
+        {
+          "q": "Che cosa si trovava in cima alla collina?",
+          "answers": [
+            "Il palazzo reale",
+            "Il porto",
+            "I campi coltivati"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Dentro e fuori le mura",
+      "testo": "All'interno della città si trovavano edifici importanti e le tombe dei re. La maggior parte della popolazione viveva invece fuori dalle mura, vicino alle campagne.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "TOMBE DEI RE",
+        "POPOLAZIONE",
+        "CAMPAGNE"
+      ],
+      "remember": [
+        "Le tombe dei re erano all'interno della città",
+        "La maggior parte della popolazione viveva fuori dalle mura",
+        "Intorno alla città si sviluppavano le campagne"
+      ],
+      "quiz": [
+        {
+          "q": "Dove viveva la maggior parte della popolazione?",
+          "answers": [
+            "Fuori dalle mura",
+            "Nel palazzo reale",
+            "Dentro i templi"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "La città dei Micenei",
+      "frasi": [
+        {
+          "testo": "Le città micenee erano protette da mura potenti.",
+          "risposta": true
+        },
+        {
+          "testo": "Il palazzo reale si trovava in cima alla collina.",
+          "risposta": true
+        },
+        {
+          "testo": "I magazzini servivano per conservare le scorte.",
+          "risposta": true
+        },
+        {
+          "testo": "Tutta la popolazione viveva dentro il palazzo reale.",
+          "risposta": false
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "L'alleanza militare",
+      "testo": "Le città micenee erano indipendenti, ma in caso di pericolo potevano unirsi e formare un'alleanza militare.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "CITTÀ-STATO",
+        "INDIPENDENTI",
+        "ALLEANZA MILITARE"
+      ],
+      "remember": [
+        "Le città micenee erano indipendenti",
+        "In caso di pericolo potevano unirsi",
+        "Un'alleanza militare era un accordo per aiutarsi in guerra"
+      ],
+      "quiz": [
+        {
+          "q": "Che cos'era un'alleanza militare?",
+          "answers": [
+            "Un accordo tra città per aiutarsi in guerra",
+            "Un mercato",
+            "Una festa religiosa"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I Micenei diventano navigatori",
+      "testo": "I Micenei inizialmente non conoscevano bene la navigazione. Dopo aver raggiunto Creta e aver avuto contatti con i Cretesi, diventarono abili marinai.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "keywords": [
+        "CRETA",
+        "NAVIGAZIONE",
+        "MARINAI"
+      ],
+      "remember": [
+        "I Micenei raggiunsero Creta",
+        "Impararono molto dai Cretesi",
         "Diventarono abili navigatori"
       ],
       "quiz": [
         {
-          "q": "Dove si stabilirono i Micenei?",
+          "q": "Da chi impararono la navigazione i Micenei?",
           "answers": [
-            "Nel Peloponneso",
-            "In Egitto",
-            "In Gallia"
+            "Dai Cretesi",
+            "Dai Romani",
+            "Dai Celti"
           ],
           "correct": 0
         }
@@ -159,25 +289,43 @@
 
     {
       "tipo": "standard",
-      "titolo": "L'arrivo dei Dori",
-      "testo": "Intorno al 1200 a.C. arrivarono in Grecia i Dori. L'incontro tra i Dori, i Micenei e gli altri popoli contribuì alla nascita della civiltà greca.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/popoli-grecia.png",
+      "titolo": "Le colonie micenee",
+      "testo": "Dopo la conquista di Creta, i Micenei si espansero nel Mediterraneo e crearono diverse colonie.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-mappa.png",
       "keywords": [
-        "DORI",
-        "1200 a.C.",
-        "CIVILTÀ GRECA"
+        "COLONIE",
+        "MEDITERRANEO",
+        "ESPANSIONE"
       ],
       "remember": [
-        "I Dori arrivarono in Grecia intorno al 1200 a.C.",
-        "L'incontro tra diversi popoli contribuì alla nascita della civiltà greca"
+        "I Micenei conquistarono Creta",
+        "Si espansero nel Mediterraneo",
+        "Fondarono colonie"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "La scrittura Lineare B",
+      "testo": "I Micenei impararono dai Cretesi l'arte della scrittura. Partendo dalla Lineare A elaborarono la Lineare B, un sistema formato da circa 90 segni.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
+      "keywords": [
+        "SCRITTURA",
+        "LINEARE A",
+        "LINEARE B"
+      ],
+      "remember": [
+        "I Micenei impararono la scrittura dai Cretesi",
+        "Elaborarono la Lineare B",
+        "La Lineare B aveva circa 90 segni"
       ],
       "quiz": [
         {
-          "q": "Quando arrivarono i Dori in Grecia?",
+          "q": "Come si chiamava la scrittura dei Micenei?",
           "answers": [
-            "Intorno al 1200 a.C.",
-            "Intorno al 1200 d.C.",
-            "Nel 1492"
+            "Lineare B",
+            "Geroglifico",
+            "Alfabeto latino"
           ],
           "correct": 0
         }
@@ -186,50 +334,53 @@
 
     {
       "tipo": "standard",
-      "titolo": "Ioni ed Eoli",
-      "testo": "Gli Ioni vivevano soprattutto sulle coste e nelle isole del Mar Egeo e dell'Asia Minore. Gli Eoli si stabilirono nel nord della Grecia e in alcune isole.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/popoli-grecia.png",
+      "titolo": "Come vivevano i Greci?",
+      "testo": "I Greci praticavano l'agricoltura, lavoravano come artigiani, commerciavano e navigavano. Anche la musica, l'arte e lo sport erano importanti.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
       "keywords": [
-        "IONI",
-        "EOLI",
-        "MAR EGEO",
-        "ASIA MINORE"
+        "AGRICOLTURA",
+        "ARTIGIANATO",
+        "COMMERCIO",
+        "MUSICA"
       ],
       "remember": [
-        "Gli Ioni vivevano sulle coste e nelle isole del Mar Egeo",
-        "Gli Eoli vivevano soprattutto nel nord della Grecia e in alcune isole"
-      ],
-      "quiz": [
-        {
-          "q": "Dove vivevano soprattutto gli Ioni?",
-          "answers": [
-            "Sulle coste e nelle isole del Mar Egeo",
-            "Nel deserto del Sahara",
-            "Nella penisola italiana"
-          ],
-          "correct": 0
-        }
+        "I Greci coltivavano la terra",
+        "Producevano oggetti artigianali",
+        "Commerciavano via mare",
+        "Musica, arte e sport facevano parte della loro cultura"
       ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Le attività dei Greci",
+      "domanda": "Quale di queste era un'attività importante dei Greci?",
+      "answers": [
+        "Commercio marittimo",
+        "Costruzione di automobili",
+        "Viaggi nello spazio"
+      ],
+      "correct": 0
     },
 
     {
       "tipo": "vero_falso",
-      "titolo": "Conosci i popoli della Grecia?",
+      "titolo": "La vita dei Greci",
       "frasi": [
         {
-          "testo": "I Micenei si stabilirono nel Peloponneso.",
+          "testo": "I Greci praticavano l'agricoltura.",
           "risposta": true
         },
         {
-          "testo": "I Dori arrivarono intorno al 1200 a.C.",
+          "testo": "I Greci erano anche artigiani.",
           "risposta": true
         },
         {
-          "testo": "Gli Ioni vivevano su molte coste e isole del Mar Egeo.",
+          "testo": "Il commercio marittimo era importante.",
           "risposta": true
         },
         {
-          "testo": "Gli Eoli vivevano soltanto in Africa.",
+          "testo": "I Greci non conoscevano la musica.",
           "risposta": false
         }
       ]
@@ -237,38 +388,26 @@
 
     {
       "tipo": "standard",
-      "titolo": "Come vivevano i Greci?",
-      "testo": "Il territorio greco era montuoso e ricco di coste. I Greci coltivavano soprattutto ulivi e viti, navigavano, commerciavano e vivevano in città chiamate polis.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "titolo": "Troia",
+      "testo": "Troia era una potente città dell'Asia Minore, situata sulla costa e vicina alle importanti rotte commerciali.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
-        "ULIVI",
-        "VITI",
-        "NAVIGAZIONE",
-        "COMMERCIO",
-        "POLIS"
+        "TROIA",
+        "ASIA MINORE",
+        "ROTTE COMMERCIALI"
       ],
       "remember": [
-        "I Greci coltivavano ulivi e viti",
-        "Erano abili navigatori",
-        "Commerciavano con altri popoli",
-        "Le città greche erano chiamate polis"
+        "Troia si trovava in Asia Minore",
+        "Era una città ricca e potente",
+        "La sua posizione era importante per il commercio"
       ],
       "quiz": [
         {
-          "q": "Come si chiamavano le città greche?",
+          "q": "Dove si trovava Troia?",
           "answers": [
-            "Polis",
-            "Province",
-            "Regioni"
-          ],
-          "correct": 0
-        },
-        {
-          "q": "Quali piante coltivavano molto i Greci?",
-          "answers": [
-            "Ulivi e viti",
-            "Riso e bambù",
-            "Banane e palme"
+            "In Asia Minore",
+            "In Sicilia",
+            "In Egitto"
           ],
           "correct": 0
         }
@@ -277,146 +416,120 @@
 
     {
       "tipo": "standard",
-      "titolo": "Un popolo di navigatori",
-      "testo": "La presenza di tante coste e isole favorì la navigazione. I Greci viaggiavano per mare e commerciavano prodotti con altri popoli.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "titolo": "La guerra di Troia",
+      "testo": "Secondo la tradizione, i Greci combatterono contro Troia per molti anni. La città era ben fortificata e difficile da conquistare.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
-        "NAVIGAZIONE",
-        "COMMERCIO",
-        "MARE"
+        "GUERRA DI TROIA",
+        "GRECI",
+        "TROIANI"
       ],
       "remember": [
-        "Il mare era molto importante per i Greci",
-        "Le navi permettevano di raggiungere isole e coste lontane",
-        "La navigazione favoriva il commercio"
+        "La guerra durò molti anni secondo la tradizione",
+        "Troia era una città fortificata",
+        "I Greci non riuscivano a conquistarla facilmente"
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "La guerra di Troia",
+      "domanda": "Perché Troia era difficile da conquistare?",
+      "answers": [
+        "Perché era ben fortificata",
+        "Perché si trovava sott'acqua",
+        "Perché non aveva abitanti"
       ],
-      "quiz": [
-        {
-          "q": "Perché il mare era importante per i Greci?",
-          "answers": [
-            "Favoriva viaggi e commerci",
-            "Impediva gli spostamenti",
-            "Serviva soltanto per pescare"
-          ],
-          "correct": 0
-        }
+      "correct": 0
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Il cavallo di legno",
+      "testo": "Secondo la leggenda, i Greci costruirono un enorme cavallo di legno. All'interno si nascosero alcuni guerrieri.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
+      "keywords": [
+        "CAVALLO DI TROIA",
+        "LEGGENDA",
+        "GUERRIERI"
+      ],
+      "remember": [
+        "I Greci costruirono un grande cavallo di legno",
+        "Alcuni guerrieri si nascosero dentro il cavallo"
       ]
     },
 
     {
       "tipo": "standard",
-      "titolo": "La vita nelle polis",
-      "testo": "Le polis erano città indipendenti. Ogni polis aveva le proprie leggi e il proprio governo. Nelle polis si svolgevano molte attività della vita quotidiana.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "titolo": "I Greci fingono di partire",
+      "testo": "I Greci fecero finta di abbandonare la guerra e partirono con le loro navi, lasciando il cavallo sulla spiaggia.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
-        "POLIS",
-        "CITTÀ",
-        "LEGGI",
-        "GOVERNO"
+        "INGANNO",
+        "NAVI",
+        "CAVALLO"
       ],
       "remember": [
-        "Le città greche erano chiamate polis",
-        "Ogni polis aveva proprie leggi",
-        "Ogni polis aveva un proprio governo"
-      ],
-      "quiz": [
-        {
-          "q": "Che cos'era una polis?",
-          "answers": [
-            "Una città greca indipendente",
-            "Una nave commerciale",
-            "Un tempio"
-          ],
-          "correct": 0
-        }
+        "I Greci fecero finta di partire",
+        "Lasciarono il cavallo vicino a Troia"
       ]
     },
 
     {
       "tipo": "standard",
-      "titolo": "Sport, arte e cultura",
-      "testo": "I Greci praticavano sport e gare, decoravano vasi, costruivano templi e svilupparono il teatro, la filosofia e molte forme d'arte.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "titolo": "Il cavallo entra a Troia",
+      "testo": "I Troiani pensarono che il cavallo fosse un dono. Lo portarono all'interno della città.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
-        "SPORT",
-        "GARE",
-        "TEATRO",
-        "FILOSOFIA",
-        "ARTE"
+        "TROIANI",
+        "DONO",
+        "CITTÀ"
       ],
       "remember": [
-        "I Greci praticavano gare sportive",
-        "Realizzavano vasi decorati",
-        "Costruivano templi",
-        "Svilupparono il teatro e la filosofia"
-      ],
-      "quiz": [
-        {
-          "q": "Quale di queste attività apparteneva alla cultura greca?",
-          "answers": [
-            "Teatro",
-            "Viaggi nello spazio",
-            "Uso dell'automobile"
-          ],
-          "correct": 0
-        }
+        "I Troiani credettero che il cavallo fosse un dono",
+        "Portarono il cavallo dentro le mura"
       ]
     },
 
     {
       "tipo": "standard",
-      "titolo": "Che cosa ci hanno lasciato?",
-      "testo": "La cultura greca ha lasciato un'eredità importantissima. Teatro, filosofia, medicina, arte, sport e democrazia hanno influenzato profondamente la nostra cultura.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
+      "titolo": "La notte di Troia",
+      "testo": "Durante la notte i guerrieri greci uscirono dal cavallo e aprirono le porte della città. Secondo la leggenda, così Troia venne conquistata.",
+      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/troia-cavallo.png",
       "keywords": [
-        "TEATRO",
-        "FILOSOFIA",
-        "MEDICINA",
-        "ARTE",
-        "SPORT",
-        "DEMOCRAZIA"
+        "NOTTE",
+        "GUERRIERI",
+        "CONQUISTA"
       ],
       "remember": [
-        "Molti aspetti della nostra cultura hanno radici nella civiltà greca",
-        "I Greci svilupparono il teatro e la filosofia",
-        "La democrazia nacque nel mondo greco",
-        "Sport, arte e medicina furono molto importanti"
-      ],
-      "quiz": [
-        {
-          "q": "Quale forma di governo nacque nel mondo greco?",
-          "answers": [
-            "La democrazia",
-            "Il feudalesimo",
-            "La monarchia assoluta moderna"
-          ],
-          "correct": 0
-        }
+        "I guerrieri uscirono dal cavallo durante la notte",
+        "Aprirono le porte della città",
+        "Troia venne conquistata"
       ]
     },
 
     {
       "tipo": "vero_falso",
-      "titolo": "Come vivevano i Greci?",
+      "titolo": "La leggenda di Troia",
       "frasi": [
         {
-          "testo": "I Greci coltivavano ulivi e viti.",
+          "testo": "Troia si trovava in Asia Minore.",
           "risposta": true
         },
         {
-          "testo": "I Greci erano abili navigatori e commercianti.",
-          "risposta": true
-        },
-        {
-          "testo": "Le città greche erano chiamate polis.",
-          "risposta": true
-        },
-        {
-          "testo": "I Greci non praticavano attività sportive.",
+          "testo": "Troia era facile da conquistare.",
           "risposta": false
         },
         {
-          "testo": "La democrazia fa parte dell'eredità lasciata dai Greci.",
+          "testo": "I Greci costruirono un cavallo di legno.",
+          "risposta": true
+        },
+        {
+          "testo": "I Troiani lasciarono il cavallo fuori dalla città.",
+          "risposta": false
+        },
+        {
+          "testo": "I guerrieri greci uscirono dal cavallo durante la notte.",
           "risposta": true
         }
       ]
@@ -425,20 +538,19 @@
     {
       "tipo": "standard",
       "titolo": "La civiltà greca nel tempo",
-      "testo": "Per capire meglio la storia della Grecia osserviamo alcuni avvenimenti importanti sulla linea del tempo.",
+      "testo": "Osserviamo alcuni avvenimenti importanti per orientarci nella storia della Grecia.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-linea-tempo.png",
       "keywords": [
-        "LINEA DEL TEMPO",
-        "MICENEI",
-        "DORI",
-        "PERSIANI",
-        "MACEDONI"
+        "2000 a.C.",
+        "1450 a.C.",
+        "1200 a.C.",
+        "490 a.C.",
+        "338 a.C."
       ],
       "remember": [
         "2000 a.C. circa: i Micenei arrivano in Grecia",
         "1450 a.C. circa: i Micenei conquistano Creta",
         "1200 a.C. circa: arrivano i Dori",
-        "800 a.C. circa: si sviluppa la civiltà greca",
         "490 a.C.: guerra con i Persiani",
         "338 a.C.: la Grecia viene conquistata dai Macedoni"
       ]
@@ -447,11 +559,11 @@
     {
       "tipo": "quiz",
       "titolo": "La linea del tempo",
-      "domanda": "Quale avvenimento viene prima?",
+      "domanda": "Che cosa accadde intorno al 1450 a.C.?",
       "answers": [
-        "L'arrivo dei Micenei in Grecia",
-        "La guerra con i Persiani",
-        "La conquista della Grecia da parte dei Macedoni"
+        "I Micenei conquistarono Creta",
+        "Arrivarono i Romani",
+        "La Grecia fu conquistata dai Macedoni"
       ],
       "correct": 0
     },
@@ -462,20 +574,8 @@
       "domanda": "Che cosa accadde intorno al 1200 a.C.?",
       "answers": [
         "Arrivarono i Dori",
-        "La Grecia fu conquistata dai Macedoni",
-        "Iniziò l'Impero romano"
-      ],
-      "correct": 0
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "La linea del tempo",
-      "domanda": "Che cosa accadde nel 338 a.C.?",
-      "answers": [
-        "La Grecia fu conquistata dai Macedoni",
-        "Arrivarono i Micenei",
-        "Arrivarono i Dori"
+        "I Micenei conquistarono Creta",
+        "Roma divenne un impero"
       ],
       "correct": 0
     },
@@ -483,22 +583,21 @@
     {
       "tipo": "standard",
       "titolo": "Ripassiamo",
-      "testo": "La civiltà greca nacque dall'incontro di diversi popoli. I Greci vivevano in un territorio ricco di coste e isole, erano navigatori e commercianti e abitavano nelle polis. La loro cultura ha lasciato un'importante eredità ancora presente nella nostra vita.",
+      "testo": "La civiltà greca nacque dall'incontro di diversi popoli. I Micenei costruirono città fortificate, impararono a navigare e svilupparono la Lineare B. I Greci praticavano agricoltura, artigianato e commercio. La leggenda del cavallo di Troia racconta uno degli episodi più famosi dell'antica Grecia.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-introduzione.png",
       "keywords": [
-        "GRECIA",
         "MICENEI",
-        "DORI",
-        "POLIS",
-        "NAVIGAZIONE",
-        "DEMOCRAZIA"
+        "LINEARE B",
+        "COMMERCIO",
+        "TROIA",
+        "CIVILTÀ GRECA"
       ],
       "remember": [
-        "Grecia = penisola, Peloponneso e molte isole",
-        "Micenei, Dori, Ioni ed Eoli furono importanti popoli della Grecia",
-        "I Greci erano agricoltori, navigatori e commercianti",
-        "Le città greche erano chiamate polis",
-        "Teatro, filosofia, arte, sport e democrazia fanno parte dell'eredità greca"
+        "La civiltà greca nacque dall'incontro di diversi popoli",
+        "I Micenei costruivano città fortificate",
+        "I Micenei elaborarono la Lineare B",
+        "I Greci erano agricoltori, artigiani, navigatori e commercianti",
+        "Il cavallo di Troia appartiene alla famosa leggenda della guerra di Troia"
       ]
     }
 
@@ -507,39 +606,39 @@
   "domandePlus": [
     {
       "q": "Dove si trova la Grecia?",
-      "help": "La Grecia si trova nella penisola balcanica, nella parte orientale del Mar Mediterraneo."
+      "help": "La Grecia si trova nella penisola balcanica."
     },
     {
-      "q": "Quali popoli contribuirono alla nascita della civiltà greca?",
-      "help": "Tra i principali ricordiamo Micenei, Dori, Ioni ed Eoli."
+      "q": "Quali furono alcuni dei principali popoli della Grecia?",
+      "help": "Micenei, Dori, Ioni ed Eoli."
     },
     {
-      "q": "Dove si stabilirono i Micenei?",
-      "help": "I Micenei si stabilirono nel Peloponneso."
+      "q": "Come erano organizzate le città micenee?",
+      "help": "Erano città fortificate costruite su colline e protette da mura."
     },
     {
-      "q": "Quando arrivarono i Dori?",
-      "help": "I Dori arrivarono in Grecia intorno al 1200 a.C."
+      "q": "Dove si trovava il palazzo reale?",
+      "help": "Nella parte più alta della città, in cima alla collina."
     },
     {
-      "q": "Che cos'è una polis?",
-      "help": "La polis era una città greca indipendente, con proprie leggi e proprio governo."
+      "q": "Che cos'era un'alleanza militare?",
+      "help": "Un accordo tra città o re per aiutarsi in caso di guerra."
     },
     {
-      "q": "Quali erano alcune importanti attività dei Greci?",
-      "help": "Agricoltura, navigazione, commercio, artigianato e attività sportive."
+      "q": "Che cosa impararono i Micenei dai Cretesi?",
+      "help": "Impararono la navigazione e l'arte della scrittura."
     },
     {
-      "q": "Perché il mare era importante per i Greci?",
-      "help": "Il territorio greco aveva molte coste e isole, quindi il mare era fondamentale per spostarsi e commerciare."
+      "q": "Come si chiamava la scrittura dei Micenei?",
+      "help": "Lineare B."
     },
     {
-      "q": "Che cosa ci ha lasciato la civiltà greca?",
-      "help": "Teatro, filosofia, medicina, arte, sport e democrazia sono alcune importanti eredità della civiltà greca."
+      "q": "Quali attività praticavano i Greci?",
+      "help": "Agricoltura, artigianato, navigazione, commercio, musica e altre attività culturali."
     },
     {
-      "q": "Che cosa accadde nel 338 a.C.?",
-      "help": "La Grecia fu conquistata dai Macedoni."
-    }
-  ]
-}
+      "q": "Dove si trovava Troia?",
+      "help": "Troia si trovava in Asia Minore."
+    },
+    {
+      "q": "Come riuscirono i Greci a entrare a Troia secondo la l
