@@ -1,37 +1,37 @@
 {
   "id": "introduzione-civilta-greca",
-  "titolo": "La civiltà greca",
+  "titolo": "La civiltà greca e i Micenei",
   "materia": "Storia",
   "classe": "5 primaria",
   "catalogo": "5 primaria",
   "icona": "🏛️",
-  "descrizione": "I popoli della Grecia, i Micenei, la vita quotidiana, Troia e la linea del tempo.",
+  "descrizione": "I popoli della Grecia, i Micenei, le città fortificate, Creta, la Lineare B e la leggenda di Troia.",
   "attiva": true,
 
   "blocchi": [
 
     {
       "tipo": "standard",
-      "titolo": "La civiltà greca",
-      "testo": "La civiltà greca è una delle più importanti civiltà del passato. Nacque dall'incontro di popoli diversi e lasciò profonde tracce nella nostra cultura.",
+      "titolo": "Iniziamo dalla Grecia",
+      "testo": "Quest'anno conosceremo alcune delle più importanti civiltà del passato. Iniziamo dai popoli che abitarono la Grecia.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-introduzione.png",
       "keywords": [
-        "CIVILTÀ GRECA",
-        "CULTURA",
+        "GRECIA",
+        "CIVILTÀ",
         "POPOLI"
       ],
       "remember": [
-        "La civiltà greca nacque dall'incontro di diversi popoli",
-        "La cultura greca ha influenzato profondamente la nostra cultura",
-        "Molte idee dei Greci sono importanti ancora oggi"
+        "La Grecia fu abitata da popoli diversi",
+        "Dall'incontro di questi popoli nacque la civiltà greca",
+        "La civiltà greca ha lasciato importanti tracce nella nostra cultura"
       ],
       "quiz": [
         {
-          "q": "Da che cosa nacque la civiltà greca?",
+          "q": "Che cosa studieremo?",
           "answers": [
-            "Dall'incontro di diversi popoli",
-            "Da un unico villaggio",
-            "Dall'Impero romano"
+            "I popoli e la civiltà della Grecia",
+            "Soltanto i Romani",
+            "La storia medievale"
           ],
           "correct": 0
         }
@@ -40,28 +40,37 @@
 
     {
       "tipo": "standard",
-      "titolo": "Dove si trova la Grecia?",
-      "testo": "La Grecia si trova nella penisola balcanica. Il territorio comprende una parte continentale, il Peloponneso e moltissime isole.",
+      "titolo": "Il territorio della Grecia",
+      "testo": "La Grecia si trova nella penisola balcanica. Il territorio è formato da una parte continentale, dal Peloponneso e da moltissime isole. Tra la Grecia e l'Asia Minore si trova il Mar Egeo.",
       "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-mappa.png",
       "keywords": [
         "PENISOLA BALCANICA",
         "PELOPONNESO",
-        "ISOLE",
-        "MAR EGEO"
+        "MAR EGEO",
+        "ASIA MINORE"
       ],
       "remember": [
         "La Grecia si trova nella penisola balcanica",
         "Il Peloponneso fa parte della Grecia",
-        "La Grecia possiede moltissime isole",
-        "Tra la Grecia e l'Asia Minore si trova il Mar Egeo"
+        "La Grecia possiede molte isole",
+        "Il Mar Egeo separa la Grecia dall'Asia Minore"
       ],
       "quiz": [
         {
-          "q": "In quale penisola si trova la Grecia?",
+          "q": "Dove si trova la Grecia?",
           "answers": [
-            "Penisola balcanica",
-            "Penisola iberica",
-            "Penisola scandinava"
+            "Nella penisola balcanica",
+            "Nella penisola iberica",
+            "In Africa"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Quale mare si trova tra la Grecia e l'Asia Minore?",
+          "answers": [
+            "Mar Egeo",
+            "Mar Baltico",
+            "Mar del Nord"
           ],
           "correct": 0
         }
@@ -70,7 +79,7 @@
 
     {
       "tipo": "vero_falso",
-      "titolo": "Il territorio della Grecia",
+      "titolo": "Orientiamoci sulla carta",
       "frasi": [
         {
           "testo": "La Grecia si trova nella penisola balcanica.",
@@ -85,7 +94,7 @@
           "risposta": false
         },
         {
-          "testo": "Il Mar Egeo si trova tra la Grecia e l'Asia Minore.",
+          "testo": "L'Asia Minore si trova oltre il Mar Egeo.",
           "risposta": true
         }
       ]
@@ -94,229 +103,7 @@
     {
       "tipo": "standard",
       "titolo": "I popoli della Grecia",
-      "testo": "La civiltà greca nacque dall'unione di diversi popoli. Tra i principali ricordiamo Micenei, Dori, Ioni ed Eoli.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/popoli-grecia.png",
-      "keywords": [
-        "MICENEI",
-        "DORI",
-        "IONI",
-        "EOLI"
-      ],
-      "remember": [
-        "I Micenei furono tra i primi popoli della Grecia",
-        "I Dori arrivarono successivamente",
-        "Ioni ed Eoli si stabilirono in diverse zone della Grecia e dell'Asia Minore"
-      ],
-      "quiz": [
-        {
-          "q": "Quali erano alcuni dei principali popoli della Grecia?",
-          "answers": [
-            "Micenei, Dori, Ioni ed Eoli",
-            "Romani, Etruschi e Celti",
-            "Egizi, Fenici e Babilonesi"
-          ],
-          "correct": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "I Micenei",
-      "testo": "I Micenei erano forti guerrieri. Occuparono il Peloponneso e costruirono città fortificate su colline.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
-      "keywords": [
-        "MICENEI",
-        "GUERRIERI",
-        "PELOPONNESO",
-        "CITTÀ FORTIFICATE"
-      ],
-      "remember": [
-        "I Micenei erano guerrieri",
-        "Si stabilirono nel Peloponneso",
-        "Le loro città erano costruite sulle colline",
-        "Le città erano protette da mura"
-      ],
-      "quiz": [
-        {
-          "q": "Perché le città micenee erano costruite sulle colline?",
-          "answers": [
-            "Per difendersi meglio dagli attacchi",
-            "Per essere più vicine al mare",
-            "Per coltivare il riso"
-          ],
-          "correct": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "La città micenea",
-      "testo": "La città micenea era protetta da mura potenti. In cima alla collina si trovava il palazzo reale. Vicino ai templi si trovavano anche i magazzini per conservare le scorte alimentari.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
-      "keywords": [
-        "MURA",
-        "PALAZZO REALE",
-        "TEMPLI",
-        "MAGAZZINI"
-      ],
-      "remember": [
-        "Le mura proteggevano la città",
-        "Il palazzo reale si trovava nella parte alta",
-        "Vicino ai templi c'erano i magazzini",
-        "Nei magazzini venivano conservate le scorte"
-      ],
-      "quiz": [
-        {
-          "q": "Che cosa si trovava in cima alla collina?",
-          "answers": [
-            "Il palazzo reale",
-            "Il porto",
-            "I campi coltivati"
-          ],
-          "correct": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "Dentro e fuori le mura",
-      "testo": "All'interno della città si trovavano edifici importanti e le tombe dei re. La maggior parte della popolazione viveva invece fuori dalle mura, vicino alle campagne.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
-      "keywords": [
-        "TOMBE DEI RE",
-        "POPOLAZIONE",
-        "CAMPAGNE"
-      ],
-      "remember": [
-        "Le tombe dei re erano all'interno della città",
-        "La maggior parte della popolazione viveva fuori dalle mura",
-        "Intorno alla città si sviluppavano le campagne"
-      ],
-      "quiz": [
-        {
-          "q": "Dove viveva la maggior parte della popolazione?",
-          "answers": [
-            "Fuori dalle mura",
-            "Nel palazzo reale",
-            "Dentro i templi"
-          ],
-          "correct": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "vero_falso",
-      "titolo": "La città dei Micenei",
-      "frasi": [
-        {
-          "testo": "Le città micenee erano protette da mura potenti.",
-          "risposta": true
-        },
-        {
-          "testo": "Il palazzo reale si trovava in cima alla collina.",
-          "risposta": true
-        },
-        {
-          "testo": "I magazzini servivano per conservare le scorte.",
-          "risposta": true
-        },
-        {
-          "testo": "Tutta la popolazione viveva dentro il palazzo reale.",
-          "risposta": false
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "L'alleanza militare",
-      "testo": "Le città micenee erano indipendenti, ma in caso di pericolo potevano unirsi e formare un'alleanza militare.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
-      "keywords": [
-        "CITTÀ-STATO",
-        "INDIPENDENTI",
-        "ALLEANZA MILITARE"
-      ],
-      "remember": [
-        "Le città micenee erano indipendenti",
-        "In caso di pericolo potevano unirsi",
-        "Un'alleanza militare era un accordo per aiutarsi in guerra"
-      ],
-      "quiz": [
-        {
-          "q": "Che cos'era un'alleanza militare?",
-          "answers": [
-            "Un accordo tra città per aiutarsi in guerra",
-            "Un mercato",
-            "Una festa religiosa"
-          ],
-          "correct": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "I Micenei diventano navigatori",
-      "testo": "I Micenei inizialmente non conoscevano bene la navigazione. Dopo aver raggiunto Creta e aver avuto contatti con i Cretesi, diventarono abili marinai.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/come-vivevano-greci.png",
-      "keywords": [
-        "CRETA",
-        "NAVIGAZIONE",
-        "MARINAI"
-      ],
-      "remember": [
-        "I Micenei raggiunsero Creta",
-        "Impararono molto dai Cretesi",
-        "Diventarono abili navigatori"
-      ],
-      "quiz": [
-        {
-          "q": "Da chi impararono la navigazione i Micenei?",
-          "answers": [
-            "Dai Cretesi",
-            "Dai Romani",
-            "Dai Celti"
-          ],
-          "correct": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "Le colonie micenee",
-      "testo": "Dopo la conquista di Creta, i Micenei si espansero nel Mediterraneo e crearono diverse colonie.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-mappa.png",
-      "keywords": [
-        "COLONIE",
-        "MEDITERRANEO",
-        "ESPANSIONE"
-      ],
-      "remember": [
-        "I Micenei conquistarono Creta",
-        "Si espansero nel Mediterraneo",
-        "Fondarono colonie"
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "La scrittura Lineare B",
-      "testo": "I Micenei impararono dai Cretesi l'arte della scrittura. Partendo dalla Lineare A elaborarono la Lineare B, un sistema formato da circa 90 segni.",
-      "image": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/grecia-micenei.png",
-      "keywords": [
-        "SCRITTURA",
-        "LINEARE A",
-        "LINEARE B"
-      ],
-      "remember": [
-        "I Micenei impararono la scrittura dai Cretesi",
-        "Elaborarono la Lineare B",
+      "testo": "Nel corso delborarono la Lineare B",
         "La Lineare B aveva circa 90 segni"
       ],
       "quiz": [
