@@ -1,0 +1,193 @@
+{
+  "id": "italia-paesaggi-tocca-rispondi",
+  "titolo": "Tocca e rispondi – Italia",
+  "materia": "Geografia",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🗺️",
+  "descrizione": "Riconosci sulla carta montagne, pianure, fiumi, laghi, mari e coste italiane.",
+  "attiva": true,
+
+  "blocchi": [
+    {
+      "tipo": "tocca_mappa",
+      "titolo": "Montagne e pianure",
+      "testo": "Tocca sulla carta il luogo richiesto.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-mappa-quiz.png",
+      "domande": [
+        {
+          "q": "Tocca le Alpi.",
+          "risposta": "alpi",
+          "ok": "Esatto! Le Alpi si trovano a nord."
+        },
+        {
+          "q": "Tocca gli Appennini.",
+          "risposta": "appennini",
+          "ok": "Bravissima! Gli Appennini attraversano la penisola."
+        },
+        {
+          "q": "Tocca la Pianura Padana.",
+          "risposta": "pianura-padana",
+          "ok": "Giusto! È la pianura più grande d’Italia."
+        }
+      ]
+    },
+
+    {
+      "tipo": "tocca_mappa",
+      "titolo": "I fiumi",
+      "testo": "Trova sulla carta il fiume richiesto.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-mappa-quiz.png",
+      "domande": [
+        {
+          "q": "Tocca il fiume Po.",
+          "risposta": "po",
+          "ok": "Esatto! Il Po è il fiume più lungo d’Italia."
+        },
+        {
+          "q": "Tocca il fiume Adige.",
+          "risposta": "adige",
+          "ok": "Perfetto!"
+        },
+        {
+          "q": "Tocca il fiume Arno.",
+          "risposta": "arno",
+          "ok": "Giusto!"
+        },
+        {
+          "q": "Tocca il Tevere.",
+          "risposta": "tevere",
+          "ok": "Bravissima!"
+        }
+      ]
+    },
+
+    {
+      "tipo": "tocca_mappa",
+      "titolo": "I laghi",
+      "testo": "Osserva bene la carta e tocca il lago richiesto.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-mappa-quiz.png",
+      "domande": [
+        {
+          "q": "Tocca il Lago Maggiore.",
+          "risposta": "lago-maggiore",
+          "ok": "Esatto!"
+        },
+        {
+          "q": "Tocca il Lago di Como.",
+          "risposta": "lago-como",
+          "ok": "Giusto!"
+        },
+        {
+          "q": "Tocca il Lago d’Iseo.",
+          "risposta": "lago-iseo",
+          "ok": "Bravissima!"
+        },
+        {
+          "q": "Tocca il Lago di Garda.",
+          "risposta": "lago-garda",
+          "ok": "Perfetto! È il lago più esteso d’Italia."
+        },
+        {
+          "q": "Tocca il Lago Trasimeno.",
+          "risposta": "lago-trasimeno",
+          "ok": "Esatto!"
+        },
+        {
+          "q": "Tocca il Lago di Bolsena.",
+          "risposta": "lago-bolsena",
+          "ok": "Giusto!"
+        }
+      ]
+    },
+
+    {
+      "tipo": "tocca_mappa",
+      "titolo": "I mari",
+      "testo": "Tocca sulla carta il mare richiesto.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-mappa-quiz.png",
+      "domande": [
+        {
+          "q": "Tocca il Mar Ligure.",
+          "risposta": "mar-ligure",
+          "ok": "Esatto!"
+        },
+        {
+          "q": "Tocca il Mar Tirreno.",
+          "risposta": "mar-tirreno",
+          "ok": "Giusto!"
+        },
+        {
+          "q": "Tocca il Mar Adriatico.",
+          "risposta": "mar-adriatico",
+          "ok": "Bravissima!"
+        },
+        {
+          "q": "Tocca il Mar Ionio.",
+          "risposta": "mar-ionio",
+          "ok": "Perfetto!"
+        }
+      ]
+    },
+
+    {
+      "tipo": "tocca_mappa",
+      "titolo": "Le coste",
+      "testo": "Individua sulla carta la costa richiesta.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-mappa-quiz.png",
+      "domande": [
+        {
+          "q": "Tocca la costa ligure.",
+          "risposta": "costa-ligure",
+          "ok": "Esatto!"
+        },
+        {
+          "q": "Tocca la costa adriatica.",
+          "risposta": "costa-adriatica",
+          "ok": "Giusto!"
+        },
+        {
+          "q": "Tocca la costa tirrenica.",
+          "risposta": "costa-tirrenica",
+          "ok": "Bravissima!"
+        },
+        {
+          "q": "Tocca la costa ionica.",
+          "risposta": "costa-ionica",
+          "ok": "Perfetto!"
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Ripasso veloce",
+      "frasi": [
+        {
+          "testo": "Le Alpi si trovano nel Nord Italia.",
+          "valore": true
+        },
+        {
+          "testo": "Gli Appennini attraversano gran parte della penisola.",
+          "valore": true
+        },
+        {
+          "testo": "Il Po è il fiume più lungo d’Italia.",
+          "valore": true
+        },
+        {
+          "testo": "Il Lago di Garda è il lago più esteso d’Italia.",
+          "valore": true
+        },
+        {
+          "testo": "Il Mar Adriatico si trova a ovest dell’Italia.",
+          "valore": false
+        },
+        {
+          "testo": "Il Mar Tirreno si trova a ovest dell’Italia.",
+          "valore": true
+        }
+      ]
+    }
+  ]
+}
