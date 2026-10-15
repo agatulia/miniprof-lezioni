@@ -1,11 +1,11 @@
 {
   "id": "italia-paesaggi-territorio",
-  "titolo": "L’Italia: paesaggi e territorio",
+  "titolo": "L’Italia: territorio, paesaggi e clima",
   "materia": "Geografia",
   "classe": "5 primaria",
   "catalogo": "5 primaria",
   "icona": "🌍",
-  "descrizione": "Forma dell’Italia, mari, paesaggi, montagne e colline.",
+  "descrizione": "Forma dell’Italia, mari, montagne, colline, pianure, fiumi, laghi, coste e climi.",
   "attiva": true,
 
   "blocchi": [
@@ -13,40 +13,37 @@
     {
       "tipo": "standard",
       "titolo": "L’Italia è una penisola",
-      "testo": "L’Italia è una penisola lunga e stretta, dalla caratteristica forma a stivale.",
+      "testo": "L’Italia è una penisola lunga e stretta che si estende nel Mar Mediterraneo. La sua forma ricorda uno stivale.",
       "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-penisola-mediterraneo.png",
       "paroleChiave": [
         "PENISOLA",
         "STIVALE",
-        "MEDITERRANEO"
+        "MAR MEDITERRANEO"
       ],
       "ricorda": [
-        "L’Italia è una penisola.",
-        "È lunga circa 1200 km.",
-        "Nel punto più largo misura circa 550 km.",
-        "La sua superficie supera i 300.000 km²."
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Dove si trova l’Italia?",
+        "L’Italia è una penisola",
+        "Ha una forma lunga e stretta",
+        "Ricorda uno stivale",
+        "Si trova al centro del Mar Mediterraneo",
+        "È lunga circa 1200 km",
+        "Nel punto più largo misura circa 550 km"
+      ],
       "quiz": [
         {
-          "q": "Che cosa significa che l’Italia è una penisola?",
+          "q": "Che forma ricorda l’Italia?",
           "risposte": [
-            "È circondata dal mare su tre lati",
-            "È completamente circondata dal mare",
-            "È una grande pianura"
+            "Uno stivale",
+            "Un quadrato",
+            "Un cerchio"
           ],
           "corretta": 0
         },
         {
-          "q": "Quale forma ricorda l’Italia?",
+          "q": "Che cos’è l’Italia dal punto di vista geografico?",
           "risposte": [
-            "Uno stivale",
-            "Un triangolo",
-            "Un quadrato"
+            "Una penisola",
+            "Un’isola",
+            "Un continente"
           ],
           "corretta": 0
         }
@@ -55,321 +52,39 @@
 
     {
       "tipo": "standard",
-      "titolo": "I mari d’Italia",
-      "testo": "L’Italia si estende nel Mar Mediterraneo ed è circondata da quattro mari principali.",
+      "titolo": "I mari che circondano l’Italia",
+      "testo": "L’Italia è circondata dal mare su tre lati. I principali mari italiani sono il Mar Ligure, il Mar Tirreno, il Mar Adriatico e il Mar Ionio.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-mari.png",
       "paroleChiave": [
-        "LIGURE",
-        "TIRRENO",
-        "ADRIATICO",
-        "IONIO"
+        "MAR LIGURE",
+        "MAR TIRRENO",
+        "MAR ADRIATICO",
+        "MAR IONIO"
       ],
       "ricorda": [
         "Mar Ligure → nord-ovest",
         "Mar Tirreno → ovest",
         "Mar Adriatico → est",
         "Mar Ionio → sud"
-      ]
-    },
-
-    {
-      "tipo": "vero_falso",
-      "titolo": "Vero o falso? I mari",
-      "frasi": [
-        {
-          "testo": "Il Mar Adriatico si trova a est dell’Italia.",
-          "valore": true
-        },
-        {
-          "testo": "Il Mar Tirreno si trova a est dell’Italia.",
-          "valore": false
-        },
-        {
-          "testo": "Il Mar Ionio si trova a sud.",
-          "valore": true
-        },
-        {
-          "testo": "Il Mar Ligure si trova a nord-ovest.",
-          "valore": true
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "I paesaggi italiani",
-      "testo": "Il territorio italiano è molto vario.",
-      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-paesaggi.png",
-      "paroleChiave": [
-        "MONTAGNE",
-        "COLLINE",
-        "PIANURE"
       ],
-      "ricorda": [
-        "In Italia ci sono montagne, colline e pianure.",
-        "Il paesaggio cambia molto da una zona all’altra.",
-        "Il territorio influenza gli insediamenti e le attività dell’uomo."
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Riconosci i paesaggi",
       "quiz": [
         {
-          "q": "Quali sono i tre principali tipi di paesaggio italiano?",
+          "q": "Quale mare si trova a est dell’Italia?",
           "risposte": [
-            "Montagne, colline e pianure",
-            "Deserti, foreste e ghiacciai",
-            "Solo montagne e pianure"
+            "Mar Adriatico",
+            "Mar Tirreno",
+            "Mar Ligure"
           ],
           "corretta": 0
         },
         {
-          "q": "Il territorio italiano è:",
+          "q": "Quale mare si trova a sud dell’Italia?",
           "risposte": [
-            "Molto vario",
-            "Tutto pianeggiante",
-            "Tutto montuoso"
+            "Mar Ionio",
+            "Mar Ligure",
+            "Mar Adriatico"
           ],
           "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "Com’è fatto il territorio?",
-      "testo": "In Italia prevalgono colline e montagne.",
-      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-territorio-percentuali.png",
-      "paroleChiave": [
-        "41,6% COLLINE",
-        "35,2% MONTAGNE",
-        "23,2% PIANURE"
-      ],
-      "ricorda": [
-        "Colline → 41,6%",
-        "Montagne → 35,2%",
-        "Pianure → 23,2%",
-        "Le colline occupano la parte più estesa del territorio."
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Leggiamo i dati",
-      "quiz": [
-        {
-          "q": "Quale tipo di territorio occupa la percentuale maggiore?",
-          "risposte": [
-            "Le colline",
-            "Le montagne",
-            "Le pianure"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quanto territorio è occupato dalle pianure?",
-          "risposte": [
-            "23,2%",
-            "35,2%",
-            "41,6%"
-          ],
-          "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "Le montagne",
-      "testo": "In Italia ci sono due grandi sistemi montuosi.",
-      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-montagne-alpi-appennini.png",
-      "paroleChiave": [
-        "ALPI",
-        "APPENNINI"
-      ],
-      "ricorda": [
-        "ALPI → si trovano a nord",
-        "APPENNINI → attraversano la penisola",
-        "Le montagne occupano circa un terzo del territorio italiano."
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "Le Alpi",
-      "testo": "Le Alpi si trovano nella parte settentrionale dell’Italia.",
-      "paroleChiave": [
-        "MONTE BIANCO",
-        "MONTE ROSA",
-        "CERVINO"
-      ],
-      "ricorda": [
-        "Monte Bianco → 4810 m",
-        "Monte Rosa → 4635 m",
-        "Monte Cervino → 4478 m"
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Conosci le Alpi?",
-      "quiz": [
-        {
-          "q": "Dove si trovano le Alpi?",
-          "risposte": [
-            "A nord",
-            "A sud",
-            "Solo in Sicilia"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Qual è la cima più alta tra quelle studiate?",
-          "risposte": [
-            "Monte Bianco",
-            "Gran Sasso",
-            "Maiella"
-          ],
-          "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "Gli Appennini",
-      "testo": "Gli Appennini attraversano gran parte della penisola italiana.",
-      "paroleChiave": [
-        "GRAN SASSO",
-        "MAIELLA"
-      ],
-      "ricorda": [
-        "Gli Appennini partono dalla Liguria.",
-        "Proseguono lungo la penisola.",
-        "Continuano fino alla Sicilia.",
-        "Gran Sasso → 2912 m",
-        "Maiella → 2795 m"
-      ]
-    },
-
-    {
-      "tipo": "vero_falso",
-      "titolo": "Vero o falso? Le montagne",
-      "frasi": [
-        {
-          "testo": "Le Alpi si trovano a nord.",
-          "valore": true
-        },
-        {
-          "testo": "Gli Appennini attraversano gran parte della penisola.",
-          "valore": true
-        },
-        {
-          "testo": "Il Gran Sasso appartiene alle Alpi.",
-          "valore": false
-        },
-        {
-          "testo": "La Maiella fa parte degli Appennini.",
-          "valore": true
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "I vulcani",
-      "testo": "In Italia sono presenti anche importanti vulcani.",
-      "paroleChiave": [
-        "ETNA",
-        "VESUVIO"
-      ],
-      "ricorda": [
-        "Etna → Sicilia → 3330 m",
-        "Vesuvio → zona di Napoli → 1281 m"
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Vulcani italiani",
-      "quiz": [
-        {
-          "q": "Dove si trova l’Etna?",
-          "risposte": [
-            "In Sicilia",
-            "In Piemonte",
-            "In Toscana"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quale vulcano si trova nella zona di Napoli?",
-          "risposte": [
-            "Vesuvio",
-            "Etna",
-            "Monte Bianco"
-          ],
-          "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "Le colline",
-      "testo": "Le colline sono il paesaggio più diffuso in Italia.",
-      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-colline.png",
-      "paroleChiave": [
-        "40%",
-        "300-600 m",
-        "FORME ARROTONDATE"
-      ],
-      "ricorda": [
-        "Occupano circa il 40% del territorio.",
-        "Sono alte circa 300-600 metri.",
-        "Hanno forme arrotondate.",
-        "Ospitano molti centri abitati."
-      ]
-    },
-
-    {
-      "tipo": "standard",
-      "titolo": "Esempi di colline italiane",
-      "testo": "In Italia ci sono molti paesaggi collinari famosi.",
-      "paroleChiave": [
-        "CHIANTI",
-        "MURGE",
-        "COLLINE SENESI",
-        "LANGHE"
-      ],
-      "ricorda": [
-        "Chianti → Toscana",
-        "Murge → Puglia",
-        "Colline Senesi → Toscana",
-        "Langhe → Piemonte"
-      ]
-    },
-
-    {
-      "tipo": "vero_falso",
-      "titolo": "Vero o falso? Le colline",
-      "frasi": [
-        {
-          "testo": "Le colline occupano circa il 40% del territorio italiano.",
-          "valore": true
-        },
-        {
-          "testo": "Le colline hanno generalmente forme arrotondate.",
-          "valore": true
-        },
-        {
-          "testo": "Le colline italiane sono tutte più alte di 1000 metri.",
-          "valore": false
-        },
-        {
-          "testo": "Le Langhe si trovano in Piemonte.",
-          "valore": true
         }
       ]
     },
@@ -401,6 +116,618 @@
           "ok": "Perfetto! Il Mar Ionio si trova a sud."
         }
       ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I paesaggi italiani",
+      "testo": "Il paesaggio italiano è formato da zone montuose, collinari e pianeggianti. Il territorio cambia molto da una zona all’altra.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-paesaggi.png",
+      "paroleChiave": [
+        "MONTAGNE",
+        "COLLINE",
+        "PIANURE"
+      ],
+      "ricorda": [
+        "Il territorio italiano è molto vario",
+        "In Italia troviamo montagne, colline e pianure",
+        "Le colline occupano la parte maggiore del territorio"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Quanto territorio occupano?",
+      "testo": "In Italia prevalgono soprattutto le colline e le montagne. Le pianure occupano una parte più piccola del territorio.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-territorio-percentuali.png",
+      "paroleChiave": [
+        "41,6% COLLINE",
+        "35,2% MONTAGNE",
+        "23,2% PIANURE"
+      ],
+      "ricorda": [
+        "Colline → 41,6%",
+        "Montagne → 35,2%",
+        "Pianure → 23,2%",
+        "Le colline sono il tipo di territorio più diffuso"
+      ],
+      "quiz": [
+        {
+          "q": "Quale tipo di territorio è più diffuso in Italia?",
+          "risposte": [
+            "Le colline",
+            "Le pianure",
+            "Le montagne"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quanto territorio è occupato dalle pianure?",
+          "risposte": [
+            "23,2%",
+            "35,2%",
+            "41,6%"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le montagne italiane",
+      "testo": "In Italia ci sono due grandi sistemi montuosi: le Alpi e gli Appennini.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-montagne-alpi-appennini.png",
+      "paroleChiave": [
+        "ALPI",
+        "APPENNINI"
+      ],
+      "ricorda": [
+        "Le Alpi si trovano a nord",
+        "Gli Appennini attraversano la penisola da nord a sud",
+        "Le montagne occupano una parte importante del territorio italiano"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le Alpi",
+      "testo": "Le Alpi si trovano nella parte settentrionale dell’Italia e formano un grande arco montuoso.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-montagne-alpi-appennini.png",
+      "paroleChiave": [
+        "MONTE BIANCO",
+        "MONTE ROSA",
+        "CERVINO"
+      ],
+      "ricorda": [
+        "Le Alpi si trovano a nord",
+        "Monte Bianco → circa 4810 m",
+        "Monte Rosa → circa 4635 m",
+        "Cervino → circa 4478 m"
+      ],
+      "quiz": [
+        {
+          "q": "Dove si trovano le Alpi?",
+          "risposte": [
+            "A nord",
+            "A sud",
+            "Solo in Sicilia"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Gli Appennini",
+      "testo": "Gli Appennini attraversano l’Italia da nord a sud, dalla Liguria fino alla Sicilia.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-montagne-alpi-appennini.png",
+      "paroleChiave": [
+        "APPENNINI",
+        "GRAN SASSO",
+        "MAIELLA"
+      ],
+      "ricorda": [
+        "Gli Appennini partono dalla Liguria",
+        "Attraversano la penisola",
+        "Continuano fino alla Sicilia",
+        "Gran Sasso → circa 2912 m",
+        "Maiella → circa 2795 m"
+      ],
+      "quiz": [
+        {
+          "q": "Da dove a dove si estendono gli Appennini?",
+          "risposte": [
+            "Dalla Liguria fino alla Sicilia",
+            "Dalla Sicilia alla Sardegna",
+            "Solo nel Nord Italia"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I vulcani",
+      "testo": "Tra le montagne italiane troviamo anche importanti vulcani.",
+      "paroleChiave": [
+        "ETNA",
+        "VESUVIO"
+      ],
+      "ricorda": [
+        "Etna → Sicilia",
+        "Vesuvio → zona di Napoli",
+        "L’Etna è uno dei vulcani più importanti d’Italia"
+      ],
+      "quiz": [
+        {
+          "q": "Dove si trova l’Etna?",
+          "risposte": [
+            "In Sicilia",
+            "In Piemonte",
+            "In Lombardia"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quale vulcano si trova vicino a Napoli?",
+          "risposte": [
+            "Vesuvio",
+            "Etna",
+            "Cervino"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Ripassiamo le montagne",
+      "frasi": [
+        {
+          "testo": "Le Alpi si trovano a nord.",
+          "valore": true
+        },
+        {
+          "testo": "Gli Appennini attraversano gran parte della penisola.",
+          "valore": true
+        },
+        {
+          "testo": "Il Gran Sasso appartiene alle Alpi.",
+          "valore": false
+        },
+        {
+          "testo": "L’Etna si trova in Sicilia.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le colline",
+      "testo": "Circa il 40% del territorio italiano è occupato da colline. Sono rilievi più bassi delle montagne e hanno generalmente forme arrotondate.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-colline.png",
+      "paroleChiave": [
+        "COLLINE",
+        "300-600 METRI",
+        "FORME ARROTONDATE"
+      ],
+      "ricorda": [
+        "Le colline sono molto diffuse in Italia",
+        "Sono alte generalmente tra 300 e 600 metri",
+        "Hanno forme arrotondate",
+        "In molte zone collinari si trovano centri abitati"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Paesaggi collinari italiani",
+      "testo": "Molte colline italiane sono coltivate. Sono frequenti vigneti e oliveti.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-colline.png",
+      "paroleChiave": [
+        "CHIANTI",
+        "MURGE",
+        "LANGHE",
+        "VIGNETI",
+        "OLIVETI"
+      ],
+      "ricorda": [
+        "Chianti → Toscana",
+        "Murge → Puglia",
+        "Langhe → Piemonte",
+        "Nelle colline sono frequenti vigneti e oliveti"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le pianure",
+      "testo": "In Italia ci sono poche pianure, ma sono le aree più abitate e quelle in cui si concentrano molte attività economiche.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-pianure.png",
+      "paroleChiave": [
+        "PIANURE",
+        "CENTRI ABITATI",
+        "ATTIVITÀ ECONOMICHE"
+      ],
+      "ricorda": [
+        "Le pianure sono meno estese delle colline e delle montagne",
+        "Sono però molto abitate",
+        "Nelle pianure si concentrano molte attività economiche"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "La Pianura Padana",
+      "testo": "La Pianura Padana è la pianura più grande d’Italia. Si trova nell’Italia settentrionale, tra le Alpi e l’Appennino Settentrionale.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-pianure.png",
+      "paroleChiave": [
+        "PIANURA PADANA",
+        "ALPI",
+        "APPENNINO",
+        "PO"
+      ],
+      "ricorda": [
+        "La Pianura Padana è la pianura più grande d’Italia",
+        "Si trova nel Nord Italia",
+        "È compresa tra le Alpi e l’Appennino Settentrionale",
+        "È attraversata dal fiume Po"
+      ],
+      "quiz": [
+        {
+          "q": "Qual è la pianura più grande d’Italia?",
+          "risposte": [
+            "Pianura Padana",
+            "Tavoliere delle Puglie",
+            "Pianura Veneta"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Come si formano alcune pianure?",
+      "testo": "Alcune pianure si sono formate nel corso di moltissimo tempo grazie ai materiali trasportati dai fiumi dalle montagne verso valle.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-pianure.png",
+      "paroleChiave": [
+        "FIUMI",
+        "DETRITI",
+        "PIANURE"
+      ],
+      "ricorda": [
+        "I fiumi trasportano materiali e detriti",
+        "I materiali vengono depositati nelle zone più basse",
+        "Con il tempo questi depositi possono contribuire alla formazione delle pianure"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Altre pianure italiane",
+      "testo": "Oltre alla Pianura Padana, in Italia esistono altre pianure di dimensioni più piccole.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-pianure.png",
+      "paroleChiave": [
+        "PIANURA VENETA",
+        "TAVOLIERE DELLE PUGLIE",
+        "AGRO PONTINO",
+        "PIANA DEL SELE"
+      ],
+      "ricorda": [
+        "Pianura Veneta → Veneto",
+        "Tavoliere delle Puglie → Puglia",
+        "Agro Pontino → Lazio",
+        "Piana del Sele → Campania"
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Ripassiamo le pianure",
+      "frasi": [
+        {
+          "testo": "La Pianura Padana è la pianura più grande d’Italia.",
+          "valore": true
+        },
+        {
+          "testo": "La Pianura Padana si trova nell’Italia settentrionale.",
+          "valore": true
+        },
+        {
+          "testo": "Le pianure sono le zone meno abitate d’Italia.",
+          "valore": false
+        },
+        {
+          "testo": "Il Po attraversa la Pianura Padana.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I fiumi italiani",
+      "testo": "In Italia i fiumi sono numerosi. Rispetto ai grandi fiumi europei e del resto del mondo, sono generalmente piuttosto brevi.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-fiumi.png",
+      "paroleChiave": [
+        "FIUMI",
+        "PO",
+        "PIANURA PADANA"
+      ],
+      "ricorda": [
+        "In Italia ci sono numerosi fiumi",
+        "Molti fiumi italiani sono piuttosto brevi",
+        "Il Po è il fiume più lungo d’Italia",
+        "Il Po attraversa la Pianura Padana",
+        "Il Po sfocia nel Mar Adriatico"
+      ],
+      "quiz": [
+        {
+          "q": "Qual è il fiume più lungo d’Italia?",
+          "risposte": [
+            "Po",
+            "Tevere",
+            "Arno"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "In quale mare sfocia il Po?",
+          "risposte": [
+            "Mar Adriatico",
+            "Mar Tirreno",
+            "Mar Ligure"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I laghi italiani",
+      "testo": "In Italia ci sono molti laghi, soprattutto nella parte settentrionale.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-laghi.png",
+      "paroleChiave": [
+        "LAGHI",
+        "ORIGINE GLACIALE",
+        "ORIGINE VULCANICA"
+      ],
+      "ricorda": [
+        "I laghi sono numerosi soprattutto nel Nord Italia",
+        "Molti laghi del Nord sono di origine glaciale",
+        "Nell’Italia centrale e meridionale i laghi sono generalmente più piccoli e meno numerosi",
+        "Alcuni laghi del Centro-Sud sono di origine vulcanica"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Il Lago di Garda",
+      "testo": "Il Lago di Garda è il lago più esteso d’Italia.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-laghi.png",
+      "paroleChiave": [
+        "LAGO DI GARDA",
+        "LAGO PIÙ ESTESO"
+      ],
+      "ricorda": [
+        "Il Lago di Garda è il più esteso d’Italia",
+        "Si trova nell’Italia settentrionale"
+      ],
+      "quiz": [
+        {
+          "q": "Qual è il lago più esteso d’Italia?",
+          "risposte": [
+            "Lago di Garda",
+            "Lago di Como",
+            "Lago Trasimeno"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le coste italiane",
+      "testo": "L’Italia è circondata dal mare su tre lati e possiede migliaia di chilometri di coste. Le coste italiane sono molto diverse tra loro.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-coste.png",
+      "paroleChiave": [
+        "COSTE",
+        "BASSE E SABBIOSE",
+        "ALTE E ROCCIOSE"
+      ],
+      "ricorda": [
+        "Le coste possono essere basse e sabbiose",
+        "Possono essere anche alte e rocciose",
+        "Il paesaggio costiero cambia nelle diverse zone d’Italia"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Coste diverse",
+      "testo": "Le coste del Mar Tirreno alternano tratti bassi e sabbiosi a tratti alti e rocciosi. Le coste del Mar Ligure sono in gran parte alte e rocciose.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-coste.png",
+      "paroleChiave": [
+        "MAR TIRRENO",
+        "MAR LIGURE",
+        "SABBIOSE",
+        "ROCCIOSE"
+      ],
+      "ricorda": [
+        "Il Tirreno presenta coste sia basse sia alte",
+        "Le coste liguri sono spesso alte e rocciose",
+        "Il paesaggio delle coste dipende anche dai rilievi vicini"
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Ripassiamo fiumi, laghi e coste",
+      "frasi": [
+        {
+          "testo": "Il Po è il fiume più lungo d’Italia.",
+          "valore": true
+        },
+        {
+          "testo": "Il Po sfocia nel Mar Adriatico.",
+          "valore": true
+        },
+        {
+          "testo": "Il Lago di Garda è il lago più esteso d’Italia.",
+          "valore": true
+        },
+        {
+          "testo": "Tutte le coste italiane sono basse e sabbiose.",
+          "valore": false
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Il clima dell’Italia",
+      "testo": "L’Italia si trova tra l’Equatore e il Polo Nord e ha quindi un clima generalmente temperato, cioè non troppo caldo e non troppo freddo.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-climi.png",
+      "paroleChiave": [
+        "CLIMA TEMPERATO",
+        "ITALIA",
+        "TEMPERATURE"
+      ],
+      "ricorda": [
+        "L’Italia ha un clima generalmente temperato",
+        "Il clima cambia però nelle diverse zone del Paese",
+        "Montagne, distanza dal mare e posizione geografica influenzano il clima"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Il clima sulle montagne",
+      "testo": "Sulle alte montagne il clima è alpino, con inverni lunghi e freddi ed estati brevi e fresche.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-climi.png",
+      "paroleChiave": [
+        "CLIMA ALPINO",
+        "INVERNI FREDDI",
+        "ESTATI FRESCHE"
+      ],
+      "ricorda": [
+        "Il clima alpino si trova nelle zone montuose più alte",
+        "Gli inverni sono lunghi e freddi",
+        "Le estati sono brevi e fresche"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Il clima nelle zone interne",
+      "testo": "Nelle zone interne, più lontane dal mare, il clima è continentale, con inverni freddi ed estati calde.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-climi.png",
+      "paroleChiave": [
+        "CLIMA CONTINENTALE",
+        "ZONE INTERNE",
+        "INVERNI FREDDI",
+        "ESTATI CALDE"
+      ],
+      "ricorda": [
+        "Il clima continentale interessa soprattutto le zone interne",
+        "Gli inverni sono freddi",
+        "Le estati sono calde"
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Il clima lungo le coste",
+      "testo": "Lungo le coste e nelle isole prevale il clima mediterraneo, con inverni miti ed estati lunghe e calde.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-climi.png",
+      "paroleChiave": [
+        "CLIMA MEDITERRANEO",
+        "COSTE",
+        "ISOLE"
+      ],
+      "ricorda": [
+        "Il clima mediterraneo si trova lungo molte coste e nelle isole",
+        "Gli inverni sono miti",
+        "Le estati sono lunghe e calde"
+      ],
+      "quiz": [
+        {
+          "q": "Quale clima troviamo soprattutto lungo le coste e nelle isole?",
+          "risposte": [
+            "Mediterraneo",
+            "Alpino",
+            "Polare"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Come sono gli inverni nel clima mediterraneo?",
+          "risposte": [
+            "Miti",
+            "Molto rigidi",
+            "Sempre nevosi"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Ripassiamo i climi",
+      "frasi": [
+        {
+          "testo": "L’Italia ha generalmente un clima temperato.",
+          "valore": true
+        },
+        {
+          "testo": "Il clima alpino ha inverni lunghi e freddi.",
+          "valore": true
+        },
+        {
+          "testo": "Il clima mediterraneo ha inverni miti.",
+          "valore": true
+        },
+        {
+          "testo": "Nelle zone interne il clima è sempre tropicale.",
+          "valore": false
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Ripasso finale",
+      "testo": "L’Italia è una penisola del Mar Mediterraneo. Il suo territorio comprende montagne, colline e pianure ed è attraversato da fiumi e ricco di laghi. Le coste sono molto varie e anche il clima cambia da una zona all’altra.",
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/geografia/italia-paesaggi.png",
+      "paroleChiave": [
+        "ITALIA",
+        "MONTAGNE",
+        "COLLINE",
+        "PIANURE",
+        "FIUMI",
+        "LAGHI",
+        "COSTE",
+        "CLIMA"
+      ],
+      "ricorda": [
+        "L’Italia è una penisola",
+        "Le colline sono il paesaggio più diffuso",
+        "Alpi e Appennini sono i principali sistemi montuosi",
+        "La Pianura Padana è la pianura più grande",
+        "Il Po è il fiume più lungo",
+        "Il Lago di Garda è il lago più esteso",
+        "Le coste possono essere basse o alte",
+        "Il clima cambia tra montagne, zone interne e coste"
+      ]
     }
 
   ],
@@ -411,15 +738,15 @@
       "aiuto": "Perché è circondata dal mare su tre lati."
     },
     {
-      "q": "Quali sono i quattro mari principali che circondano l’Italia?",
+      "q": "Quali mari circondano l’Italia?",
       "aiuto": "Mar Ligure, Mar Tirreno, Mar Adriatico e Mar Ionio."
     },
     {
       "q": "Quale tipo di territorio è più diffuso in Italia?",
-      "aiuto": "Le colline, con circa il 41,6% del territorio."
+      "aiuto": "Le colline."
     },
     {
-      "q": "Quali sono le due principali catene montuose italiane?",
+      "q": "Quali sono i due principali sistemi montuosi italiani?",
       "aiuto": "Le Alpi e gli Appennini."
     },
     {
@@ -427,12 +754,44 @@
       "aiuto": "Nella parte settentrionale dell’Italia."
     },
     {
-      "q": "Da dove a dove si estendono gli Appennini?",
+      "q": "Da dove a dove si sviluppano gli Appennini?",
       "aiuto": "Dalla Liguria lungo la penisola fino alla Sicilia."
     },
     {
-      "q": "Quali caratteristiche hanno le colline?",
-      "aiuto": "Sono rilievi bassi, generalmente tra 300 e 600 metri, con forme arrotondate."
+      "q": "Qual è la pianura più grande d’Italia?",
+      "aiuto": "La Pianura Padana."
+    },
+    {
+      "q": "Dove si trova la Pianura Padana?",
+      "aiuto": "Nell’Italia settentrionale, tra le Alpi e l’Appennino Settentrionale."
+    },
+    {
+      "q": "Qual è il fiume più lungo d’Italia?",
+      "aiuto": "Il Po."
+    },
+    {
+      "q": "Dove sfocia il Po?",
+      "aiuto": "Nel Mar Adriatico."
+    },
+    {
+      "q": "Qual è il lago più esteso d’Italia?",
+      "aiuto": "Il Lago di Garda."
+    },
+    {
+      "q": "Come possono essere le coste italiane?",
+      "aiuto": "Possono essere basse e sabbiose oppure alte e rocciose."
+    },
+    {
+      "q": "Com’è il clima nelle zone alpine?",
+      "aiuto": "Ha inverni lunghi e freddi ed estati brevi e fresche."
+    },
+    {
+      "q": "Com’è il clima nelle zone interne?",
+      "aiuto": "È continentale, con inverni freddi ed estati calde."
+    },
+    {
+      "q": "Com’è il clima lungo le coste e nelle isole?",
+      "aiuto": "È mediterraneo, con inverni miti ed estati lunghe e calde."
     }
   ]
 }
