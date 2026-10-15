@@ -22,6 +22,18 @@
   "blocchiCount": 19
   },
   {
+  "id": "italia-paesaggi-tocca-rispondi",
+  "file": "italia-paesaggi-tocca-rispondi.json",
+  "titolo": "Tocca e rispondi – Italia",
+  "materia": "Geografia",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🗺️",
+  "descrizione": "Riconosci sulla carta montagne, pianure, fiumi, laghi, mari e coste italiane.",
+  "attiva": true,
+  "blocchiCount": 6
+},
+  {
   "id": "ecosistemi-vita-terra",
   "file": "ecosistemi-vita-terra.json",
   "titolo": "Gli ecosistemi e la vita sulla Terra",
