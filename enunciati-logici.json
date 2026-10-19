@@ -9,7 +9,6 @@
   "attiva": true,
 
   "blocchi": [
-
     {
       "tipo": "standard",
       "titolo": "Che cos’è un enunciato logico?",
@@ -365,7 +364,6 @@
         "Per riconoscerlo chiediti: posso stabilire se è vero o falso?"
       ]
     }
-
   ],
 
   "domandePlus": [
