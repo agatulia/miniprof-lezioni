@@ -1,0 +1,195 @@
+{
+  "id": "enunciati-logici",
+  "titolo": "Gli enunciati logici",
+  "materia": "Matematica",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🧠",
+  "descrizione": "Capire che cos’è un enunciato logico e riconoscere se è vero o falso.",
+  "attiva": true,
+
+  "blocchi": [
+
+    {
+      "tipo": "standard",
+      "titolo": "Che cos’è un enunciato logico?",
+      "testo": "Un enunciato logico è una frase della quale possiamo stabilire con certezza se è vera oppure falsa.",
+      "paroleChiave": [
+        "ENUNCIATO LOGICO",
+        "VERO",
+        "FALSO"
+      ],
+      "ricorda": [
+        "Un enunciato logico è una frase.",
+        "Deve essere possibile dire se è vera oppure falsa.",
+        "Non può essere contemporaneamente vera e falsa."
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Primo esempio",
+      "testo": "La frase «2 + 3 = 5» è un enunciato logico perché possiamo stabilire che è vera.",
+      "paroleChiave": [
+        "2 + 3 = 5",
+        "VERO"
+      ],
+      "ricorda": [
+        "Se possiamo controllare la frase, allora possiamo dire se è vera o falsa."
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Proviamo subito",
+      "frasi": [
+        {
+          "testo": "2 + 3 = 5.",
+          "valore": true
+        },
+        {
+          "testo": "10 è minore di 4.",
+          "valore": false
+        },
+        {
+          "testo": "7 è un numero dispari.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Un enunciato può essere falso",
+      "testo": "Anche una frase falsa può essere un enunciato logico. L’importante è poter stabilire se è vera oppure falsa.",
+      "paroleChiave": [
+        "ENUNCIATO",
+        "FALSO"
+      ],
+      "ricorda": [
+        "«5 è maggiore di 9» è falsa.",
+        "Ma è comunque un enunciato logico perché possiamo verificarla."
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Vero o falso?",
+      "frasi": [
+        {
+          "testo": "5 è maggiore di 9.",
+          "valore": false
+        },
+        {
+          "testo": "12 è maggiore di 8.",
+          "valore": true
+        },
+        {
+          "testo": "20 è un numero pari.",
+          "valore": true
+        },
+        {
+          "testo": "15 è un numero pari.",
+          "valore": false
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Non tutte le frasi sono enunciati",
+      "testo": "Una domanda non è un enunciato logico, perché non possiamo dire che una domanda sia vera o falsa.",
+      "paroleChiave": [
+        "DOMANDA",
+        "NON È UN ENUNCIATO"
+      ],
+      "ricorda": [
+        "«Quanti anni hai?» è una domanda.",
+        "Una domanda non è vera e non è falsa.",
+        "Quindi non è un enunciato logico."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "È un enunciato?",
+      "quiz": [
+        {
+          "q": "Quale frase è un enunciato logico?",
+          "risposte": [
+            "Il numero 8 è pari.",
+            "Quanti anni hai?",
+            "Apri il quaderno!"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quale frase NON è un enunciato logico?",
+          "risposte": [
+            "7 è maggiore di 3.",
+            "Roma è in Italia.",
+            "Che ore sono?"
+          ],
+          "corretta": 2
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Anche gli ordini non sono enunciati",
+      "testo": "Un ordine o un comando non è un enunciato logico, perché non possiamo stabilire se è vero o falso.",
+      "paroleChiave": [
+        "ORDINE",
+        "COMANDO"
+      ],
+      "ricorda": [
+        "«Chiudi la porta!» è un comando.",
+        "Non possiamo dire che sia vero o falso.",
+        "Quindi non è un enunciato logico."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Enunciato oppure no?",
+      "quiz": [
+        {
+          "q": "«Chiudi la finestra!» è un enunciato logico?",
+          "risposte": [
+            "No, è un comando.",
+            "Sì, è vero.",
+            "Sì, è falso."
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "«La Terra gira intorno al Sole» è un enunciato logico?",
+          "risposte": [
+            "Sì.",
+            "No, è una domanda.",
+            "No, è un comando."
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Frasi soggettive",
+      "testo": "Alcune frasi esprimono un’opinione personale. In questi casi non sempre possiamo stabilire con certezza se sono vere o false.",
+      "paroleChiave": [
+        "OPINIONE",
+        "SOGGETTIVO"
+      ],
+      "ricorda": [
+        "«La pizza è il cibo più buono del mondo» è un’opinione.",
+        "Può piacere a una persona e non piacere a un’altra.",
+        "Perciò non è un buon esempio di enunciato logico."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Og
