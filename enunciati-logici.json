@@ -192,4 +192,206 @@
 
     {
       "tipo": "quiz",
-      "titolo": "Og
+      "titolo": "Oggettivo o opinione?",
+      "quiz": [
+        {
+          "q": "Quale frase possiamo verificare con certezza?",
+          "risposte": [
+            "Il triangolo ha tre lati.",
+            "Il gelato è il dolce più buono.",
+            "La matematica è bellissima."
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quale frase esprime un’opinione?",
+          "risposte": [
+            "Un quadrato ha quattro lati.",
+            "Il mare è più bello della montagna.",
+            "10 è maggiore di 2."
+          ],
+          "corretta": 1
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Enunciati matematici",
+      "testo": "In matematica troviamo molti enunciati logici. Possiamo controllarli facendo un calcolo o osservando le proprietà dei numeri e delle figure.",
+      "paroleChiave": [
+        "MATEMATICA",
+        "CALCOLO",
+        "VERIFICARE"
+      ],
+      "ricorda": [
+        "6 + 4 = 10 → vero",
+        "3 × 5 = 20 → falso",
+        "Un quadrato ha 4 lati → vero",
+        "Un triangolo ha 4 lati → falso"
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Enunciati matematici",
+      "frasi": [
+        {
+          "testo": "6 + 4 = 10.",
+          "valore": true
+        },
+        {
+          "testo": "3 × 5 = 20.",
+          "valore": false
+        },
+        {
+          "testo": "Un triangolo ha tre lati.",
+          "valore": true
+        },
+        {
+          "testo": "Un quadrato ha cinque lati.",
+          "valore": false
+        },
+        {
+          "testo": "100 è maggiore di 99.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Come riconoscerlo?",
+      "testo": "Per capire se una frase è un enunciato logico, puoi farti una domanda molto semplice: «Posso dire con certezza se questa frase è vera oppure falsa?»",
+      "paroleChiave": [
+        "POSSO VERIFICARLA?",
+        "VERO O FALSO?"
+      ],
+      "ricorda": [
+        "Se la risposta è sì → è un enunciato logico.",
+        "Se è una domanda → non è un enunciato.",
+        "Se è un comando → non è un enunciato.",
+        "Se è solo un’opinione personale → non possiamo stabilire con certezza vero o falso."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Riconosci gli enunciati",
+      "quiz": [
+        {
+          "q": "«18 è divisibile per 2» è un enunciato logico?",
+          "risposte": [
+            "Sì.",
+            "No, è una domanda.",
+            "No, è un ordine."
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "«Vai a letto!» è un enunciato logico?",
+          "risposte": [
+            "No, è un comando.",
+            "Sì, ed è vero.",
+            "Sì, ed è falso."
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "«Qual è il tuo colore preferito?» è un enunciato logico?",
+          "risposte": [
+            "No, è una domanda.",
+            "Sì, è vero.",
+            "Sì, è falso."
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "«9 è minore di 4» è un enunciato logico?",
+          "risposte": [
+            "Sì, ed è falso.",
+            "No, perché è falso.",
+            "No, è una domanda."
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Sfida finale",
+      "frasi": [
+        {
+          "testo": "Un enunciato logico può essere vero.",
+          "valore": true
+        },
+        {
+          "testo": "Un enunciato logico può essere falso.",
+          "valore": true
+        },
+        {
+          "testo": "Se una frase è falsa, allora non è un enunciato logico.",
+          "valore": false
+        },
+        {
+          "testo": "Una domanda è un enunciato logico.",
+          "valore": false
+        },
+        {
+          "testo": "Un comando è un enunciato logico.",
+          "valore": false
+        },
+        {
+          "testo": "Per essere un enunciato logico devo poter stabilire se la frase è vera o falsa.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Ripasso finale",
+      "testo": "Un enunciato logico è una frase di cui possiamo stabilire con certezza se è vera o falsa.",
+      "paroleChiave": [
+        "ENUNCIATO LOGICO",
+        "VERO",
+        "FALSO"
+      ],
+      "ricorda": [
+        "Un enunciato può essere vero oppure falso.",
+        "Anche una frase falsa può essere un enunciato.",
+        "Domande e comandi non sono enunciati logici.",
+        "Per riconoscerlo chiediti: posso stabilire se è vero o falso?"
+      ]
+    }
+
+  ],
+
+  "domandePlus": [
+    {
+      "q": "Che cos’è un enunciato logico?",
+      "aiuto": "È una frase della quale possiamo stabilire con certezza se è vera oppure falsa."
+    },
+    {
+      "q": "Un enunciato logico deve essere sempre vero?",
+      "aiuto": "No. Può essere vero oppure falso."
+    },
+    {
+      "q": "Perché una domanda non è un enunciato logico?",
+      "aiuto": "Perché non possiamo dire che una domanda sia vera oppure falsa."
+    },
+    {
+      "q": "Perché un comando non è un enunciato logico?",
+      "aiuto": "Perché un comando non può essere classificato come vero o falso."
+    },
+    {
+      "q": "«5 + 5 = 11» è un enunciato logico?",
+      "aiuto": "Sì. È un enunciato logico, ma è falso."
+    },
+    {
+      "q": "Quale domanda puoi farti per riconoscere un enunciato logico?",
+      "aiuto": "Posso stabilire con certezza se questa frase è vera oppure falsa?"
+    }
+  ]
+}
