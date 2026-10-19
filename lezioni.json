@@ -10,6 +10,18 @@
     "file": "piante.json"
   },
   {
+  "id": "enunciati-logici",
+  "file": "enunciati-logici.json",
+  "titolo": "Gli enunciati logici",
+  "materia": "Matematica",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🧠",
+  "descrizione": "Capire che cos’è un enunciato logico e riconoscere se è vero o falso.",
+  "attiva": true,
+  "blocchiCount": 15
+  },
+  {
   "id": "introduzione-civilta-greca",
   "file": "introduzione-civilta-greca.json",
   "titolo": "Introduzione alla civiltà greca",
