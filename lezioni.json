@@ -10,6 +10,18 @@
     "file": "piante.json"
   },
   {
+  "id": "potenze",
+  "file": "potenze.json",
+  "titolo": "Le potenze",
+  "materia": "Matematica",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🔢",
+  "descrizione": "Capire base, esponente e calcolare semplici potenze.",
+  "attiva": true,
+  "blocchiCount": 15
+},
+  {
   "id": "enunciati-logici",
   "file": "enunciati-logici.json",
   "titolo": "Gli enunciati logici",
