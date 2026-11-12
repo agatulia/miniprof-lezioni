@@ -1,0 +1,405 @@
+{
+  "id": "potenze",
+  "titolo": "Le potenze",
+  "materia": "Matematica",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🔢",
+  "descrizione": "Capire le potenze, riconoscere base ed esponente e calcolare semplici potenze.",
+  "attiva": true,
+
+  "blocchi": [
+    {
+      "tipo": "standard",
+      "titolo": "Che cos’è una potenza?",
+      "testo": "Una potenza è un modo più corto per scrivere una moltiplicazione in cui lo stesso numero viene moltiplicato più volte per se stesso.",
+      "paroleChiave": [
+        "POTENZA",
+        "MOLTIPLICAZIONE RIPETUTA"
+      ],
+      "ricorda": [
+        "2 × 2 × 2 si può scrivere 2³.",
+        "Il numero che si ripete si chiama base.",
+        "Il numero che dice quante volte compare la base si chiama esponente."
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Base ed esponente",
+      "testo": "Nella potenza 3⁴, il 3 è la base e il 4 è l’esponente. Significa che dobbiamo moltiplicare 3 per se stesso 4 volte.",
+      "paroleChiave": [
+        "3⁴",
+        "BASE = 3",
+        "ESPONENTE = 4"
+      ],
+      "ricorda": [
+        "3⁴ = 3 × 3 × 3 × 3",
+        "La base è il numero che si moltiplica.",
+        "L’esponente indica quante volte compare la base."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Riconosci base ed esponente",
+      "quiz": [
+        {
+          "q": "Nella potenza 5³, qual è la base?",
+          "risposte": [
+            "5",
+            "3",
+            "15"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Nella potenza 5³, qual è l’esponente?",
+          "risposte": [
+            "5",
+            "3",
+            "15"
+          ],
+          "corretta": 1
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Come si legge una potenza",
+      "testo": "2³ si legge «due alla terza» oppure «due elevato alla terza». 4² si legge «quattro alla seconda» oppure «quattro al quadrato».",
+      "paroleChiave": [
+        "ALLA SECONDA",
+        "AL QUADRATO",
+        "ALLA TERZA",
+        "AL CUBO"
+      ],
+      "ricorda": [
+        "2² si può leggere due al quadrato.",
+        "2³ si può leggere due al cubo.",
+        "Gli altri esponenti si leggono normalmente: alla quarta, alla quinta e così via."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Scrivi la moltiplicazione",
+      "quiz": [
+        {
+          "q": "A quale moltiplicazione corrisponde 2³?",
+          "risposte": [
+            "2 × 2 × 2",
+            "2 × 3",
+            "3 × 3"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "A quale moltiplicazione corrisponde 4²?",
+          "risposte": [
+            "4 × 2",
+            "4 × 4",
+            "2 × 2 × 2 × 2"
+          ],
+          "corretta": 1
+        },
+        {
+          "q": "A quale moltiplicazione corrisponde 3⁴?",
+          "risposte": [
+            "3 × 4",
+            "4 × 4 × 4",
+            "3 × 3 × 3 × 3"
+          ],
+          "corretta": 2
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Controlliamo",
+      "frasi": [
+        {
+          "testo": "2³ significa 2 × 2 × 2.",
+          "valore": true
+        },
+        {
+          "testo": "5² significa 5 × 2.",
+          "valore": false
+        },
+        {
+          "testo": "In 4³, il 4 è la base.",
+          "valore": true
+        },
+        {
+          "testo": "In 4³, il 4 è l’esponente.",
+          "valore": false
+        },
+        {
+          "testo": "L’esponente dice quante volte bisogna moltiplicare la base per se stessa.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Calcoliamo una potenza",
+      "testo": "Per calcolare una potenza, prima trasformala in una moltiplicazione ripetuta e poi esegui il calcolo.",
+      "paroleChiave": [
+        "TRASFORMA",
+        "MOLTIPLICA"
+      ],
+      "ricorda": [
+        "2³ = 2 × 2 × 2 = 8",
+        "3² = 3 × 3 = 9",
+        "5² = 5 × 5 = 25"
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Calcola",
+      "quiz": [
+        {
+          "q": "Quanto vale 2²?",
+          "risposte": [
+            "2",
+            "4",
+            "6"
+          ],
+          "corretta": 1
+        },
+        {
+          "q": "Quanto vale 3²?",
+          "risposte": [
+            "6",
+            "9",
+            "12"
+          ],
+          "corretta": 1
+        },
+        {
+          "q": "Quanto vale 2³?",
+          "risposte": [
+            "6",
+            "8",
+            "9"
+          ],
+          "corretta": 1
+        },
+        {
+          "q": "Quanto vale 4²?",
+          "risposte": [
+            "8",
+            "16",
+            "12"
+          ],
+          "corretta": 1
+        }
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Ancora esercizi",
+      "quiz": [
+        {
+          "q": "Quanto vale 5²?",
+          "risposte": [
+            "10",
+            "20",
+            "25"
+          ],
+          "corretta": 2
+        },
+        {
+          "q": "Quanto vale 3³?",
+          "risposte": [
+            "9",
+            "27",
+            "18"
+          ],
+          "corretta": 1
+        },
+        {
+          "q": "Quanto vale 10²?",
+          "risposte": [
+            "20",
+            "100",
+            "1000"
+          ],
+          "corretta": 1
+        },
+        {
+          "q": "Quanto vale 2⁴?",
+          "risposte": [
+            "8",
+            "16",
+            "24"
+          ],
+          "corretta": 1
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Vero o falso?",
+      "frasi": [
+        {
+          "testo": "3² = 9.",
+          "valore": true
+        },
+        {
+          "testo": "2⁴ = 8.",
+          "valore": false
+        },
+        {
+          "testo": "5² = 25.",
+          "valore": true
+        },
+        {
+          "testo": "10² = 100.",
+          "valore": true
+        },
+        {
+          "testo": "3³ = 9.",
+          "valore": false
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Attenzione a questo errore",
+      "testo": "L’esponente NON si moltiplica per la base. Per esempio 4³ non significa 4 × 3. Significa 4 × 4 × 4.",
+      "paroleChiave": [
+        "ATTENZIONE",
+        "NON FARE BASE × ESPONENTE"
+      ],
+      "ricorda": [
+        "4³ NON è 4 × 3.",
+        "4³ = 4 × 4 × 4.",
+        "Quindi 4³ = 64."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Evita l’errore",
+      "quiz": [
+        {
+          "q": "Quanto vale 4³?",
+          "risposte": [
+            "12",
+            "64",
+            "16"
+          ],
+          "corretta": 1
+        },
+        {
+          "q": "2⁵ significa:",
+          "risposte": [
+            "2 × 5",
+            "2 + 2 + 2 + 2 + 2",
+            "2 × 2 × 2 × 2 × 2"
+          ],
+          "corretta": 2
+        },
+        {
+          "q": "Quanto vale 2⁵?",
+          "risposte": [
+            "10",
+            "32",
+            "25"
+          ],
+          "corretta": 1
+        }
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Dalla moltiplicazione alla potenza",
+      "quiz": [
+        {
+          "q": "Come si scrive 3 × 3 × 3 come potenza?",
+          "risposte": [
+            "3²",
+            "3³",
+            "9³"
+          ],
+          "corretta": 1
+        },
+        {
+          "q": "Come si scrive 5 × 5 come potenza?",
+          "risposte": [
+            "5²",
+            "2⁵",
+            "10²"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Come si scrive 2 × 2 × 2 × 2 come potenza?",
+          "risposte": [
+            "2⁴",
+            "4²",
+            "2 × 4"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Ripasso finale",
+      "frasi": [
+        {
+          "testo": "In 6³, il 6 è la base.",
+          "valore": true
+        },
+        {
+          "testo": "In 6³, il 3 è l’esponente.",
+          "valore": true
+        },
+        {
+          "testo": "6³ significa 6 × 6 × 6.",
+          "valore": true
+        },
+        {
+          "testo": "6³ significa 6 × 3.",
+          "valore": false
+        },
+        {
+          "testo": "2³ = 8.",
+          "valore": true
+        },
+        {
+          "testo": "4² = 16.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Ricorda",
+      "testo": "Una potenza è una moltiplicazione ripetuta dello stesso numero.",
+      "paroleChiave": [
+        "BASE",
+        "ESPONENTE",
+        "POTENZA"
+      ],
+      "ricorda": [
+        "La base è il numero che si ripete.",
+        "L’esponente indica quante volte compare la base.",
+        "Prima scrivi la moltiplicazione ripetuta, poi calcola.",
+        "Non fare mai base × esponente."
+      ]
+    }
+  ]
+}
