@@ -7,9 +7,7 @@
   "icona": "🏛️",
   "descrizione": "Poca teoria e molti esercizi su religione, Olimpiadi, conoscenze, teatro e vita quotidiana dei Greci.",
   "attiva": true,
-
   "blocchi": [
-
     {
       "tipo": "standard",
       "titolo": "Gli dei dell'Olimpo",
@@ -23,9 +21,9 @@
         "Gli dei potevano aiutare o danneggiare gli uomini.",
         "Avevano sentimenti e comportamenti simili a quelli umani.",
         "Templi e santuari erano dedicati agli dei."
-      ]
+      ],
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/01-dei-olimpo.png"
     },
-
     {
       "tipo": "quiz",
       "titolo": "Religione",
@@ -72,7 +70,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Zeus, Era, Atena e Poseidone",
@@ -84,7 +81,6 @@
         "Poseidone → mari e terremoti."
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Apollo, Afrodite, Ares ed Efesto",
@@ -96,7 +92,6 @@
         "Afrodite fu costretta a sposare Efesto."
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "Conosci gli dei?",
@@ -153,7 +148,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Le prime Olimpiadi",
@@ -167,9 +161,9 @@
         "Durante le Olimpiadi le poleis si ritrovavano unite.",
         "Le guerre venivano sospese.",
         "Questa sospensione era chiamata tregua sacra."
-      ]
+      ],
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/02-olimpiadi.png"
     },
-
     {
       "tipo": "quiz",
       "titolo": "Le Olimpiadi antiche",
@@ -226,7 +220,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Le gare olimpiche",
@@ -239,7 +232,6 @@
         "PUGILATO"
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "Le discipline olimpiche",
@@ -286,7 +278,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Le Olimpiadi moderne",
@@ -301,7 +292,6 @@
         "Nello sport si può essere avversari ma sentirsi uniti e tutti uguali."
       ]
     },
-
     {
       "tipo": "vero_falso",
       "titolo": "Olimpiadi moderne",
@@ -324,7 +314,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "La modernità dei Greci",
@@ -337,9 +326,9 @@
       "ricorda": [
         "L'amore per il sapere portò alla filosofia.",
         "La filosofia si occupa della ricerca della conoscenza."
-      ]
+      ],
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/03-conoscenza-scienza-arte.png"
     },
-
     {
       "tipo": "quiz",
       "titolo": "Conoscenza e filosofia",
@@ -376,7 +365,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Lo studio del corpo umano",
@@ -391,7 +379,6 @@
         "Le malattie non erano mandate dagli dei."
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "Medicina e scultura",
@@ -438,7 +425,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Lo studio della Storia",
@@ -454,7 +440,6 @@
         "Erodoto è legato allo studio della Storia."
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "Erodoto e la Storia",
@@ -501,7 +486,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Equilibrio e matematica",
@@ -517,7 +501,6 @@
         "Fondò una vera e propria scuola."
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "Architettura e matematica",
@@ -554,7 +537,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Il teatro",
@@ -567,9 +549,9 @@
       "ricorda": [
         "Il teatro diventò anche un momento di riflessione e unione.",
         "Negli spettacoli si poteva parlare di politica, religione e vita quotidiana."
-      ]
+      ],
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/04-teatro-greco.png"
     },
-
     {
       "tipo": "standard",
       "titolo": "Commedie e tragedie",
@@ -580,7 +562,6 @@
         "Le tragedie raccontavano disavventure di uomini ed eroi."
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "Il teatro greco",
@@ -637,7 +618,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Una giornata nell'antica Grecia",
@@ -646,9 +626,9 @@
         "Gli uomini andavano al mercato, lavoravano nelle botteghe o nei campi.",
         "Partecipavano alle discussioni politiche nell'agorà.",
         "L'androceo era lo spazio della casa riservato agli uomini."
-      ]
+      ],
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/05-vita-quotidiana.png"
     },
-
     {
       "tipo": "standard",
       "titolo": "Le donne ad Atene e a Sparta",
@@ -659,7 +639,6 @@
         "A Sparta potevano recarsi in visita dalle amiche."
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "Uomini e donne",
@@ -706,7 +685,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "I bambini",
@@ -717,7 +695,6 @@
         "A Sparta si privilegiava la vita militare."
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "L'educazione",
@@ -754,7 +731,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "L'abbigliamento",
@@ -767,7 +743,6 @@
         "Le donne ricche potevano usare scialli ricamati."
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "Come si vestivano?",
@@ -804,7 +779,6 @@
         }
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Le case e il cibo",
@@ -815,7 +789,6 @@
         "La cena era il pasto più importante ed era basata normalmente su piatti caldi."
       ]
     },
-
     {
       "tipo": "standard",
       "titolo": "Il banchetto",
@@ -824,9 +797,9 @@
         "Prima del banchetto potevano consumare una zuppa di legumi e cereali.",
         "Uno schiavo accoglieva gli ospiti e lavava loro i piedi.",
         "Gli ospiti ricevevano una corona di fiori prima di sistemarsi a tavola."
-      ]
+      ],
+      "immagine": "https://raw.githubusercontent.com/agatulia/miniprof-lezioni/main/images/storia/06-banchetto-greco.png"
     },
-
     {
       "tipo": "standard",
       "titolo": "Buone maniere a tavola",
@@ -835,7 +808,6 @@
         "Sporcarsi la bocca o gli abiti con il cibo era considerato molto maleducato."
       ]
     },
-
     {
       "tipo": "quiz",
       "titolo": "Casa, cibo e banchetto",
@@ -892,7 +864,6 @@
         }
       ]
     },
-
     {
       "tipo": "vero_falso",
       "titolo": "Ripasso finale",
