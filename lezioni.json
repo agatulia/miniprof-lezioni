@@ -10,6 +10,18 @@
     "file": "piante.json"
   },
   {
+  "id": "greci-ripasso-verifica",
+  "file": "greci-ripasso-verifica.json",
+  "titolo": "I Greci – Ripasso per la verifica",
+  "materia": "Storia",
+  "classe": "5 primaria",
+  "catalogo": "5 primaria",
+  "icona": "🏛️",
+  "descrizione": "Quiz completo di ripasso sui Greci per la verifica.",
+  "attiva": true,
+  "blocchiCount": 13
+  },
+  {
   "id": "potenze",
   "file": "potenze.json",
   "titolo": "Le potenze",
