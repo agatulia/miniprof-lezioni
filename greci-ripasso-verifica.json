@@ -1,124 +1,62 @@
 {
   "id": "greci-ripasso-verifica",
-  "titolo": "I Greci – Ripasso completo per la verifica",
+  "titolo": "I Greci – Ripasso verifica",
   "materia": "Storia",
   "classe": "5 primaria",
   "catalogo": "5 primaria",
   "icona": "🏛️",
-  "descrizione": "Ripasso approfondito su religione, dei dell'Olimpo, case, cibo, banchetti, bambini ed educazione nell'antica Grecia.",
+  "descrizione": "Poca teoria e molti esercizi su religione, Olimpiadi, conoscenze, teatro e vita quotidiana dei Greci.",
   "attiva": true,
 
   "blocchi": [
 
     {
+      "tipo": "standard",
+      "titolo": "Gli dei dell'Olimpo",
+      "testo": "I Greci pregavano molte divinità. Gli dei erano considerati potenti e immortali e vivevano sul Monte Olimpo. Potevano intervenire nella vita degli uomini.",
+      "paroleChiave": [
+        "IMMORTALI",
+        "MONTE OLIMPO",
+        "MOLTE DIVINITÀ"
+      ],
+      "ricorda": [
+        "Gli dei potevano aiutare o danneggiare gli uomini.",
+        "Avevano sentimenti e comportamenti simili a quelli umani.",
+        "Templi e santuari erano dedicati agli dei."
+      ]
+    },
+
+    {
       "tipo": "quiz",
-      "titolo": "La religione dei Greci",
+      "titolo": "Religione",
       "quiz": [
         {
-          "q": "I Greci pregavano una sola divinità o molte divinità?",
-          "risposte": [
-            "Molte divinità",
-            "Una sola divinità",
-            "Nessuna divinità",
-            "Soltanto Zeus"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Come erano considerati gli dei greci?",
-          "risposte": [
-            "Potenti e immortali",
-            "Deboli e mortali",
-            "Uguali agli schiavi",
-            "Invisibili e senza sentimenti"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Dove vivevano, secondo i Greci, gli dei?",
+          "q": "Dove vivevano gli dei secondo i Greci?",
           "risposte": [
             "Sul Monte Olimpo",
+            "A Olimpia",
             "Nel Mar Egeo",
-            "Ad Atene",
-            "Nel santuario di Olimpia"
+            "Ad Atene"
           ],
           "corretta": 0
         },
         {
-          "q": "Che cosa facevano gli dei dall'Olimpo?",
+          "q": "Come erano considerati gli dei?",
           "risposte": [
-            "Osservavano gli esseri umani",
-            "Dormivano sempre",
-            "Governavano direttamente le città",
-            "Vivevano senza occuparsi degli uomini"
+            "Potenti e immortali",
+            "Mortali",
+            "Senza sentimenti",
+            "Sempre invisibili"
           ],
           "corretta": 0
         },
         {
-          "q": "Gli dei potevano intervenire nella vita degli uomini?",
+          "q": "Che cosa potevano fare gli dei nella vita degli uomini?",
           "risposte": [
-            "Sì, per aiutarli o danneggiarli",
-            "No, mai",
-            "Solo durante la guerra",
-            "Solo durante i banchetti"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Gli dei greci avevano sentimenti e comportamenti simili a quelli umani?",
-          "risposte": [
-            "Sì",
-            "No",
-            "Solo Zeus",
-            "Solo le dee"
-          ],
-          "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "vero_falso",
-      "titolo": "Religione – Attenzione ai dettagli",
-      "frasi": [
-        {
-          "testo": "Gli dei greci erano considerati immortali.",
-          "valore": true
-        },
-        {
-          "testo": "Secondo i Greci, gli dei vivevano sul Monte Olimpo.",
-          "valore": true
-        },
-        {
-          "testo": "Gli dei non potevano intervenire nella vita degli uomini.",
-          "valore": false
-        },
-        {
-          "testo": "Gli dei potevano amare, odiare e perfino litigare tra loro.",
-          "valore": true
-        },
-        {
-          "testo": "Gli dei greci non avevano sentimenti.",
-          "valore": false
-        },
-        {
-          "testo": "Gli dei assomigliavano nell'aspetto a uomini e donne.",
-          "valore": true
-        }
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Templi e santuari",
-      "quiz": [
-        {
-          "q": "Quali edifici religiosi erano dedicati agli dei?",
-          "risposte": [
-            "Templi e santuari",
-            "Teatri e palestre",
-            "Porti e mercati",
-            "Case e botteghe"
+            "Aiutarli o danneggiarli",
+            "Soltanto osservarli",
+            "Nulla",
+            "Soltanto punirli"
           ],
           "corretta": 0
         },
@@ -127,33 +65,54 @@
           "risposte": [
             "Luoghi di pace",
             "Luoghi di guerra",
-            "Luoghi di commercio",
-            "Luoghi riservati ai soldati"
+            "Mercati",
+            "Scuole"
           ],
           "corretta": 0
-        },
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Zeus, Era, Atena e Poseidone",
+      "testo": "Zeus era il padre di tutti gli dei e governava la pioggia e i fulmini. Era era la moglie di Zeus e proteggeva la famiglia. Atena era la dea della saggezza. Poseidone era re dei mari e dei terremoti.",
+      "ricorda": [
+        "Zeus → quercia e aquila.",
+        "Era → melagrana e pavone.",
+        "Atena → civetta e ulivo.",
+        "Poseidone → mari e terremoti."
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Apollo, Afrodite, Ares ed Efesto",
+      "testo": "Apollo era dio della luce e della musica. Afrodite era dea dell'amore e dei giardini. Ares era dio della guerra. Efesto era il fabbro degli dei.",
+      "ricorda": [
+        "Apollo → lira e alloro.",
+        "Ares → guerra, Paura e Terrore.",
+        "Efesto → martello e tenaglie.",
+        "Afrodite fu costretta a sposare Efesto."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Conosci gli dei?",
+      "quiz": [
         {
-          "q": "Che cosa non poteva esistere intorno ai santuari?",
+          "q": "Chi era la dea della saggezza?",
           "risposte": [
-            "Guerre e rivalità",
-            "Cerimonie",
-            "Preghiere",
-            "Fedeli"
+            "Atena",
+            "Era",
+            "Afrodite",
+            "Nessuna"
           ],
           "corretta": 0
         },
         {
-          "q": "Dove si trovava il più celebre santuario dedicato a Zeus?",
-          "risposte": [
-            "A Olimpia",
-            "Ad Atene",
-            "A Sparta",
-            "Sul fondo del Mar Egeo"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "A quale dio era dedicato il celebre santuario di Olimpia?",
+          "q": "Quale dio governava la pioggia e i fulmini?",
           "risposte": [
             "Zeus",
             "Poseidone",
@@ -161,157 +120,381 @@
             "Ares"
           ],
           "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Zeus ed Era",
-      "quiz": [
-        {
-          "q": "Chi era Zeus?",
-          "risposte": [
-            "Il padre di tutti gli dei",
-            "Il dio della guerra",
-            "Il fabbro degli dei",
-            "Il dio della musica"
-          ],
-          "corretta": 0
         },
         {
-          "q": "Che cosa proteggeva Zeus?",
+          "q": "Chi era il dio della guerra?",
           "risposte": [
-            "La Grecia",
-            "I fabbri",
-            "I musicisti",
-            "I giardini"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Che cosa governava Zeus?",
-          "risposte": [
-            "La pioggia e i fulmini",
-            "Il mare e i terremoti",
-            "La musica",
-            "Le fucine"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quali erano i simboli di Zeus?",
-          "risposte": [
-            "La quercia e l'aquila",
-            "La civetta e l'ulivo",
-            "La lira e l'alloro",
-            "Il martello e le tenaglie"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Chi era Era?",
-          "risposte": [
-            "La moglie di Zeus",
-            "La moglie di Poseidone",
-            "La figlia di Apollo",
-            "La sorella di Ares"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Di che cosa era dea Era?",
-          "risposte": [
-            "Della terra",
-            "Della guerra",
-            "Della musica",
-            "Dei mari"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Che cosa proteggeva Era?",
-          "risposte": [
-            "La famiglia",
-            "I fabbri",
-            "Gli eroi",
-            "I marinai"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quali erano i simboli di Era?",
-          "risposte": [
-            "La melagrana e il pavone",
-            "La civetta e l'ulivo",
-            "La quercia e l'aquila",
-            "La lira e l'alloro"
-          ],
-          "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Atena e Poseidone",
-      "quiz": [
-        {
-          "q": "Di che cosa era dea Atena?",
-          "risposte": [
-            "Della saggezza",
-            "Dell'amore",
-            "Della terra",
-            "Dei mari"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Chi proteggeva Atena?",
-          "risposte": [
-            "Gli eroi e gli artigiani",
-            "I fabbri soltanto",
-            "Le famiglie",
-            "I musicisti"
+            "Ares",
+            "Apollo",
+            "Efesto",
+            "Zeus"
           ],
           "corretta": 0
         },
         {
           "q": "Quali erano i simboli di Atena?",
           "risposte": [
-            "La civetta e l'ulivo",
-            "La quercia e l'aquila",
-            "La melagrana e il pavone",
-            "La lira e l'alloro"
+            "Civetta e ulivo",
+            "Lira e alloro",
+            "Martello e tenaglie",
+            "Quercia e aquila"
           ],
           "corretta": 0
         },
         {
-          "q": "Chi era Poseidone?",
+          "q": "Quali erano i simboli di Efesto?",
           "risposte": [
-            "Il re dei mari e dei terremoti",
-            "Il dio della musica",
-            "Il dio della guerra",
-            "Il fabbro degli dei"
+            "Martello e tenaglie",
+            "Civetta e ulivo",
+            "Pavone e melagrana",
+            "Lira e alloro"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le prime Olimpiadi",
+      "testo": "Nel 776 a.C. a Olimpia, presso il santuario di Zeus, furono organizzate le prime Olimpiadi. Coinvolgevano le città-stato greche e le colonie e si svolgevano ogni quattro anni.",
+      "paroleChiave": [
+        "776 a.C.",
+        "OLIMPIA",
+        "QUATTRO ANNI"
+      ],
+      "ricorda": [
+        "Durante le Olimpiadi le poleis si ritrovavano unite.",
+        "Le guerre venivano sospese.",
+        "Questa sospensione era chiamata tregua sacra."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Le Olimpiadi antiche",
+      "quiz": [
+        {
+          "q": "In quale anno furono organizzate le prime Olimpiadi?",
+          "risposte": [
+            "776 a.C.",
+            "776 d.C.",
+            "1896",
+            "500 a.C."
           ],
           "corretta": 0
         },
         {
-          "q": "Dove fu costretto Poseidone a stabilirsi?",
+          "q": "Dove si svolgevano?",
           "risposte": [
-            "Sul fondo del Mar Egeo",
-            "Sul Monte Olimpo",
+            "A Olimpia",
             "Ad Atene",
-            "A Olimpia"
+            "A Sparta",
+            "Sul Monte Olimpo"
           ],
           "corretta": 0
         },
         {
-          "q": "Chi costrinse Poseidone a stabilirsi sul fondo del Mar Egeo?",
+          "q": "Ogni quanti anni si svolgevano?",
           "risposte": [
-            "Zeus",
-            "Ares",
-            "Efesto",
+            "Quattro",
+            "Due",
+            "Cinque",
+            "Ogni anno"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Che cosa accadeva alle guerre durante i giochi?",
+          "risposte": [
+            "Venivano sospese",
+            "Aumentavano",
+            "Continuavano normalmente",
+            "Erano obbligatorie"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Come si chiamava la sospensione delle guerre?",
+          "risposte": [
+            "Tregua sacra",
+            "Pace olimpica",
+            "Agorà",
+            "Pancrazio"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le gare olimpiche",
+      "testo": "La disciplina più antica e celebre era la corsa veloce. Erano importanti anche il lancio del disco e il lancio del giavellotto. Nel pancrazio gli atleti si affrontavano a mani nude. Nel pugilato gli atleti si fasciavano i pugni.",
+      "paroleChiave": [
+        "CORSA VELOCE",
+        "DISCO",
+        "GIAVELLOTTO",
+        "PANCRAZIO",
+        "PUGILATO"
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Le discipline olimpiche",
+      "quiz": [
+        {
+          "q": "Qual era la disciplina più antica e celebre?",
+          "risposte": [
+            "Corsa veloce",
+            "Pugilato",
+            "Pancrazio",
+            "Lancio del disco"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quali lanci erano importanti?",
+          "risposte": [
+            "Disco e giavellotto",
+            "Pietra e lancia",
+            "Freccia e disco",
+            "Martello e giavellotto"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Come si chiamava la lotta corpo a corpo?",
+          "risposte": [
+            "Pancrazio",
+            "Pugilato",
+            "Maratona",
+            "Agorà"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Nel pugilato che cosa facevano gli atleti?",
+          "risposte": [
+            "Si fasciavano i pugni",
+            "Usavano una spada",
+            "Combattevano a cavallo",
+            "Usavano uno scudo"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le Olimpiadi moderne",
+      "testo": "Nel 1896, per iniziativa del francese Pierre de Coubertin, si celebrarono ad Atene le prime Olimpiadi moderne. Lo scopo principale è celebrare lo sport e la lealtà sportiva.",
+      "paroleChiave": [
+        "1896",
+        "PIERRE DE COUBERTIN",
+        "ATENE"
+      ],
+      "ricorda": [
+        "Partecipano atleti provenienti da molti Paesi.",
+        "Nello sport si può essere avversari ma sentirsi uniti e tutti uguali."
+      ]
+    },
+
+    {
+      "tipo": "vero_falso",
+      "titolo": "Olimpiadi moderne",
+      "frasi": [
+        {
+          "testo": "Le prime Olimpiadi moderne si celebrarono nel 1896.",
+          "valore": true
+        },
+        {
+          "testo": "Pierre de Coubertin promosse le Olimpiadi moderne.",
+          "valore": true
+        },
+        {
+          "testo": "Le prime Olimpiadi moderne si svolsero a Sparta.",
+          "valore": false
+        },
+        {
+          "testo": "La lealtà sportiva è uno dei valori delle Olimpiadi moderne.",
+          "valore": true
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "La modernità dei Greci",
+      "testo": "I Greci non si affidavano soltanto alla religione per spiegare i fenomeni naturali. Cominciarono a osservare la realtà e a usare il ragionamento per cercare di comprenderla.",
+      "paroleChiave": [
+        "RAGIONAMENTO",
+        "CONOSCENZA",
+        "FILOSOFIA"
+      ],
+      "ricorda": [
+        "L'amore per il sapere portò alla filosofia.",
+        "La filosofia si occupa della ricerca della conoscenza."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Conoscenza e filosofia",
+      "quiz": [
+        {
+          "q": "Che cosa usarono i Greci per comprendere meglio la natura?",
+          "risposte": [
+            "Il ragionamento",
+            "Soltanto i miti",
+            "La forza",
+            "La guerra"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Come si chiamò la disciplina legata all'amore per il sapere?",
+          "risposte": [
+            "Filosofia",
+            "Medicina",
+            "Scultura",
+            "Storia"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Di che cosa si occupa la filosofia?",
+          "risposte": [
+            "Della ricerca della conoscenza",
+            "Soltanto della guerra",
+            "Dello sport",
+            "Della navigazione"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Lo studio del corpo umano",
+      "testo": "Gli studiosi greci impararono a osservare attentamente il corpo umano. Questo permise grandi progressi nella medicina. Il più grande medico greco ricordato nel testo è Ippocrate.",
+      "paroleChiave": [
+        "IPPOCRATE",
+        "MEDICINA",
+        "CORPO UMANO"
+      ],
+      "ricorda": [
+        "Ippocrate comprese che le malattie avevano origine nel corpo.",
+        "Le malattie non erano mandate dagli dei."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Medicina e scultura",
+      "quiz": [
+        {
+          "q": "Chi fu un importante medico greco?",
+          "risposte": [
+            "Ippocrate",
+            "Erodoto",
+            "Pitagora",
+            "Zeus"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Secondo Ippocrate, da dove avevano origine le malattie?",
+          "risposte": [
+            "Dal corpo",
+            "Dagli dei",
+            "Dalle guerre",
+            "Dagli atleti"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quale arte beneficiò anche dello studio del corpo umano?",
+          "risposte": [
+            "Scultura",
+            "Musica",
+            "Navigazione",
+            "Agricoltura"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Come riuscivano a rappresentare il corpo gli scultori greci?",
+          "risposte": [
+            "Con precisione e naturalezza",
+            "Senza proporzioni",
+            "In modo casuale",
+            "Sempre deformato"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Lo studio della Storia",
+      "testo": "I Greci utilizzavano la scrittura alfabetica. L'alfabeto greco derivava da quello fenicio e i Greci vi aggiunsero le vocali. Erodoto mise per iscritto osservazioni sui luoghi e sui popoli che visitava.",
+      "paroleChiave": [
+        "SCRITTURA ALFABETICA",
+        "ERODOTO",
+        "STORIA"
+      ],
+      "ricorda": [
+        "L'alfabeto greco derivava da quello fenicio.",
+        "I Greci aggiunsero le vocali.",
+        "Erodoto è legato allo studio della Storia."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Erodoto e la Storia",
+      "quiz": [
+        {
+          "q": "Quale tipo di scrittura utilizzavano i Greci?",
+          "risposte": [
+            "Alfabetica",
+            "Geroglifica",
+            "Cuneiforme",
+            "Solo disegni"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Da quale alfabeto derivava quello greco?",
+          "risposte": [
+            "Fenicio",
+            "Egizio",
+            "Romano",
+            "Cinese"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Che cosa aggiunsero i Greci all'alfabeto?",
+          "risposte": [
+            "Le vocali",
+            "I numeri",
+            "I geroglifici",
+            "Le formule"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Chi è ricordato per lo studio della Storia?",
+          "risposte": [
+            "Erodoto",
+            "Ippocrate",
+            "Pitagora",
             "Apollo"
           ],
           "corretta": 0
@@ -320,167 +503,102 @@
     },
 
     {
+      "tipo": "standard",
+      "titolo": "Equilibrio e matematica",
+      "testo": "I Greci furono abili architetti. I loro templi avevano forme semplici ma perfettamente equilibrate. La precisione delle misure dimostra le loro conoscenze matematiche.",
+      "paroleChiave": [
+        "ARCHITETTI",
+        "EQUILIBRIO",
+        "MATEMATICA",
+        "PITAGORA"
+      ],
+      "ricorda": [
+        "Pitagora fu un grande matematico greco.",
+        "Fondò una vera e propria scuola."
+      ]
+    },
+
+    {
       "tipo": "quiz",
-      "titolo": "Apollo e Afrodite",
+      "titolo": "Architettura e matematica",
       "quiz": [
         {
-          "q": "Di che cosa era dio Apollo?",
+          "q": "Come erano le forme dei templi greci?",
           "risposte": [
-            "Della luce e della musica",
-            "Dei mari e dei terremoti",
-            "Della guerra",
-            "Delle fucine"
+            "Semplici ed equilibrate",
+            "Disordinate",
+            "Casuali",
+            "Sempre complicate"
           ],
           "corretta": 0
         },
         {
-          "q": "Quali erano i simboli di Apollo?",
+          "q": "Che cosa dimostrava la precisione delle misure?",
           "risposte": [
-            "La lira e l'alloro",
-            "La civetta e l'ulivo",
-            "La quercia e l'aquila",
-            "Il martello e le tenaglie"
+            "Grandi conoscenze matematiche",
+            "Mancanza di conoscenze",
+            "Interesse soltanto religioso",
+            "Scarso interesse per l'architettura"
           ],
           "corretta": 0
         },
         {
-          "q": "Di che cosa era dea Afrodite?",
+          "q": "Chi fu un grande matematico greco?",
           "risposte": [
-            "Dell'amore e dei giardini",
-            "Della saggezza",
-            "Della guerra",
-            "Della terra"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Chi era gelosa della bellezza di Afrodite?",
-          "risposte": [
-            "Era",
-            "Atena",
-            "Zeus",
+            "Pitagora",
+            "Erodoto",
+            "Ippocrate",
             "Ares"
           ],
           "corretta": 0
-        },
-        {
-          "q": "Chi fu costretta a sposare Afrodite?",
-          "risposte": [
-            "Efesto",
-            "Apollo",
-            "Poseidone",
-            "Zeus"
-          ],
-          "corretta": 0
         }
       ]
     },
 
     {
-      "tipo": "quiz",
-      "titolo": "Ares ed Efesto",
-      "quiz": [
-        {
-          "q": "Di che cosa era dio Ares?",
-          "risposte": [
-            "Della guerra",
-            "Della musica",
-            "Dei mari",
-            "Della saggezza"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Come era considerato Ares dagli altri dei?",
-          "risposte": [
-            "Era temuto",
-            "Era il più amato",
-            "Era il più saggio",
-            "Era il protettore della famiglia"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Da chi era accompagnato Ares in battaglia?",
-          "risposte": [
-            "Dai figli Paura e Terrore",
-            "Da Zeus ed Era",
-            "Da Apollo e Afrodite",
-            "Da Atena e Poseidone"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Chi era Efesto?",
-          "risposte": [
-            "Il fabbro degli dei",
-            "Il dio della guerra",
-            "Il dio dei mari",
-            "Il dio della luce"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Chi proteggeva Efesto?",
-          "risposte": [
-            "I fabbri",
-            "I musicisti",
-            "Gli eroi",
-            "I marinai"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quali erano i simboli di Efesto?",
-          "risposte": [
-            "Il martello e le tenaglie",
-            "La lira e l'alloro",
-            "La civetta e l'ulivo",
-            "La quercia e l'aquila"
-          ],
-          "corretta": 0
-        }
+      "tipo": "standard",
+      "titolo": "Il teatro",
+      "testo": "Secondo la tradizione il teatro fu inventato ad Atene intorno al VI secolo a.C. Inizialmente gli spettacoli erano soprattutto di musica e danza e si svolgevano all'aperto in onore del dio Dioniso.",
+      "paroleChiave": [
+        "ATENE",
+        "VI SECOLO a.C.",
+        "DIONISO"
+      ],
+      "ricorda": [
+        "Il teatro diventò anche un momento di riflessione e unione.",
+        "Negli spettacoli si poteva parlare di politica, religione e vita quotidiana."
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Commedie e tragedie",
+      "testo": "Le rappresentazioni erano aperte a tutti: cittadini, stranieri, donne e schiavi. Le donne però non potevano recitare e i ruoli femminili erano interpretati da attori maschi che indossavano una maschera.",
+      "ricorda": [
+        "Le commedie trattavano temi leggeri e divertenti.",
+        "Le tragedie erano serie e drammatiche.",
+        "Le tragedie raccontavano disavventure di uomini ed eroi."
       ]
     },
 
     {
       "tipo": "quiz",
-      "titolo": "Sai riconoscere i simboli?",
+      "titolo": "Il teatro greco",
       "quiz": [
         {
-          "q": "Quercia e aquila: a quale dio appartengono?",
+          "q": "Dove fu inventato il teatro secondo la tradizione?",
           "risposte": [
-            "Zeus",
-            "Apollo",
-            "Efesto",
-            "Atena"
+            "Ad Atene",
+            "A Sparta",
+            "A Olimpia",
+            "A Creta"
           ],
           "corretta": 0
         },
         {
-          "q": "Melagrana e pavone: a quale dea appartengono?",
+          "q": "In onore di quale dio si svolgevano inizialmente gli spettacoli?",
           "risposte": [
-            "Era",
-            "Atena",
-            "Afrodite",
-            "Nessuna"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Civetta e ulivo: a quale dea appartengono?",
-          "risposte": [
-            "Atena",
-            "Era",
-            "Afrodite",
-            "Nessuna"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Lira e alloro: a quale dio appartengono?",
-          "risposte": [
-            "Apollo",
+            "Dioniso",
             "Zeus",
             "Ares",
             "Poseidone"
@@ -488,12 +606,32 @@
           "corretta": 0
         },
         {
-          "q": "Martello e tenaglie: a quale dio appartengono?",
+          "q": "Le donne potevano recitare?",
           "risposte": [
-            "Efesto",
-            "Ares",
-            "Apollo",
-            "Zeus"
+            "No",
+            "Sì sempre",
+            "Solo nelle tragedie",
+            "Solo nelle commedie"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Chi interpretava i ruoli femminili?",
+          "risposte": [
+            "Attori maschi con una maschera",
+            "Bambine",
+            "Sacerdotesse",
+            "Schiave"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Quali spettacoli trattavano temi leggeri e divertenti?",
+          "risposte": [
+            "Commedie",
+            "Tragedie",
+            "Olimpiadi",
+            "Pancrazio"
           ],
           "corretta": 0
         }
@@ -501,142 +639,214 @@
     },
 
     {
-      "tipo": "vero_falso",
-      "titolo": "Gli dei – Ripasso difficile",
-      "frasi": [
-        {
-          "testo": "Zeus governava la pioggia e i fulmini.",
-          "valore": true
-        },
-        {
-          "testo": "Era proteggeva la famiglia.",
-          "valore": true
-        },
-        {
-          "testo": "La civetta e l'ulivo erano simboli di Zeus.",
-          "valore": false
-        },
-        {
-          "testo": "Atena proteggeva gli eroi e gli artigiani.",
-          "valore": true
-        },
-        {
-          "testo": "Poseidone era il dio della musica.",
-          "valore": false
-        },
-        {
-          "testo": "Apollo aveva come simboli la lira e l'alloro.",
-          "valore": true
-        },
-        {
-          "testo": "Ares era il dio della guerra.",
-          "valore": true
-        },
-        {
-          "testo": "Efesto proteggeva i fabbri.",
-          "valore": true
-        }
+      "tipo": "standard",
+      "titolo": "Una giornata nell'antica Grecia",
+      "testo": "La vita quotidiana degli uomini e delle donne era molto diversa. Gli uomini uscivano di casa al mattino presto e rimanevano fuori fino al tramonto.",
+      "ricorda": [
+        "Gli uomini andavano al mercato, lavoravano nelle botteghe o nei campi.",
+        "Partecipavano alle discussioni politiche nell'agorà.",
+        "L'androceo era lo spazio della casa riservato agli uomini."
       ]
     },
 
     {
-      "tipo": "quiz",
-      "titolo": "Le case dei Greci",
-      "quiz": [
-        {
-          "q": "Com'era l'arredamento delle case greche?",
-          "risposte": [
-            "Molto semplice",
-            "Molto ricco in tutte le case",
-            "Uguale alle case moderne",
-            "Completamente assente"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quali mobili erano presenti nelle case?",
-          "risposte": [
-            "Sedie, cassapanche, tavolini e qualche divano",
-            "Scrivanie e librerie",
-            "Poltrone e armadi moderni",
-            "Solo letti"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Le abitazioni più ricche come erano organizzate?",
-          "risposte": [
-            "In spazi ben distinti",
-            "In una sola stanza",
-            "Solo all'aperto",
-            "Senza divisioni"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Come si chiamava la parte della casa destinata agli uomini?",
-          "risposte": [
-            "Androceo",
-            "Gineceo",
-            "Santuario",
-            "Agorà"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Dove si trovava generalmente l'androceo?",
-          "risposte": [
-            "Al pianterreno",
-            "Sul tetto",
-            "Su un piano rialzato",
-            "Fuori dalla casa"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Come si chiamava la parte della casa destinata alle donne?",
-          "risposte": [
-            "Gineceo",
-            "Androceo",
-            "Olimpo",
-            "Teatro"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Dove si trovava generalmente il gineceo?",
-          "risposte": [
-            "Su un piano rialzato",
-            "Al pianterreno",
-            "Nel mercato",
-            "Nel tempio"
-          ],
-          "corretta": 0
-        }
+      "tipo": "standard",
+      "titolo": "Le donne ad Atene e a Sparta",
+      "testo": "Ad Atene le donne vivevano soprattutto in casa, nel gineceo, e si occupavano della casa e dei figli. A Sparta le donne avevano maggiore libertà.",
+      "ricorda": [
+        "Ad Atene filatura e tessitura erano attività domestiche importanti.",
+        "Le donne spartane potevano praticare sport all'aria aperta.",
+        "A Sparta potevano recarsi in visita dalle amiche."
       ]
     },
 
     {
       "tipo": "quiz",
-      "titolo": "Il cibo dei Greci",
+      "titolo": "Uomini e donne",
       "quiz": [
         {
-          "q": "Come erano i pasti quotidiani dei Greci?",
+          "q": "Dove partecipavano gli uomini alle discussioni politiche?",
           "risposte": [
-            "Piuttosto semplici",
-            "Sempre ricchissimi",
-            "Sempre uguali ai banchetti",
-            "Solo a base di carne"
+            "Nell'agorà",
+            "Nel gineceo",
+            "Nel santuario",
+            "Nel teatro soltanto"
           ],
           "corretta": 0
         },
         {
-          "q": "Che cosa mangiavano a colazione e a pranzo?",
+          "q": "Come si chiamava lo spazio della casa riservato agli uomini?",
           "risposte": [
-            "Olive, focacce, cipolle, frutta e formaggi",
-            "Solo carne e pesce",
-            "Solo pane",
-            "Dolci e bevande"
+            "Androceo",
+            "Gineceo",
+            "Agorà",
+            "Palestra"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Come si chiamava la zona della casa riservata alle donne?",
+          "risposte": [
+            "Gineceo",
+            "Androceo",
+            "Teatro",
+            "Santuario"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Dove avevano maggiore libertà le donne?",
+          "risposte": [
+            "A Sparta",
+            "Ad Atene",
+            "A Olimpia",
+            "A Creta"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "I bambini",
+      "testo": "I bambini ateniesi crescevano in casa con la madre fino ai sette anni. In seguito i figli delle famiglie più ricche iniziavano a studiare con un maestro privato. Le bambine continuavano invece l'educazione domestica.",
+      "ricorda": [
+        "Ad Atene i maschi delle famiglie ricche studiavano con un maestro.",
+        "Le bambine proseguivano l'educazione accanto alla madre.",
+        "A Sparta si privilegiava la vita militare."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "L'educazione",
+      "quiz": [
+        {
+          "q": "Fino a quale età i bambini ateniesi crescevano con la madre?",
+          "risposte": [
+            "Sette anni",
+            "Tre anni",
+            "Dieci anni",
+            "Quindici anni"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Chi studiava con un maestro privato?",
+          "risposte": [
+            "I figli delle famiglie più ricche",
+            "Tutte le bambine",
+            "Soltanto gli schiavi",
+            "Tutti gli adulti"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Che tipo di vita era privilegiata a Sparta?",
+          "risposte": [
+            "Militare",
+            "Commerciale",
+            "Religiosa",
+            "Teatrale"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "L'abbigliamento",
+      "testo": "Gli uomini indossavano il chitone, una tunica che poteva essere più o meno lunga, e sopra potevano portare un mantello chiamato himation. Le donne indossavano una veste chiamata peplo.",
+      "ricorda": [
+        "Chitone → uomini.",
+        "Himation → mantello.",
+        "Peplo → donne.",
+        "Maschi e femmine usavano sandali.",
+        "Le donne ricche potevano usare scialli ricamati."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Come si vestivano?",
+      "quiz": [
+        {
+          "q": "Come si chiamava la tunica degli uomini?",
+          "risposte": [
+            "Chitone",
+            "Peplo",
+            "Himation",
+            "Fibula"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Che cos'era l'himation?",
+          "risposte": [
+            "Un mantello",
+            "Una scarpa",
+            "Una tunica femminile",
+            "Una cintura"
+          ],
+          "corretta": 0
+        },
+        {
+          "q": "Come si chiamava la veste delle donne?",
+          "risposte": [
+            "Peplo",
+            "Chitone",
+            "Androceo",
+            "Pancrazio"
+          ],
+          "corretta": 0
+        }
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Le case e il cibo",
+      "testo": "Le case greche avevano un arredamento molto semplice: sedie, cassapanche, bassi tavolini e qualche divano. Nelle abitazioni più ricche l'androceo era solitamente al pianterreno, mentre il gineceo era su un piano rialzato.",
+      "ricorda": [
+        "I pasti quotidiani erano piuttosto semplici.",
+        "A colazione e a pranzo si mangiavano olive, focacce, cipolle, frutta e formaggi.",
+        "La cena era il pasto più importante ed era basata normalmente su piatti caldi."
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Il banchetto",
+      "testo": "In occasione dei banchetti agli ospiti venivano offerte le portate migliori. Gli ospiti dovevano presentarsi ben curati e non completamente affamati.",
+      "ricorda": [
+        "Prima del banchetto potevano consumare una zuppa di legumi e cereali.",
+        "Uno schiavo accoglieva gli ospiti e lavava loro i piedi.",
+        "Gli ospiti ricevevano una corona di fiori prima di sistemarsi a tavola."
+      ]
+    },
+
+    {
+      "tipo": "standard",
+      "titolo": "Buone maniere a tavola",
+      "testo": "Si mangiava con le mani, ma era consigliato prendere il cibo con tre dita. Bisognava dimostrare delicatezza.",
+      "ricorda": [
+        "Sporcarsi la bocca o gli abiti con il cibo era considerato molto maleducato."
+      ]
+    },
+
+    {
+      "tipo": "quiz",
+      "titolo": "Casa, cibo e banchetto",
+      "quiz": [
+        {
+          "q": "Com'era generalmente l'arredamento delle case greche?",
+          "risposte": [
+            "Semplice",
+            "Molto lussuoso",
+            "Pieno di mobili",
+            "Come quello moderno"
           ],
           "corretta": 0
         },
@@ -651,79 +861,22 @@
           "corretta": 0
         },
         {
-          "q": "Su che cosa era normalmente basata la cena?",
-          "risposte": [
-            "Su piatti caldi",
-            "Solo su frutta",
-            "Solo su focacce",
-            "Solo su formaggio"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Durante i banchetti che cosa veniva offerto agli ospiti?",
-          "risposte": [
-            "Le portate migliori",
-            "Soltanto pane",
-            "Soltanto olive",
-            "Nessun cibo"
-          ],
-          "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Il banchetto greco",
-      "quiz": [
-        {
-          "q": "Chi accoglieva gli ospiti appena arrivati?",
+          "q": "Chi lavava i piedi agli ospiti?",
           "risposte": [
             "Uno schiavo",
-            "Un soldato",
-            "Un sacerdote",
-            "Un insegnante"
+            "Il padrone",
+            "Un atleta",
+            "Un sacerdote"
           ],
           "corretta": 0
         },
         {
-          "q": "Che cosa faceva lo schiavo agli ospiti?",
-          "risposte": [
-            "Lavava loro i piedi",
-            "Lavava loro i vestiti",
-            "Dava loro da mangiare subito",
-            "Li accompagnava al tempio"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Che cosa ricevevano poi gli ospiti?",
+          "q": "Che cosa ricevevano gli ospiti?",
           "risposte": [
             "Una corona di fiori",
             "Una moneta",
-            "Un'arma",
+            "Una spada",
             "Una lira"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Dopo l'accoglienza dove potevano sistemarsi?",
-          "risposte": [
-            "A tavola",
-            "Nel tempio",
-            "Nell'agorà",
-            "In palestra"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Come si mangiava durante il banchetto?",
-          "risposte": [
-            "Con le mani",
-            "Con forchetta e coltello",
-            "Con bastoncini",
-            "Solo con cucchiai"
           ],
           "corretta": 0
         },
@@ -732,28 +885,8 @@
           "risposte": [
             "Tre",
             "Due",
-            "Quattro",
-            "Cinque"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quale qualità bisognava dimostrare mangiando?",
-          "risposte": [
-            "Delicatezza",
-            "Forza",
-            "Velocità",
-            "Coraggio"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Che cosa era ritenuto molto maleducato?",
-          "risposte": [
-            "Sporcarsi la bocca o gli abiti con il cibo",
-            "Mangiare con le mani",
-            "Ricevere una corona di fiori",
-            "Sedersi a tavola"
+            "Cinque",
+            "Una"
           ],
           "corretta": 0
         }
@@ -762,18 +895,54 @@
 
     {
       "tipo": "vero_falso",
-      "titolo": "Case, cibo e banchetti",
+      "titolo": "Ripasso finale",
       "frasi": [
         {
-          "testo": "L'arredamento delle case greche era generalmente semplice.",
+          "testo": "Gli dei greci erano considerati immortali.",
           "valore": true
         },
         {
-          "testo": "L'androceo era la parte della casa destinata alle donne.",
+          "testo": "Le prime Olimpiadi furono organizzate nel 776 a.C.",
+          "valore": true
+        },
+        {
+          "testo": "Durante le Olimpiadi le guerre continuavano normalmente.",
           "valore": false
         },
         {
-          "testo": "Il gineceo era destinato alle donne.",
+          "testo": "Il pancrazio era una lotta corpo a corpo.",
+          "valore": true
+        },
+        {
+          "testo": "Ippocrate fu un importante medico greco.",
+          "valore": true
+        },
+        {
+          "testo": "Erodoto è collegato allo studio della Storia.",
+          "valore": true
+        },
+        {
+          "testo": "Pitagora è collegato alla matematica.",
+          "valore": true
+        },
+        {
+          "testo": "Il teatro fu inventato, secondo la tradizione, ad Atene.",
+          "valore": true
+        },
+        {
+          "testo": "Le donne potevano recitare nei teatri greci.",
+          "valore": false
+        },
+        {
+          "testo": "Le donne spartane avevano maggiore libertà delle donne ateniesi.",
+          "valore": true
+        },
+        {
+          "testo": "Il gineceo era riservato agli uomini.",
+          "valore": false
+        },
+        {
+          "testo": "Il chitone era indossato dagli uomini.",
           "valore": true
         },
         {
@@ -781,313 +950,10 @@
           "valore": true
         },
         {
-          "testo": "I pasti quotidiani erano sempre molto ricchi.",
-          "valore": false
-        },
-        {
-          "testo": "Durante i banchetti agli ospiti venivano offerte le portate migliori.",
-          "valore": true
-        },
-        {
-          "testo": "Era consigliato prendere il cibo con tre dita.",
-          "valore": true
-        },
-        {
-          "testo": "Sporcare gli abiti con il cibo era considerato educato.",
-          "valore": false
-        }
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "I bambini nell'antica Grecia",
-      "quiz": [
-        {
-          "q": "Fino a circa quale età i bambini rimanevano in casa con la madre?",
-          "risposte": [
-            "Sette anni",
-            "Tre anni",
-            "Dieci anni",
-            "Quindici anni"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Ad Atene, che cosa facevano i figli maschi dopo i sette anni?",
-          "risposte": [
-            "Iniziavano a studiare con un maestro privato",
-            "Partivano per la guerra",
-            "Diventavano artigiani",
-            "Andavano a vivere nei templi"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Le bambine generalmente che cosa facevano?",
-          "risposte": [
-            "Restavano a casa con la madre",
-            "Andavano a scuola con i maschi",
-            "Entravano nell'esercito",
-            "Andavano a vivere nei santuari"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Che cosa imparavano soprattutto le bambine?",
-          "risposte": [
-            "I lavori domestici",
-            "La guerra",
-            "La navigazione",
-            "La costruzione dei templi"
-          ],
-          "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Chi è?",
-      "quiz": [
-        {
-          "q": "Sono il padre di tutti gli dei e governo pioggia e fulmini. Chi sono?",
-          "risposte": [
-            "Zeus",
-            "Poseidone",
-            "Ares",
-            "Apollo"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Sono dea della saggezza e i miei simboli sono civetta e ulivo. Chi sono?",
-          "risposte": [
-            "Atena",
-            "Era",
-            "Afrodite",
-            "Nessuna"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Sono re dei mari e dei terremoti. Chi sono?",
-          "risposte": [
-            "Poseidone",
-            "Zeus",
-            "Apollo",
-            "Efesto"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Sono dio della luce e della musica. Chi sono?",
-          "risposte": [
-            "Apollo",
-            "Ares",
-            "Efesto",
-            "Poseidone"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Sono dio della guerra e sono accompagnato da Paura e Terrore. Chi sono?",
-          "risposte": [
-            "Ares",
-            "Zeus",
-            "Apollo",
-            "Poseidone"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Sono il fabbro degli dei e proteggo i fabbri. Chi sono?",
-          "risposte": [
-            "Efesto",
-            "Ares",
-            "Zeus",
-            "Apollo"
-          ],
-          "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "quiz",
-      "titolo": "Sfida finale della verifica",
-      "quiz": [
-        {
-          "q": "Quale coppia è corretta?",
-          "risposte": [
-            "Zeus – quercia e aquila",
-            "Zeus – lira e alloro",
-            "Zeus – civetta e ulivo",
-            "Zeus – martello e tenaglie"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quale coppia è corretta?",
-          "risposte": [
-            "Era – melagrana e pavone",
-            "Era – lira e alloro",
-            "Era – civetta e ulivo",
-            "Era – martello e tenaglie"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quale coppia è corretta?",
-          "risposte": [
-            "Atena – civetta e ulivo",
-            "Atena – aquila e quercia",
-            "Atena – martello e tenaglie",
-            "Atena – lira e alloro"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quale coppia è corretta?",
-          "risposte": [
-            "Apollo – lira e alloro",
-            "Apollo – melagrana e pavone",
-            "Apollo – civetta e ulivo",
-            "Apollo – martello e tenaglie"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quale coppia è corretta?",
-          "risposte": [
-            "Efesto – martello e tenaglie",
-            "Efesto – lira e alloro",
-            "Efesto – civetta e ulivo",
-            "Efesto – aquila e quercia"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quale affermazione sulla casa greca è corretta?",
-          "risposte": [
-            "L'androceo era destinato agli uomini",
-            "Il gineceo era destinato agli uomini",
-            "Androceo e gineceo erano templi",
-            "Le case non avevano spazi distinti"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quale affermazione sul cibo è corretta?",
-          "risposte": [
-            "La cena era il pasto più importante",
-            "La colazione era sempre il pasto più importante",
-            "I Greci mangiavano soltanto carne",
-            "Durante i banchetti non si offriva cibo"
-          ],
-          "corretta": 0
-        },
-        {
-          "q": "Quale comportamento era considerato educato durante un banchetto?",
-          "risposte": [
-            "Mangiare con delicatezza",
-            "Sporcarsi gli abiti",
-            "Prendere grandi quantità di cibo",
-            "Mangiare velocemente"
-          ],
-          "corretta": 0
-        }
-      ]
-    },
-
-    {
-      "tipo": "vero_falso",
-      "titolo": "Ultimo controllo prima della verifica",
-      "frasi": [
-        {
-          "testo": "I Greci credevano in molte divinità.",
-          "valore": true
-        },
-        {
-          "testo": "Gli dei greci erano considerati mortali.",
-          "valore": false
-        },
-        {
-          "testo": "I santuari erano considerati anche luoghi di pace.",
-          "valore": true
-        },
-        {
-          "testo": "Zeus era il dio dei mari e dei terremoti.",
-          "valore": false
-        },
-        {
-          "testo": "Era proteggeva la famiglia.",
-          "valore": true
-        },
-        {
-          "testo": "Atena era la dea della saggezza.",
-          "valore": true
-        },
-        {
-          "testo": "Apollo era il fabbro degli dei.",
-          "valore": false
-        },
-        {
-          "testo": "Ares era il dio della guerra.",
-          "valore": true
-        },
-        {
-          "testo": "Il gineceo era la parte della casa destinata alle donne.",
-          "valore": true
-        },
-        {
-          "testo": "La cena era il pasto più importante.",
+          "testo": "A tavola era consigliato prendere il cibo con tre dita.",
           "valore": true
         }
       ]
-    }
-  ],
-
-  "domandePlus": [
-    {
-      "q": "Dove vivevano gli dei secondo i Greci?",
-      "aiuto": "Sul Monte Olimpo."
-    },
-    {
-      "q": "Perché gli dei greci assomigliavano agli esseri umani?",
-      "aiuto": "Avevano aspetto, sentimenti e comportamenti simili a quelli degli uomini e delle donne."
-    },
-    {
-      "q": "Che cosa erano templi e santuari?",
-      "aiuto": "Erano edifici religiosi dedicati agli dei."
-    },
-    {
-      "q": "Chi era Zeus e che cosa governava?",
-      "aiuto": "Era il padre di tutti gli dei e governava la pioggia e i fulmini."
-    },
-    {
-      "q": "Quali erano i simboli di Atena?",
-      "aiuto": "La civetta e l'ulivo."
-    },
-    {
-      "q": "Chi era Poseidone?",
-      "aiuto": "Era il re dei mari e dei terremoti."
-    },
-    {
-      "q": "Che differenza c'era tra androceo e gineceo?",
-      "aiuto": "L'androceo era destinato agli uomini, il gineceo alle donne."
-    },
-    {
-      "q": "Qual era il pasto più importante dei Greci?",
-      "aiuto": "La cena."
-    },
-    {
-      "q": "Come venivano accolti gli ospiti a un banchetto?",
-      "aiuto": "Uno schiavo lavava loro i piedi, poi ricevevano una corona di fiori e potevano sistemarsi a tavola."
-    },
-    {
-      "q": "Come ci si doveva comportare mentre si mangiava?",
-      "aiuto": "Si mangiava con le mani, prendendo il cibo con tre dita e dimostrando delicatezza."
     }
   ]
 }
