@@ -2,7 +2,7 @@
   "id": "regole-divisibilita",
   "titolo": "Le regole di divisibilità (dal 2 al 10)",
   "materia": "Matematica",
-  "classe": "5 primaria",
+  "classe": "5",
   "icona": "🔢",
   "descrizione": "Lezione di quinta primaria: spiegazione e quiz immediato per ciascun divisore dal 2 al 10, poi 7 domande miste finali (34 domande in totale).",
   "attiva": true,
@@ -571,4 +571,124 @@
         }
       ],
       "question": "Quale numero è divisibile per 10?",
-      "answe
+      "answers": [
+        "125",
+        "230",
+        "342",
+        "455"
+      ],
+      "correct": 1,
+      "exercise": "Rivedi la regola del 10 se hai dubbi."
+    },
+    {
+      "tipo": "standard",
+      "title": "Riepilogo finale",
+      "subject": "Matematica",
+      "text": "2: ultima cifra pari. 3: somma delle cifre multipla di 3. 4: ultime due cifre multiple di 4. 5: ultima cifra 0 o 5. 6: divisibile sia per 2 sia per 3. 7: togli l’ultima cifra, raddoppiala e sottraila al resto. 8: ultime tre cifre multiple di 8. 9: somma delle cifre multipla di 9. 10: ultima cifra 0.",
+      "keywords": [
+        "ripasso",
+        "regole di divisibilità"
+      ],
+      "remember": [
+        "Prima osserva la cifra finale: spesso basta quella!",
+        "Per 6 controlla sempre due regole."
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz finale: 7 domande miste",
+      "subject": "Matematica",
+      "text": "Hai studiato tutte le regole! Ora rispondi a 7 domande che mescolano divisori diversi.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile sia per 2 sia per 5?",
+          "answers": [
+            "135",
+            "270",
+            "444",
+            "713"
+          ],
+          "correct": 1,
+          "explanation": "270 termina con 0, quindi è divisibile per 2 e per 5."
+        },
+        {
+          "question": "Il numero 741 è divisibile per 3?",
+          "answers": [
+            "Sì, perché 7 + 4 + 1 = 12",
+            "No, perché finisce con 1",
+            "Sì, perché è dispari",
+            "No, perché 7 + 4 + 1 = 13"
+          ],
+          "correct": 0,
+          "explanation": "7 + 4 + 1 = 12, che è multiplo di 3."
+        },
+        {
+          "question": "Quale numero è divisibile per 4 ma NON per 8?",
+          "answers": [
+            "128",
+            "132",
+            "144",
+            "160"
+          ],
+          "correct": 1,
+          "explanation": "Le ultime due cifre di 132 formano 32, divisibile per 4; 132 non è divisibile per 8."
+        },
+        {
+          "question": "Quale numero è divisibile per 6?",
+          "answers": [
+            "245",
+            "402",
+            "333",
+            "710"
+          ],
+          "correct": 1,
+          "explanation": "402 è pari e 4 + 0 + 2 = 6, multiplo di 3."
+        },
+        {
+          "question": "Quale numero è divisibile per 7?",
+          "answers": [
+            "203",
+            "205",
+            "209",
+            "211"
+          ],
+          "correct": 0,
+          "explanation": "203: 20 − (2 × 3) = 14, divisibile per 7."
+        },
+        {
+          "question": "Quale numero è divisibile per 9?",
+          "answers": [
+            "721",
+            "729",
+            "734",
+            "742"
+          ],
+          "correct": 1,
+          "explanation": "7 + 2 + 9 = 18, che è divisibile per 9."
+        },
+        {
+          "question": "Quale numero è divisibile per 8 e per 10?",
+          "answers": [
+            "120",
+            "150",
+            "180",
+            "210"
+          ],
+          "correct": 0,
+          "explanation": "120 termina con 0, quindi è divisibile per 10; 120 : 8 = 15."
+        }
+      ],
+      "question": "Quale numero è divisibile sia per 2 sia per 5?",
+      "answers": [
+        "135",
+        "270",
+        "444",
+        "713"
+      ],
+      "correct": 1,
+      "exercise": "Usa le regole studiate e controlla ogni risposta."
+    }
+  ],
+  "domandePlus": [],
+  "cartella": "5 primaria/Matematica"
+}
