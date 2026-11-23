@@ -1,0 +1,599 @@
+{
+  "id": "regole-divisibilita",
+  "titolo": "Le regole di divisibilità (dal 2 al 10)",
+  "materia": "Matematica",
+  "classe": "5",
+  "icona": "🔢",
+  "descrizione": "Teoria semplice, esempi e 27 domande: un quiz per ogni divisore dal 2 al 10.",
+  "attiva": true,
+  "blocchi": [
+    {
+      "tipo": "standard",
+      "title": "Che cosa significa divisibile?",
+      "subject": "Matematica",
+      "text": "Un numero è divisibile per un altro quando la divisione è esatta, cioè il resto è zero. Le regole di divisibilità sono scorciatoie per capire se una divisione è esatta senza svolgerla tutta. Impareremo le regole per 2, 3, 4, 5, 6, 7, 8, 9 e 10.",
+      "keywords": [
+        "divisibilità",
+        "divisione esatta",
+        "resto zero"
+      ],
+      "remember": [
+        "Divisibile significa che non avanza resto.",
+        "Le regole funzionano con tutti i numeri interi non negativi."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Teoria: divisibilità per 2",
+      "subject": "Matematica",
+      "text": "Un numero è divisibile per 2 quando termina con 0, 2, 4, 6 oppure 8. Questi numeri si chiamano pari. Per controllare basta guardare l'ultima cifra. Esempio: 248 termina con 8: 248 è divisibile per 2.",
+      "keywords": [
+        "divisibile per 2"
+      ],
+      "remember": [
+        "248 termina con 8: 248 è divisibile per 2."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Teoria: divisibilità per 3",
+      "subject": "Matematica",
+      "text": "Un numero è divisibile per 3 quando la somma delle sue cifre è un multiplo di 3. Somma tutte le cifre e controlla se il risultato si può dividere per 3 senza resto. Esempio: 7314: 7 + 3 + 1 + 4 = 15. Poiché 15 è divisibile per 3, lo è anche 7314.",
+      "keywords": [
+        "divisibile per 3"
+      ],
+      "remember": [
+        "7314: 7 + 3 + 1 + 4 = 15. Poiché 15 è divisibile per 3, lo è anche 7314."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Teoria: divisibilità per 4",
+      "subject": "Matematica",
+      "text": "Un numero è divisibile per 4 quando il numero formato dalle sue ultime due cifre è divisibile per 4. Se termina con 00, è divisibile per 4. Non occorre dividere tutto il numero. Esempio: 1316: le ultime due cifre formano 16. Poiché 16 : 4 = 4, anche 1316 è divisibile per 4.",
+      "keywords": [
+        "divisibile per 4"
+      ],
+      "remember": [
+        "1316: le ultime due cifre formano 16. Poiché 16 : 4 = 4, anche 1316 è divisibile per 4."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Teoria: divisibilità per 5",
+      "subject": "Matematica",
+      "text": "Un numero è divisibile per 5 quando la sua ultima cifra è 0 oppure 5. Non devi fare somme né divisioni: osserva soltanto come finisce. Esempio: 375 termina con 5, quindi è divisibile per 5. Anche 420 lo è, perché termina con 0.",
+      "keywords": [
+        "divisibile per 5"
+      ],
+      "remember": [
+        "375 termina con 5, quindi è divisibile per 5. Anche 420 lo è, perché termina con 0."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Teoria: divisibilità per 6",
+      "subject": "Matematica",
+      "text": "Un numero è divisibile per 6 soltanto se è divisibile sia per 2 sia per 3. Quindi deve essere pari e la somma delle sue cifre deve essere un multiplo di 3. Controlla entrambe le condizioni. Esempio: 234 termina con 4, dunque è pari; 2 + 3 + 4 = 9, multiplo di 3. Quindi 234 è divisibile per 6.",
+      "keywords": [
+        "divisibile per 6"
+      ],
+      "remember": [
+        "234 termina con 4, dunque è pari; 2 + 3 + 4 = 9, multiplo di 3. Quindi 234 è divisibile per 6."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Teoria: divisibilità per 7",
+      "subject": "Matematica",
+      "text": "Per il 7 puoi usare un trucco. Separa l'ultima cifra, raddoppiala e sottraila al numero che rimane. Se ottieni 0 o un multiplo di 7, il numero iniziale è divisibile per 7. Puoi ripetere il procedimento, se il risultato è ancora grande. Esempio: 203 → 20 − (3 × 2) = 14. Poiché 14 è un multiplo di 7, anche 203 è divisibile per 7.",
+      "keywords": [
+        "divisibile per 7"
+      ],
+      "remember": [
+        "203 → 20 − (3 × 2) = 14. Poiché 14 è un multiplo di 7, anche 203 è divisibile per 7."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Teoria: divisibilità per 8",
+      "subject": "Matematica",
+      "text": "Un numero è divisibile per 8 quando il numero formato dalle sue ultime tre cifre è divisibile per 8. Se termina con 000, è divisibile per 8. Per numeri con meno di tre cifre, controlla il numero intero. Esempio: 3128: le ultime tre cifre formano 128. Poiché 128 : 8 = 16, anche 3128 è divisibile per 8.",
+      "keywords": [
+        "divisibile per 8"
+      ],
+      "remember": [
+        "3128: le ultime tre cifre formano 128. Poiché 128 : 8 = 16, anche 3128 è divisibile per 8."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Teoria: divisibilità per 9",
+      "subject": "Matematica",
+      "text": "Un numero è divisibile per 9 quando la somma delle sue cifre è un multiplo di 9. È simile alla regola del 3, ma qui la somma deve essere divisibile per 9. Esempio: 729: 7 + 2 + 9 = 18; 18 è un multiplo di 9, quindi 729 è divisibile per 9.",
+      "keywords": [
+        "divisibile per 9"
+      ],
+      "remember": [
+        "729: 7 + 2 + 9 = 18; 18 è un multiplo di 9, quindi 729 è divisibile per 9."
+      ]
+    },
+    {
+      "tipo": "standard",
+      "title": "Teoria: divisibilità per 10",
+      "subject": "Matematica",
+      "text": "Un numero è divisibile per 10 quando termina con 0. Basta osservare l'ultima cifra. Ogni numero divisibile per 10 è anche divisibile per 2 e per 5. Esempio: 2470 termina con 0, quindi è divisibile per 10.",
+      "keywords": [
+        "divisibile per 10"
+      ],
+      "remember": [
+        "2470 termina con 0, quindi è divisibile per 10."
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz: divisibilità per 2",
+      "subject": "Matematica",
+      "text": "Adesso controlla se hai capito la regola del 2. Rispondi alle tre domande.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile per 2?",
+          "answers": [
+            "315",
+            "428",
+            "571",
+            "693"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 2. 248 termina con 8: 248 è divisibile per 2."
+        },
+        {
+          "question": "Il numero 7314 è divisibile per 2?",
+          "answers": [
+            "Sì, perché termina con 4",
+            "No, perché è grande",
+            "No, perché contiene 7",
+            "Sì, perché inizia con 7"
+          ],
+          "correct": 0,
+          "explanation": "Ripassa la regola del 2. 248 termina con 8: 248 è divisibile per 2."
+        },
+        {
+          "question": "Quale numero NON è divisibile per 2?",
+          "answers": [
+            "560",
+            "802",
+            "147",
+            "994"
+          ],
+          "correct": 2,
+          "explanation": "Ripassa la regola del 2. 248 termina con 8: 248 è divisibile per 2."
+        }
+      ],
+      "question": "Quale numero è divisibile per 2?",
+      "answers": [
+        "315",
+        "428",
+        "571",
+        "693"
+      ],
+      "correct": 1,
+      "exercise": "Rivedi la regola del 2 se hai dubbi."
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz: divisibilità per 3",
+      "subject": "Matematica",
+      "text": "Adesso controlla se hai capito la regola del 3. Rispondi alle tre domande.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile per 3?",
+          "answers": [
+            "124",
+            "235",
+            "342",
+            "451"
+          ],
+          "correct": 2,
+          "explanation": "Ripassa la regola del 3. 7314: 7 + 3 + 1 + 4 = 15. Poiché 15 è divisibile per 3, lo è anche 7314."
+        },
+        {
+          "question": "7314 è divisibile per 3 perché…",
+          "answers": [
+            "termina con 4",
+            "la somma delle cifre è 15",
+            "contiene la cifra 3",
+            "è pari"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 3. 7314: 7 + 3 + 1 + 4 = 15. Poiché 15 è divisibile per 3, lo è anche 7314."
+        },
+        {
+          "question": "Quale somma delle cifre indica divisibilità per 3?",
+          "answers": [
+            "14",
+            "16",
+            "18",
+            "20"
+          ],
+          "correct": 2,
+          "explanation": "Ripassa la regola del 3. 7314: 7 + 3 + 1 + 4 = 15. Poiché 15 è divisibile per 3, lo è anche 7314."
+        }
+      ],
+      "question": "Quale numero è divisibile per 3?",
+      "answers": [
+        "124",
+        "235",
+        "342",
+        "451"
+      ],
+      "correct": 2,
+      "exercise": "Rivedi la regola del 3 se hai dubbi."
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz: divisibilità per 4",
+      "subject": "Matematica",
+      "text": "Adesso controlla se hai capito la regola del 4. Rispondi alle tre domande.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile per 4?",
+          "answers": [
+            "1214",
+            "1328",
+            "1450",
+            "1518"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 4. 1316: le ultime due cifre formano 16. Poiché 16 : 4 = 4, anche 1316 è divisibile per 4."
+        },
+        {
+          "question": "Il numero 2700 è divisibile per 4?",
+          "answers": [
+            "No, termina con 0",
+            "Sì, termina con 00",
+            "No, contiene 7",
+            "Solo se è dispari"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 4. 1316: le ultime due cifre formano 16. Poiché 16 : 4 = 4, anche 1316 è divisibile per 4."
+        },
+        {
+          "question": "Quali cifre devi controllare per la divisibilità per 4?",
+          "answers": [
+            "La prima",
+            "Le ultime due",
+            "Le ultime tre",
+            "Tutte sommate"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 4. 1316: le ultime due cifre formano 16. Poiché 16 : 4 = 4, anche 1316 è divisibile per 4."
+        }
+      ],
+      "question": "Quale numero è divisibile per 4?",
+      "answers": [
+        "1214",
+        "1328",
+        "1450",
+        "1518"
+      ],
+      "correct": 1,
+      "exercise": "Rivedi la regola del 4 se hai dubbi."
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz: divisibilità per 5",
+      "subject": "Matematica",
+      "text": "Adesso controlla se hai capito la regola del 5. Rispondi alle tre domande.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile per 5?",
+          "answers": [
+            "342",
+            "615",
+            "728",
+            "913"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 5. 375 termina con 5, quindi è divisibile per 5. Anche 420 lo è, perché termina con 0."
+        },
+        {
+          "question": "Il numero 1040 è divisibile per 5?",
+          "answers": [
+            "Sì, termina con 0",
+            "No, perché è pari",
+            "No, perché inizia con 1",
+            "Sì, perché contiene 4"
+          ],
+          "correct": 0,
+          "explanation": "Ripassa la regola del 5. 375 termina con 5, quindi è divisibile per 5. Anche 420 lo è, perché termina con 0."
+        },
+        {
+          "question": "Quale finale NON garantisce la divisibilità per 5?",
+          "answers": [
+            "0",
+            "5",
+            "2",
+            "Nessuno dei precedenti"
+          ],
+          "correct": 2,
+          "explanation": "Ripassa la regola del 5. 375 termina con 5, quindi è divisibile per 5. Anche 420 lo è, perché termina con 0."
+        }
+      ],
+      "question": "Quale numero è divisibile per 5?",
+      "answers": [
+        "342",
+        "615",
+        "728",
+        "913"
+      ],
+      "correct": 1,
+      "exercise": "Rivedi la regola del 5 se hai dubbi."
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz: divisibilità per 6",
+      "subject": "Matematica",
+      "text": "Adesso controlla se hai capito la regola del 6. Rispondi alle tre domande.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile per 6?",
+          "answers": [
+            "124",
+            "318",
+            "225",
+            "352"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 6. 234 termina con 4, dunque è pari; 2 + 3 + 4 = 9, multiplo di 3. Quindi 234 è divisibile per 6."
+        },
+        {
+          "question": "Il numero 132 è divisibile per 6 perché…",
+          "answers": [
+            "è pari e 1+3+2=6",
+            "termina con 2 soltanto",
+            "la somma è 6 soltanto",
+            "contiene il 3"
+          ],
+          "correct": 0,
+          "explanation": "Ripassa la regola del 6. 234 termina con 4, dunque è pari; 2 + 3 + 4 = 9, multiplo di 3. Quindi 234 è divisibile per 6."
+        },
+        {
+          "question": "Il numero 135 è divisibile per 6?",
+          "answers": [
+            "Sì, la somma è 9",
+            "Sì, finisce con 5",
+            "No, non è pari",
+            "No, perché 9 non è multiplo di 3"
+          ],
+          "correct": 2,
+          "explanation": "Ripassa la regola del 6. 234 termina con 4, dunque è pari; 2 + 3 + 4 = 9, multiplo di 3. Quindi 234 è divisibile per 6."
+        }
+      ],
+      "question": "Quale numero è divisibile per 6?",
+      "answers": [
+        "124",
+        "318",
+        "225",
+        "352"
+      ],
+      "correct": 1,
+      "exercise": "Rivedi la regola del 6 se hai dubbi."
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz: divisibilità per 7",
+      "subject": "Matematica",
+      "text": "Adesso controlla se hai capito la regola del 7. Rispondi alle tre domande.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile per 7?",
+          "answers": [
+            "202",
+            "203",
+            "204",
+            "205"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 7. 203 → 20 − (3 × 2) = 14. Poiché 14 è un multiplo di 7, anche 203 è divisibile per 7."
+        },
+        {
+          "question": "Per controllare 154 con il trucco del 7, quale calcolo fai?",
+          "answers": [
+            "15 − (4 × 2) = 7",
+            "15 + 4 = 19",
+            "15 − 4 = 11",
+            "1 + 5 + 4 = 10"
+          ],
+          "correct": 0,
+          "explanation": "Ripassa la regola del 7. 203 → 20 − (3 × 2) = 14. Poiché 14 è un multiplo di 7, anche 203 è divisibile per 7."
+        },
+        {
+          "question": "Il numero 126 è divisibile per 7?",
+          "answers": [
+            "No, perché termina con 6",
+            "Sì, 12 − 12 = 0",
+            "No, perché è pari",
+            "Sì, perché la somma è 9"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 7. 203 → 20 − (3 × 2) = 14. Poiché 14 è un multiplo di 7, anche 203 è divisibile per 7."
+        }
+      ],
+      "question": "Quale numero è divisibile per 7?",
+      "answers": [
+        "202",
+        "203",
+        "204",
+        "205"
+      ],
+      "correct": 1,
+      "exercise": "Rivedi la regola del 7 se hai dubbi."
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz: divisibilità per 8",
+      "subject": "Matematica",
+      "text": "Adesso controlla se hai capito la regola del 8. Rispondi alle tre domande.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile per 8?",
+          "answers": [
+            "1124",
+            "2136",
+            "3142",
+            "4150"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 8. 3128: le ultime tre cifre formano 128. Poiché 128 : 8 = 16, anche 3128 è divisibile per 8."
+        },
+        {
+          "question": "Quale parte di 5128 controlli per il divisore 8?",
+          "answers": [
+            "5",
+            "28",
+            "128",
+            "512"
+          ],
+          "correct": 2,
+          "explanation": "Ripassa la regola del 8. 3128: le ultime tre cifre formano 128. Poiché 128 : 8 = 16, anche 3128 è divisibile per 8."
+        },
+        {
+          "question": "Il numero 6000 è divisibile per 8?",
+          "answers": [
+            "No, perché contiene 6",
+            "Sì, termina con 000",
+            "No, perché è maggiore di 1000",
+            "Solo se è divisibile per 3"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 8. 3128: le ultime tre cifre formano 128. Poiché 128 : 8 = 16, anche 3128 è divisibile per 8."
+        }
+      ],
+      "question": "Quale numero è divisibile per 8?",
+      "answers": [
+        "1124",
+        "2136",
+        "3142",
+        "4150"
+      ],
+      "correct": 1,
+      "exercise": "Rivedi la regola del 8 se hai dubbi."
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz: divisibilità per 9",
+      "subject": "Matematica",
+      "text": "Adesso controlla se hai capito la regola del 9. Rispondi alle tre domande.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile per 9?",
+          "answers": [
+            "712",
+            "729",
+            "734",
+            "745"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 9. 729: 7 + 2 + 9 = 18; 18 è un multiplo di 9, quindi 729 è divisibile per 9."
+        },
+        {
+          "question": "7314 è divisibile per 9?",
+          "answers": [
+            "Sì, perché la somma è 15",
+            "No, perché 15 non è multiplo di 9",
+            "Sì, perché contiene 9",
+            "No, perché finisce con 4"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 9. 729: 7 + 2 + 9 = 18; 18 è un multiplo di 9, quindi 729 è divisibile per 9."
+        },
+        {
+          "question": "Quale somma delle cifre permette la divisibilità per 9?",
+          "answers": [
+            "12",
+            "15",
+            "18",
+            "20"
+          ],
+          "correct": 2,
+          "explanation": "Ripassa la regola del 9. 729: 7 + 2 + 9 = 18; 18 è un multiplo di 9, quindi 729 è divisibile per 9."
+        }
+      ],
+      "question": "Quale numero è divisibile per 9?",
+      "answers": [
+        "712",
+        "729",
+        "734",
+        "745"
+      ],
+      "correct": 1,
+      "exercise": "Rivedi la regola del 9 se hai dubbi."
+    },
+    {
+      "tipo": "quiz",
+      "title": "Quiz: divisibilità per 10",
+      "subject": "Matematica",
+      "text": "Adesso controlla se hai capito la regola del 10. Rispondi alle tre domande.",
+      "quiz": [
+        {
+          "question": "Quale numero è divisibile per 10?",
+          "answers": [
+            "125",
+            "230",
+            "342",
+            "455"
+          ],
+          "correct": 1,
+          "explanation": "Ripassa la regola del 10. 2470 termina con 0, quindi è divisibile per 10."
+        },
+        {
+          "question": "Il numero 880 è divisibile per 10?",
+          "answers": [
+            "Sì, finisce con 0",
+            "No, finisce con 8",
+            "No, perché contiene 8",
+            "Sì, perché la somma è 16"
+          ],
+          "correct": 0,
+          "explanation": "Ripassa la regola del 10. 2470 termina con 0, quindi è divisibile per 10."
+        },
+        {
+          "question": "Quale numero NON è divisibile per 10?",
+          "answers": [
+            "100",
+            "350",
+            "725",
+            "920"
+          ],
+          "correct": 2,
+          "explanation": "Ripassa la regola del 10. 2470 termina con 0, quindi è divisibile per 10."
+        }
+      ],
+      "question": "Quale numero è divisibile per 10?",
+      "answers": [
+        "125",
+        "230",
+        "342",
+        "455"
+      ],
+      "correct": 1,
+      "exercise": "Rivedi la regola del 10 se hai dubbi."
+    },
+    {
+      "tipo": "standard",
+      "title": "Riepilogo finale",
+      "subject": "Matematica",
+      "text": "2: ultima cifra pari. 3: somma delle cifre multipla di 3. 4: ultime due cifre multiple di 4. 5: ultima cifra 0 o 5. 6: divisibile sia per 2 sia per 3. 7: togli l’ultima cifra, raddoppiala e sottraila al resto. 8: ultime tre cifre multiple di 8. 9: somma delle cifre multipla di 9. 10: ultima cifra 0.",
+      "keywords": [
+        "ripasso",
+        "regole di divisibilità"
+      ],
+      "remember": [
+        "Prima osserva la cifra finale: spesso basta quella!",
+        "Per 6 controlla sempre due regole."
+      ]
+    }
+  ],
+  "domandePlus": []
+}
