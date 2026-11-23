@@ -34,6 +34,16 @@
   "blocchiCount": 15
 },
   {
+  "id": "regole-divisibilita",
+  "titolo": "Le regole di divisibilità (dal 2 al 10)",
+  "materia": "Matematica",
+  "classe": "5",
+  "icona": "🔢",
+  "descrizione": "Teoria semplice, esempi e 27 domande: un quiz per ogni divisore dal 2 al 10.",
+  "attiva": true,
+  "file": "regole-divisibilita.json"
+  },
+  {
   "id": "enunciati-logici",
   "file": "enunciati-logici.json",
   "titolo": "Gli enunciati logici",
